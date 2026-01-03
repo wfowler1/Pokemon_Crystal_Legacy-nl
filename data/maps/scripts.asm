@@ -207,7 +207,6 @@ INCLUDE "maps/ViridianPokecenter1F.asm"
 INCLUDE "maps/ViridianPokecenter2FBeta.asm"
 INCLUDE "maps/Route2NuggetHouse.asm"
 INCLUDE "maps/Route2Gate.asm"
-INCLUDE "maps/OlivinePokecenter1F.asm"
 
 
 SECTION "Map Scripts 12", ROMX
@@ -239,6 +238,7 @@ INCLUDE "maps/BattleTowerOutside.asm"
 
 SECTION "Map Scripts 13", ROMX
 
+INCLUDE "maps/OlivinePokecenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/WillsRoom.asm"
 INCLUDE "maps/KogasRoom.asm"
