@@ -2,16 +2,16 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Checkout rgbds
         uses: actions/checkout@master
@@ -47,7 +47,7 @@ jobs:
       
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@main
         with:
           fetch-depth: 2
           
