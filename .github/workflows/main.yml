@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Checkout rgbds
+        uses: actions/checkout@master
+        with:
+          path: rgbds
+          ref: v0.5.2
+          repository: gbdev/rgbds
+
+      - name: Install rgbds
+        working-directory: rgbds
+        run: |
+          sudo apt-get install -yq libpng-dev
+          sudo make install
+
+      - name: Remove rgbds
+        run: |
+          rm -rf rgbds
+
+      - name: Make
+        run: |
+          make -j$(nproc)
+          
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokecrystal
+          path: pokecrystal.gbc
+          
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 2
+          
+      - name: Get all changed asm files
+        id: changed-asm-files
+        uses: tj-actions/changed-files@v45.0.3
+        with:
+          files: |
+            **.asm
+        
+      - name: Install Mono
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        run: |
+          sudo apt install ca-certificates gnupg
+          sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/mono-official-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+          echo "deb [signed-by=/usr/share/keyrings/mono-official-archive-keyring.gpg] https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+          sudo apt update
+          sudo apt install mono-complete
+          
+      - name: Compile validator
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        run: |
+          sudo chmod +x tools/PokeGen2TextValidator.cs
+          mcs -out:tools/PokeGen2TextValidator.exe tools/PokeGen2TextValidator.cs
+            
+      - name: Validate
+        if: steps.changed-asm-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-asm-files.outputs.all_changed_files }}
+        run: |
+          PROBLEM=0
+          set +e
+          for file in ${ALL_CHANGED_FILES}; do
+            trap 'PROBLEM=1' ERR
+            mono tools/PokeGen2TextValidator.exe $file
+          done
+          set -e
+          exit $PROBLEM
