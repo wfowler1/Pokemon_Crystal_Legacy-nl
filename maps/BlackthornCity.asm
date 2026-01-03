@@ -143,41 +143,41 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text "Het spijt me." ; "I am sorry."
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "CLAIR, onze GYM-" ; "CLAIR, our GYM"
+	line "LEIDER, ging naar" ; "LEADER, entered"
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
+	para "de DRAKENGROT" ; "the DRAGON'S DEN"
+	line "achter de GYM." ; "behind the GYM."
 
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "Ik heb geen idee" ; "I have no idea"
+	line "wanneer de LEIDER" ; "when our LEADER"
+	cont "terugkeert." ; "will return."
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text "CLAIR, onze GYM-" ; "CLAIR, our GYM"
+	line "leider, wacht op" ; "LEADER, is waiting"
+	cont "je." ; "for you."
 
-	para "However, it would"
-	line "be impossible for"
+	para "Het is voor de" ; "However, it would"
+	line "gemiddelde trainer" ; "be impossible for"
 
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "echter onmogelijk" ; "a run-of-the-mill"
+	line "om te winnen." ; "trainer to win."
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated"
-	line "CLAIR?"
+	text "Heb je CLAIR" ; "You defeated"
+	line "verslagen?" ; "CLAIR?"
 
-	para "That's amazing!"
+	para "Dat is geweldig!" ; "That's amazing!"
 
-	para "I've never heard"
-	line "of her losing to"
+	para "Ik heb haar nooit" ; "I've never heard"
+	line "zien verliezen van" ; "of her losing to"
 
-	para "anyone other than"
+	para "iemand anders dan" ; "anyone other than"
 	line "LANCE."
 	done
 
@@ -190,26 +190,26 @@ BlackthornGrampsRefusesEntryText:
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text "Als CLAIR het toe-" ; "If CLAIR allows"
+	line "laat, zal haar opa" ; "it, her grand-"
+	cont "--onze MEESTER--" ; "father--our MASTER"
+	cont "dat ook doen." ; "--will also."
 
-	para "You may enter."
+	para "Je bent welkom." ; "You may enter."
 	done
 
 BlackBeltText_WeirdRadio:
-	text "My radio's busted?"
-	line "Lately, I only get"
-	cont "this weird signal."
+	text "M'n radio is stuk?" ; "My radio's busted?"
+	line "Ik hoor alleen dit" ; "Lately, I only get"
+	cont "vreemde signaal." ; "this weird signal."
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Arooo! Stemmen in" ; "Arooo! Voices in"
+	line "mijn hoofd!" ; "my head!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "Huh? Ik luister" ; "Huh? I'm listening"
+	line "naar mijn radio!" ; "to my radio!"
 	done
 
 BlackthornCooltrainerF1Text:
@@ -220,22 +220,22 @@ BlackthornCooltrainerF1Text:
 	done
 
 BlackthornYoungsterText:
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of BLACKTHORN."
+	text "Drakenmeesters" ; "Dragon masters all"
+	line "komen allemaal uit" ; "come from the city"
+	cont "BLACKTHORN." ; "of BLACKTHORN."
 	done
 
 MeetSantosText:
 	text "SANTOS: …"
 
-	para "It's Saturday…"
+	para "Het is zaterdag…" ; "It's Saturday…"
 
-	para "I'm SANTOS of"
-	line "Saturday…"
+	para "Ik ben zaterdagse" ; "I'm SANTOS of"
+	line "SANTOS…" ; "Saturday…"
 	done
 
 SantosGivesGiftText:
-	text "You can have this…"
+	text "Je mag dit hebben…" ; "You can have this…"
 	done
 
 SantosGaveGiftText:
@@ -253,41 +253,42 @@ SantosGaveGiftText:
 SantosSaturdayText:
 	text "SANTOS: …"
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Zie je weer op een" ; "See you again on"
+	line "andere zaterdag…" ; "another Saturday…"
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Ik heb geen" ; "I won't have any"
+	line "cadeaus meer…" ; "more gifts…"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday…"
+	text "SANTOS: Het is" ; "SANTOS: Today's"
+	line "nu geen zaterdag…" ; "not Saturday…"
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, you came"
-	line "through the ICE"
-	cont "PATH?"
+	text "Wauw, ging je" ; "Wow, you came"
+	line "helemaal door het" ; "through the ICE"
+	cont "IJSPAD?" ; "PATH?"
 
-	para "You must be a real"
-	line "hotshot trainer!"
+	para "Je moet een echt" ; "You must be a real"
+	line "blitse trainer" ; "hotshot trainer!"
+	cont "zijn!"
 	done
 
 BlackthornCitySignText:
 	text "BLACKTHORN CITY"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Stil Toevluchts-" ; "A Quiet Mountain"
+	line "oord in de Bergen." ; "Retreat"
 	done
 
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
-	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	line "#MON-GYMLEIDER:" ; "#MON GYM"
+	cont "CLAIR" ; "LEADER: CLAIR"
 
-	para "The Blessed User"
-	line "of Dragon #MON"
+	para "Gezegend gebruiker" ; "The Blessed User"
+	line "van Draak-#MON" ; "of Dragon #MON"
 	done
 
 MoveDeletersHouseSignText:
@@ -296,19 +297,19 @@ MoveDeletersHouseSignText:
 	done
 
 DragonDensSignText:
-	text "DRAGON'S DEN"
-	line "AHEAD"
+	text "DRAKENGROT" ; "DRAGON'S DEN"
+	line "NABIJ" ; "AHEAD"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRAINERTIPS"
 
-	para "A #MON holding"
-	line "a MIRACLEBERRY"
+	para "Een #MON met" ; "A #MON holding"
+	line "een WONDERBES" ; "a MIRACLEBERRY"
 
-	para "will cure itself"
-	line "of any status"
-	cont "problem."
+	para "geneest zichzelf" ; "will cure itself"
+	line "van ieder status-" ; "of any status"
+	cont "probleem." ; "problem."
 	done
 
 BlackthornCity_MapEvents:

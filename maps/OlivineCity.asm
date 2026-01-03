@@ -213,36 +213,36 @@ OlivineCityRivalText:
 	done
 
 OlivineCitySailor1Text:
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Donkere paden" ; "Dark roads are"
+	line "zijn gevaarlijk" ; "dangerous at"
+	cont "'s nachts." ; "night."
 
-	para "But in the pitch-"
-	line "black of night,"
+	para "Maar in het pikke-" ; "But in the pitch-"
+	line "donker van de" ; "black of night,"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "nacht, is de zee" ; "the sea is even"
+	line "verraderlijker!" ; "more treacherous!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Zonder het baken" ; "Without the beacon"
+	line "van de VUURTOREN" ; "of the LIGHTHOUSE"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "kan geen schip" ; "to guide it, no"
+	line "veilig varen." ; "ship can sail."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow,"
-	cont "that's cool."
+	text "Dat dingetje van" ; "That thing you"
+	line "jou--het is een" ; "have--it's a #-"
+	cont "#GEAR, toch?" ; "GEAR, right? Wow,"
+	cont "Wow, dat is cool." ; "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, you have a"
-	line "#DEX!"
+	text "Wow, je hebt" ; "Wow, you have a"
+	line "een #DEX!" ; "#DEX!"
 
-	para "That is just so"
-	line "awesome."
+	para "Dat is echt" ; "That is just so"
+	line "heel gaaf." ; "awesome."
 	done
 
 OlivineCitySailor2Text:
@@ -273,33 +273,33 @@ OlivineCitySailor2Text:
 OlivineCitySignText:
 	text "OLIVINE CITY"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "De Haven Nabij" ; "The Port Closest"
+	line "Verre Oorden" ; "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
-	line "FAST SHIP PIER"
+	text "OLIVINE HAVEN" ; "OLIVINE PORT"
+	line "SNELSCHIP-PIER" ; "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
 	text "OLIVINE CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	line "#MON GYMLEIDER:"
+	cont "JASMINE" ; "LEADER: JASMINE"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "De Meid met een" ; "The Steel-Clad"
+	line "Stalen Pantser" ; "Defense Girl"
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "OLIVINE VUURTOREN" ; "OLIVINE LIGHTHOUSE"
+	line "Ook bekend als de" ; "Also known as the"
+	cont "GLITTER-VUURTOREN" ; "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "GEVECHTSTOREN" ; "BATTLE TOWER AHEAD"
+	line "RECHTDOOR-Nu open!" ; "Opening Now!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced

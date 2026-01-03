@@ -74,8 +74,8 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Opa was naar je op" ; "Gramps was looking"
+	line "zoek." ; "for you."
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
@@ -133,31 +133,31 @@ DayCareManText_GiveOddEgg:
 	done
 
 DayCareText_ComeAgain: ; unreferenced
-	text "Come again."
+	text "Kom snel weer." ; "Come again."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "VREEMD EI!" ; "ODD EGG!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "Ik vond dat toen" ; "I found that when"
+	line "ik voor andermans" ; "I was caring for"
 
-	para "someone's #MON"
-	line "before."
+	para "#MON aan het" ; "someone's #MON"
+	line "zorgen was." ; "before."
 
-	para "But the trainer"
-	line "didn't want the"
+	para "Maar de trainer" ; "But the trainer"
+	line "wilde het EI niet," ; "didn't want the"
 
-	para "EGG, so I'd kept"
-	line "it around."
+	para "dus ik heb het" ; "EGG, so I'd kept"
+	line "maar bewaard." ; "it around."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Je hebt hier geen" ; "You've no room for"
+	line "plek voor." ; "this."
 	done
 
 DayCare_MapEvents:

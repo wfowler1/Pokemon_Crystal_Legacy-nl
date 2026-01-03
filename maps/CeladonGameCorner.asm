@@ -74,7 +74,7 @@ CeladonGameCornerFisherScript:
 	end
 
 .coinname
-	db "COIN@"
+	db "MUNT@" ; "COIN@"
 
 .NoCoinCase:
 	writetext CeladonGameCornerFisherNoCoinCaseText
@@ -147,177 +147,177 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Welkom!" ; "Welcome!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Hiernaast mag je" ; "You may exchange"
+	line "jouw munten in-" ; "your coins for"
 
-	para "fabulous prizes"
-	line "next door."
+	para "wisselen voor" ; "fabulous prizes"
+	line "prachtige prijzen." ; "next door."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Deze spelautomaten" ; "The slot machines"
+	line "zijn het modernst" ; "are all state of"
+	cont "van allemaal." ; "the art."
 	done
 
 CeladonGameCornerTeacherText:
-if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
-	done
-else
-	text "It's this machine"
-	line "I want."
+;if DEF(_CRYSTAL_AU)
+;	text "The weather"
+;	line "outside is very"
+;	cont "nice."
+;	done
+;else
+	text "Deze spelautomaat" ; "It's this machine"
+	line "wil ik." ; "I want."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "Gister verloor ik" ; "It cleaned me out"
+	line "telkens, dus van-" ; "yesterday, so it"
 
-	para "should pay out"
-	line "today."
+	para "daag zal hij" ; "should pay out"
+	line "vast uitbetalen." ; "today."
 	done
-endc
+;endc
 
 CeladonGameCornerFishingGuruText:
-if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
-	done
-else
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+;if DEF(_CRYSTAL_AU)
+;	text "This machine looks"
+;	line "the same as the"
+;	cont "others."
+;	done
+;else
+	text "Ik denk dat deze" ; "I think this slot"
+	line "spelautomaat zal" ; "machine will pay"
+	cont "uitbetalen…" ; "out…"
 
-	para "The odds vary"
-	line "among machines."
+	para "De winkansen ver-" ; "The odds vary"
+	line "schillen nogal.";  "among machines."
 	done
-endc
+;endc
 
 CeladonGameCornerFisherText1:
-if DEF(_CRYSTAL_AU)
-	text "Whoa!"
+;if DEF(_CRYSTAL_AU)
+;	text "Whoa!"
 
-	para "What? You want to"
-	line "play this machine?"
+;	para "What? You want to"
+;	line "play this machine?"
 
-	para "Here, take my"
-	line "coins."
+;	para "Here, take my"
+;	line "coins."
+;	done
+;else
+	text "Gahahaha!" ; "Gahahaha!"
+
+	para "De munten blijven" ; "The coins just"
+	line "maar rollen!" ; "keep popping out!"
+
+	para "Wat zeg je? Wil" ; "Hm? What, kid? You"
+	line "je ook spelen?" ; "want to play?"
+
+	para "Ik zal mijn geluk" ; "I'll share my luck"
+	line "met je delen!" ; "with you!"
 	done
-else
-	text "Gahahaha!"
-
-	para "The coins just"
-	line "keep popping out!"
-
-	para "Hm? What, kid? You"
-	line "want to play?"
-
-	para "I'll share my luck"
-	line "with you!"
-	done
-endc
+;endc
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "Gahahaha!" ; "Gahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Het voelt goed om" ; "It makes me feel"
+	line "andere mensen een" ; "good to do nice"
 
-	para "things for other"
-	line "people!"
+	para "gunst te verlenen!" ; "things for other"
+	; line "mensen!" ; "people!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Hey, je hebt geen" ; "Hey, you don't"
+	line "GELDKISTJE." ; "have a COIN CASE."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Hoe moet ik je" ; "How am I supposed"
+	line "nu munten geven," ; "to give you any"
+	cont "kind?" ; "coins, kid?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
-	done
-else
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+;if DEF(_CRYSTAL_AU)
+;	text "Your COIN CASE is"
+;	line "full."
+;	done
+;else
+	text "Hey kind, je GELD-" ; "Hey, your COIN"
+	line "KISTJE zit vol." ; "CASE is full, kid."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Je bent vast ook" ; "You must be riding"
+	line "de hele tijd aan" ; "a winning streak"
+	cont "het winnen." ; "too."
 	done
-endc
+;endc
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
-	line "making!"
+	text "He! KAMPIOEN in" ; "Hey! CHAMP in"
+	line "wording!" ; "making!"
 
-	para "Are you playing"
-if DEF(_CRYSTAL_AU)
-	line "too?"
-else
-	line "the slots too?"
-endc
+	para "Speel jij ook met" ; "Are you playing"
+;if DEF(_CRYSTAL_AU)
+;	line "too?"
+;else
+	line "de spelautomaten?" ; "the slots too?"
+;endc
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Ik wil genoeg" ; "I'm trying to get"
+	line "munten hebben voor" ; "enough coins for a"
+	cont "een prijs-#MON." ; "prize #MON."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Maar ik mis nog" ; "But I don't have"
+	line "munten…" ; "enough coins yet…"
 	done
 
 CeladonGameCornerGrampsText:
-if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
-	done
-else
-	text "Hmmm… The odds are"
-	line "surely better for"
+;if DEF(_CRYSTAL_AU)
+;	text "Is there any"
+;	line "difference between"
+;	cont "these lines?"
+;	done
+;else
+	text "Hm. De kansen zijn" ; "Hmmm… The odds are"
+	line "vast beter bij" ; "surely better for"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "PIKACHU's baan," ; "PIKACHU's line,"
+	line "maar… Wat nu?" ; "but… What to do?"
 	done
-endc
+;endc
 
 CeladonGameCornerPoster1Text:
-	text "Hey!"
+	text "He!" ; "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Onder deze" ; "Underneath this"
+	line "poster…" ; "poster…"
 
-	para "There's nothing!"
+	para "Zit niets!" ; "There's nothing!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "Hey!"
+	text "He!" ; "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Onder deze" ; "Underneath this"
+	line "poster…" ; "poster…"
 
-	para "There's nothing!"
+	para "Zit niets!" ; "There's nothing!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Er is hier een" ; "There's a lighter"
+	line "aansteker." ; "here."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Blikje frisdrank…" ; "A can of soda…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Er komt vast ie-" ; "Someone must be"
+	line "mand voor terug…" ; "coming back…"
 
-	para "Huh? It's empty!"
+	para "Huh? Leeg!" ; "Huh? It's empty!"
 	done
 
 CeladonGameCorner_MapEvents:

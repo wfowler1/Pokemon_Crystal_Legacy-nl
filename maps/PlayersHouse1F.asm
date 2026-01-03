@@ -241,8 +241,8 @@ MomGivesPokegearText:
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Is het nu zomer-" ; "Is it Daylight"
+	line "tijd?" ; "Saving Time now?"
 	done
 
 ComeHomeForDSTText:
@@ -257,12 +257,12 @@ KnowTheInstructionsText:
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Ik lees de hand-" ; "I'll read the"
+	line "leiding voor je." ; "instructions."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Zet de #GEAR" ; "Turn the #GEAR"
+	line "aan en kies het" ; "on and select the"
+	cont "TELEFOON-icoon." ; "PHONE icon."
 	done
 
 InstructionsNextText:
@@ -280,96 +280,96 @@ CanRunText:
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
-	line "ing for you."
+	text "PROF.ELM wacht op" ; "PROF.ELM is wait-"
+	line "je." ; "ing for you."
 
-	para "Hurry up, baby!"
+	para "Schiet op, schat!" ; "Hurry up, baby!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "Wat voor klus had" ; "So, what was PROF."
+	line "PROF. ELM??" ; "ELM's errand?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Dat klinkt als een" ; "That does sound"
+	line "uitdaging." ; "challenging."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Maar je kunt trots" ; "But, you should be"
+	line "zijn dat mensen op" ; "proud that people"
+	cont "je rekenen." ; "rely on you."
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, doe het!" ; "<PLAYER>, do it!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Ik sta helemaal" ; "I'm behind you all"
+	line "achter je!" ; "the way!"
 	done
 
 NeighborMornIntroText:
-	text "Good morning,"
+	text "Goedemorgen," ; "Good morning,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Ik ben op bezoek!" ; "I'm visiting!"
 	done
 
 NeighborDayIntroText:
-	text "Hello, <PLAY_G>!"
-	line "I'm visiting!"
+	text "Hallo, <PLAY_G>!" ; "Hello, <PLAY_G>!"
+	line "Ik ben op bezoek!" ; "I'm visiting!"
 	done
 
 NeighborNiteIntroText:
-	text "Good evening,"
+	text "Goedenavond," ; "Good evening,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Ik ben op bezoek!" ; "I'm visiting!"
 	done
 
 NeighborText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, heb" ; "<PLAY_G>, have you"
+	line "je het gehoord?" ; "heard?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Mijn dochter is" ; "My daughter is"
+	line "vastberaden om" ; "adamant about"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "PROF. ELM's assi-" ; "becoming PROF."
+	line "stent te worden." ; "ELM's assistant."
 
-	para "She really loves"
+	para "Ze houdt echt van" ; "She really loves"
 	line "#MON!"
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "Haar specialiteit!" ; "Mom's specialty!"
 
-	para "CINNABAR VOLCANO"
+	para "CINNABAR VULKAAN-" ; "CINNABAR VOLCANO"
 	line "BURGER!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "De goot is brand-" ; "The sink is spot-"
+	line "schoon. Mam poetst" ; "less. Mom likes it"
+	cont "graag." ; "clean."
 	done
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Eens zien wat in" ; "Let's see what's"
+	line "de koelkast zit…" ; "in the fridge…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "VERS WATER en" ; "FRESH WATER and"
+	line "lekkere LIMONADE!" ; "tasty LEMONADE!"
 	done
 
 PlayersHouse1FTVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Er is een film op" ; "There's a movie on"
+	line "TV: Sterren vullen" ; "TV: Stars dot the"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "de lucht terwijl" ; "sky as two boys"
+	line "een trein rijdt…" ; "ride on a train…"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "Ik moet ook maar" ; "I'd better get"
+	line "eens gaan!" ; "rolling too!"
 	done
 
 PlayersHouse1F_MapEvents:

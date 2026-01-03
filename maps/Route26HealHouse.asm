@@ -30,20 +30,20 @@ Route26HealHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 Route26HealHouseRestAWhileText:
-	text "Your #MON look"
-	line "a little tired."
+	text "Je #MON lijken" ; "Your #MON look"
+	line "een beetje moe." ; "a little tired."
 
-	para "You should rest"
-	line "them a while."
+	para "Laat ze eventjes" ; "You should rest"
+	line "uitrusten." ; "them a while."
 	done
 
 Route26HealHouseKeepAtItText:
-	text "There!"
+	text "Zo!" ; "There!"
 
-	para "Your #MON are"
-	line "looking good!"
+	para "Je #MON zien er" ; "Your #MON are"
+	line "goed uit!" ; "looking good!"
 
-	para "Keep at it!"
+	para "Ga zo door!" ; "Keep at it!"
 	done
 
 Route26HealHouse_MapEvents:

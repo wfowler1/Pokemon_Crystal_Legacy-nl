@@ -36,12 +36,12 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Heb je de #-" ; "Did you meet the"
+	line "MANIAK ontmoet?" ; "#MANIAC?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Hij schept altijd" ; "He's always brag-"
+	line "op over zijn zeld-" ; "ging about his"
+	cont "zame #MON." ; "rare #MON."
 	done
 
 CianwoodGymGuideText:
@@ -84,9 +84,9 @@ CianwoodGymGuideText:
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Je won!" ; "<PLAYER>! You won!"
+	line "Ik zie het aan je" ; "I could tell by"
+	cont "gezicht!" ; "looking at you!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
@@ -116,17 +116,17 @@ CianwoodPokecenter1FUnusedText2: ; unreferenced
 	done
 
 CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Ik laat de #MON" ; "I love showing off"
+	line "die ik heb opge-" ; "the #MON that"
 
-	para "I've raised."
-	line "Don't you?"
+	para "voed graag zien." ; "I've raised."
+	line "Jij niet?" ; "Don't you?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Ik ga een aantal" ; "I'm going to get"
+	line "gevechten in en" ; "into a bunch of"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "laat m'n #MON" ; "battles, and show"
+	line "zien!" ; "off my #MON!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

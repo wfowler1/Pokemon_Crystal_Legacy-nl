@@ -32,31 +32,31 @@ DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
 
 DarkCaveBlackthornEntrancePharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
+	text "Whoa! ik schrok" ; "Whoa! You startled"
+	line "van je!" ; "me there!"
 
-	para "I had my BLACK-"
-	line "GLASSES on, so I"
+	para "Ik had mijn ZWARTE" ; "I had my BLACK-"
+	line "BRIL op, dus ik" ; "GLASSES on, so I"
 
-	para "didn't notice you"
-	line "at all."
+	para "kon je niet goed" ; "didn't notice you"
+	line "zien." ; "at all."
 
-	para "What am I doing"
-	line "here?"
+	para "Wat ik hier aan" ; "What am I doing"
+	line "het doen ben?" ; "here?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "He, maak je daar" ; "Hey, don't you"
+	line "geen zorgen over." ; "worry about it."
 
-	para "I'll give you a"
-	line "pair of BLACK-"
-	cont "GLASSES, so forget"
-	cont "you saw me, OK?"
+	para "Ik geef je een" ; "I'll give you a"
+	line "ZWARTE BRIL, als" ; "pair of BLACK-"
+	cont "jij vergeet dat ik" ; "GLASSES, so forget"
+	cont "hier was, OK?" ; "you saw me, OK?"
 	done
 
 DarkCaveBlackthornEntrancePharmacistText2:
-	text "BLACKGLASSES ups"
-	line "the power of dark-"
-	cont "type moves."
+	text "De ZWARTE BRIL" ; "BLACKGLASSES ups"
+	line "maakt duister-" ; "the power of dark-"
+	cont "aanvallen sterker." ; "type moves."
 	done
 
 DarkCaveBlackthornEntrance_MapEvents:

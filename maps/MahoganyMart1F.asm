@@ -208,21 +208,21 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Arghh… Je hebt" ; "Arrgh… You found"
+	line "de geheime trap" ; "the secret stair-"
+	cont "gevonden…" ; "way…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Heheh! Het experi-" ; "Heheh! The experi-"
+	line "ment werkt" ; "ment worked like a"
+	cont "geweldig." ; "charm."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
+	para "MAGIKARP zijn" ; "MAGIKARP are just"
+	line "waardeloos, maar" ; "worthless, but"
 
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "GYARADOS zijn" ; "GYARADOS are big"
+	line "geldbomen." ; "moneymakers."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
@@ -250,16 +250,17 @@ MahoganyMart1FLanceRadioText:
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "De trap is" ; "The stairs are"
+	line "hier." ; "right here."
 	done
 
 MahoganyMart1FLanceSplitUpText:
 	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	line "moeten opsplitsen" ; "should split up to"
 
-	para "check this place."
-	line "I'll go first."
+	para "om deze plek" ; "check this place."
+	line "te verkennen. Ik" ; "I'll go first."
+	cont "ga wel eerst." ;
 	done
 
 MahoganyMart1F_MapEvents:

@@ -236,55 +236,56 @@ BurnedTowerSilver_AfterText2:
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSINE: Mijn" ; "EUSINE: My name's"
+	line "naam is EUSINE." ; "EUSINE."
 
-	para "I'm on the trail"
-	line "of a #MON named"
-	cont "SUICUNE."
+	para "Ik volg het" ; "I'm on the trail"
+	line "spoor van de" ; "of a #MON named"
+	cont "#MON SUICUNE." ; "SUICUNE."
 
-	para "And you are…?"
+	para "En jij bent…?" ; "And you are…?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>?" ; "<PLAYER>? Glad to"
+	line "Aangenaam!" ; "meet you!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "Er zijn geruchten" ; "I heard rumors"
+	line "dat SUICUNE in" ; "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "deze VERBRANDE" ; "this BURNED TOWER,"
+	line "TOREN is, dus ging" ; "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "ik kijken. Maar" ; "But where exactly"
+	line "waar zou het zijn?" ; "could it be?"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "EUSINE: Ik heb" ; "EUSINE: I heard"
+	line "gehoord dat" ;
+	cont "SUICUNE in deze" ; "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "VERBRANDE TOREN" ; "this BURNED TOWER,"
+	line "is, dus ging ik" ; "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "kijken. Maar waar" ; "But where exactly"
+	line "zou het zijn?" ; "could it be?"
 	done
 
 BurnedTower1FMortyText:
 	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	line "GYMLEIDER hoort de" ; "GYM LEADER has to"
 
-	para "study what are"
-	line "said to be the"
+	para "naar zeggen legen-" ; "study what are"
+	line "darische #MON" ; "said to be the"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "te bestuderen--" ; "legendary #MON"
+	line "SUICUNE, ENTEI en"
+	cont "RAIKOU." ; "and RAIKOU."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSINE is hier," ; "EUSINE is here, so"
+	line "dus besloot ik" ; "I've decided to"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "de TOREN met hem" ; "investigate the"
+	line "te verkennen." ; "TOWER with him."
 	done
 
 BurnedTower1F_MapEvents:

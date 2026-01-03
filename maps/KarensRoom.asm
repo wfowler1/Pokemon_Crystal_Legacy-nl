@@ -147,32 +147,32 @@ KarenScript_KarenBeforeText:
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Zo, je bent echt" ; "Well, aren't you"
+	line "goed. Ik kan dat" ; "good. I like that"
+	cont "waarderen." ; "in a trainer."
 	done
 
 KarenScript_KarenDefeatText:
-	text "Strong #MON."
+	text "Sterke #MON." ; "Strong #MON."
 
-	para "Weak #MON."
+	para "Zwakke #MON." ; "Weak #MON."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Dat is slechts het" ; "That is only the"
+	line "egoïstische beeld" ; "selfish perception"
+	cont "van mensen." ; "of people."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Echt vaardige" ; "Truly skilled"
+	line "trainers horen te" ; "trainers should"
 
-	para "try to win with"
-	line "their favorites."
+	para "winnen met hun" ; "try to win with"
+	line "favorieten." ; "their favorites."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
+	para "Ik waardeer je" ; "I like your style."
+	line "stijl. Jij snapt" ; "You understand"
+	cont "wat belangrijk is." ; "what's important."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Ga verder--de" ; "Go on--the CHAM-"
+	line "KAMPIOEN wacht." ; "PION is waiting."
 	done
 
 KarensRoom_MapEvents:

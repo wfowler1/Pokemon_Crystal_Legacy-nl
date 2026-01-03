@@ -373,48 +373,51 @@ LanceBattleIntroText:
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "…Het is voorbij." ; "…It's over."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Maar het is een" ; "But it's an odd"
+	line "vreemd gevoel." ; "feeling."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Ik ben niet boos" ; "I'm not angry that"
+	line "dat ik heb ver-" ; "I lost. In fact, I"
+	cont "loren. Sterker" ; "feel happy."
+	cont "nog, ik ben blij." ;
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Blij dat ik ge-" ; "Happy that I"
+	line "tuige ben van de" ; "witnessed the rise"
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "opkomst van een" ; "of a great new"
+	line "geweldige nieuwe" ; "CHAMPION!"
+	cont "KAMPIOEN!" ;
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "…Pfoe." ; "…Whew."
 
-	para "You have become"
-	line "truly powerful,"
+	para "Je bent echt" ; "You have become"
+	line "sterk geworden," ; "truly powerful,"
 	cont "<PLAY_G>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Je #MON hebben" ; "Your #MON have"
+	line "je sterke en" ; "responded to your"
 
-	para "strong and up-"
-	line "standing nature."
+	para "oprechte aard" ; "strong and up-"
+	line "aangevoeld." ; "standing nature."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Als een trainer" ; "As a trainer, you"
+	line "zul je blijven" ; "will continue to"
 
-	para "grow strong with"
-	line "your #MON."
+	para "groeien met je" ; "grow strong with"
+	line "#MON." ; "your #MON."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
-	line "It's all over!"
+	text "MARY: Oh nee!" ; "MARY: Oh, no!"
+	line "Het is al voorbij!" ; "It's all over!"
 
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	para "PROF.OAK, als je" ; "PROF.OAK, if you"
+	line "nou niet zo" ; "weren't so slow…"
+	cont "langzaam was…" ;
 	done
 
 LancesRoomOakCongratulationsText:
@@ -512,18 +515,18 @@ LancesRoomRematchMaryInterviewText:
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "LANCE: Het wordt" ; "LANCE: This is"
+	line "een beetje druk" ; "getting to be a"
+	cont "hier…" ; "bit too noisy…"
 
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	para "<PLAY_G>, kan je" ; "<PLAY_G>, could you"
+	line "met me mee komen?" ; "come with me?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "MARY: Oh, wacht!" ; "MARY: Oh, wait!"
+	line "We hebben nog" ; "We haven't done"
+	cont "geen interview!" ; "the interview!"
 	done
 
 LancesRoomRematchMaryNoInterviewText:

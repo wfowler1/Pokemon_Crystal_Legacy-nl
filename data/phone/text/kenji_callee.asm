@@ -1,44 +1,44 @@
 KenjiAnswerPhoneText:
-	text_ram wStringBuffer3
-	text " here…"
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " hier…" ; " here…"
 
-	para "<PLAYER>! Beautiful"
-	line "morning, hey?"
+	para "<PLAYER>! Fraaie" ; "<PLAYER>! Beautiful"
+	line "ochtend, he?" ; "morning, hey?"
 	done
 
 KenjiAnswerPhoneDayText:
-	text_ram wStringBuffer3
-	text " here…"
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " hier…" ; " here…"
 
-	para "<PLAYER>! Beautiful"
-	line "weather, hey?"
+	para "<PLAYER>! Lekker" ; "<PLAYER>! Beautiful"
+	line "weertje, hé?" ; "weather, hey?"
 	done
 
 KenjiAnswerPhoneNiteText:
-	text_ram wStringBuffer3
-	text " here…"
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " hier…" ; " here…"
 
-	para "<PLAYER>! Beautiful"
-	line "moonlight, hey?"
+	para "<PLAYER>! Fraai" ; "<PLAYER>! Beautiful"
+	line "maanlicht, hé?" ; "moonlight, hey?"
 	done
 
 KenjiGreetText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
-	text_ram wStringBuffer3
+	text "He, <PLAYER>!" ; "Hey, <PLAYER>!"
+	line "Dit is @" ; "This is @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 KenjiGreetDayText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
-	text_ram wStringBuffer3
+	text "He, <PLAYER>!" ; "Hey, <PLAYER>!"
+	line "Dit is @" ; "This is @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done
 
 KenjiGreetNiteText:
-	text "Hey, <PLAYER>!"
-	line "This is @"
-	text_ram wStringBuffer3
+	text "He, <PLAYER>!" ; "Hey, <PLAYER>!"
+	line "Dit is @" ; "This is @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "!"
 	done

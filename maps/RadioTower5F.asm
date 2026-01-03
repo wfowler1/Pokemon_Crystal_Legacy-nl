@@ -405,35 +405,36 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "Y-you! You came to"
-	line "rescue me?"
+	text "J-jij! Je komt" ; "Y-you! You came to"
+	line "me redden?" ; "rescue me?"
 	done
 
 FakeDirectorTextBefore2:
-	text "Is that what you"
-	line "were expecting?"
+	text "Is dat wat je" ; "Is that what you"
+	line "verwachtte?" ; "were expecting?"
 
-	para "Wrong!"
-	line "I'm an imposter!"
+	para "Fout! Ik ben" ; "Wrong!"
+	line "een bedrieger!" ; "I'm an imposter!"
 
-	para "I pretended to be"
-	line "the real thing to"
+	para "Ik deed alsof ik" ; "I pretended to be"
+	line "de echte was, ter" ; "the real thing to"
 
-	para "prepare for our"
-	line "takeover."
+	para "voorbereiding van" ; "prepare for our"
+	line "onze overname." ; "takeover."
 
-	para "Do you want to"
-	line "know where we hid"
-	cont "the real DIRECTOR?"
+	para "Wil je weten waar" ; "Do you want to"
+	line "we de echte" ; "know where we hid"
+	cont "DIRECTEUR hebben" ; "the real DIRECTOR?"
+	cont "verstopt?" ; 
 
-	para "Sure, I'll tell"
-	line "you. But only if"
-	cont "you can beat me!"
+	para "Ja hoor, ik zal" ; "Sure, I'll tell"
+	line "het zeggen. Al je" ; "you. But only if"
+	cont "mij verslaat!" ; "you can beat me!"
 	done
 
 FakeDirectorWinText:
-	text "OK, OK. I'll tell"
-	line "you where he is."
+	text "Oké, oké. Ik zeg" ; "OK, OK. I'll tell"
+	line "je waar hij is." ; "you where he is."
 	done
 
 FakeDirectorTextAfter:
@@ -475,50 +476,50 @@ Executivef1BeatenText:
 	done
 
 Executivef1AfterBattleText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, toch?" ; "<PLAYER>, isn't it?"
 
-	para "A brat like you"
-	line "won't appreciate"
+	para "Een ettertje als" ; "A brat like you"
+	line "jij zal de pracht" ; "won't appreciate"
 
-	para "the magnificence"
-	line "of TEAM ROCKET."
+	para "van TEAM ROCKET" ; "the magnificence"
+	line "niet waarderen." ; "of TEAM ROCKET."
 
-	para "That's too bad."
-	line "I really admire"
-	cont "your power."
+	para "Jammer. Ik" ; "That's too bad."
+	line "bewonder je" ; "I really admire"
+	cont "kracht." ; "your power."
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "Oh? You managed to"
-	line "get this far?"
+	text "Oh? Je bent" ; "Oh? You managed to"
+	line "zo ver gekomen?" ; "get this far?"
 
-	para "You must be quite"
-	line "the trainer."
+	para "Je moet een goede" ; "You must be quite"
+	line "trainer zijn." ; "the trainer."
 
-	para "We intend to take"
-	line "over this RADIO"
+	para "We gaan dit RADIO-" ; "We intend to take"
+	line "STATION overnemen" ; "over this RADIO"
 
-	para "STATION and an-"
-	line "nounce our come-"
-	cont "back."
+	para "en onze" ; "STATION and an-"
+	line "terugkeer" ; "nounce our come-"
+	cont "aankondigen." ; "back."
 
-	para "That should bring"
-	line "our boss GIOVANNI"
+	para "Dat zal onze baas" ; "That should bring"
+	line "GIOVANNI doen" ; "our boss GIOVANNI"
 
-	para "back from his solo"
-	line "training."
+	para "terugkeren van" ; "back from his solo"
+	line "z'n solo-training." ; "training."
 
-	para "We are going to"
-	line "regain our former"
-	cont "glory."
+	para "We gaan onze" ; "We are going to"
+	line "vroegere glorie" ; "regain our former"
+	cont "terugpakken." ; "glory."
 
-	para "I won't allow you"
-	line "to interfere with"
-	cont "our plans."
+	para "Ik sta je niet toe" ; "I won't allow you"
+	line "om onze plannen" ; "to interfere with"
+	cont "te verhinderen." ; "our plans."
 	done
 
 RadioTower5FRocketBossWinText:
-	text "No! Forgive me,"
+	text "Nee! Vergeef me," ; "No! Forgive me,"
 	line "GIOVANNI!"
 	done
 
@@ -698,101 +699,104 @@ RadioTower5FRocketBossDisbandText7:
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "DIRECTOR: <PLAY_G>,"
-	line "thank you!"
+	text "DIRECTEUR: Dankje," ; "DIRECTOR: <PLAY_G>,"
+	line "<PLAY_G>!" ; "thank you!"
 
-	para "Your courageous"
-	line "actions have saved"
+	para "Je dappere acties" ; "Your courageous"
+	line "hebben #MON" ; "actions have saved"
 
-	para "#MON nation-"
-	line "wide."
+	para "wereldwijd gered." ; "#MON nation-"
+	; line "wide."
 
-	para "I know it's not"
-	line "much, but please"
-	cont "take this."
+	para "Ik weet dat het" ; "I know it's not"
+	line "niet veel is," ; "much, but please"
+	cont "maar neem dit." ; "take this."
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "There used to be a"
-	line "tower right here"
-	cont "in GOLDENROD CITY."
+	text "Er was hier in" ; "There used to be a"
+	line "GOLDENROD CITY" ; "tower right here"
+	cont "vroeger een toren." ; "in GOLDENROD CITY."
 
-	para "But it was old and"
-	line "creaky."
+	para "Maar die was oud" ; "But it was old and"
+	line "en krakkemikkig." ; "creaky."
 
-	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	para "Dus we vervingen" ; "So we replaced it"
+	line "hem met onze" ; "with our RADIO"
+	cont "RADIOTOREN." ; "TOWER."
 
-	para "We dug up that"
-	line "bell during"
-	cont "construction."
+	para "We groeven die" ; "We dug up that"
+	line "bel op tijdens" ; "bell during"
+	cont "de bouw." ; "construction."
 
-	para "I heard that all"
-	line "sorts of #MON"
+	para "Ik heb gehoord dat" ; "I heard that all"
+	line "allerlei soorten" ; "sorts of #MON"
 
-	para "lived in GOLDENROD"
-	line "in the past."
+	para "#MON vroeger in" ; "lived in GOLDENROD"
+	line "GOLDENROD leefden." ; "in the past."
 
-	para "Perhaps…"
+	para "Misschien…" ; "Perhaps…"
 
-	para "That bell has some"
-	line "connection to the"
+	para "Heeft die bel een" ; "That bell has some"
+	line "verband met de" ; "connection to the"
 
-	para "TIN TOWER in"
+	para "TINTOREN in" ; "TIN TOWER in"
 	line "ECRUTEAK CITY…"
 
 	para "Ah!"
 
-	para "That reminds me…"
+	para "Dat doet denken…" ; "That reminds me…"
 
-	para "I overheard TEAM"
-	line "ROCKET whispering."
+	para "Ik hoorde TEAM" ; "I overheard TEAM"
+	line "ROCKET fluisteren." ; "ROCKET whispering."
 
-	para "Apparently, some-"
-	line "thing is going on"
-	cont "at the TIN TOWER."
+	para "Blijkbaar is er" ; "Apparently, some-"
+	line "iets gaande bij" ; "thing is going on"
+	cont "de TINTOREN." ; "at the TIN TOWER."
 
-	para "I have no idea"
-	line "what is happening,"
+	para "Ik heb geen idee" ; "I have no idea"
+	line "wat er is, maar" ; "what is happening,"
 
-	para "but you might look"
-	line "into it."
+	para "je zou kunnen" ; "but you might look"
+	line "gaan kijken." ; "into it."
 
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "Oké, ik kan beter" ; "OK, I better go to"
+	line "naar m'n KANTOOR" ; "my OFFICE."
+	cont "gaan."
 	done
 
 RadioTower5FDirectorText:
-	text "DIRECTOR: Hello,"
+	text "DIRECTEUR: Hallo," ; "DIRECTOR: Hello,"
 	line "<PLAY_G>!"
 
-	para "You know, I love"
-	line "#MON."
+	para "Weet je, ik" ; "You know, I love"
+	line "hou van #MON." ; "#MON."
 
-	para "I built this RADIO"
-	line "TOWER so I could"
+	para "Ik bouwde deze" ; "I built this RADIO"
+	line "RADIOTOREN zodat" ; "TOWER so I could"
 
-	para "express my love"
-	line "of #MON."
+	para "ik mijn liefde" ; "express my love"
+	line "voor #MON kon" ; "of #MON."
+	cont "uiten." ;
 
-	para "It would be nice"
-	line "if people enjoyed"
-	cont "our programs."
+	para "Het zou mooi zijn" ; "It would be nice"
+	line "als mensen onze" ; "if people enjoyed"
+	cont "programma's leuk" ; "our programs."
+	cont "vinden." ;
 	done
 
 BenText:
-	text "BEN: Do you listen"
-	line "to our music?"
+	text "BEN: Luister je" ; "BEN: Do you listen"
+	line "naar onze muziek?" ; "to our music?"
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F DIRECTOR'S"
-	line "   OFFICE"
+	text "4V KANTOOR" ; "5F DIRECTOR'S"
+	line "VAN DIRECTEUR" ; "   OFFICE"
 	done
 
 RadioTower5FStudio1SignText:
-	text "5F STUDIO 1"
+	text "4V STUDIO 1" ; "5F STUDIO 1"
 	done
 
 RadioTower5F_MapEvents:

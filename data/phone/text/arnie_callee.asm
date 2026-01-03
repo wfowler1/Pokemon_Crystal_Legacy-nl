@@ -1,62 +1,62 @@
 ArnieAnswerPhoneText:
-	text "Yeah, hello."
-	line "This is @"
-	text_ram wStringBuffer3
+	text "Ja, hallo." ; "Yeah, hello."
+	line "Dit is @" ; "This is @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Yeah, hello, you"
-	line "got @"
-	text_ram wStringBuffer3
+	text "Ja, hallo. " ; "Yeah, hello, you"
+	line "met @" ; "got @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yeah, hello, you"
-	line "got @"
-	text_ram wStringBuffer3
+	text "Ja, hallo. " ; "Yeah, hello, you"
+	line "met @" ; "got @"
+	text_ram wStringBuffer3 ; MaxLength 5
 	text "."
 
 	para "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieGreetText:
-	text "Yeah, hello?"
+	text "Ja, hallo?" ; "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
-	text " calling."
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " spreek je." ; " calling."
 
-	para "What are you up"
-	line "to, <PLAY_G>?"
+	para "Wat ben je aan het" ; "What are you up"
+	line "doen, <PLAY_G>?" ; "to, <PLAY_G>?"
 	done
 
 ArnieGreetDayText:
-	text "Yeah, hello?"
+	text "Ja, hallo?" ;  "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
-	text " calling."
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " spreek je." ; " calling."
 
-	para "Where are you now,"
+	para "Waar ben je nu," ; "Where are you now,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGreetNiteText:
-	text "Yeah, hello?"
+	text "Ja, hallo?" ; "Yeah, hello?"
 	line "@"
-	text_ram wStringBuffer3
-	text " calling."
+	text_ram wStringBuffer3 ; MaxLength 5
+	text " spreek je." ; " calling."
 
-	para "Are you awake now,"
+	para "Ben je nu wakker," ; "Are you awake now,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGenericText:
-	text "I bet your #MON"
-	line "are a lot stronger"
-	cont "than before."
+	text "Je MON zijn nu" ; "I bet your #MON"
+	line "vast veel sterker" ; "are a lot stronger"
+	cont "dan eerder." ; "than before."
 	done

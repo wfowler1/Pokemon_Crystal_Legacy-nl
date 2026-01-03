@@ -321,28 +321,31 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: It takes"
-	line "two passwords to"
+	text "LANCE: Er zijn" ; " ; "LANCE: It takes"
+	line "twee wachtwoorden" ; "two passwords to"
 
-	para "get into the"
-	line "boss's quarters."
+	para "nodig om in de" ; "get into the"
+	line "vertrekken van de" ; "boss's quarters."
+	cont "baas te komen." ; 
 
-	para "Those passwords"
-	line "are known only to"
-	cont "a few ROCKETS."
+	para "Die wachtwoorden" ; "Those passwords"
+	line "weten alleen" ; "are known only to"
+	cont "een paar ROCKETS." ; "a few ROCKETS."
 
-	para "That ROCKET there"
-	line "very graciously"
-	cont "told me so."
+	para "Die ROCKET daar" ; "That ROCKET there"
+	line "heeft me dat zeer" ; "very graciously"
+	cont "welwillend ver-" ; "told me so."
+	cont "teld." ;
 
-	para "<PLAY_G>, let's go"
-	line "get the passwords."
+	para "<PLAY_G>, laten" ; "<PLAY_G>, let's go"
+	line "we die wachtwoord-" ; "get the passwords."
+	cont "en vinden." ;
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… The guy"
-	line "in the cape is"
-	cont "incredibly tough…"
+	text "Urrggh… Die gozer" ; "Urrggh… The guy"
+	line "in de cape is" ; "in the cape is"
+	cont "supersterk…" ; "incredibly tough…"
 	done
 
 RocketBaseRivalText:
@@ -416,52 +419,55 @@ ExecutiveM4BeforeText:
 	done
 
 ExecutiveM4BeatenText:
-	text "I… I couldn't do a"
-	line "thing…"
+	text "Ik… Ik kon niets" ; "I… I couldn't do a"
+	line "doen…" ; "thing…"
 
-	para "GIOVANNI, please"
-	line "forgive me…"
+	para "GIOVANNI, vergeef" ; "GIOVANNI, please"
+	line "me alsjeblieft…" ; "forgive me…"
 	done
 
 ExecutiveM4AfterText:
-	text "No, I can't let"
-	line "this affect me."
+	text "Nee, dit mag me" ; "No, I can't let"
+	line "niet deren." ; "this affect me."
 
-	para "I have to inform"
-	line "the others…"
+	para "Ik moet de ander-" ; "I have to inform"
+	line "en informeren…" ; "the others…"
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: The"
-	line "password is…"
+	text "MURKROW: Het" ; "MURKROW: The"
+	line "wachtwoord is…" ; "password is…"
 
-	para "HAIL GIOVANNI."
+	para "LEVE GIOVANNI." ; "HAIL GIOVANNI."
 	done
 
 GruntF5SeenText:
-	text "Do I know the"
-	line "password?"
+	text "Weet ik het" ; "Do I know the"
+	line "wachtwoord?" ; "password?"
 
-	para "Maybe."
+	para "Misschien." ; "Maybe."
 
-	para "But no weakling's"
-	line "going to get it!"
+	para "Maar een zwakke-" ; "But no weakling's"
+	line "ling krijgt het" ; "going to get it!"
+	cont "niet!" ;
 	done
 
 GruntF5BeatenText:
-	text "All right. Stop."
-	line "I'll tell you."
+	text "Goed. Stop." ; "All right. Stop."
+	line "Ik zeg 't je." ; "I'll tell you."
 	done
 
 GruntF5AfterBattleText:
-	text "The password to"
-	line "the boss's room is"
+	text "Het wachtwoord" ; "The password to"
+	line "voor de kamer van" ; "the boss's room is"
+	cont "de baas is" ;
 
-	para "SLOWPOKETAIL."
+	para "SLOWPOKESTAART." ; "SLOWPOKETAIL."
 
-	para "But it's useless"
-	line "unless you have"
-	cont "two passwords."
+	para "Maar je hebt er" ; "But it's useless"
+	line "niks aan tenzij" ; "unless you have"
+	cont "je twee wacht-" ; "two passwords."
+	cont "woorden hebt." ;
 	done
 
 GruntM28SeenText:
@@ -487,89 +493,98 @@ GruntM28SeenText:
 	done
 
 GruntM28BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're good!"
+	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
+	line "Je bent goed!" ; "You're good!"
 	done
 
 GruntM28AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
+	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
 
-	para "The password to"
-	line "the boss's room…"
+	para "Het wachtwoord" ; "The password to"
+	line "voor de kamer van" ; "the boss's room…"
+	cont "de baas…" ;
 
-	para "Uh…, I think it is"
-	line "RATICATE TAIL."
+	para "Uh…, volgens mij" ; "Uh…, I think it is"
+	line "is het" ; "RATICATE TAIL."
+	cont "RATICATE-STAART." ;
 	done
 
 ScientistRossSeenText:
-	text "I used to work for"
-	line "SILPH, but now I"
+	text "Ik werkte eerst" ; "I used to work for"
+	line "voor SILPH, maar" ; "SILPH, but now I"
 
-	para "run research for"
-	line "TEAM ROCKET."
+	para "nu leid ik onder-" ; "run research for"
+	line "zoek voor TEAM" ; "TEAM ROCKET."
+	cont "ROCKET." ;
 
-	para "A meddlesome child"
-	line "like you needs to"
-	cont "be punished."
+	para "Een bemoeizuchtig" ; "A meddlesome child"
+	line "kind als jij moet" ; "like you needs to"
+	cont "gestraft worden." ; "be punished."
 	done
 
 ScientistRossBeatenText:
-	text "A mere tactical"
-	line "error cost me…"
+	text "Een tactische" ; "A mere tactical"
+	line "fout kostte me" ; "error cost me…"
+	cont "de kop…" ;
 	done
 
 ScientistRossAfterBattleText:
-	text "A radio signal"
-	line "that drives #-"
-	cont "MON mad…"
+	text "Een radiosignaal" ; "A radio signal"
+	line "dat #MON gek" ; "that drives #-"
+	cont "maakt…" ; "MON mad…"
 
-	para "My experiment is a"
-	line "complete success."
+	para "Mijn experiment is" ; "My experiment is a"
+	line "een groot succes." ; "complete success."
 
-	para "My promotion is"
-	line "assured. This loss"
+	para "Mijn promotie is" ; "My promotion is"
+	line "gegarandeerd." ; "assured. This loss"
 
-	para "means absolutely"
-	line "nothing."
+	para "Dit verlies be-" ; "means absolutely"
+	line "tekent niets." ; "nothing."
 	done
 
 ScientistMitchSeenText:
-	text "I don't care that"
-	line "#MON are hurt"
-	cont "by our experiment."
+	text "Het maakt me niet" ; "I don't care that"
+	line "uit dat #MON" ; "#MON are hurt"
+	cont "worden verwond bij" ; "by our experiment."
+	cont "onze experimenten." ;
 	done
 
 ScientistMitchBeatenText:
-	text "Thinking is my"
-	line "strong suit, not"
-	cont "battling."
+	text "Ik ben beter" ; "Thinking is my"
+	line "in denken dan" ; "strong suit, not"
+	cont "in vechten." ; "battling."
 	done
 
 ScientistMitchAfterBattleText:
-	text "If we turn up the"
-	line "power of our radio"
+	text "Als we de sterkte" ; "If we turn up the"
+	line "van ons radio-" ; "power of our radio"
 
-	para "signal for broad-"
-	line "cast nationwide…"
+	para "signaal wereld-" ; "signal for broad-"
+	line "wijd verhogen…" ; "cast nationwide…"
 
-	para "The very thought"
-	line "excites me!"
+	para "De gedachte alleen" ; "The very thought"
+	line "al verheugt me!" ; "excites me!"
 	done
 
 TeamRocketBaseB3FLockedDoorNeedsPasswordText:
-	text "The door's closed…"
+	text "De deur is op" ; "The door's closed…"
+	line "slot…" ;
 
-	para "It needs two"
-	line "passwords to open."
+	para "Het heeft twee" ; "It needs two"
+	line "wachtwoorden nodig" ; "passwords to open."
+	cont "om te openen." ;
 	done
 
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "The door's closed…"
+	text "De deur is op" ; "The door's closed…"
+	line "slot…" ;
 
-	para "<PLAYER> entered"
-	line "the two passwords."
+	para "<PLAYER> vulde de" ; "<PLAYER> entered"
+	line "twee wachtwoorden" ; "the two passwords."
+	cont "in." ;
 
-	para "The door opened!"
+	para "De deur opende!" ; "The door opened!"
 	done
 
 TeamRocketBaseB3F_MapEvents:

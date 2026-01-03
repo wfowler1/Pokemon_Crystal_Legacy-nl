@@ -120,21 +120,21 @@ CinnabarIslandBlueText:
 	done
 
 CinnabarIslandGymSignText:
-	text "There's a notice"
-	line "here…"
+	text "Er hangt hier" ; "There's a notice"
+	line "een briefje…" ; "here…"
 
-	para "CINNABAR GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "CINNEBAR GYM is" ; "CINNABAR GYM has"
+	line "nu op de ZEE-" ; relocated to SEA-"
+	cont "SCHUIM-EILANDEN." ; "FOAM ISLANDS."
 
-	para "BLAINE"
+	para "BLAINE" ; "BLAINE"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "CINNABAR EILAND" ; "CINNABAR ISLAND"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "De Vurige Stad van" ; "The Fiery Town of"
+	line "Brandend Verlangen" ; "Burning Desire"
 	done
 
 CinnabarIsland_MapEvents:

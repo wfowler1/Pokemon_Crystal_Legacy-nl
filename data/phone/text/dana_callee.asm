@@ -1,68 +1,69 @@
 DanaAnswerPhoneText:
-	text "Hi, @"
-	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "Hoi, @" ; "Hi, @"
+	text_ram wStringBuffer3 ; MaxLength 4
+	text " spreek" ; " on the"
+	line "je mee." ; "line."
 
-	para "Hey! It's <PLAY_G>!"
+	para "He! <PLAY_G>!" ; "Hey! It's <PLAY_G>!"
 	done
 
 DanaAnswerPhoneDayText:
-	text "Hi, @"
-	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "Hoi, @" ; "Hi, @"
+	text_ram wStringBuffer3 ; MaxLength 4
+	text " spreek" ; " on the"
+	line "je mee." ; "line."
 
-	para "I know!"
-	line "It's <PLAY_G>!"
+	para "Ik hoor het al!" ; "I know!"
+	line "<PLAY_G>!" ; "It's <PLAY_G>!"
 	done
 
 DanaAnswerPhoneNiteText:
-	text "Hi, @"
-	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text "Hoi, @" ; "Hi, @"
+	text_ram wStringBuffer3 ; MaxLength 4
+	text " spreek" ; " on the"
+	line "je mee." ; "line."
 
 	para "<PLAY_G>?"
-	line "What's up?"
+	line "Alles goed?" ; "What's up?"
 	done
 
 DanaGreetText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
-	text_ram wStringBuffer3
+	para "Ik ben het!" ; "It's me!"
+	line "Ikke, @" ; "It's me, @"
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 DanaGreetDayText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
-	text_ram wStringBuffer3
+	para "Ik ben het!" ; "It's me!"
+	line "Ikke, @" ; "It's me, @"
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 DanaGreetNiteText:
 	text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
-	text_ram wStringBuffer3
+	para "Ik ben het!" ; "It's me!"
+	line "Ikke, @" ; "It's me, @"
+	text_ram wStringBuffer3 ; MaxLength 4
 	text "!"
 	done
 
 DanaGenericText:
-	text "My @"
-	text_ram wStringBuffer4
-	text " is"
-	line "so full of energy,"
+	text "Mijn @" ; "My @"
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
+	text_start ; " is"
+	line "zit vol met" ; "so full of energy,"
 
-	para "it's a little"
-	line "scary."
+	para "energie, best een" ; "it's a little"
+	line "beetje eng," ; "scary."
+	cont "eigenlijk."
 
-	para "How are your"
-	line "#MON doing?"
+	para "Hoe gaat het met" ; "How are your"
+	line "jouw #MON?" ; "#MON doing?"
 	done

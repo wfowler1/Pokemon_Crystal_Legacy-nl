@@ -203,15 +203,15 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Wait!"
+	text "Wacht!" ; "Wait!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
-	line "about this."
+	text "CLAIR: Sorry" ; "CLAIR: I'm sorry"
+	line "hiervoor." ; "about this."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Hier, neem dit om" ; "Here, take this as"
+	line "het goed te maken." ; "my apology."
 	done
 
 Text_ReceivedTM24:
@@ -220,27 +220,27 @@ Text_ReceivedTM24:
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Dat bevat" ; "That contains"
+	line "DRAKENADEM." ; "DRAGONBREATH."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nee, het heeft" ; "No, it doesn't"
+	line "niks met mijn adem" ; "have anything to"
+	cont "te maken." ; "do with my breath."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Als je het niet" ; "If you don't want"
+	line "wil, dan neem je" ; "it, you don't have"
+	cont "het niet." ; "to take it."
 	done
 
 ClairText_NoRoom:
-	text "Oh? You don't have"
-	line "any room for this."
+	text "Oh? Je hebt hier" ; "Oh? You don't have"
+	line "geen plek voor." ; "any room for this."
 
-	para "I'm going back to"
-	line "the GYM, so make"
+	para "Ik ga terug naar" ; "I'm going back to"
+	line "de GYM, maak plek" ; "the GYM, so make"
 
-	para "room, then come"
-	line "see me there."
+	para "en kom dan daar" ; "room, then come"
+	line "naar me toe." ; "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
@@ -286,13 +286,13 @@ ClairText_WhatsTheMatterDragonDen:
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRAKENTEMPEL" ; "DRAGON SHRINE"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Deze tempel eert" ; "A shrine honoring"
+	line "draak-#MON die" ; "the dragon #MON"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "vroeger leefden in" ; "said to have lived"
+	line "de DRAKENGROT." ; "in DRAGON'S DEN."
 	done
 
 SilverText_Training1:
@@ -325,91 +325,93 @@ SilverText_Training2:
 	done
 
 CooltrainermDarinSeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "Jij! Hoe durf je" ; "You! How dare you"
+	line "zonder uitnodiging" ; "enter uninvited!"
+	cont "binnen te komen!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "S-sterk!" ; "S-strong!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
-	line "is home to the"
+	text "De TEMPEL daar" ; "The SHRINE ahead"
+	line "is het thuis van" ; "is home to the"
 
-	para "MASTER of our"
-	line "dragon-user clan."
+	para "de MEESTER van de" ; "MASTER of our"
+	line "drakenstam." ; "dragon-user clan."
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "Je mag niet zomaar" ; "You're not allowed"
+	line "naar binnen!" ; "to just go in!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "Je hoort hier niet" ; "You shouldn't be"
+	line "te zijn!" ; "in here!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "Jakkes, verloren!" ; "Oh yikes, I lost!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Soon I'm going to"
-	line "get permission"
+	text "Mijn meester geeft" ; "Soon I'm going to"
+	line "me binnenkort" ; "get permission"
 
-	para "from our MASTER to"
-	line "use dragons."
+	para "toestemming draken" ; "from our MASTER to"
+	line "te gebruiken." ; "use dragons."
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Als dat gebeurt," ; "When I do, I'm"
+	line "word ik een heuse" ; "going to become an"
 
-	para "admirable dragon"
-	line "trainer and gain"
+	para "drakentrainer die" ; "admirable dragon"
+	line "door de MEESTER" ; "trainer and gain"
 
-	para "our MASTER's"
-	line "approval."
+	para "erkend zal worden." ; "our MASTER's"
+	; line "verdienen." ; "approval."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Een onbekende" ; "It's a stranger we"
+	line "vreemdeling." ; "don't know."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Auwies." ; "Ouchies."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "It was like having"
-	line "to battle LANCE."
+	text "Het was alsof ik" ; "It was like having"
+	line "met LANCE vocht." ; "to battle LANCE."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Wie ben jij?" ; "Who are you?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Gemenerd." ; "Meanie."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
+	text "We gaan je" ; "We'll tell on you."
+	line "verklikken."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "De MEESTER zal" ; "MASTER will be"
+	line "woedend zijn." ; "angry with you."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER> vond" ; "<PLAYER> found"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Maar <PLAYER> kan" ; "But <PLAYER> can't"
+	line "geen voorwerpen" ; "carry any more"
+	cont "meer dragen." ; "items."
 	done
 
 DragonsDenB1F_MapEvents:

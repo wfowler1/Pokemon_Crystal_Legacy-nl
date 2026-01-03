@@ -148,99 +148,99 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 	step_end
 
 GoldenrodPokecomCenterWelcomeToTradeCornerText: ; unreferenced
-	text "Hello! Welcome to"
-	line "#COM CENTER"
-	cont "TRADE CORNER."
+	text "Hallo! welkom bij" ; "Hello! Welcome to"
+	line "de #MONCENTRUM-" ; "#COM CENTER"
+	cont "RUILHOEK." ; "TRADE CORNER."
 
-	para "You can trade"
-	line "#MON with other"
-	cont "people far away."
+	para "Je kunt #MON" ; "You can trade"
+	line "met andere mensen" ; "#MON with other"
+	cont "ver weg ruilen." ; "people far away."
 	done
 
 GoldenrodPokecomCenterWeMustHoldYourMonText: ; unreferenced
-	text "To make a trade,"
-	line "we must hold your"
-	cont "#MON."
+	text "Om te ruilen, " ; "To make a trade,"
+	line "moeten we je" ; "we must hold your"
+	cont "#MON bewaren." ; "#MON."
 
-	para "Would you like to"
-	line "trade?"
+	para "Wil je een ruil" ; "Would you like to"
+	line "starten?" ; "trade?"
 	done
 
 GoldenrodPokecomCenterWhatMonDoYouWantText: ; unreferenced
-	text "What kind of"
-	line "#MON do you"
-	cont "want in return?"
+	text "Wat voor #MON" ; "What kind of"
+	line "wil je in ruil" ; "#MON do you"
+	cont "ontvangen?" ; "want in return?"
 	done
 
 GoldenrodPokecomCenterWeWillTradeYourMonForMonText: ; unreferenced
-	text "Fine. We will try"
-	line "to trade your"
+	text "Prima. We ruilen" ; "Fine. We will try"
+	line "je" ; "to trade your"
 
 	para "@"
-	text_ram wStringBuffer3
-	text " for"
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
+	text " voor" ; "for"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxPokemonNameLength
 	text "."
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para "We moeten je #-" ; "We'll have to hold"
+	line "MON bewaren" ; "your #MON"
+	cont "tijdens de ruil." ; "during the trade."
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para "Wacht hier a.u.b." ; "Please wait while"
+	line "terwijl wij de" ; "we prepare the"
+	cont "kamer klaarmaken." ; "room for it."
 	done
 
 GoldenrodPokecomCenterWeWillTradeYourMonForNewText: ; unreferenced
-	text "Fine. We will try"
-	line "to trade your"
+	text "Prima. We ruilen" ; "Fine. We will try"
+	line "jouw @" ; "to trade your"
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
+	text_start
 
-	para "@"
-	text_ram wStringBuffer3
-	text " for a"
-	line "#MON that you"
-	cont "have never seen."
+	para "voor een" ; "for a"
+	line "#MON die je" ; "#MON that you"
+	cont "nooit hebt gezien." ; "have never seen."
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para "We moeten je #-" ; "We'll have to hold"
+	line "MON bewaren" ; "your #MON"
+	cont "tijdens de ruil." ; "during the trade."
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para "Wacht hier a.u.b." ; "Please wait while"
+	line "terwijl wij de" ; "we prepare the"
+	cont "kamer klaarmaken." ; "room for it."
 	done
 
 GoldenrodPokecomCenterYourMonHasBeenReceivedText: ; unreferenced
-	text "Your trade #MON"
-	line "has been received."
+	text "Je ruil-#MON" ; "Your trade #MON"
+	line "is ontvangen." ; "has been received."
 
-	para "It will take time"
-	line "to find a trade"
+	para "Het zal even duren" ; "It will take time"
+	line "om een ruilpartner" ; "to find a trade"
 
-	para "partner. Please"
-	line "come back later."
+	para "te vinden. Kom " ; "partner. Please"
+	line "later terug." ; "come back later."
 	done
 
 GoldenrodPokecomCenterYouHaveOnlyOneMonText: ; unreferenced
-	text "Oh? You have only"
-	line "one #MON in"
-	cont "your party. "
+	text "Oh? Je hebt maar" ; "Oh? You have only"
+	line "één #MON in je" ; "one #MON in"
+	cont "team." ; "your party. "
 
-	para "Please come back"
-	line "once you've in-"
-	cont "creased the size"
-	cont "of your party."
+	para "Kom terug nadat" ; "Please come back"
+	line "je meer #MON in" ; "once you've in-"
+	cont "je team hebt" ; "creased the size"
+	cont "geplaatst." ; "of your party."
 	done
 
 GoldenrodPokecomCenterWeHopeToSeeYouAgainText: ; unreferenced
-	text "We hope to see you"
-	line "again."
+	text "We hopen je snel" ; "We hope to see you"
+	line "weer te zien." ; "again."
 	done
 
 GoldenrodPokecomCenterCommunicationErrorText: ; unreferenced
-	text "Communication"
-	line "error…"
+	text "Communicatie-" ; "Communication"
+	line "fout…" ; "error…"
 	done
 
 GoldenrodPokecomCenterCantAcceptLastMonText: ; unreferenced
@@ -659,15 +659,15 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text "Het COLOSSEUM" ; "The COLOSSEUM"
+	line "boven is voor" ; "upstairs is for"
+	cont "linkgevechten." ; "link battles."
 
-	para "Battle records are"
-	line "posted on the"
+	para "Gevechtsdata wordt" ; "Battle records are"
+	line "geplaatst op de" ; "posted on the"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "muur, dus ik kan" ; "wall, so I can't"
+	line "niet verliezen." ; "afford to lose."
 	done
 
 GoldenrodPokecomCenterPerson12Text: ; unreferenced
@@ -697,36 +697,38 @@ GoldenrodPokecomCenterPerson13Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "Een #MON van" ; "A higher level"
+	line "een hoger level" ; "#MON doesn't"
+	cont "wint niet altijd." ; "always win."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Het type kan bij-" ; "After all, it may"
+	line "voorbeeld niet" ; "have a type dis-"
+	cont "gunstig zijn." ; "advantage."
 
-	para "I don't think"
-	line "there is a single"
+	para "Ik denk dat er" ; "I don't think"
+	line "niet één sterkste" ; "there is a single"
 
-	para "#MON that is"
-	line "the toughest."
+	para "#MON te vinden" ; "#MON that is"
+	line "is." ; the toughest."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, toch?" ; "<PLAYER>, isn't it?"
 
-	para "Congratulations!"
+	para "Gefeliciteerd!" ; "Congratulations!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "Als speciale aan-" ; "As a special deal,"
+	line "bieding is een" ; "a GS BALL has been"
+	cont "GZ-BAL voor je" ; "sent just for you!"
+	cont "aangekomen!" ;
 
-	para "Please accept it!"
+	para "Neem het," ; "Please accept it!"
+	line "alsjeblieft!" ;
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "Tot ziens!" ; "Please do come"
+	line "Kom snel weer!" ; "again!"
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
@@ -752,51 +754,51 @@ GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Jeetje, je tas" ; "Oh my, your pack"
+	line "ziet er zwaar uit!" ; "looks so heavy!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "Oh! Heb je toe-" ; "Oh! Do you happen"
+	line "vallig iets dat" ; "to have something"
+	cont "EONPOST heet?" ; "named EON MAIL?"
 
-	para "My daughter is"
-	line "after one."
+	para "Mijn dochter" ; "My daughter is"
+	line "zoekt er een." ; "after one."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Je kan er vast" ; "You can part with"
+	line "een missen, toch?" ; "one, can't you?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Geef een" ; "Give away an EON"
+	line "EONPOST weg?" ; "MAIL?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Oh, geweldig!" ; "Oh, that's great!"
+	line "Dank je, lieverd!" ; "Thank you, honey!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Hier, dit is" ; "Here, this is for"
+	line "voor jou!" ; "you in return!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Mijn dochter zal" ; "My daughter will"
+	line "zo blij zijn!" ; "be delighted!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? Je hebt er" ; "Oh? You don't have"
+	line "geen? Jammer." ; "one? Too bad."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Oh… Nou, een" ; "Oh… Well, another"
+	line "andere keer dan." ; "time, then."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> gaf" ; "<PLAYER> gave away"
+	line "de EONPOST weg." ; "the EON MAIL."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

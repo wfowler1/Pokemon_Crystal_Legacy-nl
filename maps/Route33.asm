@@ -163,33 +163,33 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Ik ben door de" ; "I came through the"
+	line "tunnel gekomen," ; "tunnel, but I"
 
-	para "still have plenty"
-	line "of energy left."
+	para "maar heb genoeg" ; "still have plenty"
+	line "energie over." ; "of energy left."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "Whoa! Je hebt meer" ; "Whoa! You've got"
+	line "puf dan ik!" ; "more zip than me!"
 	done
 
 HikerAnthony2AfterText:
-	text "We HIKERS are at"
-	line "our best in the"
-	cont "mountains."
+	text "Wij wandelaars" ; "We HIKERS are at"
+	line "zijn op ons best" ; "our best in the"
+	cont "in de bergen." ; "mountains."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	text "Hé, ving je zonet" ; "Hey, did you get a"
+	line "een DUNSPARCE?" ; "DUNSPARCE?"
 
-	para "I caught one too."
+	para "Ik ook." ; "I caught one too."
 
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "Bekijk hem eens" ; "Take a look at it"
+	line "in het licht." ; "in the light. It's"
+	cont "Grappig gezicht!" ; "got a funny face!"
 	done
 
 Route33LassText:
@@ -207,7 +207,7 @@ Route33LassText:
 	done
 
 Route33SignText:
-	text "ROUTE 33"
+	text "ROUTE 33" ; "ROUTE 33"
 	done
 
 Route33_MapEvents:

@@ -39,25 +39,25 @@ GoodRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferGoodRodText:
-	text "OLIVINE is on the"
-	line "sea!"
+	text "OLIVINE ligt" ; "OLIVINE is on the"
+	line "aan zee!" ; "sea!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "En als het aan" ; "And if it's on the"
+	line "zee ligt, zijn" ; "sea, there are"
+	cont "er vissen!" ; "bound to be fish!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "Ik vis hier" ; "I've fished here"
+	line "al 30 jaar." ; "for 30 years."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "Wil je de zee" ; "Would you like to"
+	line "trotseren en" ; "face the sea and"
+	cont "gaan vissen?" ; "fish?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "Ah, hahah!" ; "Ah, hahah!"
+	line "We hebben een" ; "We have ourselves"
+	cont "nieuwe visser!" ; "a new angler!"
 	done
 
 GaveGoodRodText:
@@ -86,14 +86,14 @@ GaveGoodRodText:
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Waaa? Je wil" ; "Whaaat? You don't"
+	line "niet vissen!?" ; "like to fish!?"
+	cont "Onbegrijpelijk!" ; "Incomprehensible!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "Hoe gaat het? Al" ; "How are things?"
+	line "'n grote gevangen?" ; "Land the big one?"
 	done
 
 OlivineGoodRodHouse_MapEvents:

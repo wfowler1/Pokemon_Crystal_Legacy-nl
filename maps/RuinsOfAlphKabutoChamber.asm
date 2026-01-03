@@ -146,109 +146,117 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Welcome to this"
-	line "chamber."
+	text "Welkom in deze" ; "Welcome to this"
+	line "kamer." ; "chamber."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Er zijn hier" ; "There are sliding"
+	line "schuifpanelen die" ; "panels that depict"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "een #MON uit de" ; "a #MON drawn by"
+	line "oudheid afbeelden." ; "the ancients."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Schuif de panelen" ; "Slide the panels"
+	line "om de plaat te" ; "around to form the"
+	cont "maken." ; "picture."
 
-	para "To the right is a"
-	line "description of the"
+	para "Aan de rechterkant" ; "To the right is a"
+	line "staat een be-" ; "description of the"
+	cont "schrijving van de" ; "#MON."
 	cont "#MON."
 
-	para "Scientists in the"
-	line "back are examining"
+	para "Wetenschappers" ; "Scientists in the"
+	line "achterin onder-" ; "back are examining"
 
-	para "some newly found"
-	line "patterns."
+	para "zoeken nieuw" ; "some newly found"
+	line "gevonden patronen." ; "patterns."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text "Vreemde patronen" ; "Recently, strange,"
+	line "zijn hier recent" ; "cryptic patterns"
+	cont "verschenen." ; "have appeared."
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago…"
+	para "Het is raar. Ze" ; "It's odd. They"
+	line "waren hier eerder" ; "weren't here a"
+	cont "nog niet…" ; "little while ago…"
 
-	para "You should take a"
-	line "look at the walls."
+	para "Inspecteer de" ; "You should take a"
+	line "muren eens." ; "look at the walls."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
-	text "Ah! Here's another"
-	line "huge hole!"
+	text "Oh! Hier is nog" ; "Ah! Here's another"
+	line "een groot gat!" ; "huge hole!"
 
-	para "It's big enough to"
-	line "go through!"
+	para "Het is groot" ; "It's big enough to"
+	line "genoeg om doorheen" ; "go through!"
+	cont "te gaan!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
-	text "That tremor was"
-	line "pretty scary!"
+	text "Die beving was" ; "That tremor was"
+	line "best eng!" ; "pretty scary!"
 
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here…"
+	para "Maar ik maak me" ; "But I'm more"
+	line "meer zorgen over" ;  "concerned about"
+	cont "deze muur hier…" ; "this wall here…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text "De patronen op de" ; "The patterns on"
+	line "muur lijken woord-" ; "the wall appear to"
+	cont "en te zijn!" ; "be words!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para "En de schuifpane-" ; "And those sliding"
+	line "len lijken een" ; "stone panels seem"
 
-	para "to be signals of"
-	line "some kind."
+	para "soort van signalen" ; "to be signals of"
+	line "te geven." ; "some kind."
 
-	para "I think they make"
-	line "#MON appear,"
+	para "Ik denk dat ze" ; "I think they make"
+	line "#MON laten ver-" ; "#MON appear,"
 
-	para "but it's not clear"
-	line "yet…"
+	para "schijnen, maar het" ; "but it's not clear"
+	line "is nog niet duide-" ; "yet…"
+	cont "lijk…"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Patronen ver-" ; "Patterns appeared"
+	line "schenen op de" ; "on the walls…"
+	cont "muren…"
 	done
 
 RuinsOfAlphKabutoChamberUnownText: ; unreferenced
-	text "It's UNOWN text!"
+	text "Het is tekst" ; "It's UNOWN text!"
+	line "van UNOWN!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Patronen ver-" ; "Patterns appeared"
+	line "schenen op de" ; "on the walls…"
+	cont "muren…"
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "Er zit een groot" ; "There's a big hole"
+	line "gat in de muur!" ; "in the wall!"
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
+	text "Het is een replica" ; "It's a replica of"
+	line "van een oude #-" ; "an ancient #-"
 	cont "MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Een #MON die" ; "A #MON that hid"
+	line "zich verstopte op" ; "on the sea floor."
+	cont "de zeebodem."
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "De ogen op zijn" ; "Eyes on its back"
+	line "rug doorzochten" ; "scanned the area."
+	cont "het gebied."
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

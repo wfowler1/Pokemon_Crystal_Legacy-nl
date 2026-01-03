@@ -87,36 +87,36 @@ Route34IlexForestGateTeacherReturnsMovement:
 	step_end
 
 Route34IlexForestGateTeacherText:
-	text "Oh, honey. You're"
-	line "making a #DEX?"
+	text "Och, schatje. Je" ; "Oh, honey. You're"
+	line "vult je #DEX?" ; "making a #DEX?"
 
-	para "It must be hard if"
-	line "#MON won't"
+	para "Vast lastig als" ; "It must be hard if"
+	line "#MON maar niet" ; "#MON won't"
 
-	para "appear. Try using"
-	line "this TM."
+	para "verschijnen. Pro-" ; "appear. Try using"
+	line "beer deze TM." ; "this TM."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's SWEET SCENT."
+	text "Het is ZOETE GEUR." ; "It's SWEET SCENT."
 
-	para "Use it wherever"
-	line "#MON appear."
+	para "Gebruik deze waar" ; "Use it wherever"
+	line "je #MON vindt." ; "#MON appear."
 
-	para "#MON will be"
-	line "enticed by it."
+	para "#MON worden" ; "#MON will be"
+	line "erdoor gelokt." ; "enticed by it."
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
-	text "Something's wrong"
-	line "in ILEX FOREST…"
+	text "Er is iets mis" ; "Something's wrong"
+	line "in het EIKENWOUD…" ; "in ILEX FOREST…"
 
-	para "You should stay"
-	line "away right now."
+	para "Beter blijf je" ; "You should stay"
+	line "uit de buurt." ; "away right now."
 	done
 
 Route34IlexForestGateButterfreeText:
-	text "BUTTERFREE: Freeh!"
+	text "BUTTERFREE: Freeh!" ; "BUTTERFREE: Freeh!"
 	done
 
 Route34IlexForestGateLassText:

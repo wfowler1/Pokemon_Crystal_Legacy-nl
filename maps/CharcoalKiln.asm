@@ -76,49 +76,49 @@ CharcoalKilnRadio:
 	jumpstd Radio2Script
 
 CharcoalKilnBossText1:
-	text "All the SLOWPOKE"
-	line "have disappeared"
-	cont "from the town."
+	text "Alle SLOWPOKE zijn" ; "All the SLOWPOKE"
+	line "uit de stad ver-" ; "have disappeared"
+	cont "dwenen." ; "from the town."
 
-	para "The forest's pro-"
-	line "tector may be"
-	cont "angry with us…"
+	para "De beschermer van" ; "The forest's pro-"
+	line "het woud zal wel" ; "tector may be"
+	cont "boos op ons zijn…" ; "angry with us…"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "Vast een slecht" ; "It may be a bad"
+	line "voorteken. Laten" ; "omen. We should"
+	cont "we binnen blijven." ; "stay in."
 	done
 
 CharcoalKilnBossText2:
-	text "The SLOWPOKE have"
-	line "returned…"
+	text "De SLOWPOKE zijn" ; "The SLOWPOKE have"
+	line "teruggekeerd…" ; "returned…"
 
-	para "But my APPRENTICE"
-	line "hasn't come back"
-	cont "from ILEX FOREST."
+	para "Maar mijn LEERLING" ; "But my APPRENTICE"
+	line "is nog niet terug" ; "hasn't come back"
+	cont "uit het EIKENWOUD." ; "from ILEX FOREST."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "Waar is die lui-" ; "Where in the world"
+	line "lak nu weer?" ; "is that lazy guy?"
 	done
 
 CharcoalKilnBossText3:
-	text "You chased off"
-	line "TEAM ROCKET and"
+	text "TEAM ROCKET is" ; "You chased off"
+	line "weggejaagd en je" ; "TEAM ROCKET and"
 
-	para "went to ILEX"
-	line "FOREST alone?"
+	para "bent zelf naar het" ; "went to ILEX"
+	line "EIKENWOUD gegaan?" ; "FOREST alone?"
 
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "Dat toont lef! Ik" ; "That takes guts!"
+	line "hou daar van. Kom" ; "I like that. Come"
+	cont "bij ons trainen." ; "train with us."
 	done
 
 CharcoalKilnApprenticeText1:
-	text "Where have all the"
-	line "SLOWPOKE gone?"
+	text "Waar zijn alle" ; "Where have all the"
+	line "SLOWPOKE naartoe?" ; "SLOWPOKE gone?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Zijn ze ergens aan" ; "Are they out play-"
+	line "het spelen?" ; "ing somewhere?"
 	done
 
 CharcoalKilnApprenticeText2:
@@ -134,16 +134,16 @@ CharcoalKilnApprenticeText2:
 	done
 
 CharcoalKilnApprenticeText3:
-	text "The SLOWPOKE came"
-	line "back, and you even"
-	cont "found FARFETCH'D."
+	text "De SLOWPOKE zijn" ; "The SLOWPOKE came"
+	line "terug en je vond" ; "back, and you even"
+	cont "zelfs FARFETCH'D." ; "found FARFETCH'D."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "Jij bent echt" ; "You're the cool-"
+	line "de allercoolste!" ; "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "FARFETCH'D: Kwaa!" ; "FARFETCH'D: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

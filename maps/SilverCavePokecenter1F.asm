@@ -14,17 +14,18 @@ SilverCavePokecenter1FGrannyScript:
 	jumptextfaceplayer SilverCavePokecenter1FGrannyText
 
 SilverCavePokecenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb MT."
+	text "Trainers die sterk" ; "Trainers who seek"
+	line "willen worden, be-" ; "power climb MT."
+	cont "klimmen de ZILVER-"
 
-	para "SILVER despite its"
-	line "many dangers…"
+	para "BERG ondanks de" ; "SILVER despite its"
+	line "vele gevaren…" ; "many dangers…"
 
-	para "With their trusted"
-	line "#MON, they must"
+	para "Met hun vertrouwde" ; "With their trusted"
+	line "#MON denken ze" ; "#MON, they must"
 
-	para "feel they can go"
-	line "anywhere…"
+	para "overal heen te" ; "feel they can go"
+	line "kunnen gaan…" ; "anywhere…"
 	done
 
 SilverCavePokecenter1F_MapEvents:

@@ -21,28 +21,29 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "VERDRIJVER is een" ; "REPEL is a neces-"
+	line "noodzaak als je" ; "sity if you are"
 
-	para "going to explore a"
-	line "cave."
+	para "een grot gaat" ; "going to explore a"
+	line "verkennen." ; "cave."
 
-	para "Even though I like"
-	line "exploring, I still"
+	para "Hoewel ik graag" ; "Even though I like"
+	line "op ontdekking ga," ; "exploring, I still"
 
-	para "haven't made it to"
-	line "all the caves."
+	para "heb ik nog niet" ; "haven't made it to"
+	line "alle grotten" ; "all the caves."
+	cont "gezien." ; 
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "Ik hoorde van een" ; "I heard about a"
+	line "vakman die " ; "craftsman who"
 
-	para "makes custom BALLS"
-	line "in the JOHTO town"
+	para "speciale BALLEN" ; "makes custom BALLS"
+	line "maakt in het" ; "in the JOHTO town"
 
-	para "of AZALEA. I wish"
-	line "I had some."
+	para "JOHTO-dorp AZALEA." ; "of AZALEA. I wish"
+	line "Had ik die maar." ; "I had some."
 	done
 
 LavenderMart_MapEvents:
