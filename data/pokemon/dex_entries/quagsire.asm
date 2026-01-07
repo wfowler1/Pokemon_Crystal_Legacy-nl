@@ -1,10 +1,11 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "WATERVIS@" ; species name
+	db 14 ; height
+	dw 750 ; weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "Het lichaam is" ; "Its body is always"
+	next "altijd slijmerig." ; "slimy. It often"
+	next "beukt de kop vaak" ; "bangs its head on"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "tegen de rivier-" ; "the river bottom"
+	next "bodem maar bekom-" ; "as it swims but"
+	next "mert zich niet.@" ; "seems not to care.@"

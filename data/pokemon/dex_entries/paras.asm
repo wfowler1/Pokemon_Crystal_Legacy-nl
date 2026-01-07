@@ -1,10 +1,11 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "PADDESTOEL@" ; species name
+	db 3 ; height
+	dw 54 ; weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
+	db   "De paddestoel op" ; "The tochukaso"
+	next "de rug commandeert" ; "growing on this"
+	next "de #MON om alle" ; "#MON's back"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "sappen uit" ; "orders it to"
+	next "boomstammen te" ; "extract juice from"
+	next "zuigen.@" ; "tree trunks.@"

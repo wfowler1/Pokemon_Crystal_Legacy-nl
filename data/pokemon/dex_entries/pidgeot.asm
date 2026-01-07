@@ -1,10 +1,11 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "VOGEL@" ; species name
+	db 15 ; height
+	dw 395 ; weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "Kan dankzij uit-" ; "Its outstanding"
+	next "stekende ogen een" ; "vision allows it"
+	next "spetterende" ; "to spot splashing"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "MAGIKARP spotten" ; "MAGIKARP, even"
+	next "op een kilometer" ; "while flying at"
+	next "afstand.@" ; "3300 feet.@"

@@ -1,10 +1,11 @@
-	db "TWIN BIRD@" ; species name
-	dw 407, 860 ; height, weight
+	db "DUOVOGEL@" ; species name
+	db 14 ; height
+	dw 392 ; weight
 
-	db   "It lives on a"
-	next "grassy plain where"
-	next "it can see a long"
+	db   "Leeft op gras-" ; "It lives on a"
+	next "velden waar ver" ; "grassy plain where"
+	next "kan worden geke-" ; "it can see a long"
 
-	page "way. If it sees an"
-	next "enemy, it runs"
-	next "away at 60 mph.@"
+	page "ken. Is er een" ; "way. If it sees an"
+	next "vijand, dan rent" ; "enemy, it runs"
+	next "het met 100kmu.@" ; "away at 60 mph.@"

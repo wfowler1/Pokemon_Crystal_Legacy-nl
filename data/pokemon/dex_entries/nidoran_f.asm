@@ -1,10 +1,11 @@
-	db "POISON PIN@" ; species name
-	dw 104, 150 ; height, weight
+	db "GIFPUNT@" ; species name
+	db 4 ; height
+	dw 70 ; weight
+	
+	db   "Klein en timide," ; "Small and very"
+	next "beschermt zichzelf" ; "docile, it pro-"
+	next "met een kleine," ; "tects itself with"
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
-
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	page "giftige hoorn als" ; "its small, poison-"
+	next "het wordt aan-" ; "ous horn when"
+	next "gevallen.@" ; "attacked.@"

@@ -1,10 +1,11 @@
-	db "LIGHT@" ; species name
-	dw 311, 500 ; height, weight
+	db "LICHT@" ; species name
+	db 12 ; height
+	dw 225 ; weight
 
-	db   "This #MON uses"
-	next "the bright part of"
-	next "its body, which"
+	db   "Deze #MON" ; "This #MON uses"
+	next "gebruikt het hel-" ; "the bright part of"
+	next "dere deel van het" ; "its body, which"
 
-	page "changed from a"
-	next "dorsal fin, to"
-	next "lure prey.@"
+	page "lijf, wat ooit een" ; "changed from a"
+	next "fin was, om prooi" ; "dorsal fin, to"
+	next "te Lokken.@" ; "lure prey.@"

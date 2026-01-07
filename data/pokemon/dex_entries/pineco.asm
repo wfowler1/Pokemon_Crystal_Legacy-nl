@@ -1,10 +1,11 @@
-	db "BAGWORM@" ; species name
-	dw 200, 160 ; height, weight
+	db "ZAKDRAGER@" ; species name
+	db 6 ; height
+	dw 72 ; weight
 
-	db   "It spits out a"
-	next "fluid that it uses"
-	next "to glue tree bark"
+	db   "Spuugt een vloei-" ; "It spits out a"
+	next "stof om boomschors" ; "fluid that it uses"
+	next "aan het lichaam te" ; "to glue tree bark"
 
-	page "to its body. The"
-	next "fluid hardens when"
-	next "it touches air.@"
+	page "lijmen. De vloei-" ; "to its body. The"
+	next "stof verhardt als" ; "fluid hardens when"
+	next "het lucht raakt.@" ; "it touches air.@"

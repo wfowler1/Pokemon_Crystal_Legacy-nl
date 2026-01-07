@@ -1,10 +1,11 @@
 	db "COBRA@" ; species name
-	dw 1106, 1430 ; height, weight
+	db 35 ; height
+	dw 650 ; weight
 
-	db   "To intimidate"
-	next "foes, it spreads"
-	next "its chest wide and"
+	db   "Spreidt de borst" ; "To intimidate"
+	next "om vijanden te" ; "foes, it spreads"
+	next "intimideren en" ; "its chest wide and"
 
-	page "makes eerie sounds"
-	next "by expelling air"
-	next "from its mouth.@"
+	page "maakt dan enge" ; "makes eerie sounds"
+	next "geluiden door" ; "by expelling air"
+	next "lucht te blazen.@" ; "from its mouth.@"

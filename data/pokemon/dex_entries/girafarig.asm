@@ -1,10 +1,11 @@
-	db "LONG NECK@" ; species name
-	dw 411, 910 ; height, weight
+	db "LANGNEK@" ; species name
+	db 15 ; height
+	dw 415 ; weight
 
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
+	db   "Bij gevaar" ; "When it is in"
+	next "gebruikt de staart" ; "danger, its tail"
+	next "mysterieuze" ; "uses some sort of"
 
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
+	page "krachten om" ; "mysterious powers"
+	next "vijanden te" ; "to drive away the"
+	next "verjagen.@" ; "enemy.@"

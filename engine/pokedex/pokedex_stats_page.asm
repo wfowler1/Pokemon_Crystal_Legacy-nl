@@ -675,66 +675,64 @@ ENDC
 	push hl ; keep the ptr, for weight
 	ld a, b ; bank
 	push af ; keep bank
-	call GetFarWord
-	ld a, h
-	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
-	ld a, l
-	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
-	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; Print the height, with two of the four digits in front of the decimal point
-IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 4, 15
-ELSE ; using EVs
-	hlcoord 4, 14
-ENDC
-	lb bc, 2, (2 << 4) | 4
-	call PrintNum
+	call GetFarByte
+	inc hl
+	push hl
+	push af
+	ld hl, sp+1
+	ld d, h
+	ld e, l
+	;call GetFarWord
+	;ld a, h
+	;ld [wPoisonStepCount], a ; weight ptr, 2 bytes
+	;ld a, l
+	;ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
+	;ld de, wPoisonStepCount ; weight ptr, 2 bytes
+; Print the height, with two of the three digits in front of the decimal point
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 	hlcoord 6, 15
 ELSE ; using EVs
 	hlcoord 6, 14
 ENDC
-	ld [hl], "′"
+	lb bc, 1, (2 << 4) | 3
+	call PrintNum
+	pop af
+	pop hl
+;IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
+;	hlcoord 6, 15
+;ELSE ; using EVs
+;	hlcoord 6, 14
+;ENDC
+	;ld [hl], "′"
 ; get weight
 	pop af ; bank
 	pop hl ; ptr
 	inc hl
-	inc hl
+	;inc hl
 	call GetFarWord
 	ld a, h
 	ld [wPoisonStepCount], a ; weight ptr, 2 bytes
 	ld a, l
 	ld [wPoisonStepCount + 1], a ; weight ptr, 2 bytes
 	ld de, wPoisonStepCount ; weight ptr, 2 bytes
-; 2 digit weight (actually 3, but we are cutting off decimal since it's always 0)
-	ld a, h
-	cp 3
-	jr c, .normal_weight
-	cp 4
-	jr nc, .heavy_weight
-	jr z, .heavy_weight
-	ld a, l
-	cp $e8
-	jr c, .normal_weight
-.heavy_weight	
-	
+
+; 4 digit weight (123.4kg)
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 14, 15
+	hlcoord 13, 15
 ELSE ; using EVs
-	hlcoord 14, 14
+	hlcoord 13, 14
 ENDC
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 17, 15
+	hlcoord 18, 15
 ELSE ; using EVs
-	hlcoord 17, 14
+	hlcoord 18, 14
 ENDC
 	ld de, .String_pounds
 	call PlaceString
 	jr .done
-; 3 digit weight (actually 4, but we are cutting off decimal since it's always 0)
-.normal_weight	
+
 	; Print the weight, with 3 of the 4 digits in front of the decimal point
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
 	hlcoord 13, 15
@@ -744,9 +742,9 @@ ENDC
 	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 16, 15
+	hlcoord 17, 15
 ELSE ; using EVs
-	hlcoord 16, 14
+	hlcoord 17, 14
 ENDC	
 	ld de, .String_pounds
 	call PlaceString
@@ -756,9 +754,9 @@ ENDC
 	pop hl	
 	ret
 .String_HeightWeight_blank:
-	db "HT     ″ WT       @" ; HT  ?'??"
+	db "HT     m WT       @" ; "HT     ″ WT       @" ; HT  ?'??"
 .String_pounds:
-	db "lbs@"
+	db "kg@" ; "lbs@"
 
 BS_HP_text:
 	db " HP@"

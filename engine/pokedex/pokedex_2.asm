@@ -223,7 +223,7 @@ DisplayDexEntry:
 ; Page 1
 	call Pokedex_PrintPageNum
 	pop de
-	inc de
+	;inc de
 	pop af
 	hlcoord 2, 10
 	push af
@@ -295,7 +295,7 @@ GetDexEntryPagePointer:
 	cp "@"
 	jr nz, .loop1
 ; skip height and weight
-rept 4
+rept 3
 	inc hl
 endr
 ; if c != 1: skip entry

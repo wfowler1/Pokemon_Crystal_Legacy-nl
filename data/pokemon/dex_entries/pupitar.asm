@@ -1,10 +1,11 @@
-	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
+	db "HARD SCHILD@" ; species name
+	db 12 ; height
+	dw 1520 ; weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db   "Blijft niet stil" ; "It will not stay"
+	next "zitten, zelf niet" ; "still, even while"
+	next "in een cocon." ; "it's a pupa. It"
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	page "Heeft armen en" ; "already has arms"
+	next "benen onder het" ; "and legs under its"
+	next "stevige schild.@" ; "solid shell.@"

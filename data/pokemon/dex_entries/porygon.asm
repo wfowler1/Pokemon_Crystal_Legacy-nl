@@ -1,10 +1,11 @@
-	db "VIRTUAL@" ; species name
-	dw 207, 800 ; height, weight
+	db "VIRTUEEL@" ; species name
+	db 8 ; height
+	dw 365 ; weight
 
-	db   "An artificial"
-	next "#MON created"
-	next "due to extensive"
+	db   "Kunstmatige #-" ; "An artificial"
+	next "MON gemaakt na" ; "#MON created"
+	next "uitgebreid onder-" ; "due to extensive"
 
-	page "research, it can"
-	next "perform only what"
-	next "is in its program.@"
+	page "zoek. Kan alleen" ; "research, it can"
+	next "uitvoeren waar het" ; "perform only what"
+	next "voor gemaakt is.@" ; "is in its program.@"

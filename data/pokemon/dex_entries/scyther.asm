@@ -1,10 +1,11 @@
-	db "MANTIS@" ; species name
-	dw 411, 1230 ; height, weight
+	db "SPRINKHAAN@" ; species name
+	db 15 ; height
+	dw 560 ; weight
 
-	db   "It's very proud of"
-	next "its speed. It"
-	next "moves so fast that"
+	db   "Is erg trots op" ; "It's very proud of"
+	next "hoe snel het is." ; "its speed. It"
+	next "Beweegt zo snel" ; "moves so fast that"
 
-	page "its opponent does"
-	next "not even know what"
-	next "knocked it down.@"
+	page "dat tegenstanders" ; "its opponent does"
+	next "niet weten wat hen" ; "not even know what"
+	next "raakte.@" ; "knocked it down.@"

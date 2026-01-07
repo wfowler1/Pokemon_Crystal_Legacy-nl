@@ -1,10 +1,11 @@
-	db "POISON GAS@" ; species name
-	dw 200, 20 ; height, weight
+	db "GIFGAS@" ; species name
+	db 6 ; height
+	dw 10 ; weight
 
-	db   "If one gets close"
-	next "enough to it when"
-	next "it expels poison-"
+	db   "Als je te dichtbij" ; "If one gets close"
+	next "komt, laat het" ; "enough to it when"
+	next "gifgas vrij. Dit" ; "it expels poison-"
 
-	page "ous gas, the gas"
-	next "swirling inside it"
-	next "can be seen.@"
+	page "gas zie je aan" ; "ous gas, the gas"
+	next "de binnenzijde" ; "swirling inside it"
+	next "bewegen.@" ; "can be seen.@"

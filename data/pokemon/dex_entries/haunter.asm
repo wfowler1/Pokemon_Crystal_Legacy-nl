@@ -1,10 +1,11 @@
 	db "GAS@" ; species name
-	dw 503, 2 ; height, weight
+	db 16 ; height
+	dw 1 ; weight
 
-	db   "It hides in the"
-	next "dark, planning to"
-	next "take the life of"
+	db   "Verstopt in het" ; "It hides in the"
+	next "donker, wachtend" ; "dark, planning to"
+	next "om een slachtoffer" ; "take the life of"
 
-	page "the next living"
-	next "thing that wanders"
-	next "close by.@"
+	page "dat dichtbij loopt" ; "the next living"
+	next "van het leven te" ; "thing that wanders"
+	next "beroven.@" ; "close by.@"

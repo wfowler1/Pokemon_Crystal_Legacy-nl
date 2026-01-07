@@ -1,10 +1,11 @@
-	db "DRAGON@" ; species name
-	dw 311, 550 ; height, weight
+	db "DRAAK@" ; species name
+	db 12 ; height
+	dw 250 ; weight
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
+	db   "De mannetjes" ; "The male raises"
+	next "voeden de jonkies" ; "the young. If it"
+	next "op. Prikt bij" ; "is approached, it"
 
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	page "benadering met" ; "uses its toxic"
+	next "giftige stekels" ; "spikes to fend off"
+	next "naar indringer.@" ; "the intruder.@"

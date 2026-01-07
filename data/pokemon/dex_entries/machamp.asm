@@ -1,10 +1,11 @@
-	db "SUPERPOWER@" ; species name
-	dw 503, 2870 ; height, weight
+	db "SUPERSTERK@" ; species name
+	db 16 ; height
+	dw 1300 ; weight
 
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
+	db   "Met vier armen die" ; "With four arms"
+	next "sneller reageren" ; "that react more"
+	next "dan de #MON" ; "quickly than it"
 
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"
+	page "nadenkt, wordt" ; "can think, it can"
+	next "vaak tegelijk" ; "execute many"
+	next "geslagen.@" ; "punches at once.@"

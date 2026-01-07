@@ -1,10 +1,11 @@
 	db "PSI@" ; species name
-	dw 211, 430 ; height, weight
+	db 9 ; height
+	dw 195 ; weight
 
-	db   "It hypnotizes"
-	next "itself so that it"
-	next "can teleport away"
+	db   "Hypnotiseert zich-" ; "It hypnotizes"
+	next "zelf zodat weg kan" ; "itself so that it"
+	next "teleporteren zodra" ; "can teleport away"
 
-	page "when it senses"
-	next "danger, even"
-	next "if it is asleep.@"
+	page "het gevaar voelt," ; "when it senses"
+	next "zelfs als het" ; "danger, even"
+	next "slaapt.@" ; "if it is asleep.@"

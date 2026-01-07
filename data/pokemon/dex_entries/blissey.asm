@@ -1,10 +1,11 @@
-	db "HAPPINESS@" ; species name
-	dw 411, 1030 ; height, weight
+	db "BLIJDSCHAP@" ; species name
+	db 15 ; height
+	dw 468 ; weight
 
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that BLISSEY"
+	db   "Een hap uit één" ; "Biting into one"
+	next "van de heerlijke" ; "of the delicious"
+	next "eieren die BLISSEY" ; "eggs that BLISSEY"
 
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
+	page "verschaft, maakt" ; "provides will make"
+	next "iedere eter echt" ; "everyone around"
+	next "zielsgelukkig.@" ; "smile with joy.@"

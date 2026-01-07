@@ -1,10 +1,11 @@
-	db "BIG JAW@" ; species name
-	dw 200, 210 ; height, weight
+	db "GROOTKAAK@" ; "BIG JAW@" ; species name
+	db 6 ; height
+	dw 95 ; weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "Dit ruwe beestje" ; "This rough critter"
+	next "bijt naar elk" ; "chomps at any"
+	next "bewegend object" ; "moving object it"
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	page "dat het ziet. Je" ; "sees. Turning your"
+	next "rug toekeren" ; "back on it is not"
+	next "is onverstandig.@" ; "recommended.@"

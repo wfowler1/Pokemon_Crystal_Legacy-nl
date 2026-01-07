@@ -1,10 +1,11 @@
-	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db "PADDESTOEL@" ; species name
+	db 10 ; height
+	dw 295 ; weight
 
-	db   "When nothing's"
-	next "left to extract"
-	next "from the bug, the"
+	db   "Als er niks meer" ; "When nothing's"
+	next "uit het insect kan" ; "left to extract"
+	next "worden gezogen," ; "from the bug, the"
 
-	page "mushrooms on its"
-	next "back leave spores"
-	next "on the bug's egg.@"
+	page "laat de paddestoel" ; "mushrooms on its"
+	next "sporen achter in" ; "back leave spores"
+	next "het ei.@" ; "on the bug's egg.@"

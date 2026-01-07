@@ -1,10 +1,11 @@
-	db "DRAGON@" ; species name
-	dw 511, 3350 ; height, weight
+	db "DRAAK@" ; species name
+	db 18 ; height
+	dw 1520 ; weight
 
-	db   "It stores energy"
-	next "by sleeping at"
-	next "underwater depths"
+	db   "Bewaart energie" ; "It stores energy"
+	next "door diep onder-" ; "by sleeping at"
+	next "water te slapen" ; "underwater depths"
 
-	page "at which no other"
-	next "life forms can"
-	next "survive.@"
+	page "waar ander leven" ; "at which no other"
+	next "onmogelijk kan" ; "life forms can"
+	next "overleven.@" ; "survive.@"

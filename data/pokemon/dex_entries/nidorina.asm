@@ -1,10 +1,11 @@
-	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db "GIFPUNT@" ; species name
+	db 8 ; height
+	dw 200 ; weight
 
-	db   "It has a docile"
-	next "nature. If it is"
-	next "threatened with"
+	db   "Heeft een volgzaam" ; "It has a docile"
+	next "karakter. Groeit" ; "nature. If it is"
+	next "bij gevaar stekels" ; "threatened with"
 
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"
+	page "die verspreid" ; "attack, it raises"
+	next "zitten over het" ; "the barbs that are"
+	next "hele lichaam.@" ; "all over its body.@"

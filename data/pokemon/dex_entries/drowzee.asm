@@ -1,10 +1,11 @@
-	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	db "HYPNOSE@" ; species name
+	db 10 ; height
+	dw 324 ; weight
 
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
+	db   "Kan de neus" ; "When it twitches"
+	next "bewegen om te zien" ; "its nose, it can"
+	next "waar iemand slaapt" ; "tell where someone"
 
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
+	page "en waar die" ; "is sleeping and"
+	next "persoon over" ; "what that person"
+	next "droomt.@" ; "is dreaming about.@"
