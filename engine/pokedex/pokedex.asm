@@ -606,11 +606,12 @@ Handle_Button_Banner:
 	cp $41 ; first tile of START > MAP button banner
 	ret nz
 ; overwrite the button banner
-	ld a, $48 ; SELECT 1
+	ld a, $47 ; SELECT 1
 	ld [hli], a
 	inc a ; $49, SELECT 2
 	ld [hli], a
-	inc a ; $4a, SELECT 3
+	;inc a ; $4a, SELECT 3
+	ld a, $4d
 	ld [hli], a
 	ld a, $61 ; SHINY 1
 	ld [hli], a
@@ -648,13 +649,14 @@ Area_Page:
 	; > MAP $5e, $5f, $60
 	hlcoord 2, 0
 	ld a, [hl]
-	cp $48 ; first tile of SELECT > SHINY
+	cp $47 ; first tile of SELECT > SHINY
 	jr nz, .button_done
 	ld a, $41 ; START #1
 	ld [hli], a
 	inc a ; $42, START #2
 	ld [hli], a
-	inc a ; $43, START #3
+	;inc a ; $43, START #3
+	ld a, $4d
 	ld [hli], a
 	ld a, $5e ; MAP #1
 	ld [hli], a
@@ -1690,14 +1692,14 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "GEZ", -1 ; "SEEN", -1
 String_OWN:
-	db "OWN", -1
+	db "BEZ", -1 ; "OWN", -1
 String_SELECT_OPTION:
-	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
+	db $3b, $47, $48, $4d, $43, $44, $45, $46 ; SELECT > OPTION
 	; fallthrough
 String_START_SEARCH:
-	db $3c, $3b, $41, $42, $43, $4b, $4c, $4d, $3c, $32, -1 ; START > SEARCH
+	db $3b, $41, $42, $4d, $49, $4a, $4b, $4c, -1 ; START > SEARCH
 
 Pokedex_DrawDexEntryScreenBG:
 	hlcoord 0, 0
@@ -1717,11 +1719,12 @@ Pokedex_DrawDexEntryScreenBG:
 	hlcoord	1, 0
 	ld [hl], $57 ; new curved text border, left
 	inc hl
-	ld a, $48 ; SELECT 1
+	ld a, $47 ; SELECT 1
 	ld [hli], a
 	inc a ; $49, SELECT 2
 	ld [hli], a
-	inc a ; $4a, SELECT 3
+	;inc a ; $4a, SELECT 3
+	ld a, $4d
 	ld [hli], a
 	ld a, $61 ; SHINY 1
 	ld [hli], a
@@ -1798,7 +1801,7 @@ Pokedex_DrawDexEntryScreenBG:
 	ret
 .MenuItems:
 	db $3b, " ", $79, $7a, " ", \ ; INFO
-		$71, $72, " ", \ ; STATS
+		$41, $72, " ", \ ; STATS
 		$74, $75, $76, " ", \ ; MOVES
 		$77, $78, " ", \ ; AREA
 		$7d, $7e, \ ; EVO
@@ -2581,9 +2584,9 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NayDexInfo:	
-	db   $41, $42, $43, $56, " FULL AREA MAP", $37, $36, \
+	db   $41, $42, $4d, $56, " FULL AREA MAP", $37, $36, \
 		 "                  ", $37, $36, \
-		 $48, $49, $4a, $56, " TOGGLE SHINY", -1	
+		 $47, $48, $4d, $56, " TOGGLE SHINY", -1	
 
 .NewMode:
 	db   "<PK><MN> are listed by  ", $37, $36, \

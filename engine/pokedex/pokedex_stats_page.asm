@@ -6,7 +6,7 @@ ENDC
 EXPORT POKEDEX_STATSPAGE_MAX_PAGE_NUM
 
 String_BASE_text:
-	db "BASE       @" ; @ 8, 6
+	db "BASIS-     @" ; "BASE       @" ; @ 8, 6
 String_STATS_text:
 	db " STATS     @" ; @ 8, 7
 DisplayDexMonStats::
@@ -66,7 +66,7 @@ ELSE
 ENDC ; done handling EVs/StatExp differences
 	jp DexEntry_IncPageNum
 .Base_stats_text:
-	db "BASE STATS@"
+	db "BASISSTATS@" ; "BASE STATS@"
 
 Pokedex_GBS_Stats:
 	hlcoord 1, 9
@@ -108,11 +108,11 @@ Pokedex_GBS_Stats:
 	ret
 
 .String_abbrv_BS_text1:
-	db "  HP      SPE     @"
+	db "  LP      SNL     @" ; "  HP      SPE     @"
 .String_abbrv_BS_text2:
-	db " ATK      DEF     @"
+	db " AAN      AFW     @" ; " ATK      DEF     @"
 .String_abbrv_BS_text3:
-	db " SPA      SPD     @"
+	db " SPA      SAF     @" ; " SPA      SPD     @"
 
 Pokedex_BST:
 	hlcoord 2, 9
@@ -176,7 +176,7 @@ Pokedex_BST:
 	ld [wCurDamage + 1], a
 	ret
 .BS_Total_text:
-	db "Base Total:@"
+	db "Basis Totaal:@" ; "Base Totaal:@"
 
 Pokedex_Get_Items:
 ; TODO: Add code to differentiate same items in both entries, special cases
@@ -226,7 +226,7 @@ Pokedex_Get_Items:
 .ThreeDashes:
 	db "---@"
 .BS_ITEM_text:
-	db "Wild Held Items:@"
+	db "Voorwerpen:@" ; "Wild Held Items:@"
 .BS_ITEM1:
 	db "[23<%>]@"
 .BS_ITEM2:
@@ -352,9 +352,9 @@ Pokedex_EggG_SetUp:
 .EggGroups_DONE
 	ret
 .BS_Egg_text1:
-	db "Egg Group: @"
+	db "Ei Groep: @" ; "Egg Group: @"
 .BS_Egg_text2:
-	db "Egg Groups: @"
+	db "Ei Groepen: @" ; "Egg Groups: @"
 
 Pokedex_Get_EggGroup:
 ;; have the fixed group num in 'a' already
@@ -422,31 +422,31 @@ Pokedex_Get_EggGroup:
 .EggG_Monster_text:
 	db "Monster@"
 .EggG_Amphibian_text:
-	db "Amphibian@"
+	db "Amfibie@" ; "Amphibian@"
 .EggG_Bug_text:
-	db "Bug@"
+	db "Insect@" ; "Bug@"
 .EggG_Flying_text:
-	db "Flying@"
+	db "Vliegen@" ; "Flying@"
 .EggG_Field_text:
-	db "Field@"
+	db "Veld@" ; "Field@"
 .EggG_Fairy_text:
-	db "Fairy@"
+	db "Fee@" ; "Fairy@"
 .EggG_Grass_text:
-	db "Grass@"
+	db "Gras@" ; "Grass@"
 .EggG_HumanLike_text:
-	db "Humane-Like@"
+	db "Menselijk@" ; "Humane-Like@"
 .EggG_Invertebrate_text:
-	db "Invertebrate@"
+	db "Ongewervelde@" ; "Invertebrate@"
 .EggG_Mineral_text:
-	db "Mineral@"
+	db "Mineraal@" ; "Mineral@"
 .EggG_Amorphous_text:
-	db "Amorphous@"
+	db "Amorf@" ; "Amorphous@"
 .EggG_Fish_text:
-	db "Fish@"
+	db "Vis@" ; "Fish@"
 .EggG_Ditto_text:
-	db "ALL@"
+	db "AL@" ; "ALL@"
 .EggG_Dragon_text:
-	db "Dragon@"
+	db "Draak@" ; "Dragon@"
 
 Pokedex_Get_GenderRatio::
 	hlcoord 2, 14
@@ -485,9 +485,9 @@ Pokedex_Get_GenderRatio::
 .GR_Text
 	db "Gender Ratio: @"
 .GR_always_fem:
-	db "♀ Only@"
+	db "♀ Alleen@" ; "♀ Only@"
 .GR_always_male
-	db "♂ Only@"
+	db "♂ Alleen@" ; "♂ Only@"
 .GR_QuarterF
 	db "1♀:4♂@"
 .GR_Equal
@@ -508,7 +508,7 @@ Pokedex_PrintHatchSteps:
 	call PrintNum
 	ret
 .HatchSteps_text:
-	db "Egg Cycles:@"
+	db "Ei Cycli:@" ; "Egg Cycles:@"
 
 ; If using EVs instead of StatEXP
 IF DEF(wBaseHPAtkDefSpdEVs)
@@ -759,14 +759,14 @@ ENDC
 	db "kg@" ; "lbs@"
 
 BS_HP_text:
-	db " HP@"
+	db " LP@" ; " HP@"
 BS_SPEED_text:
-	db "SPE@"
+	db "SNL@" ; "SPE@"
 BS_ATK_text:
-	db "ATK@"
+	db "AAN@" ; "ATK@"
 BS_DEF_text:
-	db "DEF@"
+	db "AFW@" ; "DEF@"
 BS_SPCL_text:
 	db "SPA@"
 BS_SPCLDEF_text:
-	db "SPD@"
+	db "SAF@" ; "SPD@"

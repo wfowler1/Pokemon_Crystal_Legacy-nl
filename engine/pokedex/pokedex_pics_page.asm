@@ -241,11 +241,11 @@ Dex_Pics_DrawBorder:
 	ld [hli], a
 	ld a, $3b ; text border, left side of SELECT > SHINY
 	ld [hli], a
-	ld a, $48 ; SELECT >
+	ld a, $47 ; SE
 	ld [hli], a
-	ld a, $49 ; SELECT >
+	ld a, $48 ; LEC
 	ld [hli], a
-	ld a, $4a ; SELECT >
+	ld a, $4d ; T >
 	ld [hli], a
 	ld a, $61 ; > SHINY
 	ld [hli], a
@@ -260,11 +260,12 @@ Dex_Pics_DrawBorder:
 	ld a, $3b ; text border, left side of START > CRY
 	ld [hli], a	
 	; hlcoord 10, 17
-	ld a, $41 ; START >
+	ld a, $41 ; ST
 	ld [hli], a
-	inc a ; ld a, $42 ; START >
+	inc a ; ld a, $42 ; AR
 	ld [hli], a
-	inc a ; ld a, $43 ; START >
+	;inc a ; ld a, $43 ; T
+	ld a, $4d ; T >
 	ld [hli], a
 	ld a, $6e ; > CRY [VRAM 1] @ 15, 17
 	ld [hli], a

@@ -2600,11 +2600,11 @@ Pokedex_GetArea:
 	call PlaceString
 ; add blurb to let people know they can press select to see current location
 	hlcoord 1, 2
+	ld a, $47 ; part of SELECT >
+	ld [hli], a
 	ld a, $48 ; part of SELECT >
 	ld [hli], a
-	ld a, $49 ; part of SELECT >
-	ld [hli], a
-	ld a, $4a ; part of SELECT >
+	ld a, $4d ; part of SELECT >
 	ld [hli], a
 	ld a, $1d ; custom arrow cap + YOU
 	ld [hli], a ; $78
