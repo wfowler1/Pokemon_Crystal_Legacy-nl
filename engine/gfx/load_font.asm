@@ -18,19 +18,19 @@ Get2bppOptionalHDMA: ; unreferenced
 _LoadStandardFont::
 	ld de, Font
 	ld hl, vTiles1
-	lb bc, BANK(Font), 32 ; "A" to "]"
+	lb bc, BANK(Font), 32 ; 'A' to ']'
 	call Get1bppViaHDMA
 	ld de, Font + 32 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $20
-	lb bc, BANK(Font), 33 ; "a" to "z" (skip "┌" to "┘")
+	lb bc, BANK(Font), 32 ; 'a' to $bf
 	call Get1bppViaHDMA
-	ld de, Font + 77 * LEN_1BPP_TILE
-	ld hl, vTiles1 tile $4d
-	lb bc, BANK(Font), 19 ; $c0 to "←"
+	ld de, Font + 64 * LEN_1BPP_TILE
+	ld hl, vTiles1 tile $40
+	lb bc, BANK(Font), 32 ; 'Ä' to '←'
 	call Get1bppViaHDMA
 	ld de, Font + 96 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $60
-	lb bc, BANK(Font), 32 ; "'" to "9"
+	lb bc, BANK(Font), 32 ; '\'' to '9'
 	call Get1bppViaHDMA
 	ret
 
@@ -59,7 +59,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles0 tile "┌" ; $ba
+	ld hl, vTiles2 tile "┌" ; $ba
 	lb bc, BANK(Frames), TEXTBOX_FRAME_TILES ; "┌" to "┘"
 	call Get1bppViaHDMA
 	ld hl, vTiles2 tile " " ; $7f

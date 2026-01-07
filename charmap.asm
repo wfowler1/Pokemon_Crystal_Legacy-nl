@@ -49,6 +49,12 @@
 
 ; Actual characters (from other graphics files)
 
+	charmap "┌",         $79
+	charmap "─",         $7a
+	charmap "┐",         $7b
+	charmap "│",         $7c
+	charmap "└",         $7d
+	charmap "┘",         $7e
 	charmap " ",         $7f ; gfx/frames/space.png
 
 	; needed for StatsScreen_PlaceShinyIcon and PrintPartyMonPage1
@@ -125,17 +131,21 @@
 	charmap "<%>",		 $be
 	charmap "<BOLD_P>",	 $bf
 	charmap "<BOLD_C>",	 $c0
-
-	charmap "┌",         $c1
-	charmap "─",         $c2
-	charmap "┐",         $c3
-	charmap "│",         $c4
-	charmap "└",         $c5
-	charmap "┘",         $c6
+	
+	charmap "Ö",         $c1
+	charmap "ü",         $c2
+	charmap "ë",         $c3
+	charmap "ï",         $c4
+	charmap "ê",         $c5
+	charmap "Ï",         $c6
+	charmap "Ë",         $c7
+	charmap "È",         $c8
+	charmap "É",         $c9
 
 	charmap "′",         $ce
 	charmap "″",         $cf
 
+	charmap "'n",        $cd
 	charmap "'d",        $d0
 	charmap "'l",        $d1
 	charmap "'m",        $d2
@@ -165,7 +175,6 @@
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
-	charmap "<DOT>",     $e8 ; decimal point; same as "."
 	charmap "&",         $e9
 
 	charmap "é",         $ea
@@ -179,6 +188,7 @@
 	charmap "…",         $f2 ; ellipsis
 	charmap "/",         $f3
 	charmap ",",         $f4
+	charmap "<DOT>",     $f4 ; decimal point; same as ","
 	charmap "♀",         $f5
 
 	charmap "0",         $f6

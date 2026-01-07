@@ -943,10 +943,10 @@ namespace PokeGen2TextValidator
             { "<PLAY_G>", 7 },
             { "<MOBILE>", 1 },
             { "<CR>", 1 },
-            { "<BSP>", 1 },
+            { "¯", 1 },
             { "<LF>", 1 },
             { "<POKE>", 2 },
-            { "<WBR>", 0 },
+            { "%", 0 },
             { "<RED>", 3 },
             { "<GREEN>", 5 },
             { "<ENEMY>", 17 }, // Composed of "Trainer Class + Name"
@@ -975,22 +975,15 @@ namespace PokeGen2TextValidator
             { "<BOLD_A>", 1 },
             { "<BOLD_B>", 1 },
             { "<BOLD_C>", 1 },
-            { "<BOLD_D>", 1 },
-            { "<BOLD_E>", 1 },
-            { "<BOLD_F>", 1 },
-            { "<BOLD_G>", 1 },
-            { "<BOLD_H>", 1 },
-            { "<BOLD_I>", 1 },
-            { "<BOLD_V>", 1 },
-            { "<BOLD_S>", 1 },
-            { "<BOLD_L>", 1 },
-            { "<BOLD_M>", 1 },
+            { "<BOLD_P>", 1 },
             { "<COLON>", 1 },
             { "<PO>", 1 },
             { "<KE>", 1 },
             { "<PK>", 1 },
             { "<MN>", 1 },
             { "<LV>", 1 },
+            { "<DEX_LV>", 1 },
+            { "<DEX_LV_VRAM1>", 1 },
             { "<DO>", 1 },
             { "<DOT>", 1 },
             { "<ID>", 1 },
@@ -1026,7 +1019,6 @@ namespace PokeGen2TextValidator
             { "{UNOWNWORD_{d:x}}", 7 },
             { "{d:MONS_PER_BOX}", 2 },
             { "<JP_18>", 2 },
-            { "<JP_14>", 2 },
             { "<NI>", 2 },
             { "<TTE>", 2 },
             { "<WO>", 2 },
@@ -1038,6 +1030,8 @@ namespace PokeGen2TextValidator
             { "<WATASHI>", 3 },
             { "<KOKO_WA>", 3 },
             { "<GA>", 2 },
+            { "<DEX_⁂>", 1 },
+            { "<%>", 1 },
         };
         public static readonly Dictionary<string, int> ramLengths = new Dictionary<string, int>
         {
@@ -1190,7 +1184,8 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLineLength = 11;
         public const int MaxLandmarkLength = 17;
 
-        public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
+        // public const string PrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎";
+        public const string PrintableChars = "┌─┐│└┘ №⁂ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyz><=+ÖüëïêÏËÈÉ′″■▲☎“”←'-?!.&é→▷▶▼♂¥×…/,♀0123456789";
 
         private Block _block;
         private StringBuilder output;
