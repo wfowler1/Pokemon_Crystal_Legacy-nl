@@ -250,25 +250,25 @@ FishGroups_Names::
 	assert_table_length NUM_FISHGROUPS ; (13, NONE is not included in the count)
 
 Group1_Name:
-    db " SHORE@"
+    db " KUST@" ; " SHORE@"
 Group2_Name:
-    db " OCEAN@"
+    db " OCEAAN@" ; " OCEAN@"
 Group3_Name:
-    db " LAKE@"
+    db " MEER@" ; " LAKE@"
 Group4_Name:
     db " POND@"
 Group5_Name:
     db " DRATINI@"
 Group6_Name:
-    db " QWILFISH SWARM@"
+    db " QWILFISH ZWERM@" ; " QWILFISH SWARM@"
 Group7_Name:
-    db " REMORAID SWARM@"
+    db " REMORAID ZWERM@" ; " REMORAID SWARM@"
 Group8_Name:
     db " GYARADOS@"
 Group9_Name:
     db " ROUTE 45@"
 Group10_Name:
-    db " WHIRL ISLE@"
+    db " DRAAIKOLK@" ; " WHIRL ISLE@"
 Group11_Name:
     db " QWILFISH@"
 Group12_Name:
