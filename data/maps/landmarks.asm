@@ -202,7 +202,7 @@ DarkCaveName:        db "DUISTERE¯GROT@" ; "DARK CAVE@"
 IlexForestName:      db "EIKENWOUD@" ; "ILEX¯FOREST@"
 BurnedTowerName:     db "VERBRANDE¯TOREN@" ; "BURNED¯TOWER@"
 FastShipName:        db "SNELSCHIP@" ; "FAST SHIP@"
-ViridianForestName:  db "VIRIDIAN¯FOREST@" ; unreferenced
+ViridianForestName:  db "VIRIDIAAN¯WOUD@" ; "VIRIDIAN¯FOREST@" ; unreferenced
 DiglettsCaveName:    db "DIGLETT¯GROT@" ; "DIGLETT'S¯CAVE@"
 TohjoFallsName:      db "TOHJO¯WATERVAL@" ; "TOHJO FALLS@"
 UndergroundName:     db "ONDERGRONDS@" ; "UNDERGROUND@"

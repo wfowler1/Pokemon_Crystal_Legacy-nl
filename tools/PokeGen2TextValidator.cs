@@ -1760,8 +1760,13 @@ namespace PokeGen2TextValidator
 
             if (indexOfFirstBSP > maxLength || (formattedText.Length - indexOfFirstBSP - 1) > maxLength)
             {
-                StringBuilder sb = new StringBuilder();
-                return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" has a line too long for a landmark name. Lines can be at most ").Append(maxLength).Append(" characters long. Consider using a <BSP>.\n").ToString();
+                indexOfFirstBSP = formattedText.Text.IndexOf('¯');
+
+                if (indexOfFirstBSP > maxLength || (formattedText.Length - indexOfFirstBSP - 1) > maxLength)
+                {
+                    StringBuilder sb = new StringBuilder();
+                    return sb.Append("\tError: text \"").Append(formattedText.Text).Append("\" has a line too long for a landmark name. Lines can be at most ").Append(maxLength).Append(" characters long. Consider using a <BSP>.\n").ToString();
+                }
             }
             return null;
         }
