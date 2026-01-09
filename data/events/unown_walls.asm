@@ -33,7 +33,7 @@ UnownWalls:
 MenuHeaders_UnownWalls:
 ; UNOWNWORDS_ESCAPE
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 3, 4, 16, 9
+	menu_coords 2, 4, 17, 9
 ; UNOWNWORDS_LIGHT
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 4, 4, 15, 9
