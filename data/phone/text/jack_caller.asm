@@ -146,23 +146,23 @@ JackSandstormTriviaText:
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "If the sunlight is"
-	line "harsh, WATER-type"
+	para "Als de zon fel," ; "If the sunlight is"
+	line "schijnt, worden" ; "harsh, WATER-type"
 
-	para "moves become much"
-	line "weaker."
+	para "WATER-aanvallen" ; "moves become much"
+	line "veel zwakker." ; "weaker."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Wist je dat?" ; "Did you know?"
 
-	para "When it's raining,"
-	line "FIRE-type moves"
+	para "Als het regent," ; "When it's raining,"
+	line "worden VUUR-" ; "FIRE-type moves"
 
-	para "become much weaker"
-	line "than usual."
+	para "aanvallen veel" ; "become much weaker"
+	line "zwakker." ; "than usual."
 	done
 
 JackHeardSomeGreatTipsText:
