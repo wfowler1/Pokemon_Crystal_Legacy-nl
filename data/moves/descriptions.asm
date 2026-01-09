@@ -324,8 +324,8 @@ SwordsDanceDescription:
 	next "VAL verhoogt.@" ; "creases ATTACK.@"
 
 CutDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Heeft hoge kri-" ; "Has a high criti-"
+	next "tieke klap-ratio.@" ; "cal hit ratio.@"
 
 GustDescription:
 	db   "Start sterke wind-" ; "Whips up a strong"
@@ -624,8 +624,8 @@ EarthquakeDescription:
 	next "loos bij vliegers.@" ; "vs. flying foes.@"
 
 FissureDescription:
-	db   "A GROUND-type,"
-	next "one-hit KO attack.@"
+	db   "GROND-aanval die" ; "A GROUND-type,"
+	next "vijand KO slaat.@" ; "one-hit KO attack.@"
 
 DigDescription:
 	db   "Beurt 1: Graven" ; "1st turn: Burrow"
@@ -836,8 +836,8 @@ LovelyKissDescription:
 	next "slaap krijgen.@" ; "to fall asleep.@"
 
 SkyAttackDescription:
-	db   "A powerful flying"
-	next "attack.@"
+	db   "Een krachtige" ; "A powerful flying"
+	next "vliegende aanval.@" ; "attack.@"
 
 TransformDescription:
 	db   "Gebruiker veran-" ; "The user assumes"
@@ -960,8 +960,8 @@ SnoreDescription:
 	next "ken als je slaapt.@" ; "only while asleep.@"
 
 CurseDescription:
-	db   "Works differently"
-	next "for GHOST-types.@"
+	db   "Werkt anders voor" ; "Works differently"
+	next "GEEST-types.@" ; "for GHOST-types.@"
 
 FlailDescription:
 	db   "Sterker als LP van" ; "Stronger if the"
@@ -1224,12 +1224,12 @@ TwisterDescription:
 	next "aan te vallen.@" ; "to attack.@"
 
 RainDanceDescription:
-	db   "Boosts WATER-type"
-	next "moves for 5 turns.@"
+	db   "Versterkt WATER-" ; "Boosts WATER-type"
+	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 SunnyDayDescription:
-	db   "Boosts FIRE-type"
-	next "moves for 5 turns.@"
+	db   "Versterkt VUUR-" ; "Boosts FIRE-type"
+	next "klappen 5 beurten.@" ; "moves for 5 turns.@"
 
 CrunchDescription:
 	db   "Kan SPCL.AFWEER" ; "An attack that may"
