@@ -603,8 +603,8 @@ BigMushroomDesc:
 	next "stoel. Veel waard.@" ; "Sell high.@"
 
 SilverPowderDesc:
-	db   "Powers up BUG-type"
-	next "moves. (HOLD)@"
+	db   "Versterkt INSECT-" ; "Powers up BUG-type"
+	next "aanvallen. (VAST)@" ; "moves. (HOLD)@"
 
 BluApricornDesc:
 	db   "Een blauwe" ; "A blue APRICORN.@"
@@ -677,8 +677,8 @@ SmokeBallDesc:
 	next "#MON. (VAST)@" ; "#MON. (HOLD)@"
 
 NeverMeltIceDesc:
-	db   "Powers up ICE-type"
-	next "moves. (HOLD)@"
+	db   "Versterkt IJS-" ; "Powers up ICE-type"
+	next "aanvallen. (VAST)@" ; "moves. (HOLD)@"
 
 MagnetDesc:
 	db   "Versterkt schok-" ; "Boosts electric-"
@@ -717,8 +717,8 @@ BlueCardDesc:
 	next "te sparen.@" ; "points.@"
 
 MiracleSeedDesc:
-	db   "Powers up GRASS-"
-	next "type moves. (HOLD)@"
+	db   "Versterkt GRAS-" ; "Powers up GRASS-"
+	next "aanvallen. (VAST)@" ; "type moves. (HOLD)@"
 
 ThickClubDesc:
 	db   "Een soort bot." ; "A bone of some"
@@ -842,8 +842,8 @@ MysteryBerryDesc:
 	next "gevecht AP. (VAST)@" ; "for PP. (HOLD)@"
 
 DragonScaleDesc:
-	db   "A rare DRAGON-type"
-	next "item.@"
+	db   "Zeldzaam DRAAK-" ; "A rare DRAGON-type"
+	next "voorwerp.@" ; "item.@"
 
 BerserkGeneDesc:
 	db   "Verhoogt aanval" ; "Boosts ATTACK but"
