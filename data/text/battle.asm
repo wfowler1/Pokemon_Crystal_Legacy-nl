@@ -313,8 +313,8 @@ BattleText_UsersStringBuffer1Activated:
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Items can't be"
-	line "used right now."
+	text "Voorwerpen kun" ; "Items can't be"
+	line "je nu niks mee." ; "used right now."
 	prompt
 
 BattleText_MonIsAlreadyOut:
@@ -705,13 +705,13 @@ AlreadyAsleepText:
 	prompt
 
 AlreadyBurnedText:
-	text "<TARGET>'s"
-	line "already burned!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is al verbrand!" ; "already burned!"
 	prompt
 
 AlreadyFrozenText:
-	text "<TARGET>'s"
-	line "already frozen!"
+	text "<TARGET>" ; "<TARGET>'s"
+	line "is al bevroren!" ; already frozen!"
 	prompt
 
 WasPoisonedText:
