@@ -65,7 +65,7 @@ EventWildMons::
 FridayLapras_Str:
 	db 	 "Present elke VRIJ-" ; "Appears every"
 	next "DAG, alleen in een" ; "FRIDAY, lonely in"
-	next "verborgen zeegrot." ; "hidden sea cave.@"
+	next "verborgen zeegrot.@" ; "hidden sea cave.@"
 Trap_Electrode_Str:
 	db 	 "VOORZICHTIG:" ; "CAUTION:"
 	next "Kan vermomd zijn" ; "Can be disguised"
@@ -136,7 +136,7 @@ GiftMons::
 ShuckieEvent_Str:
 	db 	 "Geluk over 150 kan" ; "Happiness over 150"
 	next "een eeuwige omme-" ; "may inspire change"
-	next "zwaai veroorzaken." ; "of heart, forever.@"
+	next "zwaai veroorzaken.@" ; "of heart, forever.@"
 KenyaEvent_Str:
 	db 	 "Dapper foogeltje" ; "Scrappy birb"
 	next "bezorgt post voor" ; "carrying mail"
@@ -148,7 +148,7 @@ ExtremespeedDratini_Str:
 BillsEevee_Str:
 	db 	 "LVL 20 - Schattige" ; "LVL 20 - Cute"
 	next "baby met oneindig" ; "baby with un-"
-	next "potentieel." ; limited potential.@"
+	next "potentieel.@" ; limited potential.@"
 TyrogueEvent_Str:
 	db 	 "Geschenk van KIYO" ; "Gift from KIYO,"
 	next "de Karate Expert." ; "Karate Expert."
@@ -156,12 +156,12 @@ TyrogueEvent_Str:
 OldAmberEvent_Str:
 	db 	 "Los vreemde ruine" ; "Solve mysterious"
 	next "puzzel op, herwek" ; ruins puzzle, then"
-	next "dan het fossiel." ; "revive fossil.@"
+	next "dan het fossiel.@" ; "revive fossil.@"
 DomeFossil_Str:
 	db 	 "Los vreemde ruine" ; "Solve mysterious"
 	next "puzzel op, herwek" ; ruins puzzle, then"
-	next "dan het fossiel." ; "revive fossil.@"
+	next "dan het fossiel.@" ; "revive fossil.@"
 HelixFossil_Str:
 	db 	 "Los vreemde ruine" ; "Solve mysterious"
 	next "puzzel op, herwek" ; ruins puzzle, then"
-	next "dan het fossiel." ; "revive fossil.@"
+	next "dan het fossiel.@" ; "revive fossil.@"
