@@ -1229,7 +1229,7 @@ GiveEgg::
 	ret
 
 String_Egg:
-	db "EGG@"
+	db "EI@" ; "EGG@"
 
 RemoveMonFromPartyOrBox:
 	ld hl, wPartyCount
