@@ -129,7 +129,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "New Hall of Famer!@"
+	db "Nieuw Erelid!@" ; "New Hall of Famer!@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
@@ -396,10 +396,10 @@ _HallOfFamePC:
 	db "@"
 
 .HOFMaster:
-	db "    HOF Master!@"
+	db "    Ere-meester!@" ; "    HOF Master!@"
 
 .TimeFamer:
-	db "    -Time Famer@"
+	db "    -maal ERELID@" ; "    -Time Famer@"
 
 LoadHOFTeam:
 	ld a, [wJumptableIndex]
@@ -640,16 +640,16 @@ HOF_AnimatePlayerPic:
 	ret
 
 .PlayTime:
-	db "PLAY TIME@"
+	db "SPEELTIJD@" ; "PLAY TIME@"
 
 .crystal_legacy_1:
-	db "Crystal@"
+	db "Kristal@" ; "Crystal@"
 
 .crystal_legacy_2:
 	db "Legacy@"
 
 .crystal_legacy_3:
-	db "Hard@"
+	db "Moelijk@" ; "Hard@"
 
 .crystal_legacy_4:
 	db "HC@"
