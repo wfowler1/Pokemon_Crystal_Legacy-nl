@@ -619,7 +619,7 @@ LoadPinkPage:
 	hlcoord 10, 12
 	call PlaceString
 	ld de, .ToStr
-	hlcoord 14, 14
+	hlcoord 12, 14
 	call PlaceString
 	hlcoord 11, 16
 	ld a, [wTempMonLevel]
@@ -683,13 +683,13 @@ LoadPinkPage:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "ERV PUNTEN@" ; "EXP POINTS@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "LVL OMHOOG@" ; "LEVEL UP@"
 
 .ToStr:
-	db "TO@"
+	db "NAAR@" ; "TO@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -731,13 +731,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "VOORW.@" ; "ITEM@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "AANVAL@" ; "MOVE@"
 
 LoadBluePage:
 	call StatsScreen_PrintHappiness
@@ -948,10 +948,10 @@ StatsScreen_PrintDVs:
 	ret
 
 .DVstring1:
-	db "DVS: ATK    DEF   @"
+	db "DVS: AAN    AFW   @" ; "DVS: ATK    DEF   @"
 .DVstring2:	
 	; db "ATK    DEF@"
-	db "HP   SPC    SPE   @"
+	db "LP   SPC    SNL   @" ; "HP   SPC    SPE   @"
 ; .DVstring3:
 ; 	db "SPC    SPE    HP@"
 
@@ -979,9 +979,9 @@ StatsScreen_placeCaughtLocation:
 	call PlaceString
 	ret
 .MetAtMapString:
-	db "MET: @"
+	db "ONTMOET: @" ; "MET: @"
 .MetUnknownMapString:
-	db "UNKNOWN LOCATION@"
+	db "ONBEKEND LOCATIE@" ; "UNKNOWN LOCATION@"
 
 StatsScreen_placeCaughtTime:
 	ld a, [wTempMonCaughtTime]
@@ -996,7 +996,7 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 10, 9
 	call PlaceString
 	ret
 .unknown_time
@@ -1007,15 +1007,15 @@ StatsScreen_placeCaughtTime:
 	ld e, l
 	call CopyName1
 	ld de, wStringBuffer2
-	hlcoord 6, 9
+	hlcoord 10, 9
 	call PlaceString
 	ret
 .times
-	db "MORN@"
-	db "DAY@"
-	db "NITE@"
+	db "OCHT@" ; "MORN@"
+	db "DAG@" ; "DAY@"
+	db "NCHT@" ; "NITE@"
 .unknown_time_text
-	db "TRADE@"
+	db "RUIL@" ; "TRADE@"
 
 StatsScreen_placeCaughtLevel:
 	; caught level
@@ -1029,17 +1029,17 @@ StatsScreen_placeCaughtLevel:
 
 .print
 	ld [wTextDecimalByte], a
-	hlcoord 12, 9
+	hlcoord 16, 9
 	ld de, wTextDecimalByte
 	lb bc, PRINTNUM_LEFTALIGN | 1, 3
 	call PrintNum
-	hlcoord 11, 9
+	hlcoord 15, 9
 	ld [hl], "<LV>"
 	ret
 
 .unknown_level
 	ld de, .MetUnknownLevelString
-	hlcoord 11, 9
+	hlcoord 15, 9
 	call PlaceString
 	ret   
 .MetUnknownLevelString:
@@ -1231,35 +1231,35 @@ StatsScreen_Print_HiddenPow_Info:
 	call PlaceString_UnownFont	
 	ret
 .hidden_pow_text:
-	db "HIDDEN POWER@"
+	db "VERBOGKRACHT@" ; "HIDDEN POWER@"
 .hp_70_text:
-	db "SEVENTY@"
+	db "ZEVENTIG@" ; "SEVENTY@"
 .hp_60_text:
-	db "SIXTY@"
+	db "ZESTIG@" ; "SIXTY@"
 .hp_50_text:
-	db "FIFTY@"
+	db "VIJFTIG@" ; "FIFTY@"
 .hp_40_text:
-	db "FORTY@"
+	db "VEERTIG@" ; "FORTY@"
 .hp_30_text:
-	db "THIRTY@"
+	db "DERTIG@" ; "THIRTY@"
 .hp_1_text:
-	db "-ONE@"
+	db "ÉÉNEN@" ; "-ONE@"
 .hp_2_text:
-	db "-TWO@"
+	db "TWEEËN@" ; "-TWO@"
 .hp_3_text:
-	db "-THREE@"
+	db "DRIEËN@" ; "-THREE@"
 .hp_4_text:
-	db "-FOUR@"
+	db "VIEREN@" ; "-FOUR@"
 .hp_5_text:
-	db "-FIVE@"
+	db "VIJFEN@" ; "-FIVE@"
 .hp_6_text:
-	db "-SIX@"
+	db "ZESEN@" ; "-SIX@"
 .hp_7_text:
-	db "-SEVEN@"
+	db "ZEVENEN@" ; "-SEVEN@"
 .hp_8_text:
-	db "-EIGHT@"
+	db "ACHTEN@" ; "-EIGHT@"
 .hp_9_text:
-	db "-NINE@"
+	db "NEGENEN@" ; "-NINE@"
 
 PlaceString_UnownFont_Type:
 	push hl
@@ -1507,7 +1507,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶DRUK OP START.@" ; "▶PUSH START.@"
 
 .placed_push_start
 endc
@@ -1542,31 +1542,31 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "EI@" ; "EGG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Het maakt geluid" ; "It's making sounds"
+	next "van binnen. Het" ; "inside. It's going"
+	next "komt bijna uit!@" ; "to hatch soon!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Het beweegt soms" ; "It moves around"
+	next "van binnen. Zal" ; "inside sometimes."
+	next "vast bijna uit-" ; "It must be close"
+	next "komen.@" ; "to hatching.@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Wat zou er in" ; "Wonder what's"
+	next "zitten? Heeft nog" ; "inside? It needs"
+	next "meer tijd nodig.@" ; "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Dit EI heeft meer" ; "This EGG needs a"
+	next "tijd nodig om uit" ; "lot more time to"
+	next "te komen.@" ; "hatch.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

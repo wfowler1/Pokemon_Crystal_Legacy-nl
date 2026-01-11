@@ -387,7 +387,7 @@ PlaceStatusString:
 	ret
 
 FntString:
-	db "FNT@"
+	db "FLG@" ; "FNT@"
 
 CopyStatusString:
 	ld a, [de]
