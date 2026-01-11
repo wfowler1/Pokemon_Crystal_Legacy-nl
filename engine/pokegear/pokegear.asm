@@ -633,14 +633,14 @@ Pokegear_UpdateClock:
 	jr .got_tod
 
 .MornStr:
-	db "MORN@"
+	db "OCHT@" ; "MORN@"
 .DayStr:
-	db "DAY@"
+	db "DAG@" ; "DAY@"
 .NiteStr:
-	db "NITE@"
+	db "NCHT@" ; "NITE@"
 	; db "NIGHT@"
 .FishGrpStr:
-	db "FISH:@"	
+	db "VIS:@" ; "FISH:@"	
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1375,9 +1375,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "BEL" ; "CALL"
+	next "WIS" ; "DELETE"
+	next "SLUIT" ; "CANCEL"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1388,8 +1388,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "BEL" ; "CALL"
+	next "SLUIT" ; "CANCEL"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1737,7 +1737,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "BUENA's CODEWOORD@" ; "BUENA'S PASSWORD@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1870,15 +1870,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
-PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+OaksPKMNTalkName:     db "OAK's <PK><MN>-Praat@" ; "OAK's <PK><MN> Talk@"
+PokedexShowName:      db "#DEX-Show@" ; "#DEX Show@"
+PokemonMusicName:     db "#MON Muziek@" ; "#MON Music@"
+LuckyChannelName:     db "Gelukskanaal@" ; "Lucky Channel@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Plek en Personen@" ; "Places & People@"
+LetsAllSingName:      db "Allemaal Zingen!@" ; "Let's All Sing!@"
+PokeFluteStationName: db "#-FLUIT@" ; "# FLUTE@"
 
 _TownMap:
 	ld hl, wOptions
@@ -2304,7 +2304,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "Waar?@" ; "Where?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2616,7 +2616,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db "'S GEBIED@" ; "'S NEST@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a
