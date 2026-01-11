@@ -301,19 +301,19 @@ DayToTextScript:
 	getstring STRING_BUFFER_3, .SaturdayText
 	end
 .SundayText:
-	db "SUNDAY@"
+	db "ZONDAG@" ; "SUNDAY@"
 .MondayText:
-	db "MONDAY@"
+	db "MAANDAG@" ; "MONDAY@"
 .TuesdayText:
-	db "TUESDAY@"
+	db "DINSDAG@" ; "TUESDAY@"
 .WednesdayText:
-	db "WEDNESDAY@"
+	db "WOENSDAG@" ; "WEDNESDAY@"
 .ThursdayText:
-	db "THURSDAY@"
+	db "DONDERDAG@" ; "THURSDAY@"
 .FridayText:
-	db "FRIDAY@"
+	db "VRIJDAG@" ; "FRIDAY@"
 .SaturdayText:
-	db "SATURDAY@"
+	db "ZATURDAG@" ; "SATURDAY@"
 
 GoldenrodRocketsScript:
 	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
@@ -1894,7 +1894,7 @@ CoinVendor_IntroScript:
 	db 3 ; items
 	db " 50 :  ¥1000@"
 	db "500 : ¥10000@"
-	db "CANCEL@"
+	db "ANNULEER@" ; "CANCEL@"
 
 HappinessCheckScript:
 	faceplayer
