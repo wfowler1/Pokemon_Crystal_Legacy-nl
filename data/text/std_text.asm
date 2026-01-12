@@ -72,8 +72,8 @@ NurseReturnPokemonText:
 	done
 
 NurseReturnPokemonShortText:
-	text "Your #MON are"
-	line "fully healed."
+	text "Je #MON zijn" ; "Your #MON are"
+	line "helemaal genezen." ; "fully healed."
 	done
 
 NurseGoodbyeText:
