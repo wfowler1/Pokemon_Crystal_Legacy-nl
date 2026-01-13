@@ -124,28 +124,28 @@
 	charmap "y",         $b8
 	charmap "z",         $b9
 
-	charmap ">",		 $ba
-	charmap "<",		 $bb
-	charmap "=",		 $bc
-	charmap "+",		 $bd
-	charmap "<%>",		 $be
-	charmap "<BOLD_P>",	 $bf
-	charmap "<BOLD_C>",	 $c0
+	charmap "Ö",         $ba
+	charmap "ü",         $bb
+	charmap "ë",         $bc
+	charmap "ï",         $bd
+	charmap "ê",         $be
+	charmap "Ï",         $bf
+	charmap "Ë",         $c0
+	charmap "È",         $c1
+	charmap "É",         $c2
+
+	charmap ">",         $c3
+	charmap "<",         $c4
+	charmap "=",         $c5
+	charmap "+",         $c6
+	charmap "<%>",       $c7
+	charmap "<BOLD_P>",  $c8
+	charmap "<BOLD_C>",  $c9
 	
-	charmap "Ö",         $c1
-	charmap "ü",         $c2
-	charmap "ë",         $c3
-	charmap "ï",         $c4
-	charmap "ê",         $c5
-	charmap "Ï",         $c6
-	charmap "Ë",         $c7
-	charmap "È",         $c8
-	charmap "É",         $c9
+;	charmap "′",         $ce
+;	charmap "″",         $cf
 
-	charmap "′",         $ce
-	charmap "″",         $cf
-
-	charmap "'n",        $cd
+	charmap "'n",        $cf
 	charmap "'d",        $d0
 	charmap "'l",        $d1
 	charmap "'m",        $d2

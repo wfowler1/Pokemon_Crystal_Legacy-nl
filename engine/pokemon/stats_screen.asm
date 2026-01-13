@@ -1058,7 +1058,7 @@ StatsScreen_LoadUnownFont:
 	; ld bc, (NUM_UNOWN + 1) tiles
 	;call Pokedex_InvertTiles
 	ld de, sScratch + $188
-	ld hl, vTiles1 tile $3a ;FIRST_UNOWN_CHAR
+	ld hl, vTiles1 tile $43 ;FIRST_UNOWN_CHAR
 	lb bc, BANK(Pokedex_LoadUnownFont), NUM_UNOWN
 	call Request2bpp
 	call CloseSRAM
@@ -1150,39 +1150,36 @@ StatsScreen_Print_HiddenPow_Info:
 	call PlaceString_UnownFont
 
 	call StatsScreen_HiddenPow_BP
-	ld de, .hp_70_text
+	hlcoord 2, 17
 	cp 70
 	jr c, .not70
 	ld de, .hp_70_text
 	sub 70
-	jr .print1
+	jr .onesColumn
 .not70
 	cp 60
 	jr c, .not60
 	ld de, .hp_60_text
 	sub 60
-	jr .print1
+	jr .onesColumn
 .not60
 	cp 50
 	jr c, .not50
 	ld de, .hp_50_text
 	sub 50
-	jr .print1
+	jr .onesColumn
 .not50
 	cp 40
 	jr c, .not40
 	ld de, .hp_40_text
 	sub 40
-	jr .print1
+	jr .onesColumn
 .not40
 	ld de, .hp_30_text
 	sub 30
-.print1
-	hlcoord 2, 17
-	push af
-	call PlaceString_UnownFont
-	pop af
 
+.onesColumn
+	push de
 	cp 9
 	jr c, .not9
 	ld de, .hp_9_text
@@ -1224,11 +1221,16 @@ StatsScreen_Print_HiddenPow_Info:
 	jr .print2
 .not2
 	cp 1
-	ret c
+	jr c, .print1
 	ld de, .hp_1_text
 .print2
-	; hlcoord 13, 16
+	push af
 	call PlaceString_UnownFont	
+	pop af
+.print1
+	pop de
+	; hlcoord 13, 16
+	call PlaceString_UnownFont
 	ret
 .hidden_pow_text:
 	db "VERBOGKRACHT@" ; "HIDDEN POWER@"
@@ -1243,11 +1245,11 @@ StatsScreen_Print_HiddenPow_Info:
 .hp_30_text:
 	db "DERTIG@" ; "THIRTY@"
 .hp_1_text:
-	db "ÉÉNEN@" ; "-ONE@"
+	db "EENEN@" ; "-ONE@"
 .hp_2_text:
-	db "TWEEËN@" ; "-TWO@"
+	db "TWEEEN@" ; "-TWO@"
 .hp_3_text:
-	db "DRIEËN@" ; "-THREE@"
+	db "DRIEEN@" ; "-THREE@"
 .hp_4_text:
 	db "VIEREN@" ; "-FOUR@"
 .hp_5_text:
@@ -1275,7 +1277,7 @@ PlaceString_UnownFont_Type:
 	ret z
 	inc de
 	sub "A"
-	add $BA ; FIRST_UNOWN_CHAR
+	add $C3 ; FIRST_UNOWN_CHAR
 	ld [hli], a
 	push hl
 	push de
@@ -1296,7 +1298,7 @@ PlaceString_UnownFont:
 	call z, .skip_space
 	inc de
 	sub "A"
-	add $BA ; FIRST_UNOWN_CHAR
+	add $C3 ; FIRST_UNOWN_CHAR
 	
 	ld [hli], a
 	push hl
