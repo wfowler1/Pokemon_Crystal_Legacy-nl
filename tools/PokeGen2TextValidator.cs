@@ -332,7 +332,8 @@ namespace PokeGen2TextValidator
             {
                 return FileType.Type;
             }
-            else if (path.Contains("data/maps/landmarks.asm"))
+            else if (path.Contains("data/maps/landmarks.asm") ||
+                  path.Contains("data/types/map_names.asm"))
             {
                 return FileType.Landmark;
             }
