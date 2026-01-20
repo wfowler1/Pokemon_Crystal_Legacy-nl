@@ -1132,7 +1132,7 @@ Lavender_Map_Name9: ; map_const LAVENDER_NAME_RATER ;  9
 Lavender_Map_Name10: ; map_const LAVENDER_MART ; 10
 	db "LAVENDER <POKE>MARKT@" ; "LAVENDER <POKE>MART@"
 Lavender_Map_Name11: ; map_const SOUL_HOUSE ; 11
-	db ""SOUL HOUSE@"@" ; "SOUL HOUSE@"
+	db "SOUL HOUSE@" ; "SOUL HOUSE@"
 Lavender_Map_Name12: ; map_const LAV_RADIO_TOWER_1F,; 12
 	db "KANTO RADIOROREN@" ; "KANTO RADIO TOWER@"
 Lavender_Map_Name13: ; map_const ROUTE_8_SAFFRON_GATE ; 13
