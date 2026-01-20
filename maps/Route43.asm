@@ -489,9 +489,9 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFABLE"
-	line "just the most"
-	cont "adorable thing?"
+	text "Is mijn CLEFABLE" ; "Isn't my CLEFABLE"
+	line "niet onwijs" ; "just the most"
+	cont "schattig?" ; "adorable thing?"
 	done
 
 Route43Sign1Text:

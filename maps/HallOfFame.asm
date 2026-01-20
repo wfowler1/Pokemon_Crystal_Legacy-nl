@@ -73,7 +73,7 @@ HallOfFame_SlowlyApproachMachine:
 HallOfFame_LanceText:
 	text "LANCE: Het is lang" ; "LANCE: It's been a"
 	line "geleden sinds ik" ; "long time since I"
-	cont "hier was." ; "last came here."
+	cont "laatst hier kwam." ; "last came here."
 
 	para "Hier eren wij de" ; "This is where we"
 	line "KAMPIOENEN van de" ; "honor the LEAGUE"
@@ -92,11 +92,10 @@ HallOfFame_LanceText:
 	line "nieuwe KAMPIOEN--" ; "CHAMPION--a"
 
 	para "een trainer die" ; "trainer who feels"
-	line "compassie voor" ; "compassion for,"
+	line "compassie voor en" ; "compassion for,"
 
-	para "en vertrouwen in" ; "and trust toward,"
-	line "alle #MON" ; "all #MON."
-	cont "heeft."
+	para "vertrouwen in alle" ; "and trust toward,"
+	line "#MON heeft." ; "all #MON."
 
 	para "Een trainer die" ; "A trainer who"
 	line "slaagde dankzij" ; "succeeded through"
@@ -118,70 +117,70 @@ HallOfFame_LanceText:
 	done
 
 HallOfFame_Rematch_LanceText:
-	text "LANCE: I remember,"
-    line "it wasn't long ago"
-    cont "I stood here,"
+	text "LANCE: ik herinner" ; "LANCE: I remember,"
+    line "niet zo lang gele-" ; "it wasn't long ago"
+    cont "den hier te staan," ; "I stood here,"
 
-    para "welcoming you as"
-    line "the CHAMPION of"
-    cont "JOHTO."
+    para "om je te verwelko-" ; "welcoming you as"
+    line "men als de JOHTO" ; the CHAMPION of"
+    cont "KAMPIOEN." ; "JOHTO."
 
-    para "And now, here we"
-    line "are again,"
+    para "En nu staan we" ; "And now, here we"
+    line "hier weer, in deze" ; "are again,"
 	
-	para "in this sacred"
-    line "place where we"
-    cont "honor the very "
-    cont "best trainers"
-	cont "and their #MON."
+	para "heilige plek waar" ; "in this sacred"
+    line "we de uiterst" ; "place where we"
+    cont "beste trainers en" ; "honor the very "
+    cont "hun #MON eren." ; "best trainers"
+;	cont "and their #MON." ; 
 
-    para "Today, you've"
-    line "proven yourself"
-	cont "not just in JOHTO,"
+    para "Vandaag heb je je" ; "Today, you've"
+    line "niet enkel bewezen" ; "proven yourself"
+	cont "in JOHTO maar ook" ; "not just in JOHTO,"
 	
-	para "but in KANTO as"
-    line "well,"
+	para "in KANTO door ook" ; "but in KANTO as"
+    line "mijn sterkste team" ; "well,"
 	
-	para "besting even my"
-    line "strongest team."
+	para "te verslaan." ; "besting even my"
+;    line "strongest team." ; 
 
-    para "You've shown"
-    line "remarkable"
-	cont "compassion and"
-    cont "trust in your"
-    cont "#MON,"
+    para "Je toonde opmerke-" ; "You've shown"
+    line "lijk medeleven en" ; "remarkable"
+	cont "vertrouwen in je" ; "compassion and"
+    cont "#MON," ; "trust in your"
+;    cont "#MON,"
 	
-	para "a bond that"
-    line "has carried you to"
-    cont "victory time and"
-    cont "again."
+	para "een band die je" ; "a bond that"
+    line "telkens liet" ; "has carried you to"
+    cont "triomferen." ; "victory time and"
+;    cont "again."
 
-    para "Your journey,"
-    line "marked by"
-	cont "perseverance and"
-    cont "unwavering"
-	cont "determination,"
+    para "Je reis, getekend" ; "Your journey,"
+    line "door volharding en" ; "marked by"
+	cont "onwrikbare vast-" ; "perseverance and"
+    cont "beradenheid," ; unwavering"
+;	cont "determination,"
 
-    para "speaks to your"
-    line "true spirit as a"
-	cont "trainer."
+    para "weerspiegelt je ware" ; "speaks to your"
+    line "aard als trainer." ; "true spirit as a"
+;	cont "trainer."
 
-    para "You have all the"
-    line "makings of a true"
-    cont "great,"
+    para "Je hebt alles om" ; "You have all the"
+    line "een grootse" ; "makings of a true"
+    cont "trainer te worden," ; "great,"
 	
-	para "perhaps even"
-    line "the greatest."
+	para "misschien zelfs de" ; "perhaps even"
+    line "grootste ooit." ; "the greatest."
 
-    para "<PLAY_G>,"
-	line "it is my honor"
-    cont "to register you,"
+    para "<PLAY_G>," ; "<PLAY_G>,"
+	line "het is een eer om" ; "it is my honor"
+    cont "jou en je trouwe" ; "to register you,"
 
-    para "and your trusted"
-    line "partners,"
+    para "partners nogmaals" ; "and your trusted"
+    line "als kampioenen te" ; "partners,"
 
-	para "as champions"
-    line "once again."
+	para "registreren." ; "as champions"
+;    line "once again."
     done
 
 HallOfFame_MapEvents:

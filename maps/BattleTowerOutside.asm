@@ -40,17 +40,17 @@ BattleTowerOutsideYoungsterText_NotYetOpen: ; unreferenced
 	done
 
 BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wauw, de GEVECHTS-" ; "Wow, the BATTLE"
+	line "TOREN is enorm!" ; "TOWER is huge!"
 
-	para "Since there are a"
-	line "whole bunch of"
+	para "Sinds er een hoop" ; "Since there are a"
+	line "trainers binnen" ; "whole bunch of"
 
-	para "trainers inside,"
-	line "there must also be"
+	para "zijn, vind je er" ; "trainers inside,"
+	line "vast een brede" ; "there must also be"
 
-	para "a wide variety of"
-	line "#MON."
+	para "waaier aan" ; "a wide variety of"
+	line "#MON." ; "#MON"
 	done
 
 BattleTowerOutsideYoungsterText:
@@ -63,14 +63,14 @@ BattleTowerOutsideYoungsterText:
 	done
 
 BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
-	text "What on earth do"
-	line "they do here?"
+	text "Wat doen zij in" ; "What on earth do"
+	line "vredesnaam hier?" ; "they do here?"
 
-	para "If the name says"
-	line "anything, I guess"
+	para "Gezien de naam," ; "If the name says"
+	line "gok ik dat ze hier" ; "anything, I guess"
 
-	para "it must be for"
-	line "#MON battles."
+	para "zijn voor de #MON" ; "it must be for"
+	line "gevechten." ; "#MON battles."
 	done
 
 BattleTowerOutsideBeautyText:
@@ -85,13 +85,13 @@ BattleTowerOutsideBeautyText:
 	done
 
 BattleTowerOutsideSailorText_Mobile: ; unreferenced
-	text "Ehehehe…"
-	line "I sneaked out of"
-	cont "work to come here."
+	text "Ehehehe…" ; "Ehehehe…"
+	line "Ik sloop weg van" ; "I sneaked out of"
+	cont "werk naar hier." ; "work to come here."
 
-	para "I'm never giving"
-	line "up until I become"
-	cont "a LEADER!"
+	para "Ik geef niet op" ; "I'm never giving"
+	line "tot ik een LEIDER" ; "up until I become"
+	cont "wordt!" ; "a LEADER!"
 	done
 
 BattleTowerOutsideSailorText:

@@ -55,10 +55,11 @@ LakeOfRageGioScript:
 	end
 
 GioBeforeText:
-	text "Nothin' but"
-	line "GYARADOS…"
+	text "Niets dan" ; "Nothin' but"
+	line "GYARADOS…" ; "GYARADOS…"
 
-	para "I know it's them."
+	para "Dit is duidelijk" ; "I know it's them."
+	line "hun werk." ; 
 	done
 
 LakeOfRageLanceScript:
@@ -283,68 +284,69 @@ LakeOfRageLanceForcedToEvolveText:
 	done
 
 LakeOfRageLanceIntroText1:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Kwam je hier van-" ; "Did you come here"
+	line "wege de geruchten?" ; "because of the"
+;	cont "rumors?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Jij bent <PLAYER>?" ; "You're <PLAYER>?"
+	line "Ik ben LANCE, een" ; "I'm LANCE, a"
+	cont "trainer zoals jij." ; "trainer like you."
 	done
 
 LakeOfRageLanceIntroText2:
-	text "This man here"
-	line "informed me of"
-	cont "some rumors."
+	text "Deze man lichtte" ; "This man here"
+	line "me in over enkele" ; "informed me of"
+	cont "geruchten." ; "some rumors."
 
-	para "So we came to"
-	line "investigate…"
+	para "Dus kwamen we ze" ; "So we came to"
+	line "onderzoeken…" ; "investigate…"
 	done
 
 LakeOfRageLanceIntroText3:
-	text "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
+	text "Ik zag hoe je" ; "I saw the way you"
+	line "vocht, <PLAY_G>." ; "battled earlier,"
+;	cont "<PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Ik kan zien dat je" ; "I can tell that"
+	line "een zeer vaardige" ; "you're a trainer"
 
-	para "with considerable"
-	line "skill."
+	para "trainer bent." ; "with considerable"
+;	line "skill."
 
-	para "If you don't mind,"
-	line "could you help us"
-	cont "investigate?"
+	para "Als het niet" ; "If you don't mind,"
+	line "stoort, zou je dan" ; "could you help us"
+	cont "kunnen helpen met" ; "investigate?"
+	cont "ons onderzoek?" ; 
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "LANCE: Excellent!" ; "LANCE: Excellent!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "Het lijkt dat de" ; "It seems that the"
+	line "MAGIKARP in dit" ; "LAKE's MAGIKARP"
 
-	para "are being forced"
-	line "to evolve."
+	para "MEER tot evolutie" ; are being forced"
+	line "gedwongen worden." ; "to evolve."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "Een mysterieus" ; "A mysterious radio"
+	line "radiosignaal" ; "broadcast coming"
 
-	para "from MAHOGANY is"
-	line "the cause."
+	para "vanuit MAHOGANY is" ; "from MAHOGANY is"
+	line "de oorzaak." ; "the cause."
 
-	para "We'll be waiting"
-	line "for you, <PLAY_G>."
+	para "We wachten daar op" ; "We'll be waiting"
+	line "je, <PLAY_G>." ; "for you, <PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help us."
+	text "Oh…, wel, geef een" ; "Oh… Well, if you"
+	line "seintje wanneer je" ; "change your mind,"
+	cont "ons wil helpen." ; "please help us."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help us?"
+	text "LANCE: Hm? Ga je" ; "LANCE: Hm? Are you"
+	line "ons helpen?" ; "going to help us?"
 	done
 
 LakeOfRageGyaradosCryText:

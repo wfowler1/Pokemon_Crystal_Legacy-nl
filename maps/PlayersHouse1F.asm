@@ -220,24 +220,24 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF.ELM"
+	text "Oh, <PLAYER>…! De" ; "Oh, <PLAYER>…! Our"
+	line "buurman, PROF." ; "neighbor, PROF.ELM"
 
-	para "was looking for"
-	line "you. Also, your"
+	para "ELM, zoekt je." ; "was looking for"
+	line "Je #GEAR is" ; "you. Also, your"
 
-	para "#GEAR is back"
-	line "from the shop."
+	para "trouwens terug van" ; "#GEAR is back"
+	line "de reparateur."; "from the shop."
 
-	para "Here you go!"
+	para "Alsjeblieft!" ; "Here you go!"
 	done
 
 MomGivesPokegearText:
-	text "Oh, the day of the"
-	line "week isn't set."
+	para "Oh, de dag van de" ; "Oh, the day of the"
+	line "week ontbreekt." ; "week isn't set."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Vergeet die niet" ; "You mustn't forget"
+	line "in te stellen!" ; "that!"
 	done
 
 IsItDSTText:
@@ -246,14 +246,15 @@ IsItDSTText:
 	done
 
 ComeHomeForDSTText:
-	text "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Trouwens, weet je" ; "By the way, do you"
+	line "hoe je de TELEFOON" ; "know how to use"
+	cont "gebruikt?" ; "the PHONE?"
 	done
 
 KnowTheInstructionsText:
-	text "Great! No need to"
-	line "explain it then."
+	text "Prima! Dan hoef ik" ; "Great! No need to"
+	line "dat niet meer" ; "explain it then."
+	cont "uit te leggen." ; 
 	done
 
 DontKnowTheInstructionsText:
@@ -266,17 +267,17 @@ DontKnowTheInstructionsText:
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Telefoonnummers" ; "Phone numbers are"
+	line "worden bewaard." ; "stored in memory."
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Selecteer gewoon" ; "Just choose a name"
+	line "wie je wil bellen." ; "you want to call."
 	done
 
 CanRunText:
-	text "Oh, and remember,"
-    line "you can get there"
-    cont "faster if you run!"
+	text "Oh, en onthou dat" ; "Oh, and remember,"
+    line "je met rennen er" ; "you can get there"
+    cont "sneller geraakt!" ; "faster if you run!"
 	done
 
 HurryUpElmIsWaitingText:

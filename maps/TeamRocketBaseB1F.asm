@@ -695,8 +695,8 @@ ScientistJedAfterBattleText:
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Heheh. Heb je" ; "Heheh. Feeling"
+	line "geluk, ettertje?" ; "lucky, punk?"
 	done
 
 GruntM16BeatenText:

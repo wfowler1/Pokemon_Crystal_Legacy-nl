@@ -2923,13 +2923,13 @@ pushc
 setcharmap ascii
 
 Unknown_1196b8:
-	db "Mon"
-	db "Tue"
-	db "Wed"
-	db "Thu"
-	db "Fri"
-	db "Sat"
-	db "Sun"
+	db "ma." ; "Mon"
+	db "di." ; "Tue"
+	db "wo." ; "Wed"
+	db "do." ; "Thu"
+	db "vr." ; "Fri"
+	db "za." ; "Sat"
+	db "zo." ; "Sun"
 
 popc
 
@@ -3881,17 +3881,17 @@ Strings_L10ToL100:
 	db " L:80 @@"
 	db " L:90 @@"
 	db " L:100@@"
-	db "CANCEL@@"
+	db "SLUITEN@@" ; "CANCEL@@"
 
 Strings_Ll0ToL40:
 	db " L:10 @@"
 	db " L:20 @@"
 	db " L:30 @@"
 	db " L:40 @@"
-	db "CANCEL@@"
+	db "SLUITEN@@" ; "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "CANCEL@"
+	db "SLUITEN@@" ; "CANCEL@"
 
 BattleTower_LevelCheck:
 	ldh a, [rSVBK]
@@ -4623,10 +4623,10 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "YES@"
+	db "JA@" ; "YES@"
 
 String_11a2d3:
-	db "NO@"
+	db "NEE@" ; "NO@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags

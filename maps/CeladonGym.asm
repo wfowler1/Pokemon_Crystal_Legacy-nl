@@ -215,35 +215,36 @@ ErikaAfterBattleText:
 	done
 
 ErikaRematchText:
-	text "ERIKA: Oh, hello."
+	text "ERIKA: Oh, hallo." ; ERIKA: Oh, hello."
 
-	para "What a surprise,"
-	line "KANTO CHAMPION!"
+	para "Wat 'n verrassing," ; What a surprise,"
+	line "KANTO KAMPIOEN!" ; "KANTO CHAMPION!"
 
-	para "It's so lovely"
-	line "to see you again."
+	para "Wat fijn om je" ; "It's so lovely"
+	line "weer te zien." ; "to see you again."
 
-	para "Your journey"
-	line "must have been"
-	cont "so exciting."
+	para "Je tocht moet heel" ; "Your journey"
+	line "spannend geweest" ; "must have been"
+	cont "zijn." ; "so exciting."
 
-	para "Even champions"
-	line "enjoy a challenge."
+	para "Zelfs kampioenen" ; "Even champions"
+	line "genieten van een" ; "enjoy a challenge."
+	cont "uitdagin."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wens je een" ; "Want to have a"
+	line "rematch met me?" ; "rematch with me?"
 	done
 
 Erika_RematchDefeatText:
-	text "ERIKA: Losing"
-	line "still leaves a"
-	cont "bitter aftertaste…"
+	text "ERIKA: Verliezen" ; "ERIKA: Losing"
+	line "smaakt nog altijd" ; "still leaves a"
+	cont "naar…" ; "bitter aftertaste…"
 
-	para "But knowing that"
-	line "there are strong"
+	para "Maar weten dat er" ; "But knowing that"
+	line "sterke trainers" ; "there are strong"
 
-	para "trainers spurs me"
-	line "to do better…"
+	para "zijn, spoort me" ; "trainers spurs me"
+	line "tot meer aan…" ; "to do better…"
 	done
 
 LassMichelleSeenText:

@@ -174,29 +174,29 @@ LeaderBlueEpilogueText:
 	done
 
 BlueRematchText:
-	text "BLUE: Well, well."
-	line "KANTO CHAMPION!"
+	text "BLUE: Wel, wel," ; "BLUE: Well, well."
+	line "KANTO KAMPIOEN!" ; "KANTO CHAMPION!"
 
-	para "Looks like you've"
-	line "come a long way."
+	para "Je lijkt sterk" ; "Looks like you've"
+	line "gevorderd te zijn." ; "come a long way."
 
-	para "I used to have"
-	line "that title too,"
-	cont "you know. But I"
-	cont "won't go easy."
+	para "Ik had die titel" ; "I used to have"
+	line "ooit ook, weet je." ; "that title too,"
+	cont "Maar ik maak het" ; "you know. But I"
+	cont "je niet makkelijk." ; "won't go easy."
 
-	para "Let's see if you"
-	line "can keep it up."
+	para "Eens zien of je" ; "Let's see if you"
+	line "het kan volhouden." ; "can keep it up."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Blue_RematchDefeatText:
-	text "BLUE: What?"
+	text "BLUE: Wat?" ; "BLUE: What?"
 
-	para "How the heck did I"
-	line "lose again?"
+	para "Hoe de flip ver-" ; "How the heck did I"
+	line "loor ik nogmaals?" ; "lose again?"
 	done
 
 ViridianGymGuideText:

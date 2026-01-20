@@ -669,7 +669,7 @@ _OPT_ExcitingText::
 
 _OPT_GroovyText::
 	text_start
-	line "groovy!"
+	line "gaaf!" ; "groovy!"
 	done
 
 _OPT_InspiringText::
@@ -1317,9 +1317,9 @@ _UseAnotherRepelText::
 	text "@"
 	text_ram wStringBuffer3
 	text "'s"
-	line "worn off."
+	line "is uitgewerkt" ; "worn off."
 
-	para "Use another?"
+	para "Nieuwe gebruiken?" ; "Use another?"
 	done
 
 
@@ -1834,10 +1834,10 @@ _ComeAgainText::
 	done
 
 _CantAcceptFaintedMonText::
-	text "Sorry, but you'll"
-	line "have to heal your"
-	cont "#MON before I"
-	cont "accept it."
+	text "Nou zeg, kan je" ; "Sorry, but you'll"
+	line "a.u.b. wel even je" ; "have to heal your"
+	cont "#MON genezen?" ; "#MON before I"
+;	cont "accept it."
 	prompt
 
 _NotYetText::

@@ -131,7 +131,7 @@ RuinsOfAlphInnerChamberStatueText:
 	done
 
 NoRoomText:
-	text "No room in bag"
+	text "Tas is vol." ; "No room in bag"
 
 RuinsOfAlphInnerChamber_MapEvents:
 	db 0, 0 ; filler

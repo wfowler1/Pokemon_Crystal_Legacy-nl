@@ -136,12 +136,12 @@ GiovanniLeavesMovement:
 	step_end
 
 MahoganyMart1FGioLeavesText:
-	text "I have to" 
-	line "leave..."
+	text "Ik moet gaan..." ; I have to" 
+;	line "leave..."
 	
-	para "You two can"
-	line "handle this,"
-	cont "right?"
+	para "Jullie twee kunnen" ; "You two can"
+	line "dit afhandelen," ; "handle this,"
+	cont "toch?" ; "right?"
 	done
 
 MahoganyMart1FGrannyScript:
@@ -226,27 +226,27 @@ MahoganyMart1FBlackBeltText:
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "Urrgh…" ; "Urrgh…"
 
-	para "That guy's"
-	line "#MON are tough…"
+	para "De #MON van die" ; "That guy's"
+	line "kerel zijn sterk…" ; "#MON are tough…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "???: NIDOQUEEN,"
-	line "HYPER BEAM."
+	text "???: NIDOQUEEN," ; "???: NIDOQUEEN,"
+	line "HYPERSTRAAL." ; "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
-	line "<PLAY_G>?"
+	text "Waar bleef je nou," ;" What took you,"
+	line "<PLAY_G>?" ; "<PLAY_G>?"
 
-	para "Just as we"
-	line "thought,"
+	para "Zoals we dachten," ; "Just as we"
+	line "komt dat vreemde" ; ""thought,"
 
-	para "that strange radio"
-	line "signal is coming"
-	cont "from here."
+	para "radiosignaal" ; "that strange radio"
+	line "hier vandaan." ; "signal is coming"
+;	cont "from here."
 	done
 
 MahoganyMart1FLanceStairsText:

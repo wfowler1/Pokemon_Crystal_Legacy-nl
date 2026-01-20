@@ -122,15 +122,15 @@ CharcoalKilnApprenticeText1:
 	done
 
 CharcoalKilnApprenticeText2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Sorry, ik vergat" ; "I'm sorry--I for-"
+	line "je te bedanken." ; "got to thank you."
 
-	para "This is CHARCOAL"
-	line "that I made."
+	para "Deze HOUTSKOOL heb" ; "This is CHARCOAL"
+	line "ik gemaakt." ; "that I made."
 
-	para "FIRE-type #MON"
-	line "would be happy to"
-	cont "hold that."
+	para "Geef maar aan een" ; "FIRE-type #MON"
+	line "vuur-#MON, dat" ; "would be happy to"
+	cont "maakt ze blij." ; "hold that."
 	done
 
 CharcoalKilnApprenticeText3:

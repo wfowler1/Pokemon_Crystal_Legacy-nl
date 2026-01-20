@@ -79,57 +79,58 @@ Text_GrampsLookingForYou:
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ik ben de" ; "I'm the DAY-CARE"
+	line "DAGVERBLIJFT-MAN." ; "MAN."
 
-	para "There's something"
-	line "new in GOLDENROD"
+	para "Er is iets nieuws" ; "There's something"
+	line "in GOLDENROD. Het" ; "new in GOLDENROD"
 
-	para "called the TRADE"
-	line "CORNER."
+	para "heet de RUILHOEK." ; "called the TRADE"
+;	line "CORNER."
 
-	para "I was given an EGG"
-	line "TICKET that can be"
+	para "Ik kreeg er een" ; I was given an EGG"
+	line "EI-TICKET dat je" ; "TICKET that can be"
 
-	para "traded in for a"
-	line "ODD EGG."
+	para "kan omruilen voor" ; "traded in for a"
+	line "een VREEMD EI." ; "ODD EGG."
 
-	para "But since we run a"
-	line "DAY-CARE, we don't"
+	para "Maar aangezien we" ; "But since we run a"
+	line "een DAGVERBLIJF" ; "DAY-CARE, we don't"
 
-	para "need it. You may"
-	line "as well have it."
+	para "uitbaten, moet ik" ; need it. You may"
+	line "het niet. Wil jij" ; as well have it."
+	cont "het?" ; 
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Ik ben de" ; "I'm the DAY-CARE"
+	line "DAGVERBLIJFT-MAN." ; "MAN."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Heb je al gehoord" ; "Do you know about"
+	line "over EIEREN?" ; "EGGS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Weet je, ik voedde" ; "I was raising"
+	line "#MON op met" ; "#MON with my"
+	cont "mijn vrouw." ; "wife, you see."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "We schrokken toen" ; "We were shocked to"
+	line "we een EI vonden!" ; "find an EGG!"
 
-	para "How incredible is"
-	line "that?"
+	para "Ongelofelijk, vind" ; "How incredible is"
+	line "je niet?" ; "that?"
 
-	para "You know, your"
-	line "#DEX shows EGG"
-	cont "groups, and how"
+	para "Weet je, je #-" ; "You know, your"
+	line "DEX toont EIgroe-" ; "#DEX shows EGG"
+	cont "pen, en hoe lang" ; "groups, and how"
 	
-	para "long they take to"
-	line "hatch!"
+	para "het duurt voor ze" ; "long they take to"
+	line "uitkomen." ; "hatch!"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "Zeg, wil jij dit" ; "Well, wouldn't you"
+	line "EI hebben?" ; "like this EGG?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Prima, dan mag jij" ; "Then fine, this is"
+	line "deze houden!" ; "yours to keep!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced

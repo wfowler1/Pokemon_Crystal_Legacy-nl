@@ -540,16 +540,16 @@ UnusedOddTreeText: ; unreferenced
 	done
 
 Route36LassText:
-	text "Be careful at"
-	line "night on this"
-	cont "route!"
+	text "'s Nachts moet je" ; "Be careful at"
+	line "voorzichtig wezen" ; "night on this"
+	cont "op deze route!" ; "route!"
 
-	para "I saw a #MON"
-	line "that looked like"
+	para "Ik zag een #MON" ; "I saw a #MON"
+	line "die leek op" ; "that looked like"
 
-	para "GROWLITHE, but it"
-	line "had a scary aura"
-	cont "to it."
+	para "GROWLITHE, maar" ; ""GROWLITHE, but it"
+	line "met een eng aura." ; "had a scary aura"
+;	cont "to it."
 	done
 
 Route36LassText_ClearedSudowoodo:

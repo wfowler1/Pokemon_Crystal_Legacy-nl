@@ -550,8 +550,8 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 
 YoungsterSamuelSeenText:
-	text "Hey! I'm looking"
-	line "for MANKEY!"
+	text "Hey! Ik ben op" ; "Hey! I'm looking"
+	line "zoek naar MANKEY!" ; "for MANKEY!"
 	done
 
 YoungsterSamuelBeatenText:
@@ -682,12 +682,13 @@ PokefanmBrandonBeatenText:
 	done
 
 PokefanmBrandonAfterText:
-	text "My #MON came"
-	line "back from DAY-CARE"
-	cont "with new moves."
+	text "Mijn #MON kwam" ; "My #MON came"
+	line "terug van het DAG-" ; "back from DAY-CARE"
+	cont "VERBLIJF met" ; "with new moves."
+	cont "nieuwe aanvallen." ; 
 
-	para "That confounded me"
-	line "to no end!"
+	para "Daar snapte ik" ; "That confounded me"
+	line "echt niets van!" ; "to no end!"
 	done
 
 CooltrainerfIreneSeenText:

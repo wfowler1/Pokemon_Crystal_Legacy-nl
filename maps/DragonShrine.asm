@@ -549,15 +549,15 @@ DragonShrineClairsGrandfatherText:
 	done
 
 DragonShrineSilverIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Een jongen van" ; "A boy close to"
+	line "jouw leeftijd" ; "your age is in"
+	cont "traint hier." ; training here."
 
-	para "He is much like"
-	line "CLAIR when she was"
+	para "Hij lijkt erg op" ; "He is much like"
+	line "CLAIR toen zij" ; "CLAIR when she was"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "jonger was. Het is" ; "younger. It is a"
+	line "wat zorgwekkend…" ; "little worrisome…"
 	done
 
 DragonShrineWrongAnswerText1:

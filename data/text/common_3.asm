@@ -470,54 +470,54 @@ _EvolvingText::
 	done
 
 _EggMoveReminderIntro::
-    text "Hiya, I'm the"
-    line "EGG-MOVE TUTOR!"
+    text "Hoi, ik ben de EI-" ; "Hiya, I'm the"
+    line "AANVAL LERAAR!" ; "EGG-MOVE TUTOR!"
 
-    para "I can teach your"
-    line "#MON moves they"
+    para "Ik kan je #MON" ; "can teach your"
+    line "aanvallen leren die"; #MON moves they"
 
-    para "can normally only"
+    para "die ze normaal enkel" ; "can normally only"
     line "learn as an EGG."
 
-	para "Are you"
-    line "interested?"
+	para "Wil je dat?" ; "Are you"
+    ;line "interested?"
     done
 
 _MoveReminderIntro::
-    text "Hiya, I'm the"
-    line "MOVE REMINDER!"
+    text "Hoi, ik ben de" ; "Hiya, I'm the"
+    line "AANVALOPFRISSER." ; "MOVE REMINDER!"
 
-    para "I can make #MON"
-    line "rememember moves"
+    para "#MON kan ik AAN-" ; "I can make #MON"
+    line "VALLEN herinneren" ; "rememember moves"
 
-    para "that they learned"
-    line "while growing up."
+    para "die ze tijdens het" ; "that they learned"
+    line "opgroeien leerden." ; "while growing up."
 
-	para "Shall I make a"
-	line "#MON remember?"
+	para "Zal ik een #MON" ; "Shall I make a"
+	line "iets doen herinneren?"  ; #MON remember?"
     done
 
 _MoveReminderWhichMon::
-    text "Which #MON"
-    next "would you like"
+    text "Welke #MON wil" ; "Which #MON"
+    next "je een aanval doen" ; "would you like"
 
-    para "to make remember"
-    line "a move?"
+    para "herinneren?" ; "to make remember"
+    ;line "a move?"
     done
 
 _MoveReminderWhichMove::
-    text "Which move should"
-    line "it learn?"
+    text "Welke aanval moet" ; "Which move should"
+    line "ie leren?" ; "it learn?"
     done
 
 _MoveReminderCancel::
-    text "Come back anytime."
+    text "Altijd welkom." ; "Come back anytime."
     done
 
 _MoveReminderEgg::
-    text "Hey! What am I"
-    line "supposed to teach"
-    cont "an EGG?"
+    text "Hey! Wat moet ik" ; "What am I"
+    line "een EI nou leren?" ; "supposed to teach"
+    ;cont "an EGG?"
     done
 
 _MoveReminderNoMon::
@@ -967,8 +967,8 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Select CONTINUE &"
-	line "reset settings."
+	text "Kies VERDER & res-" ; "Select CONTINUE &"
+	line "et de instellingen" ; "settings."
 	prompt
 
 _PasswordAskResetClockText::
@@ -1323,7 +1323,7 @@ _RepelUsedEarlierIsStillInEffectText::
 
 _PlayedFluteText::
 	text "Speelde de #" ; "Played the #"
-	line "FLUTE."
+	line "FLUIT." ; "FLUTE."
 
 	para "Nou, wat een leuk" ; "Now, that's a"
 	line "leuk deuntje!" ; "catchy tune!"

@@ -178,13 +178,13 @@ Text_ClairIsBeaten:
 	line "zien verliezen van" ; "of her losing to"
 
 	para "iemand anders dan" ; "anyone other than"
-	line "LANCE."
+	line "LANCE." ; "LANCE."
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "No. Only chosen"
-	line "trainers may train"
-	cont "here."
+	text "Nee. Enkel uitver-" ; "No. Only chosen"
+	line "koren trainers mo-" ; "trainers may train"
+	cont "gen hier trainen." ; "here."
 
 	para "Please leave."
 	done
@@ -213,10 +213,10 @@ BlackBeltText_VoicesInMyHead:
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "remember some"
-	cont "moves?"
+	text "Ga je je #MON" ; "Are you going to"
+	line "enkele aanvallen" ;"make your #MON"
+	cont "laten herinneren?" ; remember some"
+;	cont "moves?"
 	done
 
 BlackthornYoungsterText:
@@ -226,7 +226,7 @@ BlackthornYoungsterText:
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
 	para "Het is zaterdag…" ; "It's Saturday…"
 
@@ -239,19 +239,19 @@ SantosGivesGiftText:
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
-	para "SPELL TAG…"
+	para "GEESTPAPIER" ; "SPELL TAG…"
 
-	para "GHOST-type moves"
-	line "get stronger…"
+	para "maakt GEEST-type" ; "GHOST-type moves"
+	line "aanvallen sterker…" ; "get stronger…"
 
-	para "It will frighten"
-	line "you…"
+	para "Dit voorwerp is" ; "It will frighten"
+	line "beangstigend…" ; "you…"
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; "SANTOS: …"
 
 	para "Zie je weer op een" ; "See you again on"
 	line "andere zaterdag…" ; "another Saturday…"
@@ -270,20 +270,20 @@ BlackthornCooltrainerF2Text:
 	line "helemaal door het" ; "through the ICE"
 	cont "IJSPAD?" ; "PATH?"
 
-	para "Je moet een echt" ; "You must be a real"
+	para "Je bent vast een" ; "You must be a real"
 	line "blitse trainer" ; "hotshot trainer!"
-	cont "zijn!"
+;	cont "zijn!"
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 
 	para "Stil Toevluchts-" ; "A Quiet Mountain"
 	line "oord in de Bergen." ; "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "CLAIR" ; "LEADER: CLAIR"
 
@@ -292,8 +292,8 @@ BlackthornGymSignText:
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE BROS'"
-	line "HOUSE"
+	text "HUIS van de" ; "MOVE BROS'"
+	line "AANVALBROERS" ; HOUSE"
 	done
 
 DragonDensSignText:
@@ -302,7 +302,7 @@ DragonDensSignText:
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINERTIPS"
+	text "TRAINERTIPS" ; "TRAINERTIPS"
 
 	para "Een #MON met" ; "A #MON holding"
 	line "een WONDERBES" ; "a MIRACLEBERRY"

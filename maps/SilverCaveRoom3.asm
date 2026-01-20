@@ -117,7 +117,7 @@ RedMovemenetScript:
 	step_end
 
 MewtwoBattleText:
-	text "Mew!"
+	text "Mew!" ; "Mew!"
 	done
 
 RedSeenText:

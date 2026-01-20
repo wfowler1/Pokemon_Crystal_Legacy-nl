@@ -63,11 +63,11 @@ PokefanmCarterBeatenText:
 	done
 
 PokefanmCarterAfterBattleText:
-	text "TOTODILE, CYNDA-"
-	line "QUIL, CHIKORITA…"
+	text "TOTODILE, CYNDA-" ; "TOTODILE, CYNDA-"
+	line "QUIL, CHIKORITA…" ; "QUIL, CHIKORITA…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Ik denk dat dat" ; "I think that's a"
+	line "een goede mix is." ; "well-balanced mix."
 	done
 
 BirdKeeperRoySeenText:
@@ -102,8 +102,8 @@ PokefanmTrevorSeenText:
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this SCIZOR?"
+	text "Waar heb ik deze" ; "Where did I meet"
+	line "SCIZOR ontmoet?" ; "this SCIZOR?"
 	done
 
 PokefanmTrevorAfterBattleText:

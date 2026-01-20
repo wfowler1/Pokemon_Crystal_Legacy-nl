@@ -236,22 +236,22 @@ TrainerHouseB1FCalBeatenText:
 	done
 
 TrainerHouseB1FSmithBeatenText:
-	text "I lost…"
-	line "Not so zesty."
+	text "Verloren…" ; "I lost…"
+	line "Niet pittig genoeg." ; "Not so zesty."
 	done
 
 TrainerHouseB1FCraigBeatenText:
-	text "This is good data!"
-	line "I can use this."
+	text "Dit is goede data!" ; "This is good data!"
+	line "Zeer nuttig." ; "I can use this."
 	done
 
 TrainerHouseB1FWeebraBeatenText:
-	text "Aw, shucks…"
+	text "Ach, gut…" ; "Aw, shucks…"
 
-	para "And I didn't even"
-	line "get to use my"
-	cont "'Essence of"
-	cont "Breaker Style'…"
+	para "Ik kon niet eens" ; "And I didn't even"
+	line "mijn 'Essentie van" ; "get to use my"
+	cont "Brekerstijl'" ; "'Essence of"
+	cont "aanwenden…" ; "Breaker Style'…"
 	done
 
 TrainerHouseB1FCalBeforeText:
@@ -261,22 +261,22 @@ TrainerHouseB1FCalBeforeText:
 	done
 
 TrainerHouseB1FSmithBeforeText:
-	text "Hey, what's up?"
+	text "Hoi, hoe gaat ie?" ; "Hey, what's up?"
 	done
 
 TrainerHouseB1FCraigBeforeText:
-	text "I'm trying to"
-	line "gain battle"
-	cont "experience"
+	text "Ik tracht vecht-" ; " I'm trying to"
+	line "ervaring op te" ; "gain battle"
+	cont "doen voor een " ; "experience"
 	
-	para "for a game I'm"
-	line "making based on"
-	cont "#MON."
+	para "#MONspel dat ik" ; "for a game I'm"
+	line "maak" ; "making based on"
+;	cont "#MON."
 	done
 
 TrainerHouseB1FWeebraBeforeText:
-	text "You look pretty"
-	line "strong, eh?"
+	text "Jij oogt redelijk" ; "You look pretty"
+	line "sterk, niet?" ; "strong, eh?"
 	done
 
 TrainerHouseB1F_MapEvents:

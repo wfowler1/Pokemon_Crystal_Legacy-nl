@@ -193,17 +193,17 @@ HikerAnthonyDunsparceText:
 	done
 
 Route33LassText:
-	text "Pant, pant…"
+	text "Hijg, puf…" ; "Pant, pant…"
 
-	para "That cave was"
-	line "bigger than I'd"
-	cont "expected."
+	para "Die grot was" ; "That cave was"
+	line "groter dan ik" ; "bigger than I'd"
+	cont "verwachtte." ; "expected."
 
-	para "I got too tired"
-	line "exploring for"
+	para "Ik werd te moe van" ; "I got too tired"
+	line "het zoeken naar" ; "exploring for"
 
-	para "MARILL, so I came"
-	line "outside."
+	para "MARILL, dus kwam" ; "MARILL, so I came"
+	line "ik buiten rusten." ; "outside."
 	done
 
 Route33SignText:

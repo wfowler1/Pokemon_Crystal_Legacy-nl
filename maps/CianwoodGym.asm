@@ -299,23 +299,23 @@ ChuckAfterText:
 
 ChuckRematchText:
 	text "WAHAHAH!"
-	line "JOHTO CHAMPION!"
+	line "JOHTO KAMPIOEN!" ; "JOHTO CHAMPION!"
 
-	para "You've come"
-	line "back for more!"
+	para "Je bent voor meer" ; "You've come"
+	line "teruggekomen!" ; "back for more!"
 
-	para "I see your"
-	line "skills have"
-	cont "improved!"
+	para "Ik zie dat je" ; "I see your"
+	line "vaardigheden" ; "skills have"
+	cont "gevorderd zijn!" ; "improved!"
 
-	para "Ready to see"
-	line "who's stronger?"
+	para "Klaar om te zien" ; "Ready to see"
+	line "wie sterker is?" ; "who's stronger?"
 	done
 
 Chuck_RematchDefeatText:
 	text "Wha? Huh?"
-	line "I lost?"
-	cont "Again?"
+	line "Ik heb verloren?" ; "I lost?"
+	cont "Weeral?" ; "Again?"
 	done
 
 BlackbeltYoshiSeenText:
@@ -349,9 +349,9 @@ BlackbeltLaoBeatenText:
 	done
 
 BlackbeltLaoAfterText:
-	text "Fighting #MON"
-	line "are afraid of"
-	cont "psychics…"
+	text "Vecht #MON" ; "Fighting #MON"
+	line "zijn bang voor" ; "are afraid of"
+	cont "paranormale…" ; "psychics…"
 	done
 
 BlackbeltNobSeenText:

@@ -60,63 +60,64 @@ MountMortar1FOutsideHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
 
 MountMortarB1FKiyoIntroText:
-	text "Hey!"
+	text "Hey!" ; "Hey!"
 
-	para "I am the KARATE"
-	line "KING!"
+	para "Ik ben de KARATE" ; "I am the KARATE"
+	line "KONING!" ; "KING!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "Ik train hier" ; "I train alone here"
+	line "in het donker!" ; "in the dark!"
 
-	para "You!"
-	line "Battle with me!"
+	para "Jij!" ; "You!"
+	line "Vecht met me!" ; "Battle with me!"
 
-	para "Hwaaarggh!"
+	para "Hwaaarggh!" ; "Hwaaarggh!"
 	done
 
 MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
-	line "I'm beaten!"
+	text "Waaaarggh!" ; "Hwaaarggh!"
+	line "Ik ben verslagen!" ; "I'm beaten!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "I… I'm crushed…"
+	text "Ik… Ik ben er kapot van." ; "I… I'm crushed…"
 
-	para "My training is"
-	line "still not enough…"
+	para "Mijn training is" ; "My training is"
+	line "nog onvolledig…" ; still not enough…"
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Maar verloren is" ; "But a loss is a"
+	line "verloren. Dat geef" ; "loss. I admit it."
+	cont "ik grif toe." ; 
 
-	para "As proof that you"
-	line "defeated me, I'll"
+	para "Als bewijs dat je" ; "As proof that you"
+	line "me versloeg, krijg" ; "defeated me, I'll"
 
-	para "give you a rare"
-	line "fighting #MON."
+	para "je een zeldzame" ; "give you a rare"
+	line "vecht #MON." ; "fighting #MON."
 	done
 
 MountMortarB1FReceiveMonText:
-	text "<PLAYER> received"
-	line "TYROGUE."
+	text "<PLAYER> ontving" ; "<PLAYER> received"
+	line "TYROGUE." ; "TYROGUE."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE is a"
-	line "FIGHTING-type."
+	text "TYROGUE is een" ; "TYROGUE is a"
+	line "VECHT-type, die" ; "FIGHTING-type."
 
-	para "It evolves into a"
-	line "tougher #MON."
+	para "in een sterkere" ; "It evolves into a"
+	line "#MON evolueert." ; "tougher #MON."
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Ga door met het" ; "Keep up the hard"
+	line "harde werk. Ik" ; "work. I'll keep"
+	cont "train ook verder." ; "training too."
 
-	para "Farewell!"
+	para "Vaarwel!" ; "Farewell!"
 	done
 
 MountMortarB1FKiyoFullPartyText:
-	text "You have no room"
-	line "in your party!"
+	text "Je hebt geen plek" ; "You have no room"
+	line "vrij in je team!" ; "in your party!"
 	done
 
 MountMortar1FOutside_MapEvents:

@@ -102,17 +102,17 @@ Text_Gained::
 
 _BoostedExpPointsText::
 	text_start
-	line "a boosted"
+	line "een extra" ; "a boosted"
 	cont "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " ERV. Punten!" ; " EXP. Points!"
 	prompt
 
 _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 5
-	text " EXP. Points!"
+	text " ERV. Punten!" ; " EXP. Points!"
 	prompt
 
 _GoMonText::
@@ -670,33 +670,35 @@ _AreYouABoyOrAreYouAGirlText::
 	done
 
 _SelectDifficultyText::
-	text "Select difficulty."
+	text "Selecteer niveau." ; "Select difficulty."
 	done
 
 _SelectDifficultyNormalText::
-	text "Are you sure?"
+	text "Ben je zeker?" ; "Are you sure?"
 
-	para "Classic #MON"
-	line "rules."
+	para "Standaard regels" ; "Classic #MON"
+	line "voor #MON." ; "rules."
 	done
 
 _SelectDifficultyHardText::
-	text "Are you sure?"
+	text "Ben je zeker?" ; "Are you sure?"
 
-	para "SET mode, no"
-	line "items in battle,"
-	cont "GYM LVL caps."
+	para "HOUDEN modus, geen" ; "SET mode, no"
+	line "voorwerpen tijdens" ; "items in battle,"
+	cont "vechten en in GYMs"
+    cont "een levellimiet." ; "GYM LVL caps."
 	done
 
 _SelectDifficultyHardcoreText::
-	text "Are you sure?"
+	text "Ben je zeker?" ; "Are you sure?"
 
-	para "Hard mode, but"
-	line "#MON can't be"
-	cont "revived."
+	para "Moeilijke modus," ; "Hard mode, but"
+	line "maar #MON kan" ; "can't be"
+	cont "je niet opwekken." ; "revived."
 
-	para "Wipeouts reset to"
-	line "previous save."
+	para "Verslaan worden" ; "Wipeouts reset to"
+	line "laadt het vorige" ; "previous save."
+	cont "opslagpunt."
 	done
 
 Text_BattleEffectActivate::
@@ -1183,8 +1185,8 @@ _PlayersPCNoRoomDepositText::
 	prompt
 
 _TooImportantToDepositText::
-	text "That's too impor-"
-	line "tant to deposit!"
+	text "Te belangrijk. Kan" ; "That's too impor-"
+	line "je niet deponeren." ; "tant to deposit!"
 	prompt
 
 _PokecenterPCTurnOnText::

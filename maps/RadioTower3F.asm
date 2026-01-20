@@ -243,11 +243,11 @@ GruntM7BeatenText:
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+	text "Ik heb gefaald in" ; "I failed in my"
+	line "mijn plichten…" ; "duties…"
 
-	para "ARCHER will"
-	line "be so upset..."
+	para "ARCHER zal zo" ; "ARCHER will"
+	line "overstuur zijn…" ; "be so upset..."
 	done
 
 GruntM8SeenText:

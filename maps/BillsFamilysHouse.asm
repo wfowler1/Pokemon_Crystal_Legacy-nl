@@ -204,10 +204,10 @@ BillsMomText_AfterEcruteak:
 	line "vader." ; "father."
 	done
 
-BillsSisterUsefulNumberText: ; ReplaceWith BillsYoungerSisterUsefulNumberText:
-	text "Je bent trainer?" ; "Are you a trainer?"
+BillsSisterUsefulNumberText:
+	text "Ben je 'n trainer?" ; "Are you a trainer?"
 
-	para "Hier, een nuttig" ; "I've got a useful"
+	para "Ik heb een nuttig" ; "I've got a useful"
 	line "telefoonnummer" ; "phone number for"
 	cont "voor je." ; "you."
 	done
@@ -217,27 +217,27 @@ RecordedBillsNumberText:
 	line "BILL's nummer op." ; "BILL's number."
 	done
 
-BillsSisterRefusedNumberText: ; ReplaceWith BillsYoungerSisterRefusedNumberText:
-	text "Mijn broer heeft" ; "My brother made"
-	line "de PC-#MON-" ; "the PC #MON"
-	cont "opslag bedacht." ; "storage system."
+BillsSisterRefusedNumberText:
+	text "Mijn broer bouwde" ; "My brother made"
+	line "het PC #MON" ; "the PC #MON"
+	cont "opslagsysteem." ; "storage system."
 
-	para "Ik wilde je" ; "I was going to"
-	line "BILL's nummer" ; "give you BILL's"
-	cont "geven…" ; "number…"
+	para "Ik ging je BILL's" ; "I was going to"
+	line "numer geven…" ; "give you BILL's"
+;	cont "number…"
 	done
 
-BillsSisterPhoneFullText: ; ReplaceWith BillsYoungerSisterPhoneFullText:
-	text "Je kan niet meer" ; "You can't record"
-	line "nummers opslaan." ; "any more numbers."
+BillsSisterPhoneFullText:
+	text "Je kan geen nummer" ; "You can't record"
+	line "meer registreren." ; any more numbers."
 	done
 
-BillsSisterStorageSystemText: ; ReplaceWith BillsYoungerSisterStorageSystemText:
+BillsSisterStorageSystemText:
 	text "Mijn grote broer" ; "My big brother"
-	line "BILL bedacht het" ; "BILL made the PC"
+	line "BILL bouwde het PC" ; "BILL made the PC"
 
-	para "#MON-opslag" ; "#MON storage"
-	line "-systeem." ; "system."
+	para "#MON opslag-" ; "#MON storage"
+	line "systeem." ; "system."
 	done
 
 BillsFamilysHouse_MapEvents:

@@ -610,28 +610,28 @@ Route32CooltrainerMText_VioletGym:
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
+	text "Je hebt een paar" ; "You have some good"
+	line "sterke #MON." ; "#MON there."
 
-	para "It must be from"
-	line "the training you"
+	para "Dat is vast omdat" ; "It must be from"
+	line "je veel hebt" ; "the training you"
 
-	para "gave them around"
-	line "VIOLET CITY."
+	para "getraind rond" ; "gave them around"
+	line "VIOLET CITY." ; "VIOLET CITY."
 
-	para "The training at"
-	line "the GYM must have"
+	para "Het trainen rond" ; "The training at"
+	line "de GYM hielp vast" ; "the GYM must have"
 
-	para "been especially"
-	line "helpful."
+	para "nog wel het" ; "been especially"
+	line "meest." ; "helpful."
 
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
+	para "Een souvenir" ; "As a souvenir of"
+	line "uit VIOLET CITY," ; "VIOLET CITY, take"
+	cont "voor jou." ; "this."
 
-	para "It increases the"
-	line "power of GRASS-"
-	cont "type moves."
+	para "Het versterkt de" ; "It increases the"
+	line "kracht van GRAS-" ; "power of GRASS-"
+	cont "aanvallen." ; "type moves."
 	done
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
@@ -912,17 +912,17 @@ FriedaGivesGiftText:
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "POISON-type moves."
+	text "FRIEDA: Geef dit" ; "FRIEDA: Give it to"
+	line "aan een #MON" ; "a #MON that has"
+	cont "met GIF-aanvallen." ; "POISON-type moves."
 
-	para "Oh!"
+	para "Oh!" ; "Oh!"
 
-	para "It's wicked!"
+	para "Echt heel vals!" ; "It's wicked!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Je zal versteld" ; "You'll be shocked"
+	line "staan hoe sterk" ; how good it makes"
+	cont "gif er van wordt!" ; "poison moves!"
 	done
 
 FriedaFridayText:

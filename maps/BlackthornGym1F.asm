@@ -254,8 +254,8 @@ BlackthornGymClairText_YouKeptMeWaiting:
 	done
 
 BlackthornGymText_ReceivedTM24:
-	text "<PLAYER> received"
-	line "TM24 DRAGONBREATH."
+	text "<PLAYER> kreeg" ; "<PLAYER> received"
+	line "TM24 DRAKENADEM." ; "TM24 DRAGONBREATH."
 	done
 
 BlackthornGymClairText_DescribeTM24:
@@ -287,7 +287,7 @@ BlackthornGymClairText_League:
 	line "het is?" ; "where it is?"
 
 	para "Ga van hier naar" ; "From here, go to"
-	line "NEW BARK TOWN."
+	line "NEW BARK TOWN." ; "NEW BARK TOWN."
 
 	para "SURF dan naar het" ; "Then SURF east."
 	line "oosten. De weg" ; "The route there is"
@@ -308,36 +308,36 @@ BlackthornGymClairText_League:
 	done
 
 ClairRematchText:
-	text "You did it, huh?"
+    text "Je deed het, hé?" ; "You did it, huh?"
 
-	para "You are now the"
-	line "JOHTO CHAMP."
+    para "Je bent nu de" ; "You are now the"
+    line "JOHTO KAMPIOEN." ; "JOHTO CHAMP."
 
-	para "You've proven"
-	line "your strength"
+    para "Je hebt je kracht" ; "You've proven"
+    line "bewezen maar kan" ; "your strength"
 
-	para "but can you"
-	line "handle me again?"
+    para "je me opnieuw" ; "but can you"
+    line "aan?" ; "handle me again?"
 
-	para "As a Dragon"
-	line "Master, I won't"
-	cont "hold back."
+    para "Als drakenmeester" ; "As a Dragon"
+    line "hou ik me niet in." ; "Master, I won't"
+;    cont "hold back."
 
-	para "Not this time."
+    para "Niet deze keer." ; "Not this time."
 
-	para "Want to have a"
-	line "rematch with me?"
-	done
+    para "Wil je een rematch" ; "Want to have a"
+    line "met mij?" ; "rematch with me?"
+    done
 
 Clair_RematchDefeatText:
-	text "I lost?"
+    text "Ik verloor?" ; "I lost?"
 
-	para "Again?"
+    para "Nogmaals?" ; "Again?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
-	done
+    para "Ik kan het niet ge-" ; "I don't believe"
+    line "loven. Dit moet 'n" ; "it. There must be"
+    cont "vergissing zijn…" ; "some mistake…"
+    done
 
 CooltrainermPaulSeenText:
 	text "Je eerste gevecht" ; "Your first battle"
@@ -397,47 +397,47 @@ CooltrainerfLolaBeatenText:
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "Dragons are weak"
-	line "against DRAGON-"
-	cont "type moves."
+	text "Draken staan zwak" ; "Dragons are weak"
+	line "tegen DRAAK-" ; "against DRAGON-"
+	cont "type aanvallen." ; "type moves."
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! KAMPIOEN in" ; "Yo! CHAMP in"
+	line "wording!" ; "making!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "Het was een lange" ; "It's been a long"
+	line "trek, maar we zijn" ; "journey, but we"
 
-	para "are almost done!"
-	line "Count on me!"
+	para "zijn bijna klaar!" ; "are almost done!"
+	line "Reken maar op mij!" ; "Count on me!"
 	
-	para "While CLAIR looks"
-	line "up to the Dragon"
-	cont "Master, LANCE,"
+	para "Ook al kijkt CLAIR" ; "While CLAIR looks"
+	line "op naar de Draken-" ; "up to the Dragon"
+	cont "meester, LANCE, " ; "Master, LANCE,"
 	
-	para "she's managed to"
-	line "create her own"
-	cont "identity with a"
+	para "toch wist ze haar" ; "she's managed to"
+	line "eigen identiteit" ; create her own"
+	cont "te bouwen rond een" ; "identity with a"
 
-	para "team consisting"
-	line "of dragons from"
-	cont "the sea."
+	para "team bestaande uit" ; "team consisting"
+	line "draken van de zee." ; of dragons from"
+;	cont "the sea."
 
-	para "Dragons are"
-	line "supposed to be"
+	para "Draken horen zwak" ; "Dragons are"
+	line "te zijn tegenover" ; supposed to be"
 
-	para "weak against"
-	line "ICE-type moves,"
+	para "IJS-type aanval-" ; "weak against"
+	line "len, maar als je" ; "ICE-type moves,"
 	
-	para "but you'll need"
-	line "some DRAGON-type"
+	para "wil winnen, zal je"; "but you'll need"
+	line "zelf enkele DRAAK-" ; "some DRAGON-type"
 	
-	para "moves of your own"
-	line "if you want to"
-	cont "win."
+	para "type aanvallen" ; "moves of your own"
+	line "nodig hebben." ; "if you want to"
+;	cont "win."
 	
-	para "You got this!"
+	para "Je kan het!" ; "You got this!"
 	done
 
 BlackthornGymGuideWinText:

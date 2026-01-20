@@ -301,15 +301,15 @@ MonicaGivesGiftText:
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "MONICA: Dit is een" ; "MONICA: It's an"
+	line "voorwerp dat" ; "item that raises"
 
-	para "the power of FLY-"
-	line "ING-type moves."
+	para "VLIEG-aanvallen" ; "the power of FLY-"
+	line "sterker maakt." ; "ING-type moves."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Geef het aan een" ; "You should equip a"
+	line "vogel-#MON in" ; "bird #MON with"
+	cont "je team." ; "that item."
 	done
 
 MonicaMondayText:

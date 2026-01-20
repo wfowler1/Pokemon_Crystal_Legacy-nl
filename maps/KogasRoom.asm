@@ -105,25 +105,25 @@ KogasRoom_EnterMovement:
 	step_end
 
 KogaScript_KogaRematchBeforeText:
-	text "KOGA:"
-	line "Fwahahahaha!"
+	text "KOGA:" ; "KOGA:"
+	line "Fwahahahaha!" ; "Fwahahahaha!"
 
-    para "You return, brave"
-    line "challenger."
+    para "Je keert weer," ; "You return, brave"
+    line "dappere uitdager." ; "challenger."
 
-	para "My ninja skills"
-    line "have sharpened."
+	para "Ik verscherpte m'n" ; "My ninja skills"
+    line "ninjavaardigheden." ; "have sharpened."
 
-    para "New sinister traps"
-    line "await you."
+    para "Nieuwe, snode val-" ; "New sinister traps"
+    line "len wachten je op." ; "await you."
 
-    para "Poison, sleep, and"
-    line "more... Be ready!"
+    para "Gif, slaap en meer" ; "Poison, sleep, and"
+    line "Wees voorbereid!" ; "more... Be ready!"
 
-    para "Fwahahahaha!"
+    ; para "Fwahahahaha!" ; "Fwahahahaha!"
 
-    para "Show me how"
-    line "you've grown!"
+    para "Toon me hoe je" ; "Show me how"
+    line "gegroeid bent!" ; "you've grown!"
     done
 
 KogaScript_KogaBeforeText:

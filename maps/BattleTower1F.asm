@@ -390,50 +390,50 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	para "speciaal ontworpen" ; "specially designed"
 	line "GEVECHTSKAMERS." ; "BATTLE ROOMS."
 
-	para "There are many"
-	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	para "De GEVECHTSTOREN" ; "There are many"
+	line "bevat zeer veel" ; "BATTLE ROOMS in"
+	cont "GEVECHTSKAMERS." ; "the BATTLE TOWER."
 
-	para "Each ROOM holds"
-	line "seven trainers."
+	para "Elke KAMER bevat" ; Each ROOM holds"
+	line "zeven trainers." ; "seven trainers."
 
-	para "If you defeat the"
-	line "seven in a ROOM,"
+	para "Versla de zeven in" ; "If you defeat the"
+	line "een KAMER, en met" ; seven in a ROOM,"
 
-	para "and you have a"
-	line "good record, you"
+	para "een goed rapport," ; "and you have a"
+	line "kan je de LEIDER" ; "good record, you"
 
-	para "could become the"
-	line "ROOM's LEADER."
+	para "van de KAMER" ; "could become the"
+	line "worden." ; "ROOM's LEADER."
 
-	para "All LEADERS will"
-	line "be recorded in the"
+	para "Alle LEIDERS gaan" ; "All LEADERS will"
+	line "de ERELIJST op" ; "be recorded in the"
 
-	para "HONOR ROLL for"
-	line "posterity."
+	para "voor de annalen." ; "HONOR ROLL for"
+;	line "komen." ; "posterity."
 
-	para "You may challenge"
-	line "in up to five"
+	para "Elke dag kan je in" ; "You may challenge"
+	line "max. vijf KAMERS" ; "in up to five"
 
-	para "BATTLE ROOMS each"
-	line "day."
+	para "iemand uitdagen." ; "BATTLE ROOMS each"
+;	line "day."
 
-	para "However, you may"
-	line "battle only once a"
+	para "Je mag slechts één" ; "However, you may"
+	line "gevecht voeren per" ; "battle only once a"
 
-	para "day in any given"
-	line "ROOM."
+	para "dag per KAMER." ; "day in any given"
+;	line "ROOM."
 
-	para "To interrupt a"
-	line "session, you must"
+	para "Om een sessie te" ; "To interrupt a"
+	line "pauzeren, moet je" ; "session, you must"
 
-	para "SAVE. If not, you"
-	line "won't be able to"
+	para "OPSLAAN. Zo niet," ; "SAVE. If not, you"
+	line "zal je de KAMER-" ; "won't be able to"
 
-	para "resume your ROOM"
-	line "challenge."
+	para "uitdaging niet" ; "resume your ROOM"
+	line "kunnen hervatten." ; challenge."
 
-	para ""
+	para "" ; ""
 	done
 
 Text_BattleTowerIntroduction_2:
@@ -469,7 +469,7 @@ Text_BattleTowerIntroduction_2:
 	para "verder met je" ; "resume your ROOM"
 	line "KAMER-uitdaging." ; "challenge."
 
-	para ""
+	para "" ; ""
 	done
 
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
@@ -497,21 +497,21 @@ Text_ThanksForVisiting:
 	done
 
 Text_BeatenAllTheTrainers_Mobile: ; unreferenced
-	text "Congratulations!"
+	text "Gefeliciteerd!" ; "Congratulations!"
 
-	para "You've beaten all"
-	line "the trainers!"
+	para "Je versloeg alle" ; "You've beaten all"
+	line "trainers!" ; "the trainers!"
 
-	para "Your feat may be"
-	line "worth registering,"
+	para "Je prestatie is" ; "Your feat may be"
+	line "registratie waard." ; "worth registering,"
 
-	para "<PLAYER>. With your"
-	line "results, you may"
+	para "<PLAYER>. Met jouw" ; "<PLAYER>. With your"
+	line "resultaten, kan je" ; "results, you may"
 
-	para "be chosen as a"
-	line "ROOM LEADER."
+	para "tot KAMERLEIDER" ; "be chosen as a"
+	line "verkozen worden." ; "ROOM LEADER."
 
-	para ""
+	para "" ; ""
 	done
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
@@ -523,19 +523,19 @@ Text_CongratulationsYouveBeatenAllTheTrainers:
 	para "Hiervoor krijg je" ; "For that, you get"
 	line "deze mooie prijs!" ; "this great prize!"
 
-	para ""
+	para "" ; ""
 	done
 
 Text_AskRegisterRecord_Mobile: ; unreferenced
-	text "Would you like to"
-	line "register your"
+	text "Zou je je bestand" ; "Would you like to"
+	line "willen registreren" ; "register your"
 
-	para "record with the"
-	line "CENTER?"
+	para "in het CENTRUM?" ; "record with the"
+;	line "CENTER?"
 	done
 
 Text_PlayerGot:
-	text "<PLAYER> got"
+	text "<PLAYER> kreeg" ; "<PLAYER> got"
 	line "@"
 	text_ram wStringBuffer4
 	text "!@"
@@ -544,15 +544,15 @@ Text_PlayerGot:
 	text_end
 
 Text_PlayerGotDeco:
-	text "<PLAYER> got"
-	line "a decoration.@"
+	text "<PLAYER> kreeg" ; "<PLAYER> got"
+	line "een decoratie.@" ; "a decoration.@"
 	sound_item
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the"
-	line "decoration home."
+	text " zond de decoratie" ; " sent the"
+	line "naar huis." ; "decoration home."
 	done
 
 Text_YourPackIsStuffedFull:
@@ -665,11 +665,11 @@ Text_NextUpOpponentNo:
 	done
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
-	text "Your session will"
-	line "be SAVED before"
+	text "Je sessie wordt OP-" ; "Your session will"
+	line "GESLAGEN vooraleer" ; "be SAVED before"
 
-	para "connecting with"
-	line "the CENTER."
+	para "te verbinden met"; "connecting with"
+	line "het CENTRUM." ; "the CENTER."
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
@@ -741,18 +741,18 @@ Text_TooMuchTimeElapsedNoRegister:
 
 Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 ; duplicate of Text_TooMuchTimeElapsedNoRegister
-	text "Sorry, but it's"
-	line "not possible to"
+	text "Sorry, het is niet" ; "Sorry, but it's"
+	line "mogelijk je" ; "not possible to"
 
-	para "register your most"
-	line "recent record at"
+	para "huidige bestand te" ; "register your"
+	line "registreren bij" ; "current record at"
 
-	para "the CENTER because"
-	line "too much time has"
+	para "het CENTRUM omdat" ; "the CENTER because"
+	line "teveel tijd is" ; "too much time has"
 
-	para "elapsed since the"
-	line "start of your"
-	cont "challenge."
+	para "verlopen sinds je" ; "elapsed since the"
+	line "de uitdaging bent" ; "start of your"
+	cont "begonnen." ; "challenge."
 	done
 
 Text_AMonLevelExceeds:

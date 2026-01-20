@@ -158,7 +158,7 @@ RadioTower1FRadioCardWomanScript:
 	end
 
 .RadioCardText:
-	db "RADIO CARD@"
+	db "RADIOKAART@" ; "RADIO CARD@"
 
 .ReceiveItem:
 	jumpstd ReceiveItemScript
@@ -446,8 +446,8 @@ GruntM3SeenText:
 	done
 
 GruntM3BeatenText:
-	text "Too strong! I'm"
-	line "sorry boss…"
+	text "Te sterk! Het" ; "Too strong! I'm"
+	line "spijt me baas…" ; "sorry boss…"
 	done
 
 GruntM3AfterBattleText:

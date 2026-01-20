@@ -45,42 +45,42 @@ CianwoodPokecenter1FLassText:
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "De #MON-GYM-" ; The #MON GYM"
+	line "trainers hier zijn" ; "trainers here are"
+	cont "macho-pestkoppen." ; "macho bullies."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Als ik daar rond-" ; "If I stick around,"
+	line "hang, komen ze" ; "they might come"
+	cont "me pesten." ; "after me."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Hier is wat" ; "Here's some ad-"
+	line "advies: de GYM-" ; "vice: the GYM"
 
-	para "LEADER uses the"
-	line "FIGHTING-type."
+	para "LEIDER gebruikt" ; "LEADER uses the"
+	line "het vecht-type." ; "FIGHTING-type."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Je kan hem dus" ; "So you should"
+	line "verrassen met psy-" ; "confound him with"
+	cont "chische @MON." ; "psychic #MON."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Versla z'n #MON" ; "Wipe out his #-"
+	line "voordat ze hun" ; "MON before they"
 
-	para "can use their"
-	line "physical strength."
+	para "fysieke kracht" ; "can use their"
+	line "kunnen gebruiken." ; "physical strength."
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "En die rotsen in" ; "And those boulders"
+	line "het midden van" ; "in the middle of"
+	cont "de GYM?" ; "the GYM?"
 
-	para "If you don't move"
-	line "them correctly,"
+	para "Als je ze niet" ; "If you don't move"
+	line "juist verplaatst," ; "them correctly,"
 
-	para "you won't reach"
-	line "the GYM LEADER."
+	para "zal je de GYMLEI-" ; "you won't reach"
+	line "DER niet bereiken." ; "the GYM LEADER."
 
-	para "If you get stuck,"
-	line "go outside."
+	para "Als je vastloopt," ; "If you get stuck,"
+	line "ga naar buiten." ; "go outside."
 	done
 
 CianwoodGymGuideWinText:
@@ -90,29 +90,31 @@ CianwoodGymGuideWinText:
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
-	text "Don't you get the"
-	line "urge to show off"
+	text "Voel je de nood" ; "Don't you get the"
+	line "niet om met je" ; "urge to show off"
 
-	para "your #MON to"
-	line "friends?"
+	para "#MON te pronken" ; "your #MON to"
+	line "bij je vrienden?" ; "friends?"
 
-	para "I wish I could"
-	line "show the #MON I"
+	para "Ik wou dat ik m'n" ; "I wish I could"
+	line "getrainde #MON" ; "show the #MON I"
 
-	para "raised to my pal"
-	line "in VIOLET."
+	para "kon tonen aan mijn" ; "raised to my pal"
+	line "maat in VIOLET." ; "in VIOLET."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
-	text "I've been battling"
-	line "my pal in VIOLET"
+	text "Ik heb met m'n" ; "I've been battling"
+	line "maat in VIOLET" ; "my pal in VIOLET"
 
-	para "using a MOBILE"
-	line "ADAPTER link."
+	para "gevochten via de" ; using a MOBILE"
+	line "MOBILE ADAPTER" ; "ADAPTER link."
+	cont "kabel."
 
-	para "I'm down 5-7"
-	line "against him. I've"
-	cont "gotta crank it up!"
+	para "Ik sta 5-7 achter" ; "I'm down 5-7"
+	line "tegen hem. Ik moet" ; against him. I've"
+	cont "een tandje hoger" ; "gotta crank it up!"
+	cont "schakelen."
 	done
 
 CianwoodPokecenter1FSuperNerdText:

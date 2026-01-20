@@ -349,73 +349,75 @@ TeamRocketBaseB3FRocketText:
 	done
 
 RocketBaseRivalText:
-	text "…"
+	text "…" ; "…"
 
-	para "Didn't I tell you"
-	line "that I was going"
+	para "Zei ik je niet" ; "Didn't I tell you"
+	line "dat ik TEAM ROCKET" ; "that I was going"
 
-	para "to destroy TEAM"
-	line "ROCKET?"
+	para "ging vernietigen?" ; "to destroy TEAM"
+;	line "ROCKET?"
 
-	para "…Tell me, who was"
-	line "the guy in the"
+	para "…Zeg eens, wie was" ; "…Tell me, who was"
+	line "die gast in de" ; "the guy in the"
 
-	para "cape who used"
-	line "dragon #MON?"
+	para "cape die DRAAK-" ; "cape who used"
+	line "#MON gebruikt?" ; "dragon #MON?"
 
-	para "My #MON were no"
-	line "match at all."
+	para "Mijn #MON maak-" ; "My #MON were no"
+	line "ten geen schijn" ; "match at all."
+	cont "van kans." ; 
 
-	para "It's what he said"
-	line "that bothers me…"
+	para "Maar wat hij zei" ; "It's what he said"
+	line "stoort me…" ; "that bothers me…"
 
-	para "He told me that"
-	line "I don't love and"
+	para "Hij zei dat ik" ; "He told me that"
+	line "mijn #MON niet" ; "I don't love and"
 
-	para "trust my #MON"
-	line "enough."
+	para "genoeg vertrouw" ; "trust my #MON"
+	line "en liefheb." ; "enough."
 	
-	para "It's not my fault"
-	line "my team is so"
-	cont "useless."
+	para "Het is niet mijn" ; "It's not my fault"
+	line "fout dat mijn team" ; "my team is so"
+	cont "zo nutteloos is." ; "useless."
 
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
+	para "Ik ben woedend dat" ; "I'm furious that I"
+	line "ik verloor van zo" ; lost to a bleeding"
+	cont "een zacht ei." ; "heart like him."
 	
-	para "But it makes me"
-	line "question myself."
+	para "Maar ik vraag me" ; "But it makes me"
+	line "nu wel af." ; "question myself."
 	
-	para "Is there something"
-	line "I'm doing wrong?"
+	para "Is er iets wat ik" ; "Is there something"
+	line "verkeerd doe?" ; "I'm doing wrong?"
 
-	para "Could it be that"
-	line "love made his"
-	cont "team so powerful?"
+	para "Zou het kunnen dat" ; "Could it be that"
+	line "liefde zijn team" ; "love made his"
+	cont "zo machtig maakt?" ; "team so powerful?"
 	done
 
 ExecutiveM4BeforeText:
-	text "What? Who are you?"
-	line "This is the office"
+	text "Wat? Wie ben jij?" ; "What? Who are you?"
+	line "Dit is het kantoor" ; "This is the office"
 
-	para "of our leader,"
-	line "GIOVANNI."
+	para "van onze leider," ; "of our leader,"
+	line "GIOVANNI." ; "GIOVANNI."
 
-	para "Since disbanding"
-	line "TEAM ROCKET three"
+	para "Sinds het TEAM" ; "Since disbanding"
+	line "ROCKET ontbonden" ; "TEAM ROCKET three"
 
-	para "years ago, he has"
-	line "been in hiding."
+	para "werd drie jaar" ; "years ago, he has"
+	line "geleden, is hij" ; "been in hiding."
+	cont "ondergedoken." ; 
 
-	para "But we're certain"
-	line "he will be back"
+	para "Maar we weten dat" ; "But we're certain"
+	line "hij op een dag" ; "he will be back"
 
-	para "some day to assume"
-	line "command again."
+	para "vast terugkeert" ; "some day to assume"
+	line "om ons te leiden." ; "command again."
 
-	para "I won't let you"
-	line "interfere with"
-	cont "our plans!"
+	para "Ik laat je onze" ; "I won't let you"
+	line "plannen niet" ; "interfere with"
+	cont "doorkruisen!" ; "our plans!"
 	done
 
 ExecutiveM4BeatenText:
@@ -471,25 +473,26 @@ GruntF5AfterBattleText:
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!"
+	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
 
-	para "I remember you"
-	line "from the well!"
+	para "Ik herken jou van" ; "I remember you"
+	line "de SLOWPOKE WELL!" ; "from the well!"
 
-	para "You're challenging"
-	line "me again?"
+	para "Je daagt me weer" ; "You're challenging"
+	line "uit?" ; "me again?"
 
-	para "Hah! You're nuts,"
-	line "but you have guts!"
+	para "Hah! Je bent gek," ; "Hah! You're nuts,"
+	line "maar je hebt lef." ; "but you have guts!"
 
-	para "I'll warn you,"
-	line "I got better!"
+	para "Ik waarschuw je," ; "I'll warn you,"
+	line "ik werd sterker." ; "I got better!"
 
-	para "If you can beat"
-	line "me, I'll tell you"
+	para "Als je me kan" ; "If you can beat"
+	line "verslaan, vertel" ; "me, I'll tell you"
 
-	para "a password to the"
-	line "boss's room!"
+	para "ik je een wacht-" ; "a password to the"
+	line "woord voor de" ; "boss's room!"
+	cont "kamer van de baas!" ; 
 	done
 
 GruntM28BeatenText:

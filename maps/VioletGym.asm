@@ -138,26 +138,26 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Ik ben FALKNER, de" ; "I'm FALKNER, the"
+	line "#MON-GYMLEIDER" ; "VIOLET #MON GYM"
+	cont "van VIOLET CITY!" ; "leader!"
 
-	para "People say you can"
-	line "clip FLYING-type"
+	para "Men zegt dat je de" ; "People say you can"
+	line "vleugels van een" ; "clip FLYING-type"
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "VLIEG-#MON kunt" ; "#MON's wings"
+	line "kortwieken met" ; "with a jolt of"
+	cont "elektriciteit…" ; "electricity…"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "Zulke beledigingen" ; "I won't allow such"
+	line "van vogel-#MON" ; "insults to bird"
+	cont "sta ik niet toe!" ; "#MON!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "Ik toon je de ware" ; "I'll show you the"
+	line "kracht van de" ; "real power of the"
 
-	para "magnificent bird"
-	line "#MON!"
+	para "fenomenale vogel" ; "magnificent bird"
+	line "#MON!" ; "#MON!"
 	done
 
 FalknerWinLossText:
@@ -235,29 +235,29 @@ FalknerFightDoneText:
 	done
 
 FalknerRematchText:
-	text "Congratulations"
-	line "on defeating the"
-	cont "ELITE 4!"
+	text "Gefeliciteerd met" ; "Congratulations"
+	line "je overwinning op" ; "on defeating the"
+	cont "de ELITE 4!" ; "ELITE 4!"
 
-	para "I've been training"
-	line "my FLYING-type"
-	cont "#MON even"
-	cont "harder."
+	para "Ik heb mijn VLIEG-" ; "I've been training"
+	line "type #MON nog" ; "my FLYING-type"
+	cont "harder getraind." ; "#MON even"
+;	cont "harder."
 
-	para "Think you can take"
-	line "on the power of"
-	cont "the skies again?"
+	para "Denk je dat je de" ; Think you can take"
+	line "de krachten van de" ; "on the power of"
+	cont "lucht weer aankan?" ; "the skies again?"
 	done
 
 Falkner_RematchDefeatText:
-	text "Wow…"
-	line "You beat me again."
+	text "Wow… … … … … … Je" ; "Wow…"
+	line "versloeg me weer." ; "You beat me again."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Ik ga nog harder" ; "I'm going to train"
+	line "trainen om de" ; "harder to become"
 
-	para "the greatest bird"
-	line "master!"
+	para "grootste vogel-" ; "the greatest bird"
+	line "meester te worden!" ; "master!"
 	done
 
 BirdKeeperRodSeenText:
@@ -304,47 +304,47 @@ BirdKeeperAbeAfterBattleText:
 	done
 
 VioletGymGuideText:
-	text "Hey! What's up?"
-	line "I'm no trainer,"
+	text "Hoi! Hoe gaat ie?" ; "Hey! What's up?"
+	line "Ik ben geen" ; "I'm no trainer,"
 	
-	para "but I can give"
-	line "some advice!"
+	para "trainer maar kan" ; "but I can give"
+	line "je advies geven!" ; "some advice!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Geloof mij maar!" ; "Believe me!"
+	line "Als je gelooft," ; "If you believe, a"
 
-	para "championship dream"
-	line "can come true."
+	para "kunnen kampioens-" ; "championship dream"
+	line "dromen uitkomen." ; "can come true."
 
-	para "You believe?"
-	line "Then listen."
+	para "Heb je vertrouwen?" ; "You believe?"
+	line "Luister dan." ; "Then listen."
 	
-	para "FALKNER's ace"
-	line "is a bulky owl"
+	para "FALKNER's topper" ; "FALKNER's ace"
+	line "is een stevige uil" ; "is a bulky owl"
 	
-	para "that loves to"
-	line "eat BERRIES."
+	para "die wel een BES" ; "that loves to"
+	line "lust." ; "eat BERRIES."
 	
-	para "While it's not"
-	line "the strongest,"
+	para "Misschien niet de" ; "While it's not"
+	line "sterkste, toch kan" ; "the strongest,"
 	
-	para "it can take a"
-	line "lot of hits."
+	para "ie veel klappen" ; "it can take a"
+	line "incasseren." ; "lot of hits."
 	
-	para "You can hurt it"
-	line "with ELECTRIC- and"
-	cont "ROCK-type moves,"
+	para "ELEKTRISCHE en" ; "You can hurt it"
+	line "STEEN-aanvallen" ; "with ELECTRIC- and"
+	cont "schaden de uil," ; "ROCK-type moves,"
 	
-	para "but watch out for"
-	line "MUD-SLAP!"
+	para "maar kijk uit voor" ; "but watch out for"
+	line "diens MODDERSCHOT!" ; "MUD-SLAP!"
 	
-	para "If you want more"
-	line "help, go visit the"
-	cont "#MON ACADEMY."
+	para "Voor meer hulp," ; "If you want more"
+	line "bezoek de #MON" ; "help, go visit the"
+	cont "ACADEMY." ; "#MON ACADEMY."
 	
-	para "The students there"
-	line "really know their"
-	cont "stuff!"
+	para "De studenten daar" ; "The students there"
+	line "weten echt waar ze" ; "really know their"
+	cont "het over hebben!" ; "stuff!"
 	done
 
 VioletGymGuideWinText:

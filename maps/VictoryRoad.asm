@@ -188,148 +188,150 @@ MoltresScript:
 	end
 
 MoltresBattleText:
-	text "Gyaoo!"
+	text "Gyaoo!" ; "Gyaoo!"
 	done
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Ho, stop." ; "Hold it."
 
-	para "…Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "…Ga je de" ; "…Are you going to"
+	line "#MON-LEAGUE-" ; "take the #MON"
+	cont "uitdaging aan?" ; "LEAGUE challenge?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "… Laat me niet" ; "…Don't make me"
+	line "lachen." ; "laugh."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Je bent zoveel" ; "You're so much"
+	line "zwakker dan ik." ; "weaker than I am."
 	
-	para "Even so, I've"
-	line "realized there"
+	para "Maar ik heb" ; "Even so, I've"
+	line "ingezien dat het" ; "realized there"
 
-	para "is more to it"
-	line "than power."
+	para "om meer draait dan" ; "is more to it"
+	line "alleen macht." ; "than power."
 	
-	para "I've begun to"
-	line "understand what"
+	para "Ik ben begonnen te" ; "I've begun to"
+	line "begrijpen wat die" ; "understand what"
 
-	para "that dragon master"
-	line "said to me…"
+	para "drakenmeester" ; "that dragon master"
+	line "tegen me zei…" ; "said to me…"
 
-	para "Love, friendship.."
-	line "it's what the"
-	cont "elders in the"
+	para "Liefde, vrienden,…" ; "Love, friendship.."
+	line "dat is wat de" ; "it's what the"
+	cont "ouderen in" ; "elders in the"
 	
-	para "DRAGON'S DEN"
-	line "said too."
+	para "DRAGON'S DEN" ; "DRAGON'S DEN"
+	line "ook zeiden." ; "said too."
 	
-	para "I need to care"
-	line "for my team."
+	para "Ik moet zorgen" ; "I need to care"
+	line "voor mijn team." ; "for my team."
 	
-	para "They've been with"
-	line "me through it all"
+	para "Ze waren er altijd" ; "They've been with"
+	line "voor me en ik heb" ; "me through it all"
 	
-	para "and I have treated"
-	line "them like pawns."
+	para "ze als pionnen" ; "and I have treated"
+	line "behandeld." ; "them like pawns."
 	
-	para "But I promise!"
-	line "I will care for"
-	cont "all of you."
+	para "Maar ik beloof!" ; "But I promise!"
+	line "Ik zal voor jullie" ; "I will care for"
+	cont "allemaal zorgen." ; "all of you."
 	
-	para "Together, we"
-	line "will become"
-	cont "unstoppable."
+	para "Samen worden we" ; "Together, we"
+	line "niet te stoppen." ; "will become"
+;	cont "unstoppable."
 	
-	para "What? PUPITAR"
-	line "is evolving!"
+	para "Wat? PUPITAR" ; "What? PUPITAR"
+	line "evolueert!" ; "is evolving!"
 	
-	para "............"
-	line "............"
+	para "............" ; "............"
+	line "............" ; "............"
 	
-	para "Congratulations!"
-	line "Your PUPITAR"
+	para "Gefeliciteerd!" ; "Congratulations!"
+	line "Je PUPITAR" ; "Your PUPITAR"
 
-	para "evolved into"
-	line "TYRANITAR?"
+	para "evolueerde in" ; "evolved into"
+	line "TYRANITAR?" ; "TYRANITAR?"
 	
-	para ".....What?"
-	line "TYRANITAR?"
+	para ".....Wat?" ; ".....What?"
+	line "TYRANITAR?" ; "TYRANITAR?"
 	
-	para "But......."
-	line "level....."
+	para "Maar......." ; "But......."
+	line "level....." ; "level....."
 	
-	para "Ah no, I see."
-	line "I've heard of"
+	para "Ah nee, ik vat 'm." ; "Ah no, I see."
+	line "Ik heb gehoord van" ; "I've heard of"
 	
-	para "rare instances"
-	line "of early evol-"
-	cont "ution."
+	para "versnelde evolutie" ; "rare instances"
+	line "in zeer zeldzame" ;"of early evol-"
+	cont "gevallen." ; "ution."
 	
-	para "Some say that"
-	line "through love,"
+	para "Sommigen zeggen" ; "Some say that"
+	line "dat door liefde," ; "through love,"
 	
-	para "the dragon"
-	line "master was able"
+	para "de drakenmeester" ; "the dragon"
+	line "dit ook kon doen." ; "master was able"
 	
-	para "to do such a"
-	line "thing too."
+;	para "to do such a"
+;	line "thing too."
 	
-	para "Perhaps it was"
-	line "the ROCKETs"
-	cont "radio signal."
+	para "Misschien komt het" ; "Perhaps it was"
+	line "door het ROCKET" ; "the ROCKETs"
+	cont "radiosignaal." ; "radio signal."
 	
-	para "It matters not."
-	line "Let's battle."
+	para "Doet er niet toe." ; "It matters not."
+	line "Kom, we vechten." ; "Let's battle."
 	
-	para "My friends will"
-	line "beat you and then"
-	cont "the ELITE FOUR."
+	para "Mijn vrienden gaan" ; "My friends will"
+	line "jou en dan de" ; beat you and then"
+	cont "ELITE VIER " ; "the ELITE FOUR."
+	cont "verslaan." ; 
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "<PLAYER>!" ; "<PLAYER>!"
+	line "Ik daag je uit!" ; "I challenge you!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…Weer verloren…" ; "…I couldn't win…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Ik deed mijn" ; "I gave it every-"
+	line "uiterste best…" ; "thing I had…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Wat jij hebt," ; "What you possess,"
+	line "en wat ik mis…" ; "and what I lack…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…Ik geef niet op" ; "…I haven't given up"
+	line "om de allerbeste" ; "on becoming the"
+	cont "trainer te worden…" ; "greatest trainer…"
 
-	para "But that's okay,"
-	line "I will one day"
+	para "Maar dat is ok," ; "But that's okay,"
+	line "op een dag keer ik" ; "I will one day"
 
-	para "return and"
-	line "become stronger."
+	para "weer en word ik" ; "return and"
+	line "sterker." ; "become stronger."
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Op die dag zal ik" ; "When I do, I will"
+	line "je uitdagen." ; "challenge you."
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "En dan versla ik" ; "And I'll beat you"
+	line "je met alle kracht" ; "down with all my"
+	cont "die ik heb." ; "power."
 
-	para "Come on guys!"
-	line "let's go!"
+	para "Kom op team!" ; "Come on guys!"
+	line "We gaan!" ; "let's go!"
 	done
 
 VictoryRoadRivalVictoryText:
-	text "What power!"
+	text "Wat een kracht!" ; "What power!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat friendhship."
+	para "Niets kan vriend-" ; "When it comes down"
+	line "schap verslaan," ; "to it, nothing can"
+	cont "als het er op" ; "beat friendhship."
+	cont "aankomt."
 
-	para "I don't need any-"
-	line "thing else."
+	para "ik heb niets" ; "I don't need any-"
+	line "anders nodig." ; "thing else."
 	done
 
 VictoryRoad_MapEvents:

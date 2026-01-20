@@ -220,21 +220,21 @@ JasmineAmphyHowAreYouFeelingText:
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
+	text "JASMINE: …Oh, ik" ; "JASMINE: …Oh, I'm"
+	line "ben zo opgelucht…" ; "so relieved…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Dit is gewoon" ; "This is just so"
+	line "zo fijn…" ; "wonderful…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Heel, heel erg" ; "Thank you so very,"
+	line "bedankt." ; "very much."
 
-	para "…I will return to"
-	line "the GYM…"
+	para "…Ik zal terug" ; "…I will return to"
+	line "naar de GYM gaan…" ; "the GYM…"
 	
-	para "I'll also warn "
-	line "you, steel types"
-	cont "are powerful."
+	para "Maar ik waarschuw" ; "I'll also warn "
+	line "je, STAAL-types" ; "you, steel types"
+	cont "zijn krachtig." ; "are powerful."
 	done
 
 JasmineISeeText:

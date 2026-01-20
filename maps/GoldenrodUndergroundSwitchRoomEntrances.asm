@@ -678,90 +678,92 @@ UndergroundSilverRetreatMovement2:
 	step_end
 
 UndergroundSilverBeforeText:
-	text "Hold it!"
+	text "Stop!" ; "Hold it!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Ik zag je, dus ben" ; "I saw you, so I"
+	line "je gevolgd." ; "tailed you."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Loop me niet in de" ; "I don't need you"
+	line "weg terwijl ik" ; "underfoot while I"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "TEAM ROCKET" ; "take care of TEAM"
+	line "uitschakel." ; "ROCKET."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Wacht eens." ; "…Wait a second."
+	line "Je hebt me eerder" ; "You beat me be-"
+	cont "verslagen, toch?" ; "fore, didn't you?"
 
-	para "That was just a"
-	line "fluke."
+	para "Dat was slechts" ; "That was just a"
+	line "geluk." ; "fluke."
 	
-	para "I've been training"
-	line "my team and now"
+	para "Ik heb mijn team" ; "I've been training"
+	line "getraind en nu zet" ; "my team and now"
 
-	para "I will repay my"
-	line "debts!"
+	para "ik het je betaald!" ; "I will repay my"
+;	line "debts!"
 	done
 
 UndergroundSilverWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "…Waarom…" ; "…Why…"
+	line "Waarom verlies ik?" ; "Why do I lose?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "Ik heb de sterkste" ; "I've assembled the"
+	line "#MON verzameld." ; "toughest #MON."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Ik heb hard" ; "I didn't ease up"
+	line "gewerkt. Dus" ; "on the gas."
 
-	para "So why do I lose?"
+	para "waarom verlies ik?" ; "So why do I lose?"
 	done
 
 UndergroundSilverAfterText:
-	text "…I don't under-"
-	line "stand…"
+	text "…Ik snap het" ; "…I don't under-"
+	line "niet…" ; "stand…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Is 't waar wat die" ; "Is what that LANCE"
+	line "LANCE-gast zei?" ; "guy said true?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Dat ik #MON" ; "That I don't treat"
+	line "slecht behandel?" ; "#MON properly?"
 
-	para "Love…"
+	para "Liefde…" ; "Love…"
 
-	para "Trust…"
+	para "Vertrouwen…" ; "Trust…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Is dat echt" ; "Are they really"
+	line "wat ik mis?" ; "what I lack?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Verhindert dat" ; "Are they keeping"
+	line "me te winnen?" ; "me from winning?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Ik… Ik snap het" ; "I… I just don't"
+	line "gewoon niet." ; "understand."
 
-	para "But it's not going"
-	line "to end here."
+	para "Maar hier eindigt" ; "But it's not going"
+	line "het niet." ; "to end here."
 
-	para "Not now. Not"
-	line "because of this."
+	para "Niet nu. Niet" ; "Not now. Not"
+	line "hierom." ; "because of this."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "Mijn droom om 's" ; "I won't give up my"
+	line "werelds beste" ; "dream of becoming"
 
-	para "the world's best"
-	line "#MON trainer!"
+	para "#MON te worden," ; "the world's best"
+	line "geef ik niet op!" ; "#MON trainer!"
+;	cont "worden!"
 	done
 
 UndergroundSilverLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Dit is mijn ware" ; "Humph. This is my"
+	line "kracht, watje." ; "real power, wimp."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "Ik maak van TEAM" ; "I'll make TEAM"
+	line "ROCKET verleden" ; "ROCKET history."
+	cont "tijd."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "En ik ga die" ; "And I'm going to"
+	line "LANCE onder m'n" ; "grind that LANCE"
+	cont "voet vermorzelen." ; "under my heels."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:

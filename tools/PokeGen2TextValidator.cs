@@ -354,6 +354,7 @@ namespace PokeGen2TextValidator
                   path.EndsWith("maps/" + fileInfo.Name) ||
                   path.Contains("data/text/text_") ||
                   path.Contains("data/battle_tower/trainer_text.asm") ||
+				  path.Contains("data/wild/non_wildmon_locations.asm") ||
                   (Source <= Source.Yellow && path.Contains("text/")))
             {
                 return FileType.TextBox;

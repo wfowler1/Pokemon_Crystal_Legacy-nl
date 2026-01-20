@@ -141,28 +141,28 @@ GruntM14AfterBattleText:
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "Look who it is!"
+	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	line "Wie we daar hebben!" ; "Look who it is!"
 
-	para "Ready? I'm "
-	line "really tough now!"
+	para "Klaar? Ik ben echt" ; "Ready? I'm "
+	line "heel sterk nu!" ; "really tough now!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're so good!"
+	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	line "Je bent zo sterk!" ; "You're so good!"
 	
-	para "This TEAM ROCKET"
-	line "thing is just"
+	para "Dit TEAM ROCKET" ; "This TEAM ROCKET"
+	line "gedoe is maar een" ; "thing is just"
 	
-	para "a job, but I can"
-	line "see it hurts"
+	para "job, maar ik zie" ; "a job, but I can"
+	line "dat het anderen" ; "see it hurts"
 	
-	para "others. That's it, "
-	line "I'm leaving."
+	para "kwelt. Genoeg!" ; "others. That's it, "
+	line "ik stop ermee." , "I'm leaving."
 	
-	para "Thank you so much."
-	line "Sorry GIOVANNI!"
+	para "Heel erg bedankt!" ; "Thank you so much."
+	line "Sorry GIOVANNI!" ; "Sorry GIOVANNI!"
 	done
 
 GruntM15AfterBattleText:

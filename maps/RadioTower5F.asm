@@ -428,7 +428,7 @@ FakeDirectorTextBefore2:
 	cont "verstopt?" ; 
 
 	para "Ja hoor, ik zal" ; "Sure, I'll tell"
-	line "het zeggen. Al je" ; "you. But only if"
+	line "het zeggen. Als je" ; "you. But only if"
 	cont "mij verslaat!" ; "you can beat me!"
 	done
 
@@ -438,41 +438,43 @@ FakeDirectorWinText:
 	done
 
 FakeDirectorTextAfter:
-	text "The boss stashed"
-	line "the DIRECTOR in"
+	text "De baas heeft de" ; "The boss stashed"
+	line "echte DIRECTEUR" ; "real DIRECTOR in"
 
-	para "the UNDERGROUND"
-	line "WAREHOUSE."
+	para "verstopt in de" ; "the UNDERGROUND"
+	line "OPSLAGKELDER." ; "WAREHOUSE."
 
-	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	para "Aan het einde van" ; "It's at the far"
+	line "het ONDERGRONDSE." ; "end of the UNDER-"
+;	cont "GROUND."
 
-	para "But I doubt you'll"
-	line "get that far."
+	para "Maar ik betwijfel" ; "But I doubt you'll"
+	line "of je zo ver komt." ; "get that far."
 	done
 
 Executivef1SeenText:
-	text "Remember me from"
-	line "the HIDEOUT in"
-	cont "MAHOGANY TOWN?"
+	text "Herken je mij van" ; "Remember me from"
+	line "de SCHUILPLAATS" ; "the HIDEOUT in"
+	cont "in MAHOGANY TOWN?" ; "MAHOGANY TOWN?"
 
-	para "My boss scolded me"
-	line "but I'm stronger."
+	para "Mijn baas veegde" ; "My boss scolded me"
+	line "mijn jas uit maar" ; "but I'm stronger."
+	cont "ik ben sterker."
 
-	para "I lost then, but I"
-	line "won't this time."
+	para "Ik verloor toen," ; "I lost then, but I"
+	line "maar niet nu." ; "won't this time."
 	done
 
 Executivef1BeatenText:
-	text "This can't be"
-	line "happening!"
+	text "Dit kan niet" ; "This can't be"
+	line "waar zijn!" ; "happening!"
 
-	para "I fought hard, but"
-	line "I still lost…"
+	para "Ik deed m'n best," ; "I fought hard, but"
+	line "maar ik heb toch" ; "I still lost…"
+	cont "verloren…" ; 
 	
-	para "I'm so sorry"
-	line "GIOVANNI…"
+	para "Het spijt me zo," "I'm so sorry"
+	line "GIOVANNI…" ; "GIOVANNI…"
 	done
 
 Executivef1AfterBattleText:
@@ -524,178 +526,183 @@ RadioTower5FRocketBossWinText:
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "How could this be?"
+	text "Hoe kan dit?" ; "How could this be?"
 
-	para "TEAM ROCKET was"
-	line "destined to rise"
-	cont "again..."
+	para "TEAM ROCKET was" ; "TEAM ROCKET was"
+	line "voorbestemd te" ; "destined to rise"
+	cont "herrijzen…" ; "again..."
 
-	para "For GIOVANNI, for"
-	line "our legacy. We"
-	cont "cannot fall now!"
+	para "Voor GIOVANNI, en" ; "For GIOVANNI, for"
+	line "ons erfgoed kunnen" ; "our legacy. We"
+	cont "we nu niet vallen!" ; "cannot fall now!"
 
-	para "You may have won"
-	line "this battle,"
+	para "Je won misschien" ; "You may have won"
+	line "dit gevecht," ; "this battle,"
 
-	para "but the war?"
-	line "It's far from over."
-	cont "You'll see."
+	para "maar de strijd?" , "but the war?"
+	line "Die is verre van" ; "It's far from over."
+	cont "voorbij. Wacht" ; "You'll see."
+	cont "maar af." ; 
 	
-	para "Our ambition, our"
-	line "dream will not"
-	cont "fade."
+	para "Onze ambitie, onze" ; "Our ambition, our"
+	line "droom zal niet" ; "dream will not"
+	cont "vervagen." ; "fade."
 
-	para "The world will "
-	line "fear TEAM ROCKET"
-	cont "once again." 
+	para "De wereld zal" ; "The world will "
+	line "TEAM ROCKET" ; "fear TEAM ROCKET"
+	cont "wederom vrezen." ; "once again." 
 	
-	para "This is only"
-	line "a setback!"
+	para "Dit is slechts" ; "This is only"
+	line "een tegenslag!" ; "a setback!"
 	done
 
 RadioTower5FGiovanniText1:
-	text "???:"
-	line "Such conviction."
+	text "???:" ; "???:"
+	line "Zulke overtuiging." ; "Such conviction."
 
-	para "Reminds me of a"
-	line "time when I, too,"
-	cont "was so sure."
+	para "Herinnert me aan" ; "Reminds me of a"
+	line "toen ik, ook zo" ; "time when I, too,"
+	cont "zelfzeker was." ; "was so sure."
 	done
 
 RadioTower5FGiovanniText2:
-	text "You speak of"
-	line "legacy,"
+	text "Je spreekt over" ; "You speak of"
+	line "erfgoed, over" ; "legacy,"
 
-	para "of taking"
-	line "over..."
+	para "overnames. Maar" ; "of taking"
+	line "herinner, ARCHER…" ; "over..."
 
-	para "But recall,"
-	line "ARCHER."
+;	para "But recall,"
+;	line "ARCHER."
 
-	para "Why did I choose"
-	line "to disband it?"
+	para "Waarom koos ik om" ; "Why did I choose"
+	line "het te ontbinden?" ; "to disband it?"
 	done
 
 RadioTower5FGiovanniText3:
-	text "GIOVANNI:"
-	line "It wasn't mere"
-	cont "defeat or whim,"
+	text "GIOVANNI: Het was" ; "GIOVANNI:"
+	line "niet enkel de" ; "It wasn't mere"
+	cont "nederlaag of een" ; "defeat or whim,"
+	cont "bevlieging," ; 
 
-	para "It was an"
-	line "awakening."
+	para "Het was een" ; "It was an"
+	line "openbaring." ; "awakening."
 	
-	para "See the state of"
-	line "this group now."
+	para "Aanschouw de staat" ; "See the state of"
+	line "van deze groep nu." ; "this group now."
 
-	para "Desperate acts,"
-	line "hiding."
+	para "Wanhopige daden," ; "Desperate acts,"
+	line "zich verbergen." ; "hiding."
 
-	para "A far cry from"
-	line "where we once"
-	cont "stood."
+	para "Een wereld van" ; "A far cry from"
+	line "verschil met waar" ; "where we once"
+	cont "we ooit stonden." ; "stood."
 	done
 
 RadioTower5FGiovanniText4:
-	text "Power isn't just"
-	line "about domination."
+	text "Macht gaat om meer" ; "Power isn't just"
+	line "dan onderdrukking." ;"about domination."
 
-	para "It's understanding"
-	line "and respect."
+	para "Het gaat om begrip" ; "It's understanding"
+	line "en respect." ; "and respect."
 	
-	para "Is this the legacy"
-	line "you imagined?"
+	para "Is dit het erfgoed" ; "Is this the legacy"
+	line "dat je inbeeldde?" ; "you imagined?"
 
-	para "Reduced to"
-	line "skulking in the"
-	cont "shadows?"
+	para "Gereduceerd tot het" ; "Reduced to"
+	line "schuilen in de" ; "skulking in the"
+	cont "schaduwen?" ; "shadows?"
 	done
 
 RadioTower5FGiovanniText5:
-	text "Rethink this path."
+	text "Heroverweeg dit" ; "Rethink this path."
+	line "pad." ;
 
-	para "Do you truly see a"
-	line "future for this"
-	cont "TEAM ROCKET?"
+	para "Zie je werkelijk" ; "Do you truly see a"
+	line "een toekomst voor" ; "future for this"
+	cont "dit TEAM ROCKET?" ; "TEAM ROCKET?"
 	done
 
 RadioTower5FRocketBossDisbandText1:
-	text "ARCHER:"
-	line "I..."
+	text "ARCHER:" ; "ARCHER:"
+	line "Ik…" ; "I..."
 
-	para "I did this for"
-	line "you. For the glory"
-	cont "of TEAM ROCKET."
+	para "Dit was voor jou." ; "I did this for"
+	line "Voor de glorie" ; "you. For the glory"
+	cont "van TEAM ROCKET." ; "of TEAM ROCKET."
 
-	para "All my efforts,"
-	line "all these"
-	cont "sacrifices."
+	para "Al die moeite," ; "All my efforts,"
+	line "al mijn offers." ; "all these"
+;	cont "sacrifices."
 
-	para "And you just..."
+	para "En dan jij die…" ; "And you just..."
 
-	para "Was it all in"
-	line "vain?"
+	para "Was het allemaal" ; "Was it all in"
+	line "voor niets?" ; "vain?"
 
-	para "Did I"
-	line "misunderstand"
-	cont "our purpose?"
+	para "Heb ik ons doel" ; "Did I"
+	line "verkeerd begrepen?" ; "misunderstand"
+;	cont "our purpose?"
 	done
 
 RadioTower5FRocketBossDisbandText2:
-	text "You left."
+	text "Je ging weg." ; "You left."
 
-	para "You vanished"
-	line "without a word."
+	para "Je verdween" ; "You vanished"
+	line "zonder een woord." ; "without a word."
 
-	para "We were lost."
-	line "I tried to carry"
-	cont "your legacy."
+	para "We waren verloren." ; "We were lost."
+	line "Ik trachtte je" ; "I tried to carry"
+	cont "nalatenschap" ; "your legacy."
+	cont "verder te zetten." ; 
 	done
 
 RadioTower5FRocketBossDisbandText3:
-	text "You were the"
-	line "leader,"
+	text "Jij was de" ; "You were the"
+	line "leider," ; "leader,"
 
-	para "the visionary."
+	para "de visionair." ; "the visionary."
 
-	para "And I..."
+	para "En ik…" ; "And I..."
 
-	para "I'm just..."
+	para "Ik ben slechts…" ; "I'm just..."
 	done
 
 RadioTower5FRocketBossDisbandText4:
-	text "Was I a mere"
-	line "puppet?"
+	text "Was ik slechts een" ; "Was I a mere"
+	line "marionet? Die" ; "puppet?"
 
-	para "Chasing a dream"
-	line "you never shared?"
+	para "dromen najoeg die" ; "Chasing a dream"
+	line "u nooit deelde?" ; "you never shared?"
 	done
 
 RadioTower5FRocketBossDisbandText5:
-	text "But... but I can't"
-	line "just let go. Not"
-	cont "after everything."
+	text "Maar… maar ik kan" ; "But... but I can't"
+	line "het niet zomaar" ; "just let go. Not"
+	cont "loslaten. Niet na" ; "after everything."
+	cont "dit alles." ; 
 
-	para "Do you expect me"
-	line "to just walk away,"
+	para "Verwacht je dat ik" ; "Do you expect me"
+	line "gewoon wegloop," ; to just walk away,"
 
-	para "to abandon our"
-	line "cause?"
+	para "en onze zaak" ; "to abandon our"
+	line "verloochenend?" ; "cause?"
 	done
 
 RadioTower5FRocketBossDisbandText6:
-	text "I... I need time."
-	line "I need to get out"
-	cont "of here."
+	text "Ik… Ik heb tijd" ; "I... I need time."
+	line "nodig. Ik moet" ; "I need to get out"
+	cont "hier weg." ; "of here."
 	done
 
 RadioTower5FRocketBossDisbandText7:
-	text "But know this,"
-	line "GIOVANNI. Even if"
-	cont "the path was"
-	cont "wrong..."
+	text "Maar weet dit," ; "But know this,"
+	line "GIOVANNI. Zelfs al" ; "GIOVANNI. Even if"
+	cont "was het pad" ; "the path was"
+	cont "verkeerd…" ; "wrong..."
 
-	para "My intentions were"
-	line "true!"
+	para "Mijn intenties" ; "My intentions were"
+	line "waren puur!" ; "true!"
 	done
 
 RadioTower5FDirectorThankYouText:

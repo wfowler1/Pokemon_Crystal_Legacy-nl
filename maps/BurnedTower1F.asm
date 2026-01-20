@@ -170,69 +170,69 @@ BurnedTower1FEusineMovement:
 	step_end
 
 BurnedTowerSilver_BeforeText:
-	text "<……> <……> <……>"
+	text "<……> <……> <……>" ; "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, jij bent het." ; "Oh, it's you."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Ik zoek naar een" ; "I came looking for"
+	line "legendarische" ; "some legendary"
 
-	para "#MON that they"
-	line "say roosts here."
+	para "#MON die hier" ; "#MON that they"
+	line "hoort te nestelen." ; "say roosts here."
 
-	para "But there's"
-	line "nothing here!"
+	para "Maar er is niets" ; "But there's"
+	line "hier!" ; "nothing here!"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "Niets, na alle" ; "Nothing after all"
+	line "moeite die ik deed" ; "the trouble of"
 
-	para "coming to this"
-	line "dump? No way!"
+	para "om naar dit gat te" ; "om coming to this"
+	line "komen? Echt niet!" ; "dump? No way!"
 
-	para "It's all your"
-	line "fault!"
+	para "Dit is allemaal" ; "It's all your"
+	line "jouw fout!" ; "fault!"
 	done
 
 BurnedTowerSilver_WinText:
-	text "…Humph!"
+	text "…Humph!" ; "…Humph!"
 
-	para "I only lost be-"
-	line "cause my #MON"
-	cont "are so weak."
+	para "Ik verloor enkel" ; "I only lost be-"
+	line "omdat mijn #MON" ; "cause my #MON"
+	cont "zo zwak zijn." ; "are so weak."
 
-	para "How pathetic."
+	para "Zo zielig." ; "How pathetic."
 	done
 
 BurnedTowerSilver_AfterText1:
-	text "…Aw, whatever."
+	text "…Ach, boeit niet." ; "…Aw, whatever."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Je zou toch nooit" ; "You would never be"
+	line "in staat zijn om" ; "able to catch a"
 
-	para "legendary #MON"
-	line "anyway."
+	para "een legendarische" ; "legendary #MON"
+	line "#MON te vangen." ; "anyway."
 	done
 
 BurnedTowerSilver_LossText:
-	text "…Humph!"
+	text "…Humph!" ; "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Daarom haat ik ve-" ; "This is why I hate"
+	line "chten met watjes." ; battling wimps."
 
-	para "It's just a waste"
-	line "of my time."
+	para "Het is gewoon" ; "It's just a waste"
+	line "tijdsverspilling." ; "of my time."
 	done
 
 BurnedTowerSilver_AfterText2:
-	text "Humph!"
+	text "Humph!" ; "Humph!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Waarom viel je" ; "What are you doing"
+	line "daar? Slim, hoor!" ; "falling into a"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "Eigen schuld!" ; "hole? Some genius"
+	line "Dikke bult!" ; "you are!"
 
-	para "Serves you right!"
+;	para "Serves you right!"
 	done
 
 BurnedTower1FEusineIntroText:

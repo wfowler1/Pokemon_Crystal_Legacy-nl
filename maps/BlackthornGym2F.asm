@@ -79,15 +79,16 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "I just got access"
-	line "to use DRAGON-"
-	cont "type #MON!"
+    text "Ik kreeg net toe-" ; "I just got access"
+    line "lating om DRAAK-" ; "to use DRAGON-"
+    cont "type #MON te" ;  "#MON!"
+	cont "gebruiken." ; 
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had a DRAGONITE!"
-	done
+    text "Verroest! Had ik" ; Rats! If only I"
+    line "maar 'n DRAGONITE!" ; "had a DRAGONITE!"
+    done
 
 CooltrainermCodyAfterBattleText:
 	text "Leden van onze" ; "Members of our"

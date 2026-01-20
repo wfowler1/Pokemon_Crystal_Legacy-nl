@@ -274,40 +274,41 @@ CatchingTutorialIntroText:
 	done
 
 CatchingTutorialDebriefText:
-	text "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	text "Als je ze eerst" ; "If you weaken them"
+	line "verzwakt, vang je" ; "first, #MON are"
+	cont "#MON sneller." ; "easier to catch."
 
-	para "If you want to"
-	line "learn more, go"
-	cont "to the ACADEMY"
-	cont "in VIOLET CITY!"
+	para "Om meer te leren," ; "If you want to"
+	line "kan je naar de" ; "learn more, go"
 
-	para "The students there"
-	line "know a lot about"
-	cont "#MON."
+	para "ACADEMIE in VIOLET" ; "to the ACADEMY"
+	line "CITY gaan!" ; "in VIOLET CITY!"
+
+	para "De studenten daar" ; The students there"
+	line "weten een heleboel" ; know a lot about"
+	cont "over #MON." ; #MON."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Oh. Oké, prima." ; "Oh. Fine, then."
 
-	para "Check every route"
-	line "to find different"
-	cont "types of #MON."
+	para "Check elke route" ; "Check every route"
+	line "om meerdere types" ; "to find different"
+	cont "#MON te vinden." ; "types of #MON."
 
-	para "Your #DEX shows"
-	line "where you can find"
-	cont "them too!"
+	para "Je #DEX geeft" ; "Your #DEX shows"
+	line "ook weer waar je" ; "where you can find"
+	cont "ze kan vinden!" ; "them too!"
 
-	para "If you want to"
-	line "learn more, go"
+	para "Om meer te leren," ; "If you want to"
+	line "kan je naar de" ; "learn more, go"
 
-	para "to the ACADEMY"
-	line "in VIOLET CITY!"
-	
-	para "The students"
-	line "know a lot about"
-	cont "#MON."
+	para "ACADEMIE in VIOLET" ; "to the ACADEMY"
+	line "CITY gaan!" ; "in VIOLET CITY!"
+
+	para "De studenten daar" ; The students there"
+	line "weten een heleboel" ; know a lot about"
+	cont "over #MON." ; #MON."
 	done
 
 CatchingTutorialRepeatText:
@@ -348,11 +349,11 @@ Route29FisherText:
 	done
 
 Route29CooltrainerMText_WaitingForDay:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Ik wacht op" ; "I'm waiting for"
+	line "#MON die" ; "#MON that"
 
-	para "appear only later"
-	line "in the day."
+	para "enkel later op de" ; "appear only later"
+	line "dag verschijnen." ; "in the day."
 	done
 
 Route29CooltrainerMText_WaitingForNight:
@@ -394,15 +395,15 @@ TuscanyGivesGiftText:
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "TUSCANY: Is dit" ; "TUSCANY: Wouldn't"
+	line "niet hartstikke" ; "you agree that it"
+	cont "schattig?" ; "is most adorable?"
 
-	para "It strengthens"
-	line "NORMAL-type moves."
+	para "Dit versterkt" ; "It strengthens"
+	line "NORMAAL-aanvallen." ; "NORMAL-type moves."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Je hebt er vast" ; "I am certain it"
+	line "wel iets aan." ; "will be of use."
 	done
 
 TuscanyTuesdayText:

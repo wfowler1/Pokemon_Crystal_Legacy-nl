@@ -289,25 +289,25 @@ WhitneyAttractText:
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, eens goed" ; "Ah, that was a"
+	line "huilen doet deugd!" ; "good cry!"
 	done
 
 WhitneyRematchText:
-	text "Hi! It's you!"
+	text "Hey! Jij bent het!" ; "Hi! It's you!"
 
-    para "Wow, JOHTO"
-    line "CHAMPION now?"
+    para "Wauw, JOHTO" ; "Wow, JOHTO"
+    line "KAMPIOEN nu?" ; "CHAMPION now?"
 
-    para "You really are"
-    line "amazing!"
+    para "Je bent echt" ; "You really are"
+    line "geweldig!" ; "amazing!"
 
-    para "I want to see"
-    line "how strong you"
-    cont "are."
+    para "Ik wil zien hoe" ; "I want to see"
+    line "sterk je nu bent." ; "how strong you"
+;    cont "are."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Whitney_RematchDefeatText:
@@ -315,8 +315,9 @@ Whitney_RematchDefeatText:
 
 	para "Waaaaah!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "…Snotter, hik…" ; "…Snivel, hic…"
+	line "…Jij gemenerd!" ; "…You meanie!"
+
 	done
 
 LassCarrieSeenText:
@@ -419,27 +420,27 @@ BeautySamanthaAfterBattleText:
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! KAMPIOEN in" ; "Yo! CHAMP in"
+	line "het verschiet!" ; "making!"
 
-	para "This GYM is home"
-	line "to WHITNEY, the"
-	cont "master of NORMAL-"
-	cont "type #MON."
+	para "Deze GYM is de ba-" ; "This GYM is home"
+	line "sis van WHITNEY," ; "to WHITNEY, the"
+	cont "meester van NOR-" ; "master of NORMAL-"
+	cont "MAAL-type #MON." ; "type #MON."
 
-	para "Be cautious of"
-	line "her cute team."
+	para "Pas op voor haar" ; "Be cautious of"
+	line "schattig team." ; "her cute team."
 
-	para "That little teddy"
-	line "bear of hers might"
-	cont "be adorable,"
+	para "Haar kleine teddy-" ; "That little teddy"
+	line "beer oogt mis-" ; "bear of hers might"
+	cont "schien schattig," ; "be adorable,"
 	
-	para "but I've seen it"
-	line "shatter rocks."
+	para "maar ik zag het" ; "but I've seen it"
+	line "rotsen breken." ; "shatter rocks."
 	
-	para "Check ROUTE 34"
-	line "if you need a"
-	cont "FIGHTING-type."
+	para "Bezoek ROUTE 34" ; "Check ROUTE 34"
+	line "als je een VECHT-" ; "if you need a"
+	cont "type nodig hebt." ; "FIGHTING-type."
 	done
 
 GoldenrodGymGuideWinText:

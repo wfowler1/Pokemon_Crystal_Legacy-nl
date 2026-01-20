@@ -27,22 +27,23 @@ Route30BerryHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "You know, #MON"
-	line "get healthier by"
-	cont "eating BERRIES."
+	text "Weet je, van" ; "You know, #MON"
+	line "BESSEN eten worden" ; "get healthier by"
+	cont "#MON gezonder." ; "eating BERRIES."
 
-	para "They can even eat"
-	line "BERRIES they're"
-	cont "holding in battle."
+	para "BESSEN die ze" ; "They can even eat"
+	line "vasthouden, kunnen" ; "BERRIES they're"
+	cont "ze zelfs in een" ; "holding in battle."
+	cont "gevecht opeten." ; 
 
-	para "Here. I'll share"
-	line "one with you!"
+	para "Hier, ik deel er" ; "Here. I'll share"
+	line "wel eentje met je!" ; "one with you!"
 	done
 
 Route30BerrySpeechHouseCheckTreesText:
-	text "Check trees for"
-	line "BERRIES. They grow"
-	cont "back every day."
+	text "Zoek in bomen naar" ; "Check trees for"
+	line "BESSEN. Ze groeien" ; "BERRIES. They grow"
+	cont "elke dag terug." ; "back every day."
 	done
 
 Route30BerryHouse_MapEvents:

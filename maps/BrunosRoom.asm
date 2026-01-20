@@ -105,27 +105,28 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoRematchBeforeText:
-	text "BRUNO: Welcome"
-	line "back, young"
-    cont "warrior."
+	text "BRUNO: Welkom" ; "BRUNO: Welcome"
+	line "terug, jonge" ; "back, young"
+    cont "krijger" ; "warrior."
 
-    para "Through rigorous"
-    line "training, we have"
-    cont "grown stronger."
+    para "Door intensieve" ; "Through rigorous"
+    line "training, zijn we" ; "training, we have"
+    cont "sterker geworden." ; "grown stronger."
 
-    para "My rock-hard will"
-    line "is even more firm"
-    cont "and unyielding."
+    para "Mijn ijzersterke" ; "My rock-hard will"
+    line "wilskracht is nog" ; "is even more firm"
+    cont "resoluter en" ; "and unyielding."
+	cont "onbuigzamer."
 
-    para "Are you prepared"
-    line "to face an even"
-    cont "greater challenge?"
+    para "Ben je klaar voor" ; "Are you prepared"
+    line "een nog grotere" ; "to face an even"
+    cont "uitdaging?" ; "greater challenge?"
 
-    para "Show me the"
-    line "results of your"
+    para "Toon me het" ; "Show me the"
+    line "resultaat van je" ; "results of your"
 	cont "training."
 
-	para "Hoo hah!"
+	para "Hoo hah!" ; "Hoo hah!"
 	done
 
 BrunoScript_BrunoBeforeText:

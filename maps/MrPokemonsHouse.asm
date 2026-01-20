@@ -214,9 +214,9 @@ MrPokemonIntroText3:
 	done
 
 MrPokemonExpShareText:
-	text "I also have a"
-	line "special item for"
-	cont "you."
+	text "Ik heb ook een" ; "I also have a"
+	line "bijzonder voorwerp" ; "special item for"
+	cont "voor jou." ; "you."
 	done
 
 MrPokemonIntroText4:
@@ -253,72 +253,71 @@ MrPokemonText_AlwaysNewDiscoveries:
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
-	line "you're <PLAY_G>!"
+	text "OAK: Aha! Dus jij" ; "OAK: Aha! So"
+	line "bent <PLAY_G>!" ; "you're <PLAY_G>!"
 
-	para "I'm OAK! A #MON"
-	line "researcher."
+	para "Ik ben OAK! Ik" ; "I'm OAK! A #MON"
+	line "onderzoek #MON!" ; "researcher."
 
-	para "I was just visit-"
-	line "ing my old friend"
-	cont "MR.#MON."
+	para "Ik bezocht net" ; "I was just visit-"
+	line "mijn oude vriend" ; "ing my old friend"
+	cont "MR.#MON." ; "MR.#MON."
 
-	para "I heard you were"
-	line "running an errand"
+	para "Ik hoorde dat je" ; "I heard you were"
+	line "een klusje opknapt" ; "running an errand"
 
-	para "for PROF.ELM, so I"
-	line "waited here."
+	para "voor PROF.ELM, dus" ; "for PROF.ELM, so I"
+	line "ik wachtte op je." ; "waited here."
 
-	para "Oh! What's this?"
-	line "A rare #MON!"
+	para "Wat is dit? Een" ; "Oh! What's this?"
+	line "zeldzame #MON!" ; "A rare #MON!"
 
-	para "Let's see…"
+	para "Eens zien…" ; "Let's see…"
 
-	para "Hm, I see!"
+	para "Ah, ik snap het!" ; "Hm, I see!"
 
-	para "I understand why"
-	line "PROF.ELM gave you"
+	para "Ik snap waarom" ; "I understand why"
+	line "PROF.ELM je een" ; "PROF.ELM gave you"
 
-	para "a #MON for this"
-	line "errand."
+	para "#MON gaf voor" ; "a #MON for this"
+	line "dit klusje." ; "errand."
 
-	para "To researchers"
-	line "like PROF.ELM and"
+	para "Onderzoekers zoals" ; "To researchers"
+	line "PROF.ELM en ik" ; "like PROF.ELM and"
 
-	para "I, #MON are our"
-	line "friends."
+	para "zien #MON als" ; "I, #MON are our"
+	line "onze vrienden." ; "friends."
 
-	para "He saw that you"
-	line "would treat your"
+	para "Hij zag dat jij je" ; "He saw that you"
+	line "#MON met liefde" ; "would treat your"
 
-	para "#MON with love"
-	line "and care."
+	para "en zorg zou" ; "#MON with love"
+	line "behandelen." ; "and care."
 
-	para "…Ah!"
+	para "…Ah!" ; "…Ah!"
 
-	para "You seem to be"
-	line "dependable."
+	para "Op jou kan iemand" ; "You seem to be"
+	line "vertrouwen." ; "dependable."
 
-	para "How would you like"
-	line "to help me out?"
+	para "Wil je mij anders" ; "How would you like"
+	line "met iets helpen?" ; "to help me out?"
 
-	para "See? This is the"
-	line "latest version of"
-	cont "the #DEX."
+	para "Dit hier is de" ; "See? This is the"
+	line "nieuwste #DEX." ; "latest version of"
 
-	para "It automatically"
-	line "records data on"
+	para "Hij bewaart auto-" ; "It automatically"
+	line "matisch data van" ; "records data on"
 
-	para "#MON you've"
-	line "seen or caught."
+	para "#MON die je" ; "#MON you've"
+	line "ziet of vangt." ; "seen or caught."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Het is een hi-tech" ; "It's a hi-tech"
+	line "encyclopedie!" ; "encyclopedia!"
 
-	para "It shows their"
-	line "habitats, how they"
-	cont "evolve, and their"
-	cont "moves."
+	para "Het geeft hun" ; "It shows their"
+	line "habitats, hoe ze" ; "habitats, how they"
+	cont "evolueren, en hun" ; "evolve, and their"
+	cont "aanvallen weer." ; "moves."
 	done
 
 MrPokemonsHouse_GetDexText:

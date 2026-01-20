@@ -500,8 +500,8 @@ GoldenrodCityMoveTutorAskTeachAMoveText:
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "It will cost you"
-	line "1000 coins. Okay?"
+	text "Het zal je 1000" ; "It will cost you"
+	line "munten kosten. Ok?" ; 1000 coins. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:

@@ -64,7 +64,7 @@ ArticunoScript:
 	end
 
 ArticunoBattleText:
-	text "Gyaoo!"
+	text "Gyaoo!" ; "Gyaoo!"
 	done
 
 SwimmerfNicoleSeenText:

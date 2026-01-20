@@ -13,16 +13,16 @@ BillsBrotherScript:
 BillsBrothersHouseYoungsterScript:
 	jumptextfaceplayer BillsBrothersHouseYoungsterText
 
-BillsBrotherText: ; ReplaceWith BillsOlderSisterText:
-	text "Mijn opa is bij" ; "My grandpa is at "
-	line "mijn broer BILL op" ; "my brother BILL's"
-	cont "KAAP CERULEAN." ; "on CERULEAN CAPE."
+BillsBrotherText:
+	text "Mijn opa is in het" ; "My grandpa is at "
+	line "huis van m'n broer" ; "my brother BILL's"
+	cont "op CERULEAN CAPE." ; "on CERULEAN CAPE."
 	done
 
-BillsBrothersHouseYoungsterText: ; ReplaceWith BillsOlderSistersHouseYoungsterText:
-	text "Ik zag vreemde," ; "I saw these weird,"
-	line "trage #MON op" ; "slow #MON on"
-	cont "het FIETSPAD." ; "CYCLING ROAD."
+BillsBrothersHouseYoungsterText:
+	text "Ik zag deze rare," ; "I saw these weird,"
+	line "slome #MON op" ; "slow #MON on"
+	cont "CYCLING ROAD." ; "CYCLING ROAD."
 	done
 
 BillsBrothersHouse_MapEvents:

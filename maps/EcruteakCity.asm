@@ -142,15 +142,15 @@ EcruteakCityLass1Text:
 	done
 
 EcruteakCityLass2Text:
-	text "The tower that"
-	line "used to be here…"
+	text "De toren die hier" ; The tower that"
+	line "vroeger stond…" ; "used to be here…"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para "Mijn oma vertelde" ; "My grandma told me"
+	line "me dat ie veel" ; "it used to be much"
+	cont "hoger was." ; "taller."
 	
-	para "I hear there are"
-	line "ghosts in it now."
+	para "Ik hoorde dat het" ; "I hear there are"
+	line "er nu spookt." ; "ghosts in it now."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:

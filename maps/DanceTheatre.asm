@@ -187,10 +187,9 @@ KimonoGirlZukiBeatenText:
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "Ik stop elke" ; "I put a different"
-	line "maand een nieuwe" ; "flower in my bar-"
-	cont "bloem in mijn" ; "rette every month."
-	cont "haarspeld." ;
+	text "Ik stop elke maand" ; "I put a different"
+	line "een nieuwe bloem" ; "flower in my bar-"
+	cont "in mijn haarspeld." ; "rette every month."
 	done
 
 KimonoGirlKuniSeenText:
@@ -220,16 +219,16 @@ KimonoGirlMikiSeenText:
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, jij bent" ; "Ooh, you're good"
-	line "ook goed met" ; "at #MON too."
-	cont "#MON." ; 
+	text "Ooh, jij bent ook" ; "Ooh, you're good"
+	line "goed met #MON." ; "at #MON too."
+;	cont "#MON." ; 
 	done
 
 KimonoGirlMikiAfterBattleText:
 	text "Ik blijf dansen" ; "I can keep dancing"
 	line "want er zijn men-" ; "because there are"
 
-	para "sen die ervan" ; "people who enjoy"
+	para "sen die daarvan" ; "people who enjoy"
 	line "genieten." ; "what I do."
 
 	para "Mijn #MON mo-" ; "My #MON keep my"
@@ -244,12 +243,11 @@ SurfGuyNeverLeftAScratchText:
 	line "maar ook goed" ; "also skilled at"
 	cont "met #MON." ; "#MON."
 
-	para "Ik daag ze" ; "I always challenge"
-	line "altijd uit, maar" ; "them, but I've"
+	para "Ik daag ze altijd" ; "I always challenge"
+	line "uit, maar kan niet" ; "them, but I've"
 
-	para "heb zelfs nooit" ; "never even left a"
-	line "een krasje achter-" ; "scratch…"
-	cont "gelaten…" ; 
+	para "eens een krasje" ; "never even left a"
+	line "achterlaten…" ; "scratch…"
 	done
 
 SurfGuyLadGiftText:
@@ -285,9 +283,9 @@ SurfGuySurfExplanationText:
 	text "Dat is SURF." ; "That's SURF."
 
 	para "Een aanval die" ; "It's a move that"
-	line "#MON over" ; "lets #MON swim"
-	cont "water laat" ; "across water."
-	cont "zwemmen." ;
+	line "#MON over water" ; "lets #MON swim"
+	cont "laat zwemmen." ; "across water."
+;	cont "zwemmen." ;
 	done
 
 SurfGuyElegantKimonoGirlsText:
@@ -298,47 +296,48 @@ SurfGuyElegantKimonoGirlsText:
 	done
 
 RhydonText:
-	text "RHYDON: Grugoh" ; "RHYDON: Gugooh"
-	line "grugoooh!" ; "gugogooh!"
+	text "RHYDON: Gugooh"
+	line "gugogooh!"
 	done
 
 DanceTheatreCooltrainerMText:
-	text "That man's always"
-	line "with his RHYDON."
+	text "Die man is altijd" ; "That man's always"
+	line "bij zijn RHYDON." ; "with his RHYDON."
 
-	para "Says he wants a"
-	line "#MON that can"
-	cont "SURF and dance."
+	para "Zegt dat ie een" ; "Says he wants a"
+	line "#MON wil die" ; "#MON that can"
+	cont "SURFt en danst." ; "SURF and dance."
 
-	para "Is he trying to"
-	line "make a synchro-"
-	cont "nized swimming"
-	cont "#MON?"
+	para "Probeert ie een" ; "Is he trying to"
+	line "synchroon-" ; "make a synchro-"
+	cont "zwemmende" ; "nized swimming"
+	cont "#MON te maken?" ; "#MON?"
 	done
 
 DanceTheatreGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "De KIMONO-MEIDEN" ; "The KIMONO GIRLS"
+	line "zijn zo knap…" ; "are so beautiful…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Maar ze onder-" ; "But they have to"
+	line "gaan een strenge" ; "go through rigor-"
+	cont "training." ; "ous training."
 
-	para "And they have to"
-	line "learn to follow"
+	para "En ze moeten leren" ; "And they have to"
+	line "om tradities te" ; "learn to follow"
 
-	para "customs before ap-"
-	line "pearing in public."
+	para "volgen voordat ze" ; "customs before ap-"
+	line "in het openbaar" ; "pearing in public."
+	cont "verschijnen." ;
 
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Maar als je" ; "But if you love"
+	line "ergens van houdt," ; "something, any-"
+	cont "is alles mogelijk." ; "thing is possible."
 	done
 
 DanceTheatreFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Het is een luxe" ; "It's a fancy panel"
+	line "bord dat is ver-" ; "that's decorated"
+	cont "sierd met bloemen." ; "with flowers."
 	done
 
 DanceTheatre_MapEvents:

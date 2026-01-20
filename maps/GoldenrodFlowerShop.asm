@@ -156,11 +156,11 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	done
 
 GoldenrodFlowerShopTeacherHeresTheGoldBerryText:
-	text "Oh, you"
-	line "found FLORIA…"
+	text "Oh, je vond" ; Oh, you"
+	line "FLORIA…" ; "found FLORIA…"
 
-	para "Here's a GOLD"
-	line "BERRY as thanks!"
+	para "Hier is een GOUDEN" ; "Here's a GOLD"
+	line "BES als bedankje!" ; "BERRY as thanks!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:

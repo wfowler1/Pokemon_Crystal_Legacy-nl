@@ -95,55 +95,56 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenRematchBeforeText:
-	text "KAREN: Ah,"
-	line "it's you again."
+	text "KAREN: Ah," ; "KAREN: Ah,"
+	line "Jij weer." ; "it's you again."
 
-    para "I trust you"
-    line "haven't forgotten"
-	cont "my belief:"
+    para "Ik hoop dat je" ; "I trust you"
+    line "mijn overtuiging" ; "haven't forgotten"
+	cont "onthouden hebt:" ; "my belief:"
 
-    para "True strength"
-    line "arises from trust"
-    cont "in one's #MON."
+    para "Ware kracht stemt" ; "True strength"
+    line "uit vertrouwen in" ; "arises from trust"
+    cont "je #MON." ; "in one's #MON."
 
-    para "Since our last"
-    line "encounter, my"
+    para "Sinds onze laatste" ; "Since our last"
+    line "ontmoeting is de" ; "encounter, my"
 
-	para "bond with my"
-	line "#MON has"
-    cont "deepened further."
+	para "band met mijn" ;  "bond with my"
+	line "#MON verder" ; "#MON has"
+    cont "verstevigd." ; "deepened further."
 
-    para "Are you ready"
-    line "to face a team"
-    cont "united by an"
-    cont "unbreakable bond?"
+    para "Ben je klaar om" ; "Are you ready"
+    line "te strijden tegen" ; ; "to face a team"
+    cont "een team met een" ; "united by an"
+    cont "onbreekbare band?" ; "unbreakable bond?"
 
-    para "Show me the power"
-    line "of the bond with"
-    cont "your #MON."
+    para "Toon me de kracht" ; "Show me the power"
+    line "van de band met" ; "of the bond with"
+    cont "je #MON." ; "your #MON."
 	done
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "Ik ben KAREN van" ; "I am KAREN of the"
+	line "de ELITE FOUR." ; "ELITE FOUR."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "Jij bent <PLAYER>?" ; "You're <PLAYER>?"
+	line "Wat grappig." ; "How amusing."
 
-	para "I love DARK-type"
-	line "#MON."
+	para "Ik ben dol op" ; "I love dark-type"
+	line "DUISTER-type" ; "#MON."
+	cont "#MON."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Ik vind hun wilde," ; "I find their wild,"
+	line "ruwe imago zo" ; "tough image to be"
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "aanlokkelijk. En" ; "so appealing. And"
+	line "ze zijn krachtig." ; "they're so strong."
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Denk je ze aan te" ; "Think you can take"
+	line "kunnen? Probeer" ; "them? Just try to"
+	cont "het maar." ; "entertain me."
 
-	para "Let's go."
+	para "We beginnen." ; "Let's go."
 	done
 
 KarenScript_KarenBeatenText:

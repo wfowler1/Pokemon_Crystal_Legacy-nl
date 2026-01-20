@@ -113,75 +113,76 @@ OakLabGoodbyeText:
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! That's"
-	line "excellent!"
+	text "OAK: Wauw! Dat" ; "OAK: Wow! That's"
+	line "is geweldig!" ; "excellent!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO,"
+	para "Je verzamelde de" ; "You collected the"
+	line "BADGES van GYMS in" ; "BADGES of GYMS in"
+	cont "KANTO, en werd de " ; "KANTO,"
 
-	para "and become"
-	line "CHAMPION of both"
-	cont "the KANTO and"
-	cont "JOHTO LEAGUES."
+	para "KAMPIOEN van zowel" ; "and become"
+	line "de KANTO als" ; "CHAMPION of both"
+	cont "JOHTO LEAGUES." ; "the KANTO and"
+;	cont "JOHTO LEAGUES."
 	
-	para "Well done!"
+	para "Goed bezig!" ; "Well done!"
 
-	para "I was right in my"
-	line "assessment of you."
+	para "Ik heb je juist" ; I was right in my"
+	line "ingeschat." ; "assessment of you."
 
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
+	para "Weet je wat," ; "Tell you what,"
+	line "<PLAY_G>. Ik zorg" ; "<PLAY_G>. I'll make"
 
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
+	para "dat je naar de" ; "arrangements so"
+	line "ZILVERBERG mag." ; "that you can go to"
+;	cont "MT.SILVER."
 
-	para "MT.SILVER is a big"
-	line "mountain that is"
+	para "ZILVERBERG is een" ; "MT.SILVER is a big"
+	line "grote berg waar" ; "mountain that is"
 
-	para "home to many wild"
-	line "#MON."
+	para "veel wilde" ; "home to many wild"
+	line "#MON wonen." ; "#MON."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "Het is te ge-" ; "It's too dangerous"
+	line "vaarlijk voor een" ; "for your average"
 
-	para "trainer, so it's"
-	line "off limits. But"
+	para "gewone trainer," ; "trainer, so it's"
+	line "dus is het ver-" ; "off limits. But"
 
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
+	para "boden terrein." ; "we can make an"
+	line "Maar voor jou is" ; "exception in your"
+	cont "een uitzondering" ; "case, <PLAY_G>."
+	cont "mogelijk,<PLAY_G>." ;
 
-	para "Go up to INDIGO"
-	line "PLATEAU. You can"
+	para "Ga naar INDIGO-" ; "Go up to INDIGO"
+	line "PLATEAU. Je kan" ; "PLATEAU. You can"
 
-	para "reach MT.SILVER"
-	line "from there."
+	para "ZILVERBERG vanaf" ; "reach MT.SILVER"
+	line "daar bereiken." ; "from there."
 	done
 
 OakBattleKantoE4Text:
-	text "OAK: Wow! That's"
-	line "excellent!"
+	text "OAK: Wow! Dat is" ; "OAK: Wow! That's"
+	line "excellent!" ; "excellent!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO,"
+	para "Je verzamelde de" ; "You collected the"
+	line "BADGES van de GYMS" ; "BADGES of GYMS in"
+	cont "in KANTO," ; "KANTO,"
 
-	para "but I still don't"
-	line "think you are"
-	cont "ready."
+	para "maar ik denk nog" ; "but I still don't"
+	line "steeds niet dat je" ; "think you are"
+	cont "klaar bent." ; "ready."
 
-	para "You must return"
-	line "to the ELITE"
-	cont "FOUR..."
+	para "Keer terug naar de" ; "You must return"
+	line "ELITE FOUR…" ; "to the ELITE"
+;	cont "FOUR..."
 
-	para "and battle in"
-	line "the KANTO LEAGUE!"
+	para "en overwin in de" ; "and battle in"
+	line "KANTO LEAGUE!" ; "the KANTO LEAGUE!"
 
-	para "Only then will"
-	line "you truly have"
-	cont "what it takes."
+	para "Enkel dan ben je" ; "Only then will"
+	line "sterk genoeg voor" ; "you truly have"
+	cont "de laatste etappe." ; "what it takes."
 	done
 
 OakNoKantoBadgesText:

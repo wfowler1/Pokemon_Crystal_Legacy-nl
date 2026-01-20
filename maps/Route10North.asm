@@ -37,7 +37,7 @@ PowerPlantSignText:
 	done
 
 ZapdosBattleText:
-	text "Gyaoo!"
+	text "Gyaoo!" ; "Gyaoo!"
 	done
 
 Route10North_MapEvents:

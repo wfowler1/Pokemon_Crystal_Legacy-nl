@@ -150,28 +150,30 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Thank you for"
-	line "your help at the"
-	cont "LIGHTHOUSE…"
+	text "…Bedankt voor je" ; "…Thank you for"
+	line "hulp in de" ; "your help at the"
+	cont "VUURTOREN…" ; "LIGHTHOUSE…"
 
-	para "But this is dif-"
-	line "ferent. Please"
+	para "Maar dit is" ; "But this is dif-"
+	line "anders. Sta me toe" ; "ferent. Please"
 
-	para "allow me to intro-"
-	line "duce myself."
+	para "om mezelf te" ; "allow me to intro-"
+	line "introduceren." ; "duce myself."
 
-	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
-	cont "the STEEL-type."
+	para "Ik ben JASMINE," ; "I am JASMINE, a"
+	line "een GYMLEIDER. Ik" ; "GYM LEADER. I use"
+	cont "gebruik het" ; "the STEEL-type."
+	cont "STAAL-type." ;
 
-	para "…Do you know about"
-	line "the STEEL-type?"
+	para "…Ken je het" ; "…Do you know about"
+	line "STAAL-type?" ; "the STAAL-type?"
 
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
+	para "Het is een type" ; "It's a type that"
+	line "dat nog maar pas" ; "was only recently"
+	cont "is ontdekt." ; "discovered."
 
-	para "…Um… May I begin?"
+	para "…Um… Kan ik" ; "…Um… May I begin?"
+	line "beginnen?" ;
 	done
 
 Jasmine_BetterTrainer:
@@ -222,77 +224,79 @@ Jasmine_GoodLuck:
 	done
 
 JasmineRematchText:
-	text "…Congratulations,"
-    line "JOHTO CHAMPION."
+	text "…Gefeliciteerd," ; "Congratulations,"
+    line "JOHTO KAMPIOEN." ; "JOHTO CHAMPION."
 
-    para "You have become"
-    line "so strong…"
+    para "Je bent zo sterk" ; "You have become"
+    line "geworden…" ; "so strong…"
 
-    para "I wonder if I"
-    line "have improved."
+    para "Ik vraag me af of" ; "I wonder if I"
+    line "ik verbeterd ben." ; "have improved."
 
-    para "Would you like"
-    line "to test that?"
+    para "Zou je dat graag" ; "Would you like"
+    line "willen testen?" ; "to test that?"
 
-    para "Want to have a"
-    line "rematch with me?"
+    para "Wil je een rematch" ; "Want to have a"
+    line "met me?" ; "rematch with me?"
 	done
 
 Jasmine_RematchDefeatText:
-	text "…You are a better"
-	line "trainer than me,"
+	text "…Je bent een" ; "…You are a better"
+	line "betere trainer dan" ; "trainer than me,"
 
-	para "in both skill and"
-	line "kindness."
+	para "mij in zowel" ; "in both skill and"
+	line "vaardigheid als" ; "kindness."
+	cont "vriendelijkheid." ; 
 	done
 
 OlivineGymGuideText:
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "STEEL-type."
+	text "JASMINE gebruikt" ; "JASMINE uses the"
+	line "het nieuw ontdekte" ; "newly discovered"
+	cont "STAAL-type." ; "STEEL-type."
 
-	para "She's known for"
-	line "having not one,"
-	cont "but two aces."
+	para "Ze is gekend omdat" ; "She's known for"
+	line "er twee toppers in" ; "having not one,"
+	cont "in haar team zijn." ; "but two aces."
 	
-	para "The first is a"
-	line "metal bug that can"
+	para "De eerste is een" ; "The first is a"
+	line "metalen insect met" ; "metal bug that can"
 	
-	para "use a technique to"
-	line "boost its ATTACK."
+	para "een truc om AANVAL" ; "use a technique to"
+	line "te vergroten." ; "boost its ATTACK."
 	
-	para "While fire will"
-	line "hurt it, it can"
+	para "Vuur kan het dan" ; "While fire will"
+	line "wel schaden, toch" ; "hurt it, it can"
 
-	para "sometimes endure"
-	line "powerful blows."
+	para "weet het soms" ; "sometimes endure"
+	line "krachtige klappen" ; "powerful blows."
+	cont "te weerstaan." ; 
 	
-	para "The second is a"
-	line "giant iron snake"
+	para "De tweede is een" ; "The second is a"
+	line "reuzeslang van" ; "giant iron snake"
 	
-	para "with lots of"
-	line "powerful moves."
+	para "ijzer met vele ma-" ; "with lots of"
+	line "chtige aanvallen." ; "powerful moves."
 	
-	para "Approach it with"
-	line "caution."
+	para "Benader die" ; "Approach it with"
+	line "voorzichtig." ; "caution."
 	
-	para "It may look slow,"
-	line "but I've seen it"
+	para "Deze lijkt traag," ; "It may look slow,"
+	line "toch heb ik gezien" ; but I've seen it"
 
-	para "strike first with"
-	line "shocking displays"
-	cont "of SPEED."
+	para "hoe ie eerst toe-" ; "strike first with"
+	line "slaat met verras-" ; shocking displays"
+	cont "sende SNELHEID." ; "of SPEED."
 	done
 
 OlivineGymGuideWinText:
-	text "That was awesome."
+	text "Dat was geweldig." ; "That was awesome."
 
-	para "The STEEL-type,"
-	line "huh?"
+	para "Het STAAL-type," ; "The STEEL-type,"
+	line "hè?" ; "huh?"
 
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "Dat was een" ; "That was a close"
+	line "zeldzaam" ; "encounter of an"
+	cont "goed gevecht!" ; "unknown kind!"
 	done
 
 OlivineGymGuidePreText:

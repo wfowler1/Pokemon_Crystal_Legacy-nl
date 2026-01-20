@@ -307,42 +307,42 @@ MortyFightDoneText:
 	done
 
 MortyRematchText:
-	text "Ah, the JOHTO"
-	line "CHAMPION! Good"
-	cont "of you to come."
+	text "Ah, de JOHTO" ; "Ah, the JOHTO"
+	line "KAMPIOEN! Leuk dat" ; "CHAMPION! Good"
+	cont "je langskomt." ; "of you to come."
 
-	para "You've shown your"
-	line "strength and"
-	cont "skill, but have"
+	para "Je hebt je kracht" ; "You've shown your"
+	line "en vaardigheid" ; "strength and"
+	cont "getoond, maar ben" ; "skill, but have"
 
-	para "you improved"
-	line "since our last"
-	cont "battle?"
+	para "je verbetert sinds" ; "you improved"
+	line "ons vorig gevecht?" ; since our last"
+;	cont "battle?"
 
-	para "I've been"
-	line "training with my"
-	cont "GHOST-type"
-	cont "#MON."
+	para "Ik heb getraind" ; "I've been"
+	line "met mijn GEEST-" ; "training with my"
+	cont "type #MON." ; "GHOST-type"
+;	cont "#MON."
 
-	para "Let's see if you"
-	line "can overcome the"
-	cont "shadows once"
-	cont "again."
+	para "Eens kijken of je" ; "Let's see if you"
+	line "nogmaals de" ; can overcome the"
+	cont "schaduwen kan" ; "shadows once"
+	cont "overwinnen." ; "again."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Morty_RematchDefeatText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Ik ben nog niet" ; "I'm not good"
+	line "goed genoeg…" ; "enough yet…"
 
-	para "You have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Je hebt meer mee-" ; "You have wit-"
+	line "gemaakt dan ik." ; "nessed much more"
+;	cont "than I."
 
-	para "I envy you for"
-	line "that…"
+	para "Daar ben ik" ; "I envy you for"
+	line "jaloers op…" ; "that…"
 	done
 
 SageJeffreySeenText:
@@ -382,12 +382,12 @@ SagePingBeatenText:
 	done
 
 SagePingAfterBattleText:
-	text "We use GHOST-"
-	line "type #MON."
+	text "We kiezen voor" ; "We use GHOST-"
+	line "GEEST-type #MON." ; "type #MON."
 
-	para "No NORMAL-type"
-	line "attack can harm"
-	cont "them!"
+	para "NORMAAL-aanvallen" ; "No NORMAL-type"
+	line "deren hen niet!" ; attack can harm"
+;	cont "them!"
 	done
 
 MediumMarthaSeenText:
@@ -429,22 +429,24 @@ MediumGraceAfterBattleText:
 	done
 
 EcruteakGymGuideText:
-	text "Hey CHAMP!"
-	line "You're almost"
-	cont "halfway there!"
+	text "Hey KAMPIOEN!" ; "Hey CHAMP!"
+	line "Je bent bijna" ; "You're almost"
+	cont "halverwege!" ; "halfway there!"
 	
-	para "The trainers here"
-	line "use GHOST and"
-	cont "DARK-type #MON."
+	para "Deze trainers ge-" ; "The trainers here"
+	line "bruiken GEEST en" ; "use GHOST and"
+	cont "DUISTER-type" ; "DARK-type #MON."
+	cont "#MON." ;
 
-	para "While MORTY is a"
-	line "GHOST-type expert,"
+	para "MORTY mag dan een" ; While MORTY is a"
+	line "GEEST-type expert" ; "GHOST-type expert,"
 	
-	para "be wary of his"
-	line "mystic deer."
+	para "wezen, pas op voor" ; "be wary of his"
+	line "zijn mystiek hert." ; "mystic deer."
 	
-	para "It's said to cause"
-	line "odd nightmares…"
+	para "Men zegt dat het" ; "It's said to cause"
+	line "vreemde nacht-" ; "odd nightmares…"
+	cont "merries opwekt." ; 
 	done
 
 EcruteakGymGuideWinText:

@@ -203,29 +203,29 @@ Text_HereTeacherIAm:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "SPROUT TOWER."
+	text "Het gerucht is dat" ; "Ghosts are rumored"
+	line "geesten rondspoken" ; "to appear in"
+	cont "in SPROUT-TOREN." ; "SPROUT TOWER."
 
-	para "They say that"
-	line "GHOST-type moves"
+	para "GEEST-type aanval-" ; "They say that"
+	line "len omzeilen de" ; "GHOST-type moves"
 
-	para "can bypass the"
-	line "defenses of"
+	para "AFWEER van sterke" ; "can bypass the"
+	line "#MON zoals" ; "defenses of"
 	
-	para "tough #MON like"
-	line "ONIX and GEODUDE."
+	para "ONIX en GEODUDE," ; "tough #MON like"
+	line "zegt men." ; "ONIX and GEODUDE."
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "He, ben jij een" ; "Hey, you're a"
+	line "#MON-trainer?" ; "#MON trainer?"
 
-	para "If you head to"
-	line "the ACADEMY,"
+	para "Als je naar de" ; "If you head to"
+	line "ACADEMY gaat," ; "the ACADEMY,"
 
-	para "you might learn"
-	line "something new!"
+	para "leer je misschien" ; "you might learn"
+	line "iets nieuws!" ; "something new!"
 	done
 
 VioletCityGrampsText:

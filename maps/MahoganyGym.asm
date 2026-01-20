@@ -303,40 +303,40 @@ PryceText_CherishYourPokemon:
 	done
 
 PryceRematchText:
-	text "Ah, JOHTO"
-    line "CHAMPION!"
+	text "Ah, JOHTO" ; "Ah, JOHTO"
+    line "KAMPIOEN!" ; "CHAMPION!"
 
-    para "Your skills"
-    line "are indeed"
-    cont "remarkable."
+    para "Je vaardigheden" ; "Your skills"
+    line "zijn voorwaar" ; "are indeed"
+    cont "opmerkelijk." ; "remarkable."
 
-    para "I am impressed."
+    para "Ik sta paf." ; "I am impressed."
 
-    para "But even now,"
-    line "there is much"
-    cont "to learn from"
-    cont "each other."
+    para "Maar zelfs nu," ; "But even now,"
+    line "kunnen we veel" ; "there is much"
+    cont "van elkaar leren." ; "to learn from"
+;    cont "each other."
 
-    para "I, PRYCE--the"
-    line "winter trainer--"
+    para "Ik, PRYCE--de" ; "I, PRYCE--the"
+    line "winter trainer--" ; "winter trainer--"
 
-    para "still have a"
-    line "few tricks left."
+    para "heb nog een paar" ; "still have a"
+    line "troeven op hand." ; "few tricks left."
 
-    para "Want to have a"
-    line "rematch with me?"
+    para "Wil je een rematch" ; "Want to have a"
+    line "met me?" ; "rematch with me?"
 	done
 
 Pryce_RematchDefeatText:
-	text "Ah, yet again I'm"
-	line "impressed by your"
-	cont "prowess."
+	text "Ah, wederom sta ik" ; "Ah, yet again I'm"
+	line "versteld van je" ; "impressed by your"
+	cont "bekwaamheid." ; "prowess."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Met je sterke wil" ; "With your strong"
+	line "weet ik dat je" ; "will, I know you"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "alles op je pad" ; "will overcome all"
+	line "zal overwinnen." ; "life's obstacles."
 	done
 
 BoarderRonaldSeenText:
@@ -447,23 +447,23 @@ SkierClarissaAfterBattleText:
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "PRYCE is een" ; "PRYCE is a veteran"
+	line "veteraan die al" ; "who has trained"
 
-	para "#MON for some"
-	line "50 years."
+	para "pakweg 50 jaar" ; "#MON for some"
+	line "#MON traint." ; "50 years."
 
-	para "He's got a solid"
-	line "lineup of #MON"
+	para "Hij bouwde een" ; "He's got a solid"
+	line "stevig #MONteam" ; "lineup of #MON"
 
-	para "to cover whatever"
-	line "you bring his way."
+	para "met antwoorden op" ; "to cover whatever"
+	line "jouw hele team." ; "you bring his way."
 
-	para "Fire is a good"
-	line "place to start,"
+	para "Met vuur kom je" ; "Fire is a good"
+	line "een eind, maar" ; "place to start,"
 
-	para "but watch out"
-	line "for the rain!"
+	para "kijk uit voor" ; "but watch out"
+	line "de regen!" ; "for the rain!"
 	done
 
 MahoganyGymGuideWinText:

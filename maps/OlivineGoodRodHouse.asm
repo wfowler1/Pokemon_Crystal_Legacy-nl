@@ -61,28 +61,29 @@ GiveGoodRodText:
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "Vissen zitten niet" ; "Fish aren't found"
+	line "enkel in de zee." ; "in the sea alone."
 
-	para "They go wherever"
-	line "there is water."
+	para "Ze zwemmen overal" ; "They go wherever"
+	line "waar er water is." ; "there is water."
 
-	para "By the way,"
-	line "your #DEX shows"
-	cont "fishing groups for"
-	cont "#MON."
+	para "Wist je dat je" ; "By the way,"
+	line "#DEX de vis-" ; "your #DEX shows"
+	cont "groepen voor" ; "fishing groups for"
+	cont "#MON toont?" ; "#MON."
 
-	para "Different spots"
-	line "have similar fish."
+	para "Meerdere plaatsen" ; "Different spots"
+	line "hebben gelijk-" ; "have similar fish."
+	cont "aardige vissen."
 
-	para "The #GEAR shows"
-	line "the fishing group"
-	cont "of where you are"
-	cont "currently."
+	para "De #GEAR toont" ; "The #GEAR shows"
+	line "de visgroepen van" ; "the fishing group"
+	cont "je huidige" ; "of where you are"
+	cont "locatie." ; "currently."
 
-	para "Check them out to"
-	line "know what you"
-	cont "might catch!"
+	para "Kijk er eens naar" ; "Check them out to"
+	line "om te zien wat je" ; "know what you"
+	cont "kan vangen!" ; "might catch!"
 	done
 
 DontWantGoodRodText:

@@ -273,103 +273,104 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceRematchBattleIntroText:
-	text "LANCE: "
-	line "Welcome back!"
+	text "LANCE:" ; "LANCE:"
+	line "Welkom terug!" ; "Welcome back!"
 
-    para "You've proven"
-    line "yourself in JOHTO,"
+    para "Je hebt jezelf" ; "You've proven"
+    line "bewezen in JOHTO," ; "yourself in JOHTO,"
 	
-	para "acquiring all 8"
-    line "badges and even"
-    cont "besting me once."
+	para "alle 8 BADGES be-" ; "acquiring all 8"
+    line "komen en me zelfs" ; "badges and even"
+    cont "eens verslaan." ; "besting me once."
 
-    para "But now, you're"
-    line "in the big"
-	cont "leagues."
+    para "Maar nu, speel je" ; "But now, you're"
+    line "in een hogere" ; "in the big"
+	cont "klasse." ; "leagues."
 
-	para "The KANTO LEAGUE!"
+	para "De KANTO LEAGUE!" ; "The KANTO LEAGUE!"
 	
-	para "A region with its"
-    line "own trials and"
-    cont "champions."
+	para "Een regio met eigen" ; "A region with its"
+    line "uitdagingen en" ; "own trials and"
+    cont "kampioenen." ; "champions."
 	
-	para "Here, I am the"
-    line "final challenge,"
+	para "Hier ben ik de" ; "Here, I am the"
+    line "laatste uitdaging," ; "final challenge,"
 
-    para "with a team "
-    line "stronger than ever"
-	cont "before."
+    para "met een team" ; "with a team "
+    line "sterker dan ooit" ; "stronger than ever"
+	cont "tevoren." ; "before."
 
-    para "This is the true"
-    line "test,"
+    para "Dit is de ware" ; "This is the true"
+    line "test," ; "test,"
 	
-	para "a battle to"
-    line "determine the"
-    cont "CHAMPION of KANTO."
+	para "een gevecht om de" ; "a battle to"
+    line "KANTO KAMPIOEN" ; "determine the"
+    cont "te bepalen." ; "CHAMPION of KANTO."
 
-    para "Are you ready to"
-    line "rise to this new"
-    cont "challenge?" 
+    para "Ben je klaar om" ; "Are you ready to"
+    line "deze nieuwe uitda-" ; "rise to this new"
+    cont "ging aan te gaan?" ; "challenge?" 
 	
-	para "To prove yourself"
-    line "once more?"
+	para "Om jezelf nogmaals" ; "To prove yourself"
+    line "te bewijzen?" ; "once more?"
 
-    para "Show me the"
-    line "strength that"
-	cont "conquered JOHTO,"
-    cont "CHAMPION."
+    para "Toon me de kracht" ; "Show me the"
+    line "die JOHTO";  "strength that"
+	cont "veroverde," ; "conquered JOHTO,"
+    cont "KAMPIOEN." ; "CHAMPION."
     done
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "LANCE: Ik heb" ; "LANCE: I've been"
+	line "op je gewacht." ; "waiting for you."
 
-	para "<PLAY_G>!"
+	para "<PLAY_G>!" ; "<PLAY_G>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Ik wist dat met" ; "I knew that you,"
+	line "jouw vaardigheden" ; "with your skills,"
 
-	para "would eventually"
-	line "reach me here."
+	para "je me uiteindelijk" ; "would eventually"
+	line "hier zou bereiken." ; "reach me here."
 	
-	para "Three years ago"
-	line "a trainer"
+	para "Drie jaar geleden" ; "Three years ago"
+	line "stond een trainer" ; "a trainer"
 	
-	para "just like you"
-	line "stood before me."
+	para "net als jij voor" ; "just like you"
+	line "me." ; "stood before me."
 	
-	para "That trainer would"
-	line "go on to become"
+	para "Die trainer zou" ; "That trainer would"
+	line "later de sterkste" ; "go on to become"
 	
-	para "the strongest in"
-	line "both our regions."
+	para "in ons beider" ; "the strongest in"
+	line "regio's worden." ; "both our regions."
 	
-	para "He has entrusted"
-	line "me to uphold the"
-	cont "LEAGUE, and to"
+	para "Hij droeg me op" ; "He has entrusted"
+	line "om de LEAGUE te" ; "me to uphold the"
+	cont "verdedidgen en te" ; "LEAGUE, and to"
 	
-	para "take care of"
-	line "the legendary"
+	para "zorgen voor de" ; "take care of"
+	line "legendarische" ; "the legendary"
 	
-	para "lightning bird,"
-	line "ZAPDOS."
+	para "bliksemvogel," ; "lightning bird,"
+	line "ZAPDOS." ; "ZAPDOS."
 
-	para "There's no need"
-	line "for any more"
-	cont "words now."
+	para "Er zijn nu geen" ; "There's no need"
+	line "woorden meer nodig." ; "for any more"
+;	cont "words now."
 
-	para "We will battle to"
-	line "determine who is"
+	para "We zullen vechten" ; "We will battle to"
+	line "om te beslissen" ; "determine who is"
 
-	para "the stronger of"
-	line "the two of us."
+	para "wie van ons twee" ; "the stronger of"
+	line "de sterkste is." ; "the two of us."
 
-	para "As the #MON"
-	line "LEAGUE CHAMPION…"
+	para "als de #MON" ; "As the #MON"
+	line "LEAGUE KAMPIOEN…" ; LEAGUE CHAMPION…"
 
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "accepter ik, LANCE" ; "I, LANCE the drag-"
+	line "de drakenmeester," ; "on master, accept"
+	cont "je uitdaging." ; "your challenge!"
+
 	done
 
 LanceBattleWinText:
@@ -421,97 +422,101 @@ LancesRoomMaryOhNoOakText:
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-	line "<PLAY_G>!"
+	text "PROF.OAK: Ah," ; "PROF.OAK: Ah,"
+	line "<PLAY_G>!" ; "<PLAY_G>!"
 
-	para "It's been a long"
-	line "while."
+	para "Het is alweer een" ; "It's been a long"
+	line "hele tijd geleden." ; "while."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Je ziet er zeker" ; "You certainly look"
+	line "indrukwekkender" ; "more impressive."
+	cont "uit." ;
 
-	para "Your conquest of"
-	line "the JOHTO LEAGUE"
-	cont "is just fantastic!"
+	para "Je overwinning op" ; "Your conquest of"
+	line "de JOHTO LEAGUE is" ; "the JOHTO LEAGUE"
+	cont "gewoon brilliant!" ; "is just fantastic!"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "Je toewijding," ; "Your dedication,"
+	line "vertrouwen en" ; "trust and love for"
 
-	para "your #MON made"
-	line "this happen."
+	para "liefde voor je" ; "your #MON made"
+	line "#MON zorgden" ; "this happen."
+	cont "hiervoor." ;
 
-	para "Your #MON were"
-	line "outstanding too."
+	para "Je #MON waren" ; "Your #MON were"
+	line "ook waanzinnig." ; "outstanding too."
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "Omdat ze in jou" ; "Because they be-"
+	line "als een trainer" ; "lieved in you as a"
 
-	para "trainer, they per-"
-	line "severed."
+	para "geloven, lukte het" ; "trainer, they per-"
+	line "te winnen." ; "severed."
 
-	para "Congratulations,"
+	para "Gefeliciteerd," ; "Congratulations,"
 	line "<PLAY_G>!"
 	done
 
 LancesRoomRematchOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-    line "<PLAY_G>!"
+	text "PROF.OAK: Ah," ; "PROF.OAK: Ah,"
+    line "<PLAY_G>!" ; "<PLAY_G>!"
 
-	para "I've been following"
-    line "your progress"
-    cont "since PROF."
-    cont "ELM sent you on"
-	cont "your way."
+	para "Ik volg je voor-" ; "I've been following"
+    line "uitgang al sinds" ; "your progress"
+    cont "PROF. ELM je mijn" ; "since PROF."
+    cont "kant opstuurde." ; "ELM sent you on"
+;	cont "your way."
 
-    para "You've certainly"
-    line "become more"
-	cont "impressive."
+    para "Je bent voorwaar" ; "You've certainly"
+    line "indrukwekkender" ; "become more"
+	cont "geworden." ; "impressive."
 
-    para "Conquering both"
-    line "the JOHTO and now"
-    cont "the KANTO LEAGUE"
-    cont "is no small feat."
+    para "Zowel de JOHTO als" ; "Conquering both"
+    line "KANTO LEAGUE over-" ; "the JOHTO and now"
+    cont "winnen is geen" ; "the KANTO LEAGUE"
+    cont "geringe prestatie." ; "is no small feat."
 	
-	para "You've truly"
-    line "outdone yourself!"
+	para "Je hebt jezelf" ; "You've truly"
+    line "echt overtroffen!" ; "outdone yourself!"
 
-    para "It's clear that"
-    line "your #MON trust"
-    cont "you immensely,"
+    para "Het is duidelijk" ; "It's clear that"
+    line "dat je #MON je" ; "your #MON trust"
+    cont "immens vertrouwen," ; "you immensely,"
 	
-	para "and that trust has"
-    line "been the"
-    cont "foundation of your"
-	cont "success."
+	para "en dat deze band" ; "and that trust has"
+    line "het fundament was" ; "been the"
+    cont "voor je succes." ; "foundation of your"
+;	cont "success."
 
-    para "But remember, a"
-    line "trainer's journey"
-    cont "is never truly"
-	cont "over."
+    para "Maar onthoud, de" ; "But remember, a"
+    line "reis van een" ; "trainer's journey"
+    cont "trainer is nooit" ; "is never truly"
+	cont "echt voorbij." ; "over."
 
-    para "When you have a"
-    line "moment, do visit"
-    cont "me in my lab."
+    para "Bezoek me in mijn" ; "When you have a"
+    line "lab, wanneer je" ; "moment, do visit"
+    cont "een momentje hebt." ; "me in my lab."
 	
-	para "There's something"
-    line "I'd like to"
-    cont "discuss with you."
+	para "Er is iets wat" ; "There's something"
+    line "ik graag met je" ; "I'd like to"
+    cont "wil bespreken." ; "discuss with you."
 
-    para "Congratulations on"
-    line "your victory,"
-	cont "<PLAY_G>!"
+    para "Gefeliciteerd met" ; "Congratulations on"
+    line "je overwinning," ; "your victory,"
+	cont "<PLAY_G>!"  ; "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "JOHTO CHAMPION!"
+	text "MARY: Laten we de" ; "MARY: Let's inter-"
+	line "de gloednieuwe" ; "view the brand new"
+	cont "JOHTO KAMPIOEN" ; "JOHTO CHAMPION!"
+	cont "interviewen!" ; 
 	done
 
 LancesRoomRematchMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "KANTO CHAMPION!"
+	text "MARY: Laten we de" ; "MARY: Let's inter-"
+	line "de gloednieuwe" ; "view the brand new"
+	cont "KANTO KAMPIOEN" ; "KANTO CHAMPION!"
+	cont "interviewen!" ; 
 	done
 
 LancesRoomNoisyText:
@@ -530,10 +535,10 @@ LancesRoomMaryNoInterviewText:
 	done
 
 LancesRoomRematchMaryNoInterviewText:
-	text "MARY: Come on!"
-	line "You can't blow off"
-	cont "the interview"
-	cont "AGAIN!"
+	text "MARY: Kom nou zeg!" ; "MARY: Come on!"
+	line "Het interview af-" ; "You can't blow off"
+	cont "zeggen? NOGMAALS!" ; "the interview"
+;	cont "AGAIN!"
 	done
 
 LancesRoom_MapEvents:

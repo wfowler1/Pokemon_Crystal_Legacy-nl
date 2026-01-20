@@ -219,144 +219,145 @@ AcademyEarlTeachHowToRaiseWellText:
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Slimme student" ; "Oh! Smart student"
+	line "ben jij! Niks meer" ; "you are! Nothing"
+	cont "kan ik je leren!" ; "more do I teach!"
 
-	para "If you want more"
-	line "talk to pupils!"
+	para "Goed voor #MON" ; "Good to #MON"
+	line "moet jij zijn!" ; "you must be!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "#MON previously"
-	line "thought to only"
-	cont "evolve through"
+	text "#MON die enkel" ; "#MON previously"
+	line "na ruilen" ; "thought to only"
+	cont "evolueren, kunnen" ; "evolve through"
 
-	para "trade can evolve"
-	line "through leveling."
+	para "het blijkbaar ook" ; "trade can evolve"
+	line "door te groeien." ; "through leveling."
 
-	para "MACHOKE and"
-	line "GRAVELER evolve"
-	cont "at LVL 38, while"
+	para "MACHOKE en" ; MACHOKE and"
+	line "GRAVELER evolueren" ; GRAVELER evolve"
+	cont "op LVL 38. KADABRA" ; "at LVL 38, while"
 	
-	para "KADABRA and"
-	line "HAUNTER evolve"
-	cont "at LVL 42."
+	para "en HAUNTER evo-" ; "KADABRA and"
+	line "lueren op LVL 42." ; HAUNTER evolve"
+;	cont "at LVL 42."
 
-	para "Some items, like"
-	line "the METAL COAT,"
+	para "Enkele voorwerpen," ; "Some items, like"
+	line "zoals de METALEN JAS" ; "the METAL COAT,"
 	
-	para "have also been"
-	line "found to evolve"
-	cont "certain #MON"
+	para "kunnen blijbaar" ; "have also been"
+	line "#MON laten evo-" ; "found to evolve"
+	cont "lueren net als" ; certain #MON"
 	
-	para "similarly to"
-	line "evolution stones."
+	para "evolutiestenen." ; "similarly to"
+;	line "evolution stones."
 	
-	para "A BRICK PIECE"
-	line "given to a"
-	cont "TYROGUE has led"
+	para "Een BAKSTEENSTUK," ; "A BRICK PIECE"
+	line "overhandigd aan" ; "given to a"
+	cont "een TYROGUE," ; "TYROGUE has led"
 	
-	para "to a new #MON"
-	line "discovery."
+	para "leidde tot de" ; "to a new #MON"
+	line "ontdekking van een" ; discovery."
+	cont "nieuwe #MON." ; 
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "The newly discov-"
-    line "ered DARK-type"
-    cont "deals physical"
-    cont "damage."
+	text "Het recent ont-" ; "The newly discov-"
+    line "dekte DUISTER-type" ;ered DARK-type"
+    cont "veroorzaakt" ; "deals physical"
+    cont "fysieke schade." ; "damage."
 
-    para "The GHOST-type"
-    line "deals special"
-    cont "damage."
+    para "Het GEEST-type" ; "The GHOST-type"
+    line "veroorzaakt" ; "deals special"
+    cont "speciale schade." ; damage."
 
-    para "The move SPIKE"
-    line "CANNON, once"
-    cont "thought to be a"
+    para "De aanval SPIJKER-" ; "The move SPIKE"
+    line "KANON, ooit inge-" ; "CANNON, once"
+    cont "deeld als NORMAAL-" ; "thought to be a"
 
-    para "NORMAL-type move,"
-    line "is actually a"
-    cont "STEEL-type move."
+    para "type aanval, bleek" ; "NORMAL-type move,"
+    line "een STAAL-type" ; is actually a"
+    cont "aanval te zijn." ; STEEL-type move."
     done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "As trainers ex-"
-	line "pand their skills,"
+	text "Doordat trainers" ; "As trainers ex-"
+	line "verbeterden, zijn" ; pand their skills,"
 
-	para "Many moves are now"
-    line "more accurate than"
-    cont "previously known,"
+	para "vele aanvallen nu" ; Many moves are now"
+    line "preciezer dan" ; "more accurate than"
+    cont "voorheen geweten," ; "previously known,"
 
-	para "and some that were"
-    line "once thought to be"
-	cont "underpowered have"
+	para "en sommige die als" ; "and some that were"
+    line "zwak beschouwd" ; "once thought to be"
+	cont "werden zijn" ; "underpowered have"
 
-    para "seen increases"
-    line "to their power."
+    para "sterker geworden." ; seen increases"
+;    line "to their power."
 	
-	para "Most notably, the"
-    line "BUG-type is now"
-    cont "far more viable in"
-    cont "battle."
+	para "Met name het" ; Most notably, the"
+    line "INSECT-type is nu" ; "BUG-type is now"
+    cont "veel vatbaarder in" ; far more viable in"
+    cont "gevechten." ; "battle."
 
-    para "The FIGHTING-type"
-    line "has also improved"
-    cont "dramatically over"
+    para "Het VECHT-type zag" ; "The FIGHTING-type"
+    line "ook een sterke" ; "has also improved"
+    cont "verbetering over" ; dramatically over"
 
-    para "the last three"
-    line "years."
+    para "de laatste drie" ; "the last three"
+    line "jaar." ; "years."
     done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "As #MON"
-	line "continue to grow,"
-	cont "as do their stats."
+	text "Als #MON groei-" ; "As #MON"
+	line "en, doen hun stats" ; "continue to grow,"
+	cont "dat ook." ; "as do their stats."
 	
-	para "While still rec-"
-    line "ognizable, some"
-    cont "#MON once"
+	para "Ze zijn nog steeds" ; "While still rec-"
+    line "herkenbaar, maar" ; "ognizable, some"
+    cont "sommige #MON"; "#MON once"
 	
-	para "thought to be"
-    line "nonviable have"
-    cont "seen small stat"
+	para "ooit beschouwd als" ; "thought to be"
+    line "onvatbaar, zagen" ; "nonviable have"
+    cont "kleine stat" ; "seen small stat"
 	
-	para "increases of"
-    line "5-20 base points."
+	para "toenames van 5-20" ; "increases of"
+    line "basispunten." ; "5-20 base points."
 
-	para "ARIADOS in par-"
-    line "ticular has become"
-	cont "much faster, with"
+	para "ARIADOS bijvoor-" ; "ARIADOS in par-"
+    line "beel werd een pak" ; "ticular has become"
+	cont "sneller, met 80" ; "much faster, with"
 
-	para "a new base SPEED"
-    line "stat of 80."
+	para "als nieuwe basis-" ; "a new base SPEED"
+    line "SNELHEID." ; "stat of 80."
 
-    para "Many #MON can"
-    line "learn moves they"
-    cont "couldn't before."
+    para "Vele #MON kun-" ; "Many #MON can"
+    line "nen nieuwe" ; "learn moves they"
+    cont "aanvallen leren." ; "couldn't before."
 
-	para "Now, nearly all"
-	line "#MON learn"
-	cont "multiple moves of"
+	para "Nu kunnen bijna"; "Now, nearly all"
+	line "alle #MON aan-" ; "#MON learn"
+	cont "vallen van hun" ; "multiple moves of"
 
-	para "its own type via"
-    line "level-up."
+	para "eigen type leren" ; "its own type via"
+    line "door te groeien." ; "level-up."
 	
-	para "Many also seem"
-	line "to be learning"
-	cont "moves sooner"
+	para "Velen blijken ook" ; "Many also seem"
+	line "aanvallen eerder" ; "to be learning"
+	cont "te leren dan" ; "moves sooner"
 	
-	para "than they once"
-	line "did."
+	para "voordien." ; "than they once"
+;	line "did."
 	
-	para "Be aware that your"
-    line "opponents now use"
-    cont "teams with better"
-    cont "type coverage,"
+	para "Wees gewaarschuwd:" ; "Be aware that your"
+    line "andere trainers" ; "opponents now use"
+    cont "gebruiken nu ook" ; "teams with better"
+    cont "teams met betere" ; "type coverage,"
 
-    para "so expect a much"
-    line "more challenging"
-    cont "journey ahead."
+    para "dekking, verwacht" ; "so expect a much"
+    line "je aan een meer" ; "more challenging"
+    cont "uitdagende reis." ; "journey ahead."
     done
 
 AcademyBlackboardText:
@@ -498,9 +499,9 @@ AcademyNotebookText3:
 	done
 
 AcademyStickerMachineText:
-	text "This super machine"
-	line "prints data out as"
-	cont "stickers!"
+	text "Deze geweldige" ; "This super machine"
+	line "machine print data" ; "prints data out as"
+	cont "uit als stickers!" ; "stickers!"
 	done
 
 EarlsPokemonAcademy_MapEvents:

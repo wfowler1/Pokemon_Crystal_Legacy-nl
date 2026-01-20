@@ -300,21 +300,21 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met UMBREON at"
-	line "night right here"
-	cont "on ROUTE 39."
+	text "Ik ontmoette" ; "I met UMBREON at"
+	line "UMBREON 's nachts," ; "night right here"
+	cont "hier op ROUTE 39." ; "on ROUTE 39."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "Ik weet niet" ; "I'm not sure why,"
+	line "waarom, maar UMBIE" ; "but it seems to"
 
-	para "like it when I"
-	line "train here."
+	para "vindt het fijn als" ; "like it when I"
+	line "ik hier train." ; "train here."
 
-	para "It seems to become"
-	line "friendlier by"
+	para "UMBREON wordt" ; "It seems to become"
+	line "vriendelijker als" ; "friendlier by"
 
-	para "training here than"
-	line "anywhere else."
+	para "ik hier train dan" ; "training here than"
+	line "elders." ; "anywhere else."
 	done
 
 Route39SignText:

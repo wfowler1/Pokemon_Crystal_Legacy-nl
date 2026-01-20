@@ -120,17 +120,17 @@ Route34IlexForestGateButterfreeText:
 	done
 
 Route34IlexForestGateLassText:
-	text "Did you see the"
-	line "shrine honoring"
-	cont "the protector?"
+	text "Zag je het altaar" ; "Did you see the"
+	line "ter ere van de" ; "shrine honoring"
+	cont "beschermer?" ; "the protector?"
 
-	para "It watches over"
-	line "the FOREST from"
-	cont "across time."
+	para "Die waakt voor" ; "It watches over"
+	line "eeuwig over" ; "the FOREST from"
+	cont "het WOUD." ; "across time."
 
-	para "I think that it"
-	line "must be a GRASS-"
-	cont "type #MON."
+	para "Ik denk dat het" ; "I think that it"
+	line "een GRAStype-" ; "must be a GRASS-"
+	cont "#MON moet zijn." ; "type #MON."
 	done
 
 Route34IlexForestGate_MapEvents:

@@ -164,52 +164,52 @@ OlivineCityPlayerStepsAsideBottomMovement:
 	step_end
 
 OlivineCityRivalText:
-	text "…"
+	text "…" ; "…"
 
-	para "You again?"
+	para "Jij weer?" ; "You again?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Geen reden voor" ; "There's no need to"
+	line "paniek. Ik hou me" ; "panic. I don't"
 
-	para "bother with wimps"
-	line "like you."
+	para "niet bezig met" ; "bother with wimps"
+	line "watjes als jij." ; "like you."
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "Over zwakkelingen," ; "Speaking of weak-"
+	line "gesproken, de GYM" ; "lings, the city's"
 
-	para "GYM LEADER is"
-	line "said by some to be"
+	para "LEIDER is volgens" ; "GYM LEADER is"
+	line "sommigen sterker" ; "said by some to be"
 	
-	para "stronger than"
-	line "PRYCE, yet is"
+	para "dan PRYCE, toch is" ; "stronger than"
+	line "ze blijkbaar een" ; "PRYCE, yet is"
 
-	para "supposedly taking"
-	line "care of a sick"
+	para "zieke #MON aan" ; "supposedly taking"
+	line "het verzorgen in" ; "care of a sick"
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "de VUURTOREN." ; "#MON at the"
+;	line "LIGHTHOUSE."
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
+	para "Pf! Huilie-huilie!" ; "Humph! Boo-hoo!"
+	line "Laat zieke #MON" ; "Just let sick"
+	cont "gewoon zitten!" ; "#MON go!"
 
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
+	para "Een #MON die" ; "A #MON that"
+	line "niet kan vechten" ; "can't battle is"
+	cont "is waardeloos!" ; "worthless!"
+
+	para "Waarom ga je niet" ; "Why don't you go"
+	line "trainen in de" ; "train at the"
+	cont "VUURTOREN?" ; "LIGHTHOUSE?"
+
+	para "Wie weet. Het" ; "Who knows. It may"
+	line "maakt je misschien" ; "make you a bit"
+	cont "minder zwak!" ; "less weak!"
 	
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
+	para "Misschien maak je" ; "Maybe then you"
+	line "dan ten minste een" ; "could at least"
 	
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
-	
-	para "Maybe then you"
-	line "could at least"
-	
-	para "take on CHUCK"
-	line "or PRYCE!"
+	para "kans tegen CHUCK" ; "take on CHUCK"
+	line "of PRYCE!" ; "or PRYCE!"
 	done
 
 OlivineCitySailor1Text:
@@ -246,28 +246,30 @@ OlivineCityStandingYoungsterPokedexText:
 	done
 
 OlivineCitySailor2Text:
-	text "The league has"
-	line "JASMINE pegged"
+	text "De league plaatst" ; "The league has"
+	line "JASMINE als de" ; "JASMINE pegged"
 
-	para "as the sixth"
-	line "strongest GYM"
-	cont "LEADER!"
+	para "zesde sterkste GYM" ; "as the sixth"
+	line "LEIDER!" ; "strongest GYM"
+;	cont "LEADER!"
 	
-	para "Hah! That's"
-	line "a load of crud."
+	para "Ha! Wat een onzin!" ; "Hah! That's"
+;	line "a load of crud."
 	
-	para "There's no way"
-	line "PRYCE could hurt"
+	para "PRYCE kan de" ; "There's no way"
+	line "STAAL-type #MON" ; "PRYCE could hurt"
 	
-	para "JASMINE's Steel"
-	line "type #MON!"
+	para "van JASMINE echt" ; "JASMINE's Steel"
+	line "niet aan!" ; "type #MON!"
 	
-	para "Bureaucracy if"
-	line "you ask me."
+	para "Bureaucratische" ; "Bureaucracy if"
+	line "lethargie, wat ik" ; "you ask me."
+	cont "je brom." ; 
 	
-	para "She's something"
-	line "to be feared,"
-	cont "That's for sure!"
+	para "Ze is een" ; "She's something"
+	line "zeer geduchte" ; "to be feared,"
+	cont "tegenstander." ; "That's for sure!"
+	cont "Wis en waarachtig!" ; 
 	done
 
 OlivineCitySignText:

@@ -734,20 +734,20 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	text "ELM: <PLAY_G>!" ; "ELM: <PLAY_G>!"
+	line "Daar ben je!" ; "There you are!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Ik moet je om een" ; "I needed to ask"
+	line "gunst vragen." ; "you a favor."
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "Ik voer nieuw" ; "I'm conducting new"
+	line "#MON onderzoek" ; "#MON research"
 
-	para "right now. I was"
-	line "wondering if you"
+	para "op dit moment. Ik" ; "right now. I was"
+	line "vroeg me af of jij" ; "wondering if you"
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "me ermee kan" ; "could help me with"
+	line "helpen, <PLAY_G>." ; "it, <PLAY_G>."
 	done
 
 ElmText_Accepted:
@@ -788,30 +788,30 @@ ElmText_GotAnEmail:
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
+	text "Hé, luister." ; "Hey, listen."
 
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
+	para "Ik heb een kennis" ; "I have an acquain-"
+	line "genaamd MR." ; "tance called MR."
+	cont "#MON." ; "#MON."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Hoe dan ook, hij" ; "Anyway, I just got"
+	line "stuurde een e-mail" ; "an e-mail from him"
 
-	para "saying that this"
-	line "time it's real."
+	para "waarin staat dat" ; "saying that this"
+	line "het nu menens is." ; "time it's real."
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Fascinerend, maar" ; "It is intriguing,"
+	line "we zijn druk met" ; "but we're busy"
 
-	para "with our #MON"
-	line "research…"
+	para "ons #MON-" ; "with our #MON"
+	line "onderzoek…" ; "research…"
 
-	para "Wait!"
+	para "Wacht!" ; "Wait!"
 
-	para "I know!"
+	para "Ik heb het!" ; "I know!"
 
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	para "<PLAY_G>, kan jij" ; " <PLAY_G>, can you"
+	line "voor ons gaan?" ; "go in our place?"
 	done
 
 ElmText_ChooseAPokemon:
@@ -899,11 +899,11 @@ ElmDirectionsText1:
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Als je #MON be-" ; "If your #MON is"
+	line "zeerd is, gebruik" ; "hurt, you should"
 
-	para "heal it with this"
-	line "machine."
+	para "dan dit toestel om" ; "heal it with this"
+	line "je 'm te genezen." ; "machine."
 	done
 
 ElmDirectionsText3:
@@ -970,41 +970,42 @@ ElmAfterTheftText4:
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "ELM: Wat?!?" ; "ELM: What?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF.OAK gaf je" ; "PROF.OAK gave you"
+	line "een #DEX?" ; "a #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, echt" ; "<PLAY_G>, is that"
+	line "waar? D-dat is" ; "true? Th-that's"
+	cont "geweldig!" ; "incredible!"
 
-	para "The #DEX shows"
-	line "how #MON evolve"
-	cont "and learn moves."
+	para "De #DEX toont" ; "The #DEX shows"
+	line "hoe #MON" ; how #MON evolve"
+	cont "evolueren en" ; "and learn moves."
+	cont "aanvallen leren."
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Hij ziet als geen" ; "He is superb at"
+	line "ander of mensen" ; "seeing the poten-"
+	cont "potentieel hebben" ; "tial of people as"
+	cont "als trainers." ; "trainers."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "Wauw, <PLAY_G>. Je" ; "Wow, <PLAY_G>. You"
+	line "hebt het wellicht" ; "may have what it"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "in je om KAMPIOEN" ; "takes to become"
+	line "te worden." ; "the CHAMPION."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Je lijkt ook goed" ; "You seem to be"
+	line "op te schieten met" ; "getting on great"
+	cont "je #MON." ; "with #MON too."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Je zou de #MON-" ; "You should take"
+	line "GYM-uitdaging" ; "the #MON GYM"
+	cont "moeten proberen." ; "challenge."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "De eerste GYM is" ; "The closest GYM"
+	line "is verderop in" ; "would be the one"
+	cont "VIOLET CITY." ; "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
@@ -1092,22 +1093,23 @@ ElmGiveEverstoneText1:
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Dat is een" ; "That's an"
+	line "EEUWIGSTEEN." ; "EVERSTONE."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Sommige soorten" ; "Some species of"
+	line "#MON evolueren" ; "#MON evolve"
 
-	para "when they grow to"
-	line "certain levels."
+	para "als ze een bepaald" ; "when they grow to"
+	line "level bereiken." ; "certain levels."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "Een #MON met" ; "A #MON holding"
+	line "een EEUWIGSTEEN" ; "the EVERSTONE"
+	cont "evolueert niet." ; "won't evolve."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve yet."
+	para "Geef hem aan een" ; "Give it to a #-"
+	line "#MON die je" ; "MON you don't want"
+	cont "niet wil" ; "to evolve."
+	cont "evolueren.";
 	done
 
 ElmText_CallYou:
@@ -1180,28 +1182,29 @@ ElmGiveTicketText1:
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Het schip vertrekt" ; "The ship departs"
+	line "uit OLIVINE CITY." ; "from OLIVINE CITY."
 
-	para "But you knew that"
-	line "already, <PLAY_G>."
+	para "Maar dat wist je" ; "But you knew that"
+	line "al, <PLAY_G>." ; "already, <PLAY_G>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Je bent immers al" ; "After all, you've"
+	line "overal geweest met" ; "traveled all over"
+	cont "je #MON." ; "with your #MON."
 
-	para "Before you go,"
-	line "feel free to"
-	cont "challenge the"
+	para "Voor je vertrekt," ; "Before you go,"
+	line "wees vrij om de" ; "feel free to"
+	cont "JOHTO GYM leiders" ; "challenge the"
 
-	para "GYM LEADERS of"
-	line "JOHTO again!"
+	para "nogmaals uit te" ; "GYM LEADERS of"
+	line "dagen!" ; "JOHTO again!"
 
-	para "This time they"
-	line "won't hold back."
+	para "Ditmaal zullen ze" ; "This time they"
+	line "zich niet intomen." ; "won't hold back."
 
-	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	para "Doe de groetjes" ; "Give my regards to"
+	line "aan PROF.OAK in" ; "PROF.OAK in KANTO!"
+	cont "KANTO!" ;
 	done
 
 ElmsLabMonEggText: ; unreferenced

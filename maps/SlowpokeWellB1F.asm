@@ -236,34 +236,33 @@ GruntM1BeatenText:
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three years ago."
+	text "Ja, TEAM ROCKET" ; "Yeah, TEAM ROCKET"
+	line "werd drie jaar" ; "was broken up"
+	cont "geleden opgedoekt." ; "three years ago."
 
-	para "The boss went "
-	line "into hiding."
+	para "De baas dook" ; "The boss went "
+	line "onder." ; "into hiding."
 	
-	para "But we continued"
-	line "our activities"
-	cont "underground!"
+	para "Maar ondergronds" ; "But we continued"
+	line "gingen onze" ; "our activities"
+	cont "activiteiten door." ; "underground!"
 
 	done
 
 GruntM2SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "Quit taking SLOW-"
-	cont "POKETAILS?"
+	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	line "Geen SLOWPOKE-" ; "Quit taking SLOW-"
+	cont "STAARTEN stelen?" ; "POKETAILS?"
 	
-	para "You're nuts!"
-	line "If we obeyed you,"
-	
-	para "TEAM ROCKET's rep"
-	line "would be ruined!"
+	para "Ben je mal!" ; "You're nuts!"
+	line "Dat zou TEAM" ; "If we obeyed you,"
+	cont "ROCKET zijn" ; "TEAM ROCKET's rep"
+	cont "reputatie kosten!" ; "would be ruined!"
 	done
 
 GruntM2BeatenText:
-	text "Hyuck…"
-	line "Too strong…"
+	text "Hyuck…" ; "Hyuck…"
+	line "Te sterk…" ; "Too strong…"
 	done
 
 GruntM2AfterBattleText:

@@ -105,27 +105,27 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillRematchBeforeText:
-	text "WILL:"
-	line "Ah, welcome back."
+	text "WILL: Ah, welkom" ; "WILL:"
+	line "terug." ; "Ah, welcome back."
 
-    para "I have foreseen"
-    line "this encounter."
+    para "Ik voorzag deze" ; "I have foreseen"
+    line "ontmoeting." ; "this encounter."
 
-    para "My psychic #MON"
-    line "and I have"
-	cont "evolved,"
+    para "Mijn psychische" ; "My psychic #MON"
+    line "#MON en ik evo-" ; "and I have"
+	cont "luveerden, door" ; "evolved,"
 
-    para "developing new"
-	line "tactics."
+    para "nieuwe tactieken" ; "developing new"
+	line "te ontwikkelen." ; "tactics."
 
-    para "Prepare yourself"
-    line "for a battle of"
-    cont "enhanced strategy"
-	cont "and might."
+    para "Bereid je voor op" ; "Prepare yourself"
+    line "een gevecht met" ; "for a battle of"
+    cont "betere strategie" ; "enhanced strategy"
+	cont "en macht." ; "and might."
 
-    para "Let us see if"
-    line "your foresight"
-    cont "matches mine."
+    para "Eens kijken of je" ; "Let us see if"
+    line "vooruitziende blik" ; "your foresight"
+    cont "de mijne evenaart." ; "matches mine."
 	done
 
 WillScript_WillBeforeText:

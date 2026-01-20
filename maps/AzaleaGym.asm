@@ -176,28 +176,28 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Ik ben BUGSY!" ; "I'm BUGSY!"
+	line "Ik verlies nooit" ; "I never lose when"
 
-	para "it comes to bug"
-	line "#MON."
+	para "als het op insect" ; "it comes to bug"
+	line "#MON aankomt." ; "#MON."
 
-	para "My research is"
-	line "going to make me"
+	para "Mijn onderzoek zal" ; "My research is"
+	line "me de expert maken" ;" going to make me"
 
-	para "the authority on"
-	line "bug #MON!"
+	para "aangaande insect" ; "the authority on"
+	line "insect #MON!" ; "bug #MON!"
 	
-	para "For example, did"
-	line "you know that"
+	para "Bijvoorbeeld, wist" ; "For example, did"
+	line "je dat SNIJDEN " ; "you know that"
 	
-	para "the move CUT is"
-	line "actually a BUG-"
-	cont "type move?"
+	para "eigenlijk een" ; "the move CUT is"
+	line "INSECT-type aanval" ; "actually a BUG-"
+	cont "is?" ; "type move?"
 	
-	para "Let me demonstrate"
-	line "all I've learned"
-	cont "from my studies."
+	para "Ik toon je al wat" ; "Let me demonstrate"
+	line "ik geleerd heb van" ; "all I've learned"
+	cont "mijn onderzoek." ; "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
@@ -223,7 +223,7 @@ BugsyText_HiveBadgeSpeech:
 	cont "KORFBADGE?" ; "BADGE?"
 
 	para "Hiermee zullen" ; "If you have it,"
-	line "MON tot L30" ; "#MON up to L30"
+	line "#MON tot L30" ; "#MON up to L30"
 
 	para "naar je luisteren," ; "will obey you,"
 	line "ook geruilde." ; "even traded ones."
@@ -266,31 +266,33 @@ BugsyText_BugMonsAreDeep:
 	done
 
 BugsyRematchText:
-	text "Wow, you're the"
-	line "JOHTO CHAMPION"
-	cont "now!"
+	text "Wauw, je bent de " ;" Wow, you're the"
+	line "JOHTO KAMPIOEN nu!" ; "JOHTO CHAMPION"
+	;cont "now!"
 
-	para "Your skills are"
-	line "truly impressive!"
+	para "Je vaardigheden" ; "Your skills are"
+	line "zijn echt fameus." ; "truly impressive!"
 
-	para "I've been busy"
-	line "with my research."
+	para "Ik ben druk bezig" ; "I've been busy"
+	line "geweest met mijn" ; "with my research."
+    cont "onderzoek."
+	
+	para "Ik ben klaar om je" ; "I'm ready to"
+	line "mijn nieuwe ontdek-" ; "show you my new"
+	cont "kingen te tonen." ; "findings."
 
-	para "I'm ready to"
-	line "show you my new"
-	cont "findings."
-
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je 't nog eens" ; "Want to have a"
+	line "tegen me opnemen?" ; "rematch with me?"
 	done
 
 Bugsy_RematchDefeatText:
-	text "Wow, you must"
-	line "be an expert"
+	text "Wauw, jij bent wel" ; "Wow, you must"
+	line "een zeer ervaren"; "be an expert"
 	cont "trainer."
 
-	para "My research must"
-	line "not be complete…"
+	para "Mijn onderzoek is" ; "My research must"
+	line "blijkbaar nog niet"
+	cont "helemaal volledig…" ; "not be complete…"
 	done
 
 BugCatcherBennySeenText:
@@ -357,7 +359,7 @@ BugCatcherJoshAfterBattleText:
 
 TwinsAmyandmay1SeenText:
 	text "AMY: He! Daag jij" ; "AMY: Hi! Are you"
-	line "de GYMLEIDER uit?" ; "challenging the"
+	line "de GYMleider uit?" ; "challenging the"
 	cont "Echt niet!" ; "LEADER? No way!"
 	done
 
@@ -367,28 +369,28 @@ TwinsAmyandmay1BeatenText:
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: Jij bent zeer" ; "AMY: You're"
+	line "sterk! Maar BUGSY" ; "really strong!"
 
-	para "But BUGSY's even"
-	line "stronger! His"
+	para "is nog sterker! De" ; "But BUGSY's even"
+	line "aanval SNIJD van" ;"stronger! His"
 
-	para "SCYTHER's CUT al-"
-	line "most always makes"
-	cont "critical hits!"
+	para "zijn SCYTHER is" ; "SCYTHER's CUT al-"
+	line "haast altijd een" ; "most always makes"
+	cont "voltreffer!" ; "critical hits!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "Good luck!"
+	text "MAY: Je wil het" ; "MAY: You want to"
+	line "tegen de GYMleider" ; "see the LEADER?"
+	cont "opnemen? Succes!" ; "Good luck!"
 	
-	para "BUGSY is so"
-	line "strong! His"
-	cont "SCYTHER's CUT"
+	para "BUGSY is zo sterk!" ; "BUGSY is so"
+	line "De aanval SNIJD" ; "strong! His"
+	cont "van zijn SCYTHER" ; "SCYTHER's CUT"
 	
-	para "always seems to"
-	line "crit!"
+	para "lijkt wel altijd" ; "always seems to"
+	line "een voltreffer!" ; "crit!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -397,52 +399,52 @@ TwinsAmyandmay2BeatenText:
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: Onze insect" ; "MAY: Our bug #-"
+	line "#MON verloren! Oh," ; "MON lost! Oh, what"
+	cont "wat jammer." ; "a shame."
 
-	para "BUGSY's won't"
-	line "lose though!"
+	para "Die van BUGSY gaan" ; " BUGSY's won't"
+	line "echter wel winnen!" ;" lose though!"
 
-	para "His PINECO makes"
-	line "short work of"
-	cont "ROCK-type #MON!"
+	para "Zijn PINECO maakt" ; "His PINECO makes"
+	line "korte metten met" ; "short work of"
+	cont "STEEN-type #MON!" ; "ROCK-type #MON!"
 	done
 
 AzaleaGymGuideText:
-	text "Yo, challenger!"
+	text "Yo, uitdager!" ; "Yo, challenger!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "BUGSY is jong," ; "BUGSY's young, but"
+	line "maar hij weet" ; "his knowledge of"
 
-	para "bug #MON is for"
-	line "real."
+	para "veel van insect-" ; bug #MON is for"
+	line "#MON." ; "real."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Zonder mijn advies" ; "It's going to be"
+	line "wordt het lastig" ; "tough without my"
+	cont "voor je." ; "advice."
 
-	para "Let's see…"
-	line "BUGSY's bagworm"
-	cont "#MON knows a"
+	para "Even denken…" ; "Let's see…"
+	line "BUGSY's zakdrager" ; "BUGSY's bagworm"
+	cont "#MON kent een" ; "#MON knows a"
 	
-	para "move that covers"
-	line "its ROCK-type"
-	cont "weakness."
+	para "aanval die zijn" ; "move that covers"
+	line "STEEN-type zwakte" ; "its ROCK-type"
+	cont "dekt." ; "weakness."
 
-	para "He's also devel-"
-	line "oped a new"
+	para "Hij heeft ook een" ; "He's also devel-"
+	line "nieuwe INSECT-type" ; "oped a new"
 	
-	para "version of CUT"
-	line "that is BUG-type."
+	para "versie van SNIJD" ; "version of CUT"
+	line "ontwikkeld" ; "that is BUG-type."
 
-	para "Oh, and don't"
-	line "forget about"
+	para "Oh, en denk aan" ; "Oh, and don't"
+	line "die lastige vol-" ; "forget about"
 
-	para "those nasty"
-	line "critical hits!"
-
-	para "Good luck!"
+	para "treffers van 'm." ; "those nasty"
+	line "Veel succes!" ; "critical hits!"
+;
+;	para "Good luck!"
 	done
 
 AzaleaGymGuideWinText:

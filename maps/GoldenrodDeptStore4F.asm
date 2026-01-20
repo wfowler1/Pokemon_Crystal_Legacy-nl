@@ -52,35 +52,35 @@ GoldenrodDeptStore4FBugCatcherText:
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "There were"
-	line "rumours that"
+	text "Er deden geruchten" ; "There were"
+	line "de ronde dat" ; "rumours that"
 
-	para "some #MON"
-	line "evolve only by"
+	para "sommige #MON" ; "some #MON"
+	line "enkel evolueren na" ; "evolve only by"
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "een ruil via de" ; "being traded via a"
+	line "Game Link kabel." ; Game Link cable."
 
-	para "Pfft..."
+	para "Pfft..." ; "Pfft..."
 
-	para "Such"
-	line "misinformation."
+	para "Wat een larie en" ; "Such"
+	line "apenkool." ; "misinformation."
 
-	para "I know some"
-	line "of the rumoured"
-	cont "#MON:"
+	para "Ik ken enkele" ; "I know some"
+	line "#MON over wie" ; "of the rumoured"
+	cont "dit gerucht gaat:" ; "#MON:"
 
-	para "MACHOKE, KADABRA,"
-	line "HAUNTER and, um,"
-	cont "GRAVELER,"
+	para "MACHOKE, KADABRA," ; "MACHOKE, KADABRA,"
+	line "HAUNTER en, um,"  ; "HAUNTER and, um,"
+	cont "GRAVELER," ; "GRAVELER,"
 
-	para "but they all"
-	line "evolve through"
-	cont "level up."
+	para "maar ze evolueren" ; "but they all"
+	line "allen door in" ; "evolve through"
+	cont "niveau te groeien." ; "level up."
 
-	para "Your #DEX shows"
-	line "how #MON really"
-	cont "evolve!"
+	para "Je #DEX toont" ; "Your #DEX shows"
+	line "hoe #MON echt" ; "how #MON really"
+	cont "evouleren!" ; "evolve!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:

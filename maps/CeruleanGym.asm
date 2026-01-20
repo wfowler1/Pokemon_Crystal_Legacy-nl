@@ -266,19 +266,19 @@ CeruleanGymNote2Text:
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "MISTY: Ik heb op" ; "MISTY: I was ex-"
+	line "je gewacht, jij" ; "pecting you, you"
+	cont "lastpak!" ; "pest!"
 
-	para "You may have a"
-	line "lot of JOHTO GYM"
+	para "Je hebt dan wel" ; "You may have a"
+	line "veel JOHTO GYM-" ; "lot of JOHTO GYM"
 
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "BADGES, maar beter" ; "BADGES, but you'd"
+	line "onderschat je me" ; better not take me"
+	cont "niet." ; "too lightly."
 
-	para "My WATER-type"
-	line "#MON are tough!"
+	para "Mijn water-" ; "My water-type"
+	line "#MON zijn taai!" ; "#MON are tough!"
 	done
 
 MistyWinLossText:
@@ -311,24 +311,24 @@ MistyFightDoneText:
 	done
 
 MistyRematchText:
-	text "MISTY: Wow, you're"
-	line "the KANTO CHAMPION"
-	cont "now!"
+	text "MISTY: Wauw, je" ; "MISTY: Wow, you're"
+	line "bent nu de KANTO" ; "the KANTO CHAMPION"
+	cont "KAMPIOEN" ; "now!"
 
-	para "That's amazing!"
-	line "You've come a long"
-	cont "way, <PLAYER>."
+	para "Wat geweldig!" ; "That's amazing!"
+	line "Je bent fel gevor-" ; "You've come a long"
+	cont "derd, <PLAYER>." ; "way, <PLAYER>."
 
-	para "But I'm not"
-	line "backing down."
+	para "Maar ik deins niet" ; "But I'm not"
+	line "terug." ; "backing down."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Misty_RematchDefeatText:
-	text "MISTY: You really"
-	line "are good…"
+	text "MISTY: Je bent" ; "MISTY: You really"
+	line "echt goed…" ; "are good…"
 	done
 
 SwimmerfDianaSeenText:

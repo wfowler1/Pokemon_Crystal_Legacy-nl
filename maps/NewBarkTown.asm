@@ -268,7 +268,7 @@ NewBarkTownSignText:
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s HOUSE"
+	text "<PLAYER>'s HUIS" ; "<PLAYER>'s HOUSE"
 	done
 
 NewBarkTownElmsLabSignText:

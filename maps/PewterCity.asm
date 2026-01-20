@@ -67,11 +67,12 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Have you visited"
-	line "PEWTER GYM?"
+	text "Heb je de PEWTER-" ; "Have you visited"
+	line "GYM bezocht?" ; "PEWTER GYM?"
 
-	para "The LEADER uses"
-	line "ROCK-type #MON."
+	para "De LEIDER gebruikt" ; "The LEADER uses"
+	line "STEEN-type" ; "ROCK-type #MON."
+	cont "#MON." ; 
 	done
 
 PewterCityBugCatcherText:

@@ -220,28 +220,29 @@ SabrinaFightDoneText:
 	done
 
 SabrinaRematchText:
-	text "SABRINA: Ah, the"
-	line "KANTO CHAMPION."
+	text "SABRINA: Ah, de" ; "SABRINA: Ah, the"
+	line "KANTO CHAMPION." ; "KANTO KAMPIOEN."
 
-	para "I sensed your"
-	line "return."
+	para "Ik voelde je" ; "I sensed your"
+	line "terugkeer aan." ; "return."
 
-	para "Your power has"
-	line "grown immensely."
+	para "Je kracht is" ; "Your power has"
+	line "immens toegenomen." ; "grown immensely."
 
-	para "Even now, I feel"
-	line "your aura."
+	para "Zelfs nu, voel ik" ; "Even now, I feel"
+	line "je aura." ; "your aura."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Sabrina_RematchDefeatText:
-	text "SABRINA: Your love"
-	line "for your #MON"
+	text "SABRINA: Je liefde" ; "SABRINA: Your love"
+	line "voor je #MON" ; "for your #MON"
 
-	para "again overwhelmed"
-	line "my psychic power…"
+	para "overweldigde mijn" ; "again overwhelmed"
+	line "psychische kracht" ; "my psychic power…"
+	cont "opnieuw…" ; 
 	done
 
 MediumRebeccaSeenText:
@@ -316,22 +317,22 @@ PsychicJaredAfterBattleText:
 	done
 
 SaffronGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "Yo, KAMPIOEN in" ; "Yo, CHAMP in"
+	line "het verschiet!" ; "making!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "Trainers van jouw" ; "A trainer as"
+	line "kaliber hoef ik" ; "skilled as you"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "niet te vertellen" ; "doesn't need to be"
+	line "hoe om te gaan met" ; "told how to deal"
 
-	para "with PSYCHIC-type"
-	line "#MON, right?"
+	para "PSYCHISCH-type" ; "with PSYCHIC-type"
+	line "#MON, toch?" ; "#MON, right?"
 
-	para "I expect great"
-	line "things from you!"
+	para "Ik verwacht grote" ; "I expect great"
+	line "dingen van je!" ; "things from you!"
 
-	para "Good luck!"
+	para "Veel succes!" ; "Good luck!"
 	done
 
 SaffronGymGuideWinText:

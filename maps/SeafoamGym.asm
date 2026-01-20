@@ -94,48 +94,48 @@ SeafoamGymGuideScript:
 	end
 
 BlaineIntroText:
-	text "BLAINE: Waaah!"
+	text "BLAINE: Waaah!" ; "BLAINE: Waaah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
+	para "Mijn GYM in CINNA-" ; "My GYM in CINNABAR"
+	line "BAR is afgebrand." ; "burned down."
 	
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Maar ik ga weer" ; "But I'm back in"
+	line "aan de slag als" ; "business as a GYM"
 
-	para "LEADER here in"
-	line "this cave."
+	para "GYMLEIDER hier in" ; "LEADER here in"
+	line "deze grot." ; "this cave."
 
-	para "It's fine though,"
-	line "I have faced"
+	para "Het is ok, hoor." ; "It's fine though,"
+	line "Ik heb al ergere" ; "I have faced"
 
-	para "hardship like"
-	line "this before."
+	para "ontberingen" ; "hardship like"
+	line "doorstaan." ; "this before."
 
-	para "Long ago I was"
-	line "lost in the"
+	para "Lang geleden was" ; "Long ago I was"
+	line "ik verdwaald in de" ; "lost in the"
 	
-	para "mountains until"
-	line "a fiery bird"
+	para "bergen toen een" ; "mountains until"
+	line "vurige vogel-" ; "a fiery bird"
 	
-	para "#MON appeared"
-	line "to lead me down."
+	para "#MON verscheen" ; "#MON appeared"
+	line "en de weg wees." ; "to lead me down."
 	
-	para "All these years"
-	line "later and now"
+	para "Nu, al deze jaren" ; "All these years"
+	line "later, heeft RED" ; "later and now"
 	
-	para "RED has entrusted"
-	line "me to look over"
+	para "me deze legenda-" ; "RED has entrusted"
+	line "rische vogel toe-" ; "me to look over"
 
-	para "that same"
-	line "legendary bird,"
+	para "vertrouwd:MOLTRES." ; "that same"
+;	line "legendary bird,"
 
-	para "MOLTRES."
+;	para "MOLTRES."
 	
-	para "Ha! You'd better"
-	line "have BURN HEAL,"
+	para "Ha! Hopelijk heb" ; "Ha! You'd better"
+	line "je BRANDZALF mee," ; "have BURN HEAL,"
 	
-	para "It's even hotter"
-	line "than your mom!"
+	para "MOLTRES is nog" ; "It's even hotter"
+	line "feller dan je ma!" ; "than your mom!"
 	done
 
 BlaineWinLossText:
@@ -174,32 +174,32 @@ BlaineFightDoneText:
 	done
 
 BlaineRematchText:
-	text "BLAINE: Whoa!"
+	text "BLAINE: Whoa!" ; "BLAINE: Whoa!"
 
-	para "I see you've"
-	line "become the"
-	cont "KANTO CHAMPION!"
+	para "Ik zie dat je" ; "I see you've"
+	line "KANTO KAMPIOEN" ; "become the"
+	cont "werd!" ; "KANTO CHAMPION!"
 
-	para "That's blazing!"
+	para "Dat is laaiend!" ; "That's blazing!"
 
-	para "Your skills are"
-	line "top-notch."
+	para "Je vaardigheden" ; "Your skills are"
+	line "zijn uitstekend." ; "top-notch."
 
-	para "I'm always"
-	line "up for a battle."
+	para "Ik sta steeds klaar" ; "I'm always"
+	line "voor een gevecht." ; "up for a battle."
 
-	para "Want to have a"
-	line "rematch with me?"
+	para "Wil je een rematch" ; "Want to have a"
+	line "met me?" ; "rematch with me?"
 	done
 
 Blaine_RematchDefeatText:
-	text "BLAINE: Your"
-	line "skills are truly"
-	cont "fiery!"
+	text "BLAINE: Je staat" ; "BLAINE: Your"
+	line "werkelijk in vuur" ; "skills are truly"
+	cont "en vlam!" ; "fiery!"
 
-	para "You've burned"
-	line "right through"
-	cont "my defenses."
+	para "Je veraste mijn" ; "You've burned"
+	line "verdedigingen" ; "right through"
+	cont "volledig." ; "my defenses."
 	done
 
 SeafoamGymGuideWinText:

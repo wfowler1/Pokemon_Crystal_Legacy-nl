@@ -244,45 +244,45 @@ ClairText_NoRoom:
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
-	line "matter? Aren't you"
+	text "CLAIR: Wat is er" ; "CLAIR: What's the"
+	line "aan de hand? Ga je" ; "matter? Aren't you"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para "niet naar de" ; "going on to the"
+	line "#MON-LEAGUE?" ; "#MON LEAGUE?"
 
-	para "After you become"
-	line "CHAMPION, you can"
+	para "Als je KAMPIOEN" ; "After you become"
+	line "wordt, kan je elke" ; "CHAMPION, you can"
 
-	para "rematch any GYM"
-	line "LEADER you want."
+	para "GYMLEIDER naar" ; rematch any GYM"
+	line "keuze rematchen." ; "LEADER you want."
 	
-	para "Go to the"
-	line "#MON LEAGUE."
+	para "Ga naar de" ; "Go to the"
+	line "#MON-LEAGUE." ; "#MON LEAGUE."
 
-	para "Do you know how to"
-	line "get there?"
+	para "Weet je hoe je" ; "Do you know how to"
+	line "daar komt?" ; "get there?"
 
-	para "From here, go to"
+	para "Ga vanaf hier naar" ; "From here, go to"
 	line "NEW BARK TOWN."
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para "SURF dan naar het" ; "Then SURF east to"
+	line "oosten." ; "#MON LEAGUE."
 
-	para "The route there is"
-	line "very tough."
+	para "De weg er naartoe" ; "The route there is"
+	line "is erg pittig." ; "very tough."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Waag het niet te" ; "Don't you dare"
+	line "verliezen bij de" ; "lose at the #-"
+	cont "#MON-LEAGUE!" ; "MON LEAGUE!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Als je dat doet," ; "If you do, I'll"
+	line "baal ik nog meer" ; "feel even worse"
+	
+	para "van mijn verlies" ; "about having lost"
+	line "tegen jou!" ; "to you!"
 
-	para "about having lost"
-	line "to you!"
-
-	para "Give it everything"
-	line "you've got."
+	para "Geef het alles dat" ; "Give it every-"
+	line "je in je hebt." ; "thing you've got."
 	done
 
 DragonShrineSignpostText:
@@ -297,22 +297,22 @@ DragonShrineSignpostText:
 
 SilverText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Wat? <PLAYER>?" ; "What? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nee, ik ga niet" ; "…No, I won't"
+	line "tegen je vechten…" ; "battle you now…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "M'n #MON kunnen" ; "My #MON aren't"
+	line "je niet verslaan." ; "ready to beat you."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Ik kan ze niet te" ; "I can't push them"
+	line "hard pushen." ; "too hard now."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Ik heb discipline" ; "I have to be dis-"
+	line "nodig om de beste" ; "ciplined to become"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "beste #MON-" ; "the greatest #-"
+	line "trainer te worden…" ; "MON trainer…"
 	done
 
 SilverText_Training2:
@@ -320,8 +320,8 @@ SilverText_Training2:
 
 	para "Whew…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Leer om mij uit de" ; "Learn to stay out"
+	line "weg te gaan…" ; "of my way…"
 	done
 
 CooltrainermDarinSeenText:

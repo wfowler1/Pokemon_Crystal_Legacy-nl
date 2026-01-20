@@ -53,41 +53,41 @@ Route6UndergroundPathSignText:
 	done
 
 PokefanmRexSeenText:
-	text "My STANTLER is"
-	line "the cutest in"
-	cont "the world."
+	text "Mijn STANTLER is" ; "My STANTLER is the"
+	line "de schattigste van" ; "cutest in the"
+	cont "de wereld." ; "world."
 	done
 
 PokefanmRexBeatenText:
-	text "My STANTLER!"
+	text "Mijn STANTLER!" ; "My STANTLER!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Look how adorable"
-	line "my STANTLER acts!"
+	text "Kijk hoe lief mijn" ; "Look how adorable"
+	line "STANTLER doet!" ; "my STANTLER acts!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Is het niet zo" ; "Isn't it cute"
+	line "schattig dat je" ; "enough to make"
+	cont "hart smelt?" ; "your heart melt?"
 	done
 
 PokefanmAllanSeenText:
-	text "My GRANBULL is"
-	line "the cutest in the"
-	cont "world."
+	text "Mijn GRANBULL is" ; "My GRANBULL is"
+	line "de schattigste" ; "the cutest in the"
+	cont "van de wereld." ; "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "My GRANBULL!"
+	text "Mijn GRANBULL!" ; "My GRANBULL!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Look how adorable"
-	line "my GRANBULL acts!"
+	text "Kijk hoe lief mijn" ; "Look how adorable"
+	line "GRANBULL doet!" ; "my GRANBULL acts!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "Is het niet zo" ; "Isn't it cute"
+	line "schattig dat je" ; "enough to make"
+	cont "hart smelt?" ; "your heart melt?"
 	done
 
 Route6_MapEvents:

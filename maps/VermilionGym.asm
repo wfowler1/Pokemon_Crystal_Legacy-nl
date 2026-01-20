@@ -185,23 +185,23 @@ LtSurgeFightDoneText:
 	done
 
 SurgeRematchText:
-	text "SURGE: So, "
-	line "you're now"
-	cont "KANTO CHAMPION!"
+	text "SURGE: Dus, je" ; "SURGE: So, "
+	line "bent nu KANTO" ; "you're now"
+	cont "KAMPIOEN!" ; "KANTO CHAMPION!"
 
-	para "Impressive work,"
-	line "kid! But don't"
-	cont "think I'm done!"
+	para "Indrukwekkend," ; "Impressive work,"
+	line "joch! Maar ik ben" ; "kid! But don't"
+	cont "nog niet klaar!" ; "think I'm done!"
 
-	para "How about we"
-	line "have a go"
-	cont "again?"
+	para "Wat dacht je van" ; "How about we"
+	line "nog een robbertje?" ; "have a go"
+;	cont "again?"
 	done
 
 Surge_RematchDefeatText:
-	text "SURGE: Arrrgh!"
-	line "You're still just"
-	cont "as strong!"
+	text "SURGE: Arrrgh!" ; "SURGE: Arrrgh!"
+	line "Je bent nog net zo" ; "You're still just"
+	cont "sterk!" ; "as strong!"
 	done
 
 GentlemanGregorySeenText:

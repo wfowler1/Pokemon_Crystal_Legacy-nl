@@ -449,11 +449,11 @@ GuideGentPokegearText:
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh… Het is iets" ; "Oh… It's something"
+	line "dat ik graag doe…" ; "I enjoy doing…"
 
-	para "Fine. Come see me"
-	line "whenever you like."
+	para "Goed. Bezoek me" ; "Fine. Come see me"
+	line "wanneer je wilt." ; "whenever you like."
 	done
 
 CherrygroveRivalText_Seen:
@@ -478,8 +478,8 @@ CherrygroveRivalText_Seen:
 	done
 
 SilverCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Humph. Ben je blij" ; "Humph. Are you"
+	line "dat je won?" ; "happy you won?"
 	done
 
 CherrygroveRivalText_YouLost:
@@ -494,8 +494,8 @@ CherrygroveRivalText_YouLost:
 	done
 
 SilverCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Humph. Wat een" ; "Humph. That was a"
+	line "tijdsverspilling." ; "waste of time."
 	done
 
 CherrygroveRivalText_YouWon:

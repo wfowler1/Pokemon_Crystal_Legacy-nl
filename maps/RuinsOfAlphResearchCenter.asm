@@ -356,88 +356,90 @@ RuinsOfAlphResearchCenterPC:
 	end
 
 FossilScientistIntroText:
-	text "Hiya!"
+	text "Hoi!" ; "Hiya!"
 
-	para "I am important"
-	line "doctor!"
+	para "Ik ben een belang-" ; "I am important"
+	line "rijke dokter!" ; "doctor!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Ik bestudeer hier" ; "I study here rare"
+	line "zeldzame #MON" ; "#MON fossils!"
+	cont "fossielen!" ; 
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Jij! Heb je een" ; "You! Have you a"
+	line "fossiel voor me?" ; "fossil for me?"
 	done
 
 MightTakeAWhileText:
-	text "But this one"
-	line "could take a"
-	cont "long time."
+	text "Maar deze zou best" ; "But this one"
+	line "wat tijd in beslag" ; "could take a"
+	cont "kunnen nemen." ; "long time."
 
-	para "Are you sure"
-	line "you don't want"
-	cont "any other fossils"
-	cont "revived first?"
+	para "Ben je zeker dat" ; "Are you sure"
+	line "er geen andere" ; "you don't want"
+	cont "fossielen zijn die" ; "any other fossils"
+	cont "je eerst wil laten" ; "revived first?"
+	cont "herleven?" ; 
 	done
 
 FossilScientistNoText:
-	text "No! Is too bad!"
+	text "Nee! Zo jammer!" ; "No! Is too bad!"
 
-	para "You come again!"
+	para "Kom later terug!" ; "You come again!"
 	done
 
 FossilScientistPartyFullText:
-	text "No! Is too bad!"
+	text "Nee! Zo jammer!" ; "No! Is too bad!"
 
-	para "Your party is"
-	line "already full!"
+	para "Je team is al" ; "Your party is"
+	line "volzet!" ; "already full!"
 	done
 
 FossilScientistTimeText:
-	text "Wow this one is"
-	line "quite complex..."
+	text "Wow, deze is best" ; "Wow this one is"
+	line "wel complex…" ; "quite complex..."
 
-	para "I take a little"
-	line "time!"
+	para "Dit zal even" ; "I take a little"
+	line "duren!" ; "time!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Ga maar even een" ; "You go for walk a"
+	line "blokje om!" ; little while!"
 	done
 
 FossilScientistDoneText:
-	text "Where were you?"
+	text "Waar was je?" ; "Where were you?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Je fossiel is weer" ; "Your fossil is"
+	line "tot leven gewekt." ; "back to life!"
 	done
 
 FossilScientistMonText:
-	text "Oh! That is"
-	line "a fossil!"
+	text "Oh! Dat is een" ; "Oh! That is"
+	line "fossiel!" ; "a fossil!"
 
-	para "It is fossil of"
-	line "@"
+	para "Dit fossiel is van" ; "It is fossil of"
+	line "@" ; "@"
 	text_ram wStringBuffer3
-	text ", a"
+	text ", een" ; ", a"
 
-	para "#MON that is"
-	line "already extinct!"
+	para "#MON die reeds" ; "#MON that is"
+	line "uitgestorven is!" ; "already extinct!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Mijn Herrijzings-" ; "My Resurrection"
+	line "machine zal je" ; "Machine will make"
+	cont "#MON weer tot" ; "that #MON live"
+	cont "leven wekken!" ; "again!"
 	done
 
 FossilScientistGiveText:
-	text "So! You hurry and"
-	line "give me that!"
+	text "Dus! Jij haast je" ; "So! You hurry and"
+	line "en geeft me dat!" ; "give me that!"
 
-	para "<PLAYER> handed"
-	line "over the fossil."
+	para "<PLAYER> gaf" ; "<PLAYER> handed"
+	line "het fossiel." ; "over the fossil."
 	done
 
 FossilScientistReceiveText:
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; ""<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
@@ -622,8 +624,8 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "I wonder what"
-	line "this machine does."
+	text "Ik vraag me af wat" ; "I wonder what"
+	line "deze machine doet." ; "this machine does."
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:

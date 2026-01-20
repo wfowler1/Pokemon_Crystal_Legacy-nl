@@ -281,8 +281,9 @@ VermilionPortNoTicketText:
 	done
 
 VermilionPortSailMondayText:
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "Het SNELSCHIP" ; "The FAST SHIP will"
+	line "vaart komende" ; "sail on Wednesday."
+	cont "woensdag."
 	done
 
 VermilionPortSailSundayText:

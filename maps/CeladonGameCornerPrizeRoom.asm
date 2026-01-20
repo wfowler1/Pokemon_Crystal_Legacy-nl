@@ -212,9 +212,9 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted WOBBUFFET,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Ik wou WOBBUFFET," ; "I wanted WOBBUFFET,"
+	line "maar kwam 100" ; "but I was short by"
+	cont "munten te kort…" ; "100 coins…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
