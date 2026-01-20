@@ -141,6 +141,7 @@
 	charmap "<%>",       $c7
 	charmap "<BOLD_P>",  $c8
 	charmap "<BOLD_C>",  $c9
+	charmap "è",         $ca
 	
 ;	charmap "′",         $ce
 ;	charmap "″",         $cf
