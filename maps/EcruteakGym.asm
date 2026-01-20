@@ -383,7 +383,8 @@ SagePingBeatenText:
 
 SagePingAfterBattleText:
 	text "We kiezen voor" ; "We use GHOST-"
-	line "GEEST-type #MON." ; "type #MON."
+	line "GEEST-type" ; "type #MON."
+	cont "#MON."
 
 	para "NORMAAL-aanvallen" ; "No NORMAL-type"
 	line "deren hen niet!" ; attack can harm"

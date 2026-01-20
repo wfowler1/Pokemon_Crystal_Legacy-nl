@@ -161,9 +161,9 @@ HallOfFame_Rematch_LanceText:
     cont "beradenheid," ; unwavering"
 ;	cont "determination,"
 
-    para "weerspiegelt je ware" ; "speaks to your"
-    line "aard als trainer." ; "true spirit as a"
-;	cont "trainer."
+    para "weerspiegelt je" ; "speaks to your"
+    line "ware aard als" ; "true spirit as a"
+	cont "trainer."
 
     para "Je hebt alles om" ; "You have all the"
     line "een grootse" ; "makings of a true"

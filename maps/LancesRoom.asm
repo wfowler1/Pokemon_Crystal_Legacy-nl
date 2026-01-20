@@ -289,9 +289,9 @@ LanceRematchBattleIntroText:
 
 	para "De KANTO LEAGUE!" ; "The KANTO LEAGUE!"
 	
-	para "Een regio met eigen" ; "A region with its"
-    line "uitdagingen en" ; "own trials and"
-    cont "kampioenen." ; "champions."
+	para "Een regio met" ; "A region with its"
+    line "eigen uitdagingen" ; "own trials and"
+    cont "en kampioenen." ; "champions."
 	
 	para "Hier ben ik de" ; "Here, I am the"
     line "laatste uitdaging," ; "final challenge,"
@@ -355,8 +355,8 @@ LanceBattleIntroText:
 	line "ZAPDOS." ; "ZAPDOS."
 
 	para "Er zijn nu geen" ; "There's no need"
-	line "woorden meer nodig." ; "for any more"
-;	cont "words now."
+	line "woorden meer" ; "for any more"
+	cont "nodig." ; "words now."
 
 	para "We zullen vechten" ; "We will battle to"
 	line "om te beslissen" ; "determine who is"

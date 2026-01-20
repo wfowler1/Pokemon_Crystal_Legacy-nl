@@ -418,7 +418,7 @@ FossilScientistMonText:
 
 	para "Dit fossiel is van" ; "It is fossil of"
 	line "@" ; "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text ", een" ; ", a"
 
 	para "#MON die reeds" ; "#MON that is"
@@ -441,7 +441,7 @@ FossilScientistGiveText:
 FossilScientistReceiveText:
 	text "<PLAYER> ontving" ; ""<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 

@@ -80,7 +80,8 @@ MountMortarB1FKiyoWinText:
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "Ik… Ik ben er kapot van." ; "I… I'm crushed…"
+	text "Ik… Ik ben er" ; "I… I'm crushed…"
+	line "kapot van."
 
 	para "Mijn training is" ; "My training is"
 	line "nog onvolledig…" ; still not enough…"

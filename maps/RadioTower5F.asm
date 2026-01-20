@@ -473,7 +473,7 @@ Executivef1BeatenText:
 	line "maar ik heb toch" ; "I still lost…"
 	cont "verloren…" ; 
 	
-	para "Het spijt me zo," "I'm so sorry"
+	para "Het spijt me zo," ; "I'm so sorry"
 	line "GIOVANNI…" ; "GIOVANNI…"
 	done
 
@@ -539,7 +539,7 @@ RadioTower5FRocketBossAfterText:
 	para "Je won misschien" ; "You may have won"
 	line "dit gevecht," ; "this battle,"
 
-	para "maar de strijd?" , "but the war?"
+	para "maar de strijd?" ; "but the war?"
 	line "Die is verre van" ; "It's far from over."
 	cont "voorbij. Wacht" ; "You'll see."
 	cont "maar af." ; 
@@ -609,8 +609,8 @@ RadioTower5FGiovanniText4:
 	para "Is dit het erfgoed" ; "Is this the legacy"
 	line "dat je inbeeldde?" ; "you imagined?"
 
-	para "Gereduceerd tot het" ; "Reduced to"
-	line "schuilen in de" ; "skulking in the"
+	para "Gereduceerd tot" ; "Reduced to"
+	line "het schuilen in de" ; "skulking in the"
 	cont "schaduwen?" ; "shadows?"
 	done
 

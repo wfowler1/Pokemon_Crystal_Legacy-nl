@@ -142,7 +142,8 @@ GruntM14AfterBattleText:
 
 GruntM15SeenText:
 	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
-	line "Wie we daar hebben!" ; "Look who it is!"
+	line "Wie we daar" ; "Look who it is!"
+	cont "hebben!"
 
 	para "Klaar? Ik ben echt" ; "Ready? I'm "
 	line "heel sterk nu!" ; "really tough now!"
@@ -159,7 +160,7 @@ GruntM15BeatenText:
 	line "dat het anderen" ; "see it hurts"
 	
 	para "kwelt. Genoeg!" ; "others. That's it, "
-	line "ik stop ermee." , "I'm leaving."
+	line "ik stop ermee." ; "I'm leaving."
 	
 	para "Heel erg bedankt!" ; "Thank you so much."
 	line "Sorry GIOVANNI!" ; "Sorry GIOVANNI!"

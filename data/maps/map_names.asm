@@ -623,7 +623,7 @@ Dungeons_Map_Name11: ; map_const TIN_TOWER_8F,; 11
 Dungeons_Map_Name12: ; map_const TIN_TOWER_9F,  ; 12
 	db "TIN TOREN 9V@" ; "TIN TOWER 9F@"
 Dungeons_Map_Name13: ; map_const BURNED_TOWER_1F, ; 13
-	db "VERBRANDE TOREN1V@" , "BURNED TOWER 1F@"
+	db "VERBRANDE TOREN1V@" ; "BURNED TOWER 1F@"
 Dungeons_Map_Name14: ; map_const BURNED_TOWER_B1F, ; 14
 	db "VERBRANDE TOREN1K@" ; "BURNED TOWER B1F@"
 Dungeons_Map_Name15: ; map_const NATIONAL_PARK, ; 15
@@ -673,9 +673,9 @@ Dungeons_Map_Name36: ; map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,; 36
 Dungeons_Map_Name37: ; map_const UNION_CAVE_1F,; 37
 	db "EENHEIDSTUNNEL 1V@" ; "UNION CAVE 1F@"
 Dungeons_Map_Name38: ; map_const UNION_CAVE_B1F,; 38
-	db "EENHEIDSTUNNEL 1K" ; ""UNION CAVE B1F@"
+	db "EENHEIDSTUNNEL 1K@" ; ""UNION CAVE B1F@"
 Dungeons_Map_Name39: ; map_const UNION_CAVE_B2F,; 39
-	db "EENHEIDSTUNNEL2BV" ; "UNION CAVE B2F@"
+	db "EENHEIDSTUNNEL2BV@" ; "UNION CAVE B2F@"
 Dungeons_Map_Name40: ; map_const SLOWPOKE_WELL_B1F,; 40
 	db "SLOWPOKEPUT 1K@" ; "SLOWPOKE WELL B1@"
 Dungeons_Map_Name41: ; map_const SLOWPOKE_WELL_B2F,; 41
@@ -924,7 +924,7 @@ Violet_Map_Name10: ; map_const VIOLET_POKECENTER_1F ; 10
 Violet_Map_Name11: ; map_const VIOLET_KYLES_HOUSE ; 11
 	db "KYLE'S HOUSE@" ; "KYLE'S HUIS@"
 Violet_Map_Name12: ; map_const ROUTE_32_RUINS_OF_ALPH_GATE ; 12
-	db "ROUTE32 ALFPOORT@" . "ROUTE 32-R. GATE@"
+	db "ROUTE32 ALFPOORT@" ; "ROUTE 32-R. GATE@"
 Violet_Map_Name13: ; map_const ROUTE_32_POKECENTER_1F ; 13
 	db "ROUTE32 <PKMN>CENTRUM@" ; "ROUTE 32 <PKMN> CEN.@"
 Violet_Map_Name14: ; map_const ROUTE_35_GOLDENROD_GATE ; 14
@@ -932,7 +932,7 @@ Violet_Map_Name14: ; map_const ROUTE_35_GOLDENROD_GATE ; 14
 Violet_Map_Name15: ; map_const ROUTE_35_NATIONAL_PARK_GATE ; 15
 	db "ROUTE35 PARKPOORT@" ; "ROUTE 35-P. GATE@"
 Violet_Map_Name16: ; map_const ROUTE_36_RUINS_OF_ALPH_GATE ; 16
-	db "ROUTE36 ALFPOORT" ; "ROUTE 36-R. GATE@"
+	db "ROUTE36 ALFPOORT@" ; "ROUTE 36-R. GATE@"
 Violet_Map_Name17: ; map_const ROUTE_36_NATIONAL_PARK_GATE ; 17                                        ; 11
 	db "ROUTE36 POORTHUIS@" ; "ROUTE 36-P. GATE@"
 

@@ -474,10 +474,10 @@ _EggMoveReminderIntro::
     line "AANVAL LERAAR!" ; "EGG-MOVE TUTOR!"
 
     para "Ik kan je #MON" ; "can teach your"
-    line "aanvallen leren die"; #MON moves they"
+    line "aanvallen leren"; #MON moves they"
 
-    para "die ze normaal enkel" ; "can normally only"
-    line "learn as an EGG."
+    para "die ze normaal" ; "can normally only"
+    line "enkel en EI leren." ; "learn as an EGG."
 
 	para "Wil je dat?" ; "Are you"
     ;line "interested?"
@@ -487,19 +487,21 @@ _MoveReminderIntro::
     text "Hoi, ik ben de" ; "Hiya, I'm the"
     line "AANVALOPFRISSER." ; "MOVE REMINDER!"
 
-    para "#MON kan ik AAN-" ; "I can make #MON"
-    line "VALLEN herinneren" ; "rememember moves"
+    para "#MON kan ik" ; "I can make #MON"
+    line "AANVALLEN herin-" ; "rememember moves"
 
-    para "die ze tijdens het" ; "that they learned"
-    line "opgroeien leerden." ; "while growing up."
+    para "neren die ze" ; "that they learned"
+    line "tijdens het" ; "while growing up."
+	cont "opgroeien leerden."
 
 	para "Zal ik een #MON" ; "Shall I make a"
-	line "iets doen herinneren?"  ; #MON remember?"
+	line "iets doen"  ; #MON remember?"
+	cont "herinneren?"
     done
 
 _MoveReminderWhichMon::
     text "Welke #MON wil" ; "Which #MON"
-    next "je een aanval doen" ; "would you like"
+    line "je een aanval doen" ; "would you like"
 
     para "herinneren?" ; "to make remember"
     ;line "a move?"

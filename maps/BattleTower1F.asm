@@ -537,7 +537,7 @@ Text_AskRegisterRecord_Mobile: ; unreferenced
 Text_PlayerGot:
 	text "<PLAYER> kreeg" ; "<PLAYER> got"
 	line "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; MaxLength MaxItemNameLength
 	text "!@"
 	sound_item
 	text_promptbutton
@@ -551,8 +551,9 @@ Text_PlayerGotDeco:
 
 	para "@"
 	text_ram wPlayerName
-	text " zond de decoratie" ; " sent the"
-	line "naar huis." ; "decoration home."
+	text " zond de" ; " sent the"
+	line "decoratie naar" ; "decoration home."
+	cont "huis."
 	done
 
 Text_YourPackIsStuffedFull:
@@ -665,11 +666,11 @@ Text_NextUpOpponentNo:
 	done
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
-	text "Je sessie wordt OP-" ; "Your session will"
-	line "GESLAGEN vooraleer" ; "be SAVED before"
+	text "Je sessie wordt" ; "Your session will"
+	line "OPGESLAGEN voor-" ; "be SAVED before"
 
-	para "te verbinden met"; "connecting with"
-	line "het CENTRUM." ; "the CENTER."
+	para "aleer te verbinden"; "connecting with"
+	line "met het CENTRUM." ; "the CENTER."
 	done
 
 Text_SaveBeforeEnteringBattleRoom:

@@ -236,8 +236,8 @@ TrainerHouseB1FCalBeatenText:
 	done
 
 TrainerHouseB1FSmithBeatenText:
-	text "Verloren…" ; "I lost…"
-	line "Niet pittig genoeg." ; "Not so zesty."
+	text "Verloren… Niet" ; "I lost…"
+	line "pittig genoeg." ; "Not so zesty."
 	done
 
 TrainerHouseB1FCraigBeatenText:

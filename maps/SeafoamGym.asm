@@ -185,8 +185,9 @@ BlaineRematchText:
 	para "Je vaardigheden" ; "Your skills are"
 	line "zijn uitstekend." ; "top-notch."
 
-	para "Ik sta steeds klaar" ; "I'm always"
-	line "voor een gevecht." ; "up for a battle."
+	para "Ik sta steeds" ; "I'm always"
+	line "klaar voor een" ; "up for a battle."
+	cont "gevecht."
 
 	para "Wil je een rematch" ; "Want to have a"
 	line "met me?" ; "rematch with me?"

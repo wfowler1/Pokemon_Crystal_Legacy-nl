@@ -334,9 +334,9 @@ Clair_RematchDefeatText:
 
     para "Nogmaals?" ; "Again?"
 
-    para "Ik kan het niet ge-" ; "I don't believe"
-    line "loven. Dit moet 'n" ; "it. There must be"
-    cont "vergissing zijn…" ; "some mistake…"
+    para "Ik kan het niet" ; "I don't believe"
+    line "geloven. Dit moet" ; "it. There must be"
+    cont "'n vergissing zijn…" ; "some mistake…"
     done
 
 CooltrainermPaulSeenText:

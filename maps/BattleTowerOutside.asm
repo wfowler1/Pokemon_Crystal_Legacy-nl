@@ -69,8 +69,8 @@ BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
 	para "Gezien de naam," ; "If the name says"
 	line "gok ik dat ze hier" ; "anything, I guess"
 
-	para "zijn voor de #MON" ; "it must be for"
-	line "gevechten." ; "#MON battles."
+	para "zijn voor de" ; "it must be for"
+	line "#MON gevechten." ; "#MON battles."
 	done
 
 BattleTowerOutsideBeautyText:

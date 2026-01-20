@@ -1315,7 +1315,7 @@ _RepelWoreOffText::
 
 _UseAnotherRepelText::
 	text "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; MaxLength MaxItemNameLength
 	text "'s"
 	line "is uitgewerkt" ; "worn off."
 

@@ -278,8 +278,9 @@ BugsyRematchText:
     cont "onderzoek."
 	
 	para "Ik ben klaar om je" ; "I'm ready to"
-	line "mijn nieuwe ontdek-" ; "show you my new"
-	cont "kingen te tonen." ; "findings."
+	line "mijn nieuwe ont-" ; "show you my new"
+	cont "dekkingen te" ; "findings."
+	cont "tonen."
 
 	para "Wil je 't nog eens" ; "Want to have a"
 	line "tegen me opnemen?" ; "rematch with me?"
@@ -400,15 +401,16 @@ TwinsAmyandmay2BeatenText:
 
 TwinsAmyandmay2AfterBattleText:
 	text "MAY: Onze insect" ; "MAY: Our bug #-"
-	line "#MON verloren! Oh," ; "MON lost! Oh, what"
-	cont "wat jammer." ; "a shame."
+	line "#MON verloren!" ; "MON lost! Oh, what"
+	cont "Oh, wat jammer." ; "a shame."
 
 	para "Die van BUGSY gaan" ; " BUGSY's won't"
 	line "echter wel winnen!" ;" lose though!"
 
 	para "Zijn PINECO maakt" ; "His PINECO makes"
 	line "korte metten met" ; "short work of"
-	cont "STEEN-type #MON!" ; "ROCK-type #MON!"
+	cont "STEEN-type #-" ; "ROCK-type #MON!"
+	cont "MON!"
 	done
 
 AzaleaGymGuideText:

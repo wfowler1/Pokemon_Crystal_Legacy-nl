@@ -1195,7 +1195,7 @@ namespace PokeGen2TextValidator
         public const int MaxLandmarkLength = 17;
 
         //public const string GSCPrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎♥♦";
-        public const string GSCPrintableChars = "◀┌─┐│└┘ №⁂ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyz><=+ÖüëïêÏËÈÉ′″■▲☎“”←'-?!.&é→▷▶▼♂¥×…/,♀0123456789";
+        public const string GSCPrintableChars = "◀┌─┐│└┘ №⁂ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyz><=+èÖüëïêÏËÈÉ′″■▲☎“”←'-?!.&é→▷▶▼♂¥×…/,♀0123456789";
         public const string RBYPrintableChars = "‘’“”…┌─┐│└┘ №ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzé'-?!.▷▶▼♂¥×/,♀0123456789";
 
         private Block _block;

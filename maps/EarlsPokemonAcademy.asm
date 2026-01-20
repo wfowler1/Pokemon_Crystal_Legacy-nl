@@ -244,11 +244,11 @@ EarlsPokemonAcademyYoungster1Text:
 ;	cont "at LVL 42."
 
 	para "Enkele voorwerpen," ; "Some items, like"
-	line "zoals de METALEN JAS" ; "the METAL COAT,"
+	line "zoals de METALEN" ; "the METAL COAT,"
 	
-	para "kunnen blijbaar" ; "have also been"
-	line "#MON laten evo-" ; "found to evolve"
-	cont "lueren net als" ; certain #MON"
+	para "JAS kunnen blij-" ; "have also been"
+	line "baar #MON laten" ; "found to evolve"
+	cont "evolueren net als" ; certain #MON"
 	
 	para "evolutiestenen." ; "similarly to"
 ;	line "evolution stones."
