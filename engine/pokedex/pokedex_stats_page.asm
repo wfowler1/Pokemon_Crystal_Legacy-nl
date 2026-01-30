@@ -434,7 +434,7 @@ Pokedex_Get_EggGroup:
 .EggG_Grass_text:
 	db "Gras@" ; "Grass@"
 .EggG_HumanLike_text:
-	db "Menselijk@" ; "Humane-Like@"
+	db "Mensachtig@" ; "Humane-Like@"
 .EggG_Invertebrate_text:
 	db "Ongewervelde@" ; "Invertebrate@"
 .EggG_Mineral_text:
@@ -690,9 +690,9 @@ ENDC
 	;ld de, wPoisonStepCount ; weight ptr, 2 bytes
 ; Print the height, with two of the three digits in front of the decimal point
 IF !DEF(wBaseHPAtkDefSpdEVs) ; vanilla
-	hlcoord 6, 15
+	hlcoord 5, 15
 ELSE ; using EVs
-	hlcoord 6, 14
+	hlcoord 5, 14
 ENDC
 	lb bc, 1, (2 << 4) | 3
 	call PrintNum
