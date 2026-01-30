@@ -233,7 +233,7 @@ ElmsLookingForYouText:
 	done
 
 MomGivesPokegearText:
-	para "Oh, de dag van de" ; "Oh, the day of the"
+	text "Oh, de dag van de" ; "Oh, the day of the"
 	line "week ontbreekt." ; "week isn't set."
 
 	para "Vergeet die niet" ; "You mustn't forget"
@@ -246,7 +246,7 @@ IsItDSTText:
 	done
 
 ComeHomeForDSTText:
-	para "Trouwens, weet je" ; "By the way, do you"
+	text "Trouwens, weet je" ; "By the way, do you"
 	line "hoe je de TELEFOON" ; "know how to use"
 	cont "gebruikt?" ; "the PHONE?"
 	done
