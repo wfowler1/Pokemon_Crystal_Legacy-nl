@@ -1276,8 +1276,11 @@ PlaceString_UnownFont_Type:
 	cp "@"
 	ret z
 	inc de
+	cp "."
+	jr z, .print_char
 	sub "A"
 	add $C3 ; FIRST_UNOWN_CHAR
+.print_char
 	ld [hli], a
 	push hl
 	push de
