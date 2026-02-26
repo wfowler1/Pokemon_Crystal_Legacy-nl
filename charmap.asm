@@ -133,15 +133,22 @@
 	charmap "Ë",         $c0
 	charmap "È",         $c1
 	charmap "É",         $c2
+	charmap "è",         $c3
 
-	charmap ">",         $c3
-	charmap "<",         $c4
-	charmap "=",         $c5
-	charmap "+",         $c6
-	charmap "<%>",       $c7
-	charmap "<BOLD_P>",  $c8
-	charmap "<BOLD_C>",  $c9
-	charmap "è",         $ca
+	charmap ">",         $c4
+	charmap "<",         $c5
+	charmap "=",         $c6
+	charmap "+",         $c7
+	charmap "<%>",       $c8
+;	charmap "<BOLD_P>",  $c9
+;	charmap "<BOLD_C>",  $ca
+
+	charmap "┌",         $c9
+	charmap "─",         $ca
+	charmap "┐",         $cb
+	charmap "│",         $cc
+	charmap "└",         $cd
+	charmap "┘",         $ce
 	
 ;	charmap "′",         $ce
 ;	charmap "″",         $cf

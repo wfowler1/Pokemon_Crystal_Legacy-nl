@@ -22,11 +22,11 @@ _LoadStandardFont::
 	call Get1bppViaHDMA
 	ld de, Font + 32 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $20
-	lb bc, BANK(Font), 32 ; 'a' to $bf
+	lb bc, BANK(Font), 41 ; 'a' to '%'
 	call Get1bppViaHDMA
-	ld de, Font + 64 * LEN_1BPP_TILE
-	ld hl, vTiles1 tile $40
-	lb bc, BANK(Font), 32 ; 'Ä' to '←'
+	ld de, Font + 79 * LEN_1BPP_TILE
+	ld hl, vTiles1 tile $4f
+	lb bc, BANK(Font), 17 ; ''n' to '←'
 	call Get1bppViaHDMA
 	ld de, Font + 96 * LEN_1BPP_TILE
 	ld hl, vTiles1 tile $60
@@ -59,7 +59,7 @@ LoadFrame:
 	call AddNTimes
 	ld d, h
 	ld e, l
-	ld hl, vTiles2 tile "┌" ; $ba
+	ld hl, vTiles0 tile "┌" ; $c9 overwrites BOLD_P and BOLD_C, which are unused anyway
 	lb bc, BANK(Frames), TEXTBOX_FRAME_TILES ; "┌" to "┘"
 	call Get1bppViaHDMA
 	ld hl, vTiles2 tile " " ; $7f
