@@ -289,7 +289,7 @@ HurryUpElmIsWaitingText:
 
 SoWhatWasProfElmsErrandText:
 	text "Wat voor klus had" ; "So, what was PROF."
-	line "PROF. ELM??" ; "ELM's errand?"
+	line "PROF. ELM?" ; "ELM's errand?"
 
 	para "…"
 

@@ -344,9 +344,9 @@ FossilScientist:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "OLD AMBER@"
-	db "DOME FOSSIL@"
-	db "HELIX FOSSIL@"
+	db "BARNSTEEN@" ; "OLD AMBER@"
+	db "STOLPFOSSIEL@" ; "DOME FOSSIL@"
+	db "HELIXFOSSIEL@" ; "HELIX FOSSIL@"
 	db "CANCEL@"
 
 RuinsOfAlphResearchCenterPC:

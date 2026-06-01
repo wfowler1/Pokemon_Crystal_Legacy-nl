@@ -61,7 +61,7 @@ CianwoodGymGuideText:
 
 	para "Je kan hem dus" ; "So you should"
 	line "verrassen met psy-" ; "confound him with"
-	cont "chische @MON." ; "psychic #MON."
+	cont "chische #MON." ; "psychic #MON."
 
 	para "Versla z'n #MON" ; "Wipe out his #-"
 	line "voordat ze hun" ; "MON before they"

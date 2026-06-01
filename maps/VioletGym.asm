@@ -340,7 +340,7 @@ VioletGymGuideText:
 	
 	para "Voor meer hulp," ; "If you want more"
 	line "bezoek de #MON" ; "help, go visit the"
-	cont "ACADEMY." ; "#MON ACADEMY."
+	cont "ACADEMIE." ; "#MON ACADEMY."
 	
 	para "De studenten daar" ; "The students there"
 	line "weten echt waar ze" ; "really know their"

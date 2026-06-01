@@ -179,14 +179,14 @@ BugsyText_INeverLose:
 	text "Ik ben BUGSY!" ; "I'm BUGSY!"
 	line "Ik verlies nooit" ; "I never lose when"
 
-	para "als het op insect" ; "it comes to bug"
-	line "#MON aankomt." ; "#MON."
+	para "met mijn" ; "it comes to bug"
+	line "insect-#MON." ; "#MON."
 
-	para "Mijn onderzoek zal" ; "My research is"
-	line "me de expert maken" ;" going to make me"
+	para "Mijn studie naar" ; "My research is"
+	line "insect-#MON" ; "going to make me"
 
-	para "aangaande insect" ; "the authority on"
-	line "insect #MON!" ; "bug #MON!"
+	para "zal mij de" ; "the authority on"
+	line "autoriteit maken!" ; "bug #MON!"
 	
 	para "Bijvoorbeeld, wist" ; "For example, did"
 	line "je dat SNIJDEN " ; "you know that"
@@ -194,10 +194,10 @@ BugsyText_INeverLose:
 	para "eigenlijk een" ; "the move CUT is"
 	line "INSECT-type aanval" ; "actually a BUG-"
 	cont "is?" ; "type move?"
-	
-	para "Ik toon je al wat" ; "Let me demonstrate"
-	line "ik geleerd heb van" ; "all I've learned"
-	cont "mijn onderzoek." ; "from my studies."
+
+	para "Laat me je demon-" ; "Let me demonstrate"
+	line "streren al wat ik" ; "what I've learned"
+	cont "zoal geleerd heb." ; "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
@@ -360,7 +360,7 @@ BugCatcherJoshAfterBattleText:
 
 TwinsAmyandmay1SeenText:
 	text "AMY: He! Daag jij" ; "AMY: Hi! Are you"
-	line "de GYMleider uit?" ; "challenging the"
+	line "de GYMLEIDER uit?" ; "challenging the"
 	cont "Echt niet!" ; "LEADER? No way!"
 	done
 
@@ -438,7 +438,7 @@ AzaleaGymGuideText:
 	line "nieuwe INSECT-type" ; "oped a new"
 	
 	para "versie van SNIJD" ; "version of CUT"
-	line "ontwikkeld" ; "that is BUG-type."
+	line "ontwikkeld." ; "that is BUG-type."
 
 	para "Oh, en denk aan" ; "Oh, and don't"
 	line "die lastige vol-" ; "forget about"

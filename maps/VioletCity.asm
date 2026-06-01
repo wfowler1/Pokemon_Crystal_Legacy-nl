@@ -222,7 +222,7 @@ VioletCitySuperNerdText:
 	line "#MON-trainer?" ; "#MON trainer?"
 
 	para "Als je naar de" ; "If you head to"
-	line "ACADEMY gaat," ; "the ACADEMY,"
+	line "ACADEMIE gaat," ; "the ACADEMY,"
 
 	para "leer je misschien" ; "you might learn"
 	line "iets nieuws!" ; "something new!"
