@@ -1604,17 +1604,13 @@ StatsScreen_LoadPageIndicators:
 IF DEF(ORANGE_PAGE)
 
 	hlcoord 11, 5
-	ld a,  $36 ; " " " "
-	call .load_square
+	call .load_nonhighlighted_square
 	hlcoord 13, 5
-	ld a, $36 ; first of 4 small square tiles
-	call .load_square
+	call .load_nonhighlighted_square
 	hlcoord 15, 5
-	ld a,  $36 ; " " " "
-	call .load_square
+	call .load_nonhighlighted_square
 	hlcoord 17, 5
-	ld a, $36 ; " " " "
-	call .load_square
+	call .load_nonhighlighted_square
 	ld a, c
 	cp PINK_PAGE
 	hlcoord 11, 5
@@ -1630,14 +1626,11 @@ IF DEF(ORANGE_PAGE)
 	; fallthrough to .load_highlighted_square
 ELSE
 	hlcoord 13, 5
-	ld a,  $36 ; first of 4 small square tiles
-	call .load_square
+	call .load_nonhighlighted_square
 	hlcoord 15, 5
-	ld a, $36 ; " " " "
-	call .load_square
+	call .load_nonhighlighted_square
 	hlcoord 17, 5
-	ld a, $36 ; " " " "
-	call .load_square
+	call .load_nonhighlighted_square
 	ld a, c
 	cp PINK_PAGE
 	hlcoord 13, 5
@@ -1649,12 +1642,17 @@ ELSE
 	hlcoord 17, 5
 ENDC	
 
-.load_highlighted_square	
+.load_highlighted_square
 	ld a, $3a ; first of 4 large square tiles
-.load_square
 	push bc
 	ld [hli], a
 	inc a
+	jr .load_square
+.load_nonhighlighted_square
+	ld a,  $37 ; first of 4 small square tiles
+	push bc
+	ld [hli], a
+.load_square
 	ld [hld], a
 	ld bc, SCREEN_WIDTH
 	add hl, bc
