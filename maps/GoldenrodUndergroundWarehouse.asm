@@ -141,7 +141,7 @@ GruntM14AfterBattleText:
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
 	line "Wie we daar" ; "Look who it is!"
 	cont "hebben!"
 

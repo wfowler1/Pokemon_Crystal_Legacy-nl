@@ -473,10 +473,10 @@ GruntF5AfterBattleText:
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
 
 	para "Ik herken jou van" ; "I remember you"
-	line "de SLOWPOKE WELL!" ; "from the well!"
+	line "de SLOWPOKE-PUT!" ; "from the well!"
 
 	para "Je daagt me weer" ; "You're challenging"
 	line "uit?" ; "me again?"

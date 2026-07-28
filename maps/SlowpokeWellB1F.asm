@@ -250,7 +250,7 @@ TrainerGruntM1WhenTalkText:
 	done
 
 GruntM2SeenText:
-	text "Hyuck-hyuck-hyuck!" ; "Hyuck-hyuck-hyuck!"
+	text "Hja-ha-ha!" ; "Hyuck-hyuck-hyuck!"
 	line "Geen SLOWPOKE-" ; "Quit taking SLOW-"
 	cont "STAARTEN stelen?" ; "POKETAILS?"
 	

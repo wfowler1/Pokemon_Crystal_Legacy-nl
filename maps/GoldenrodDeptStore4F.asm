@@ -64,14 +64,14 @@ GoldenrodDeptStore4FGameboyKidText:
 	para "Pfft..." ; "Pfft..."
 
 	para "Wat een larie en" ; "Such"
-	line "apenkool." ; "misinformation."
+	line "apekool." ; "misinformation."
 
 	para "Ik ken enkele" ; "I know some"
 	line "#MON over wie" ; "of the rumoured"
 	cont "dit gerucht gaat:" ; "#MON:"
 
 	para "MACHOKE, KADABRA," ; "MACHOKE, KADABRA,"
-	line "HAUNTER en, um,"  ; "HAUNTER and, um,"
+	line "HAUNTER en, euhm,"  ; "HAUNTER and, um,"
 	cont "GRAVELER," ; "GRAVELER,"
 
 	para "maar ze evolueren" ; "but they all"
@@ -80,7 +80,7 @@ GoldenrodDeptStore4FGameboyKidText:
 
 	para "Je #DEX toont" ; "Your #DEX shows"
 	line "hoe #MON echt" ; "how #MON really"
-	cont "evouleren!" ; "evolve!"
+	cont "evolueren!" ; "evolve!"
 	done
 
 GoldenrodDeptStore4FDirectoryText:

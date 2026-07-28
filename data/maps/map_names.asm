@@ -663,13 +663,13 @@ Dungeons_Map_Name31: ; map_const RUINS_OF_ALPH_OMANYTE_ITEM_ROOM ; 31
 Dungeons_Map_Name32: ; map_const RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM ; 32
 	db "AERO SCHATKAMER@" ; "AERO PRIZE ROOM@"
 Dungeons_Map_Name33: ; map_const RUINS_OF_ALPH_HO_OH_WORD_ROOM,; 33
-	db "HO-OH WOORDZAAL@" ; "HO-OH WORD ROOM@"
+	db "HO-OH PANELENZAAL@" ; "HO-OH WORD ROOM@"
 Dungeons_Map_Name34: ; map_const RUINS_OF_ALPH_KABUTO_WORD_ROOM,; 34
-	db "KABUTO WOORDZAAL@" ; "KABUTO WORD ROOM@"
+	db "KABUTO PANELENZL@" ; "KABUTO WORD ROOM@"
 Dungeons_Map_Name35: ; map_const RUINS_OF_ALPH_OMANYTE_WORD_ROOM,; 35
-	db "OMANYTE WOORDZAAL@" ; "OMANYTE WORD ROOM@"
+	db "OMANYTE PANELENZL@" ; "OMANYTE WORD ROOM@"
 Dungeons_Map_Name36: ; map_const RUINS_OF_ALPH_AERODACTYL_WORD_ROOM,; 36
-	db "AERO WOORDZAAL@" ; "AERO WORD ROOM@"
+	db "AERO PANELENZAAL@" ; "AERO WORD ROOM@"
 Dungeons_Map_Name37: ; map_const UNION_CAVE_1F,; 37
 	db "EENHEIDSTUNNEL 1V@" ; "UNION CAVE 1F@"
 Dungeons_Map_Name38: ; map_const UNION_CAVE_B1F,; 38
@@ -916,7 +916,7 @@ Violet_Map_Name6: ; map_const VIOLET_MART ;  6
 Violet_Map_Name7: ; map_const VIOLET_GYM ;  7
 	db "VIOLET GYM@" ; "VIOLET GYM@"
 Violet_Map_Name8: ; map_const EARLS_POKEMON_ACADEMY ;  8
-	db "EARL'S ACADEMY@" ; "EARL'S ACADEMY@"
+	db "EARL'S ACADEMIE@" ; "EARL'S ACADEMY@"
 Violet_Map_Name9: ; map_const VIOLET_NICKNAME_SPEECH_HOUSE ;  9
 	db "VIOLET HUIS 1@" ; "VIOLET HOUSE 1@"
 Violet_Map_Name10: ; map_const VIOLET_POKECENTER_1F ; 10

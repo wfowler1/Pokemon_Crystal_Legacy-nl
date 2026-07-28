@@ -270,9 +270,9 @@ BlackthornCooltrainerF2Text:
 	line "helemaal door het" ; "through the ICE"
 	cont "IJSPAD?" ; "PATH?"
 
-	para "Je bent vast een" ; "You must be a real"
+	para "Je moet een echt" ; "You must be a real"
 	line "blitse trainer" ; "hotshot trainer!"
-;	cont "zijn!"
+	cont "zijn!"
 	done
 
 BlackthornCitySignText:

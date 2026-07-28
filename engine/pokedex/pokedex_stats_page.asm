@@ -176,7 +176,7 @@ Pokedex_BST:
 	ld [wCurDamage + 1], a
 	ret
 .BS_Total_text:
-	db "Basis Totaal:@" ; "Base Totaal:@"
+	db "Basis Totaal:@" ; "Base Total:@"
 
 Pokedex_Get_Items:
 ; TODO: Add code to differentiate same items in both entries, special cases

@@ -73,7 +73,7 @@ HallOfFame_SlowlyApproachMachine:
 HallOfFame_LanceText:
 	text "LANCE: Het is lang" ; "LANCE: It's been a"
 	line "geleden sinds ik" ; "long time since I"
-	cont "laatst hier kwam." ; "last came here."
+	cont "hier was." ; "last came here."
 
 	para "Hier eren wij de" ; "This is where we"
 	line "KAMPIOENEN van de" ; "honor the LEAGUE"
@@ -92,10 +92,11 @@ HallOfFame_LanceText:
 	line "nieuwe KAMPIOEN--" ; "CHAMPION--a"
 
 	para "een trainer die" ; "trainer who feels"
-	line "compassie voor en" ; "compassion for,"
+	line "compassie voor" ; "compassion for,"
 
-	para "vertrouwen in alle" ; "and trust toward,"
-	line "#MON heeft." ; "all #MON."
+	para "en vertrouwen in" ; "and trust toward,"
+	line "alle #MON" ; "all #MON."
+	cont "heeft."
 
 	para "Een trainer die" ; "A trainer who"
 	line "slaagde dankzij" ; "succeeded through"
