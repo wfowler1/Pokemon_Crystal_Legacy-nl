@@ -1,4 +1,4 @@
-	db "VLAM@" ; species name
+	db "VLAM@" ; "FLAME@" species name
 	db 11 ; height
 	dw 190 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "raakt. Verbrandt" ; "intense flames,"
 	next "op die manier de" ; "incinerating its"
-	next "de omgeving.@" ; "surroundings.@"
+	next "omgeving.@" ; "surroundings.@"

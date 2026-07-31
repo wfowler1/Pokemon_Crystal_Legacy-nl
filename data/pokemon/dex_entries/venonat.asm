@@ -1,4 +1,4 @@
-	db "INSECT@" ; species name
+	db "INSECT@" ; "INSECT@" species name
 	db 10 ; height
 	dw 300 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "'s nachts, dus tot" ; "sleeps in a hole"
 	next "dan slaapt het in" ; "in a tree until"
-	next "in een boom.@" ; "night falls.@"
+	next "een boom.@" ; "night falls.@"

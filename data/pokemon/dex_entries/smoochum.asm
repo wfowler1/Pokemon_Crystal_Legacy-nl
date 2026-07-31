@@ -1,4 +1,4 @@
-	db "KUS@" ; species name
+	db "KUS@" ; "KISS@" species name
 	db 4 ; height
 	dw 60 ; weight
 
@@ -8,4 +8,4 @@
 
 	page "Die gebruikt het" ; "It uses them to"
 	next "om objecten te" ; "try to identify"
-	next "te identificeren.@" ; "unknown objects.@"
+	next "identificeren.@" ; "unknown objects.@"
