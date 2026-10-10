@@ -187,7 +187,7 @@ _ContainedMoveText::
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2 ; MaxLength MaxMoveNameLength
 	text " is"
-	line "not compatibel" ; "not compatible"
+	line "niet compatibel" ; "not compatible"
 	cont "met @" ; "with @"
 	text_ram wStringBuffer1 ; MaxLength MaxPokemonNameLength
 	text "."
@@ -417,8 +417,9 @@ _BouldersMoveText::
 	done
 
 _BouldersMayMoveText::
-	text "A #MON zou dit" ; "A #MON may be"
-	line "kunnen bewegen." ; "able to move this."
+	text "Een #MON zou" ; "A #MON may be"
+	line "dit kunnen" ; "able to move this."
+	cont "bewegen."
 	done
 
 _UseWhirlpoolText::

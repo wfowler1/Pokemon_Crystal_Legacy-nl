@@ -178,7 +178,7 @@ Text_ClairIsBeaten:
 	line "zien verliezen van" ; "of her losing to"
 
 	para "iemand anders dan" ; "anyone other than"
-	line "LANCE." ; "LANCE."
+	line "LANCE."
 	done
 
 BlackthornGrampsRefusesEntryText:
@@ -226,7 +226,7 @@ BlackthornYoungsterText:
 	done
 
 MeetSantosText:
-	text "SANTOS: …" ; "SANTOS: …"
+	text "SANTOS: …"
 
 	para "Het is zaterdag…" ; "It's Saturday…"
 
@@ -251,7 +251,7 @@ SantosGaveGiftText:
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …" ; "SANTOS: …"
+	text "SANTOS: …"
 
 	para "Zie je weer op een" ; "See you again on"
 	line "andere zaterdag…" ; "another Saturday…"
@@ -276,14 +276,14 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
+	text "BLACKTHORN CITY"
 
 	para "Stil Toevluchts-" ; "A Quiet Mountain"
 	line "oord in de Bergen." ; "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY" ; "BLACKTHORN CITY"
+	text "BLACKTHORN CITY"
 	line "#MON-GYMLEIDER:" ; "#MON GYM"
 	cont "CLAIR" ; "LEADER: CLAIR"
 
@@ -302,7 +302,7 @@ DragonDensSignText:
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINERTIPS" ; "TRAINERTIPS"
+	text "TRAINERTIPS"
 
 	para "Een #MON met" ; "A #MON holding"
 	line "een WONDERBES" ; "a MIRACLEBERRY"

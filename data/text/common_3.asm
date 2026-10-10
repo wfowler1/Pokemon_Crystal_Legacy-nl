@@ -404,7 +404,7 @@ _SeerMightyText::
 	para "Deze @" ; "This @"
 	text_ram wSeerNickname
 	text_start
-	line "heeft vele ge-" ; "must have come"
+	line "heeft vele" ; "must have come"
 
 	para "gevechten gestre-" ; "through numerous"
 	line "den." ; "#MON battles."
@@ -1232,7 +1232,7 @@ _YouCantTakeAnEggText::
 	done
 
 _BallDodgedText::
-	text "Hij ontweek de" ; "It dodged the"
+	text "Het ontweek de" ; "It dodged the"
 	line "geworpen BAL!" ; "thrown BALL!"
 
 	para "Deze #MON" ; "This #MON"
@@ -1324,11 +1324,11 @@ _RepelUsedEarlierIsStillInEffectText::
 	prompt
 
 _PlayedFluteText::
-	text "Speelde de #" ; "Played the #"
+	text "Speelde de #-" ; "Played the #"
 	line "FLUIT." ; "FLUTE."
 
 	para "Nou, wat een leuk" ; "Now, that's a"
-	line "leuk deuntje!" ; "catchy tune!"
+	line "deuntje!" ; "catchy tune!"
 	prompt
 
 _FluteWakeUpText::

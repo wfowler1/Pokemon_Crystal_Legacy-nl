@@ -90,31 +90,29 @@ CianwoodGymGuideWinText:
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
-	text "Voel je de nood" ; "Don't you get the"
-	line "niet om met je" ; "urge to show off"
+	text "Don't you get the"
+	line "urge to show off"
 
-	para "#MON te pronken" ; "your #MON to"
-	line "bij je vrienden?" ; "friends?"
+	para "your #MON to"
+	line "friends?"
 
-	para "Ik wou dat ik m'n" ; "I wish I could"
-	line "getrainde #MON" ; "show the #MON I"
+	para "I wish I could"
+	line "show the #MON I"
 
-	para "kon tonen aan mijn" ; "raised to my pal"
-	line "maat in VIOLET." ; "in VIOLET."
+	para "raised to my pal"
+	line "in VIOLET."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
-	text "Ik heb met m'n" ; "I've been battling"
-	line "maat in VIOLET" ; "my pal in VIOLET"
+	text "I've been battling"
+	line "my pal in VIOLET"
 
-	para "gevochten via de" ; using a MOBILE"
-	line "MOBILE ADAPTER" ; "ADAPTER link."
-	cont "kabel."
+	para "using a MOBILE"
+	line "ADAPTER link."
 
-	para "Ik sta 5-7 achter" ; "I'm down 5-7"
-	line "tegen hem. Ik moet" ; against him. I've"
-	cont "een tandje hoger" ; "gotta crank it up!"
-	cont "schakelen."
+	para "I'm down 5-7"
+	line "against him. I've"
+	cont "gotta crank it up!"
 	done
 
 CianwoodPokecenter1FSuperNerdText:

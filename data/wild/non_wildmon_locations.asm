@@ -109,7 +109,7 @@ ZapdosEvent_Str:
 MoltresEvent_Str:
 	db 	 "Wachtend in het" ; "Waiting in the"
 	next "diepe duister van" ; "long dark of"
-	next "VICTORY. LVLV 60.@" ; "VICTORY. LVL 60.@"
+	next "VICTORY. LVL 60.@" ; "VICTORY. LVL 60.@"
 MewtwoEvent_Str:
 	db 	 "Niet CERULEAN," ; "Not CERULEAN, but"
 	next "maar RED en SILVER" ; "RED and SILVER"

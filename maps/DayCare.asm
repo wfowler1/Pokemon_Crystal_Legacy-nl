@@ -79,27 +79,26 @@ Text_GrampsLookingForYou:
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
-	text "Ik ben de" ; "I'm the DAY-CARE"
-	line "DAGVERBLIJFT-MAN." ; "MAN."
+	text "I'm the DAY-CARE"
+	line "MAN."
 
-	para "Er is iets nieuws" ; "There's something"
-	line "in GOLDENROD. Het" ; "new in GOLDENROD"
+	para "There's something"
+	line "new in GOLDENROD"
 
-	para "heet de RUILHOEK." ; "called the TRADE"
-;	line "CORNER."
+	para "called the TRADE"
+	line "CORNER."
 
-	para "Ik kreeg er een" ; I was given an EGG"
-	line "EI-TICKET dat je" ; "TICKET that can be"
+	para "I was given an EGG"
+	line "TICKET that can be"
 
-	para "kan omruilen voor" ; "traded in for a"
-	line "een VREEMD EI." ; "ODD EGG."
+	para "traded in for a"
+	line "ODD EGG."
 
-	para "Maar aangezien we" ; "But since we run a"
-	line "een DAGVERBLIJF" ; "DAY-CARE, we don't"
+	para "But since we run a"
+	line "DAY-CARE, we don't"
 
-	para "uitbaten, moet ik" ; need it. You may"
-	line "het niet. Wil jij" ; as well have it."
-	cont "het?" ; 
+	para "need it. You may"
+	line "as well have it."
 	done
 
 DayCareManText_GiveOddEgg:

@@ -71,7 +71,7 @@
 	const KAZUYOSHI_OSAWA
 	const KIMIKO_NAKAMICHI
 	const CREDIT_END
-	const CREDIT_UNKNOWN
+	const NL_VERSION_STAFF
 	const STAFF
 	const DIRECTOR
 	const CODIRECTOR
@@ -157,6 +157,11 @@
 	const POKECRYSTAL14
 	const POKECRYSTALDISASSEMBLY
 	const NAYRUTHANKSTEXT
+	const WILLIAM_FOWLER
+	const BASTIAAN_VROEGOP
+	const RANDOLF_BOUWMA
+	const ELINE_MUIJRES
+	const CALVIN_FOE
 NUM_CREDITS_STRINGS EQU const_value
 
 ; CreditsScript indexes (see data/credits_script.asm)

@@ -155,7 +155,7 @@ RageCandyBarMerchantTryOneText:
 
 	para "Hij is nu voor" ; "Right now, it can"
 	line "jou, voor slechts" ; "be yours for just"
-	cont "¥300! Wil je?" ; "¥300! Want one?"
+	cont "¥{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}! Wil je?" ; "¥{d:MAHOGANYTOWN_RAGECANDYBAR_PRICE}! Want one?"
 	done
 
 RageCandyBarMerchantSavorItText:

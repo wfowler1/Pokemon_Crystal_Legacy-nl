@@ -287,7 +287,7 @@ BlackthornGymClairText_League:
 	line "het is?" ; "where it is?"
 
 	para "Ga van hier naar" ; "From here, go to"
-	line "NEW BARK TOWN." ; "NEW BARK TOWN."
+	line "NEW BARK TOWN."
 
 	para "SURF dan naar het" ; "Then SURF east."
 	line "oosten. De weg" ; "The route there is"

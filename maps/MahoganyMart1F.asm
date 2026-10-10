@@ -255,7 +255,7 @@ MahoganyMart1FLanceStairsText:
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
+	text "LANCE: <PLAY_G>, we" ; "LANCE: <PLAY_G>, we"
 	line "moeten opsplitsen" ; "should split up to"
 
 	para "om deze plek" ; "check this place."
